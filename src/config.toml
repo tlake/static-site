@@ -1,4 +1,4 @@
-baseURL = "https://tlake.io"
+baseURL = "http://tlake.io"
 languageCode = "en-us"
 title = "Tanner Lake"
 publishDir = "../docs"
@@ -34,10 +34,10 @@ markup = "markdown"
 
     [[menu.main]]
         name = "About"
-        url = "about/"
+        url = "/about/"
         weight = 10
 
     [[menu.main]]
         name = "CV"
-        url = "cv/"
+        url = "/cv/"
         weight = 15
