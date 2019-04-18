@@ -8,6 +8,7 @@ enableGitInfo = true
 theme = "ananke"
 SectionPagesMenu = "main"
 [params]
+    mainSections = ""
     github = "https://github.com/tlake"
     gitlab = "https://gitlab.com/tannerlake"
     twitter = "https://twitter.com/tanotaur"
