@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tanner Lake</title>
-    <link>/</link>
+    <link>tlake.io/</link>
     <description>Recent content on Tanner Lake</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Apr 2019 00:11:46 -0700</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="tlake.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Curriculum Vitae</title>
-      <link>/cv/</link>
+      <link>tlake.io/cv/</link>
       <pubDate>Thu, 18 Apr 2019 00:11:46 -0700</pubDate>
       
-      <guid>/cv/</guid>
+      <guid>tlake.io/cv/</guid>
       <description>Tanner Lake Seattle, WA
 tanner.lake@gmail.com
 Education Certificate, Full-Stack Python
@@ -29,10 +29,10 @@ Employment History IQVIA, Software Developer
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>tlake.io/about/</link>
       <pubDate>Thu, 18 Apr 2019 00:07:50 -0700</pubDate>
       
-      <guid>/about/</guid>
+      <guid>tlake.io/about/</guid>
       <description>test</description>
     </item>
     
