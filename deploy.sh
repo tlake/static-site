@@ -4,7 +4,7 @@ echo "Deploying updates to GitHub..."
 
 echo "Building site"
 cd ./src
-hugo -v
+HUGO_ENV=production hugo -v
 cd ..
 
 echo "Adding changes to git"
