@@ -1,43 +1,15 @@
+publishDir = "../docs"
+
+title = "tlake.io"
 baseURL = "http://tlake.io"
 languageCode = "en-us"
-title = "Tanner Lake"
-publishDir = "../docs"
 enableGitInfo = true
 
-theme = "hermit"
-markup = "markdown"
-
-[author]
-    name = "Tanner Lake"
-
+theme = "ananke"
+SectionPagesMenu = "main"
 [params]
-    themeColor = "#aaaaaa"
-    homeSubtitle = "Software Developer"
+    github = "https://github.com/tlake"
+    gitlab = "https://gitlab.com/tannerlake"
+    twitter = "https://twitter.com/tanotaur"
+    linkedin = "https://linkedin.com/in/tannerlake"
 
-    [[params.social]]
-        name = "email"
-        url = "tanner.lake@gmail.com"
-
-    [[params.social]]
-        name = "linkedin"
-        url = "https://linkedin.com/in/tannerlake"
-
-    [[params.social]]
-        name = "github"
-        url = "https://github.com/tlake"
-
-    [[params.social]]
-        name = "twitter"
-        url = "https://twitter.com/tanotaur"
-
-[menu]
-
-    [[menu.main]]
-        name = "About"
-        url = "/about/"
-        weight = 10
-
-    [[menu.main]]
-        name = "CV"
-        url = "/cv/"
-        weight = 15
