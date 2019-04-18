@@ -1,7 +1,6 @@
 ---
 title: "Curriculum Vitae"
 date: 2019-04-18T00:11:46-07:00
-draft: true
 ---
 
 # Tanner Lake
