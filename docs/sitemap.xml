@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tlake.io/categories/</loc>
+    <loc>tlake.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tlake.io/tags/</loc>
+    <loc>tlake.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tlake.io/</loc>
+    <loc>tlake.io/</loc>
     <priority>0</priority>
   </url>
   
