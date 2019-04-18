@@ -6,9 +6,35 @@
     <description>Recent content on Tanner Lake</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 18 Apr 2019 00:11:46 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>/cv/</link>
+      <pubDate>Thu, 18 Apr 2019 00:11:46 -0700</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>Tanner Lake Seattle, WA
+tanner.lake@gmail.com
+Education Certificate, Full-Stack Python
+2015 &amp;ndash; Code Fellows, Seattle WA
+B.A., Classical Civilization
+2010 &amp;ndash; University of Vermont
+Employment History IQVIA, Software Developer
+2016 - Present</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 18 Apr 2019 00:07:50 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>test</description>
+    </item>
     
   </channel>
 </rss>
