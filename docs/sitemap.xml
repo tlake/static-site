@@ -18,8 +18,32 @@
   </url>
   
   <url>
+    <loc>http://tlake.io/tags/</loc>
+    <lastmod>2019-04-19T12:25:59-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/dns/</loc>
+    <lastmod>2019-04-19T12:25:59-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/github/</loc>
+    <lastmod>2019-04-19T12:25:59-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/github-pages/</loc>
+    <lastmod>2019-04-19T12:25:59-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://tlake.io/blog/the-dns-and-deployment-of-tlake-io/</loc>
-    <lastmod>2019-04-19T12:14:01-07:00</lastmod>
+    <lastmod>2019-04-19T12:25:59-07:00</lastmod>
   </url>
   
   <url>
@@ -29,11 +53,6 @@
   
   <url>
     <loc>http://tlake.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://tlake.io/tags/</loc>
     <priority>0</priority>
   </url>
   
