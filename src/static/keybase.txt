@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tlake
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tlake.io
+  * I am tlake (https://keybase.io/tlake) on keybase.
+  * I have a public key ASAwMvnmAAbUc8r8LJIT0FeaySijNCyJO-CvJlvZtgvaXAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c1f152a7c66c09ebec1121c4ee088b7422c8688ee875b1273e19dca8a7d066390a",
+      "host": "keybase.io",
+      "kid": "01203032f9e60006d473cafc2c9213d0579ac928a3342c893be0af265bd9b60bda5c0a",
+      "uid": "0df7d6620d0268dbf9081455c15fb719",
+      "username": "tlake"
+    },
+    "merkle_root": {
+      "ctime": 1555691999,
+      "hash": "48e8630d7f3d66c8f311b48eff36abba2ec0f0815eb6ff410bd9bc1eae7ff3f4518599cce64c987c986fb8be31c9ddb0f0393c03ea12fc60906956de5ce280b1",
+      "hash_meta": "de352914160676861528bec8e090d18dfcc470c295a675c8993d2127d0c5bc53",
+      "seqno": 5205897
+    },
+    "service": {
+      "entropy": "7aCeZ7+nS8rKs39d8CjPiQMp",
+      "hostname": "tlake.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1555692010,
+  "expire_in": 504576000,
+  "prev": "68bf95cd6d3e696ad036e2335f6210f3c551ee794b0ab9194ba952b7823aff48",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgMDL55gAG1HPK/CySE9BXmskoozQsiTvgryZb2bYL2lwKp3BheWxvYWTESpcCJMQgaL+VzW0+aWrQNuIzX2IQ88VR7nlLCrkZS6lSt4I6/0jEILlsm99l8qsxElDbh7bh3QZcb1yEFYHTUMH4yzvsboyHAgHCo3NpZ8RAhorzrWW5MzcNSViKMCsBtHFhjPEz+W0tTgbBLLCxQVPtQkyvWEHB7oJYzI8xjmXU8uXjqqNNKQwINkzo7+DAAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIM2Bk7OPKgyovHickMCpjYIHhRu1gLp7VaYrTzoKYDpZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tlake
+
+==================================================================
