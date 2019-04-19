@@ -7,7 +7,7 @@ enableGitInfo = true
 
 theme = "ananke"
 SectionPagesMenu = "main"
-disqusShortname = "tannerlake"
+disqusShortname = "tlake.io"
 [params]
     mainSections = ""
     github = "https://github.com/tlake"
