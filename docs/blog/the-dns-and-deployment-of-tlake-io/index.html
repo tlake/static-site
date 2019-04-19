@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>tlake.io  | Tanner Lake</title>
+    <title>tlake.io  | the dns and deployment of tlake.io</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -27,23 +27,34 @@
     
 
     
-      <link href="http://tlake.io/index.xml" rel="alternate" type="application/rss+xml" title="tlake.io" />
-      <link href="http://tlake.io/index.xml" rel="feed" type="application/rss+xml" title="tlake.io" />
-    
 
-    <meta property="og:title" content="Tanner Lake" />
-<meta property="og:description" content="software developer. dungeon master. half-minotaur." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://tlake.io/" />
+    <meta property="og:title" content="the dns and deployment of tlake.io" />
+<meta property="og:description" content="Porkbun is my new favorite domain registrar and had the best deals on .io domains that I could find, but I wanted to use DNSimple to manage my DNS settings. DNSimple offers a robust API and a Terraform provider, which is very appealing to my infrastructure-as-code aspirations. Luckily, it&rsquo;s pretty easy to get the best of both worlds:
+ Through Porkbun, replace the domain&rsquo;s default nameservers with DNSimple&rsquo;s nameservers.
+ Import the domain through DNSimple and bam!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tlake.io/blog/the-dns-and-deployment-of-tlake-io/" />
+<meta property="article:published_time" content="2019-04-18T09:19:09-07:00"/>
+<meta property="article:modified_time" content="2019-04-19T11:37:53-07:00"/>
 
-<meta property="og:updated_time" content="2019-04-18T11:37:09-07:00"/>
+<meta itemprop="name" content="the dns and deployment of tlake.io">
+<meta itemprop="description" content="Porkbun is my new favorite domain registrar and had the best deals on .io domains that I could find, but I wanted to use DNSimple to manage my DNS settings. DNSimple offers a robust API and a Terraform provider, which is very appealing to my infrastructure-as-code aspirations. Luckily, it&rsquo;s pretty easy to get the best of both worlds:
+ Through Porkbun, replace the domain&rsquo;s default nameservers with DNSimple&rsquo;s nameservers.
+ Import the domain through DNSimple and bam!">
 
-<meta itemprop="name" content="Tanner Lake">
-<meta itemprop="description" content="software developer. dungeon master. half-minotaur.">
 
+<meta itemprop="datePublished" content="2019-04-18T09:19:09-07:00" />
+<meta itemprop="dateModified" content="2019-04-19T11:37:53-07:00" />
+<meta itemprop="wordCount" content="439">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tanner Lake"/>
-<meta name="twitter:description" content="software developer. dungeon master. half-minotaur."/>
+<meta name="twitter:title" content="the dns and deployment of tlake.io"/>
+<meta name="twitter:description" content="Porkbun is my new favorite domain registrar and had the best deals on .io domains that I could find, but I wanted to use DNSimple to manage my DNS settings. DNSimple offers a robust API and a Terraform provider, which is very appealing to my infrastructure-as-code aspirations. Luckily, it&rsquo;s pretty easy to get the best of both worlds:
+ Through Porkbun, replace the domain&rsquo;s default nameservers with DNSimple&rsquo;s nameservers.
+ Import the domain through DNSimple and bam!"/>
 
       
     
@@ -52,11 +63,11 @@
   <body class="ma0 avenir bg-near-white production">
 
     
+   
+  
 
-  
-  
-  <header class="cover bg-top" style="background-image: url('http://tlake.io/images/ampersandragon-pumpkin.jpg');">
-    <div class="bg-black-60">
+  <header>
+    <div class="bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="http://tlake.io" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -140,32 +151,132 @@
   </div>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Tanner Lake
-        </h1>
-        
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            software developer. dungeon master. half-minotaur.
-          </h2>
-        
-      </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        BLOG
+      </p>
+      <h1 class="f1 athelas mb1">the dns and deployment of tlake.io</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-04-18T09:19:09-07:00">April 18, 2019</time>      
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><img src="/images/parked-on-the-bun.png" alt="parked on the bun" /></p>
+
+<p><a href="https://porkbun.com">Porkbun</a> is my new favorite domain registrar and had the best deals on .io domains that I could find, but I wanted to use <a href="https://dnsimple.com">DNSimple</a> to manage my DNS settings.
+DNSimple offers a robust API and a <a href="https://www.terraform.io/docs/providers/">Terraform provider</a>, which is very appealing to my infrastructure-as-code aspirations.
+Luckily, it&rsquo;s pretty easy to get the best of both worlds:</p>
+
+<ul>
+<li><p>Through Porkbun, replace the domain&rsquo;s default nameservers with DNSimple&rsquo;s nameservers.</p></li>
+
+<li><p>Import the domain through DNSimple and <em>bam!</em> now you can use their rad API to manage the domain, which you purchased somewhere else.</p></li>
+</ul>
+
+<p>(Full disclosure: use of DNSimple&rsquo;s services <em>does</em> require a subscription fee.)</p>
+
+<p>Now, this is just a static site generated through <a href="https://gohugo.io/">Hugo</a> and made pretty by the <a href="https://themes.gohugo.io/gohugo-theme-ananke/">Ananke</a> theme.
+It&rsquo;s deployed to a <code>docs/</code> directory on the <a href="https://github.com/tlake/static-site">project repository</a>&rsquo;s <code>master</code> branch, and uses the custom domain <code>tlake.io</code> instead of GitHub&rsquo;s default <code>tlake.github.io</code>.
+It took a bit of doing to make GitHub happy, and this is the point of this post.</p>
+
+<p>GitHub&rsquo;s got good documentation around <a href="https://help.github.com/en/articles/using-a-custom-domain-with-github-pages">using a custom domain</a> with GitHub Pages.
+In my case, I was looking to set up an apex domain (<code>tlake.io</code>, instead of something like <code>www.tlake.io</code>) as noted <a href="https://help.github.com/en/articles/setting-up-an-apex-domain">here</a>.
+DNSimple does indeed allow me to configure <code>ALIAS</code> records, so I did.</p>
+
+<p><img src="/images/dnsimple-alias-record.png" alt="DNSimple records: ALIAS tlake.io -&gt; tlake.github.io" /></p>
+
+<p>I built and deployed the site, updated the custom domain to <code>tlake.io</code> in the repo&rsquo;s settings, and gave the record some time to propagate.
+Navigating to <code>tlake.io</code> displayed the homepage!
+It was working!</p>
+
+<p>Then I looked in the repo&rsquo;s settings again.</p>
+
+<p><img src="/images/github-dns-error.png" alt="GitHub error message: Domain's DNS record could not be retrieved." /></p>
+
+<p>But&hellip; but the site&rsquo;s working.
+I can navigate to it.
+Other people can navigate to it.
+What&rsquo;s GitHub&rsquo;s problem with it?</p>
+
+<p>I did some <strong><code>dig</code></strong>ging (FUNNY JOKE) to see if <code>tlake.io</code> and <code>tlake.github.io</code> were resolving in the same way.</p>
+
+<pre><code class="language-bash">for d in tlake.io tlake.github.io ; do dig $d +noall +answer ; done
+
+; &lt;&lt;&gt;&gt; DiG 9.8.3-P1 &lt;&lt;&gt;&gt; tlake.io +noall +answer
+;; global options: +cmd
+tlake.io.               2829    IN      A       185.199.110.153
+tlake.io.               2829    IN      A       185.199.111.153
+tlake.io.               2829    IN      A       185.199.109.153
+tlake.io.               2829    IN      A       185.199.108.153
+
+; &lt;&lt;&gt;&gt; DiG 9.8.3-P1 &lt;&lt;&gt;&gt; tlake.github.io +noall +answer
+;; global options: +cmd
+tlake.github.io.        2976    IN      A       185.199.109.153
+tlake.github.io.        2976    IN      A       185.199.108.153
+tlake.github.io.        2976    IN      A       185.199.111.153
+tlake.github.io.        2976    IN      A       185.199.110.153
+</code></pre>
+
+<p>They were.</p>
+
+<p>So what gives?</p>
+
+<p>Well, after a couple hours of experimenting with DNS settings, I discovered a configuration that seemed to satisfy GitHub: adding a <code>CNAME</code> record that pointed <code>www.tlake.io</code> to <code>tlake.io</code>.
+This combined with the previous <code>ALIAS</code> record convinced GitHub to stop complaining.</p>
+
+<p><img src="/images/dnsimple-alias-cname-records.png" alt="DNSimple records: ALIAS tlake.io -&gt; tlake.github.io, CNAME www.tlake.io -&gt; tlake.io" /></p>
+
+<p><img src="/images/github-happy-status.png" alt="GitHub happy status" /></p>
+
+<p>And that&rsquo;s about it!
+It&rsquo;s not particularly difficult, but it&rsquo;s a tiny thing that was overlooked in the documentation, and my Google Fu didn&rsquo;t turn up the answer, so here we are.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
     
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "tannerlake" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
   </article>
-  
-  
-  
-  
-  
-  
-  
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">

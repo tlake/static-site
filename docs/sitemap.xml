@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://tlake.io/blog/</loc>
+    <lastmod>2019-04-19T11:37:27-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tlake.io/projects/</loc>
     <lastmod>2019-04-18T13:15:45-07:00</lastmod>
   </url>
@@ -10,6 +15,11 @@
   <url>
     <loc>http://tlake.io/</loc>
     <lastmod>2019-04-18T16:59:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/blog/the-dns-and-deployment-of-tlake-io/</loc>
+    <lastmod>2019-04-19T11:37:53-07:00</lastmod>
   </url>
   
   <url>
