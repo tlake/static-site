@@ -33,10 +33,10 @@ Then I looked in the repo's settings again.
 
 ![GitHub error message: Domain's DNS record could not be retrieved.](/images/github-dns-error.png)
 
-But... but the site's working.
-I can navigate to it.
-Other people can navigate to it.
-What's GitHub's problem with it?
+But... but the site was working.
+I could navigate to it.
+Other people could navigate to it.
+What was GitHub's problem with it?
 
 I did some **`dig`**ging (FUNNY JOKE) to see if `tlake.io` and `tlake.github.io` were resolving in the same way.
 
