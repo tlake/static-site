@@ -9,7 +9,6 @@ tags: [
 	'github',
 ]
 toc: true
-draft: true
 ---
 
 I'd been reading up about [`git-secret`](https://git-secret.io/) and realized that I didn't really grasp what a PGP key is or how to use one (or more).
