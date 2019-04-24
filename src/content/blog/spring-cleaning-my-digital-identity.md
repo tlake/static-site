@@ -765,6 +765,12 @@ ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
     signingkey = 1601789A6957B1FF
 ```
 
+In hindsight, I probably could/should have left all my previous GPG keys on GitHub, which would have _not_ stripped all the "Verified" tags that had been previously made with other keys.
+The lesson there, I guess, is that it's okay to keep revoked keys on GitHub just for history's sake; it's not like I'd be signing more commits with a key once it's been revoked.
+
+Whatever.
+A little scorched earth never hurt anyone.
+
 
 # local cleanup
 
