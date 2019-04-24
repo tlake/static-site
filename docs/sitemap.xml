@@ -8,6 +8,47 @@
   </url>
   
   <url>
+    <loc>http://tlake.io/tags/</loc>
+    <lastmod>2019-04-23T17:40:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/crypto/</loc>
+    <lastmod>2019-04-23T17:40:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/github/</loc>
+    <lastmod>2019-04-23T17:40:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/gpg/</loc>
+    <lastmod>2019-04-23T17:40:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/keybase/</loc>
+    <lastmod>2019-04-23T17:40:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/pgp/</loc>
+    <lastmod>2019-04-23T17:40:42-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/blog/spring-cleaning-my-digital-identity/</loc>
+    <lastmod>2019-04-23T17:40:42-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tlake.io/projects/</loc>
     <lastmod>2019-04-18T13:15:45-07:00</lastmod>
   </url>
@@ -18,19 +59,7 @@
   </url>
   
   <url>
-    <loc>http://tlake.io/tags/</loc>
-    <lastmod>2019-04-19T12:25:59-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://tlake.io/tags/dns/</loc>
-    <lastmod>2019-04-19T12:25:59-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://tlake.io/tags/github/</loc>
     <lastmod>2019-04-19T12:25:59-07:00</lastmod>
     <priority>0</priority>
   </url>

@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>tlake.io  | spring cleaning my digital identity</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.55.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="spring cleaning my digital identity" />
+<meta property="og:description" content="I&rsquo;d been reading up about git-secret and realized that I didn&rsquo;t really grasp what a PGP key is or how to use one (or more). I&rsquo;ve had a Keybase account since 2011, and it&rsquo;s become a bit of a disjointed mess. The addition and revocation of devices makes sense, since I&rsquo;ve gone through a couple of phones since 2011. However, my usage of PGP keys has been erratic.
+You see, my nebulous grasp of PGP keys roughly equated them with SSH keys, and so I&rsquo;d created and revoked a few of them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tlake.io/blog/spring-cleaning-my-digital-identity/" />
+<meta property="article:published_time" content="2019-04-19T09:19:09-07:00"/>
+<meta property="article:modified_time" content="2019-04-23T17:40:42-07:00"/>
+
+<meta itemprop="name" content="spring cleaning my digital identity">
+<meta itemprop="description" content="I&rsquo;d been reading up about git-secret and realized that I didn&rsquo;t really grasp what a PGP key is or how to use one (or more). I&rsquo;ve had a Keybase account since 2011, and it&rsquo;s become a bit of a disjointed mess. The addition and revocation of devices makes sense, since I&rsquo;ve gone through a couple of phones since 2011. However, my usage of PGP keys has been erratic.
+You see, my nebulous grasp of PGP keys roughly equated them with SSH keys, and so I&rsquo;d created and revoked a few of them.">
+
+
+<meta itemprop="datePublished" content="2019-04-19T09:19:09-07:00" />
+<meta itemprop="dateModified" content="2019-04-23T17:40:42-07:00" />
+<meta itemprop="wordCount" content="4116">
+
+
+
+<meta itemprop="keywords" content="crypto,keybase,pgp,gpg,github," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="spring cleaning my digital identity"/>
+<meta name="twitter:description" content="I&rsquo;d been reading up about git-secret and realized that I didn&rsquo;t really grasp what a PGP key is or how to use one (or more). I&rsquo;ve had a Keybase account since 2011, and it&rsquo;s become a bit of a disjointed mess. The addition and revocation of devices makes sense, since I&rsquo;ve gone through a couple of phones since 2011. However, my usage of PGP keys has been erratic.
+You see, my nebulous grasp of PGP keys roughly equated them with SSH keys, and so I&rsquo;d created and revoked a few of them."/>
+
+      
+    
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://tlake.io" class="f3 fw2 hover-white no-underline white-90 dib">
+      tlake.io
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/cv/" title="Curriculum Vitae page">
+              Curriculum Vitae
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+<a href="https://twitter.com/tanotaur" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://linkedin.com/in/tannerlake" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/tlake" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://gitlab.com/tannerlake" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        BLOG
+      </p>
+      <h1 class="f1 athelas mb1">spring cleaning my digital identity</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-04-19T09:19:09-07:00">April 19, 2019</time>      
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<p>I&rsquo;d been reading up about <a href="https://git-secret.io/"><code>git-secret</code></a> and realized that I didn&rsquo;t really grasp what a PGP key is or how to use one (or more).
+I&rsquo;ve had a <a href="https://keybase.io">Keybase</a> account since 2011, and it&rsquo;s become a bit of a disjointed mess.
+The addition and revocation of devices makes sense, since I&rsquo;ve gone through a couple of phones since 2011.
+However, my usage of PGP keys has been erratic.</p>
+
+<p>You see, my nebulous grasp of PGP keys roughly equated them with SSH keys, and so I&rsquo;d created and revoked a few of them.
+Only recently have I come to understand that a PGP key has more to do with creating trust and verifying one&rsquo;s identity than with making secure connections.</p>
+
+<p>PGP keys have UIDs attached to them, consisting of a full name, an email address, and an optional comment.
+A PGP key is your identity; it should represent who you are on the internet.
+You can attach multiple UIDs to a PGP key if they&rsquo;re all identities you want to associate together.
+However, if you need to separate some parts of yourself, you should use a different key for each persona.</p>
+
+<p>So unlike SSH keys and API tokens, maybe I <em>shouldn&rsquo;t</em> treat PGP keys as if they were disposable and single-purpose.
+Definitely they should be revoked if compromised, but otherwise they should stick around to build trust and prove that I&rsquo;m <em>me.</em></p>
+
+<p>There&rsquo;s more to say about PGP, but this post is about the process I went through to sanify my PGP key situation.
+There are some links at the end.</p>
+
+<h1 id="the-start">the start</h1>
+
+<p>My Keybase account contained two PGP keys.
+One was the key I had created all the way back in 2011 when I created the account.
+The other was a key I had made in order to verify my identity on GitHub.
+Both keys have the same <code>Tanner Lake &lt;tanner.lake@gmail.com&gt;</code> UID attached.
+I consider both of these identites to belong to the same digital persona, so there&rsquo;s no need for two different keys.</p>
+
+<p>My laptop contained three PGP keys.
+One of them was the GitHub one from above, and another I had recently generated in preparation for <code>git-secret</code> before I decided to learn more about PGP keys
+A third was a workplace key, and I have no idea what the fourth was for.</p>
+
+<h1 id="the-goal">the goal</h1>
+
+<p>The goal is to consolidate down to just two identities; just two keys.</p>
+
+<p>My workplace key will remain unchanged; I don&rsquo;t intend for that to be particularly long-lived, and I haven&rsquo;t had to use it for very much of anything, so its impact is minimal.</p>
+
+<p>My personal key will contain two UIDs: my personal UID (<code>Tanner Lake &lt;tanner.lake@gmail.com&gt;</code>) and my Keybase UID (<code>keybase.io/tlake &lt;tlake@keybase.io&gt;</code>).
+I also intend to separate out capabilities into subkeys.
+The master key will only be able to certify, and I want three separate subkeys which each can do only one of signing, encrypting, and authenticating.
+Furthermore, the master private key will exist <em>only</em> on an offline, encrypted USB device; the private subkeys (as well as the public primary key and subkeys) will continue to live on my working machine.</p>
+
+<p>The old personal key on Keybase will need to be cross-signed with the new one to maintain the web of trust, and then revoked and removed.</p>
+
+<p>The old GitHub key will need to be removed from GitHub, Keybase, and my local GPG keyring, and I&rsquo;ll need to add my new personal public key to GitHub and sign my commits using the new signing key.</p>
+
+<p>All keys that are not my new personal key and my workplace key will be deleted.</p>
+
+<h1 id="the-process">the process</h1>
+
+<p>Sungo&rsquo;s post (linked below) at some point defers to Mike English&rsquo;s article (also linked below) to avoid regurgitation of commands.</p>
+
+<p>I&rsquo;m not that polished.</p>
+
+<p>I&rsquo;m writing to document my actions for myself, and I&rsquo;m gonna list out every dang command I use.
+If doing so is helpful to someone else, that&rsquo;s added value, but not the point.</p>
+
+<ul>
+<li><a href="#take-stock">take stock</a></li>
+<li><a href="#import-the-old-key-from-keybase">import the old key from keybase</a></li>
+<li><a href="#generate-a-new-master-key">generate a new master key</a></li>
+<li><a href="#cross-sign-the-old-and-new-keys">cross-sign the old and new keys</a></li>
+<li><a href="#secure-the-new-key">secure the new key</a></li>
+<li><a href="#obsolete-the-old-key">obsolete the old key</a></li>
+<li><a href="#update-keybase">update keybase</a></li>
+<li><a href="#update-github">update github</a></li>
+<li><a href="#local-cleanup">local cleanup</a></li>
+</ul>
+
+<h2 id="take-stock">- take stock</h2>
+
+<p>But first, a note on reading the output from listing keys.
+Consider the following labelled example:</p>
+
+<pre><code class="language-bash">pub   ENCRYPTION_METHOD/KEY_ID CREATION_DATE [ABILITIES] [EXPIRATION_DATE]
+      KEY_FINGERPRINT
+uid                 [TRUST_LEVEL] FULL_NAME &lt;EMAIL&gt; COMMENT
+sub   ENCRYPTION_METHOD/KEY_ID CREATION_DATE [ABILITIES] [EXPIRATION_DATE]
+</code></pre>
+
+<p>The first column defines the type of entry.</p>
+
+<ul>
+<li>pub: a public key</li>
+<li>uid: a user ID</li>
+<li>sub: a public subkey</li>
+<li>sec: a secret key</li>
+<li>ssb: a secret subkey</li>
+</ul>
+
+<p>Keys have abilities which define what they can do.
+These abilities, noted within <code>[]</code> brackets, are as follows:</p>
+
+<ul>
+<li>C: Certify, or the ability to trust other keys.</li>
+<li>S: Sign, or the ability to state that the key created or approves of the signed data.</li>
+<li>E: Encrypt, or the ability to transform some information into an encoded form.</li>
+<li>A: Authenticate, or the ability to be used instead of a password.</li>
+</ul>
+
+<p>Now, let&rsquo;s start by taking a look at what public keys my keyring has (passing the &ldquo;<code>--keyid-format long</code>&rdquo; flag prints out the key IDs as well):</p>
+
+<pre><code class="language-bash">$ gpg -k --keyid-format long
+
+/Users/tanner/.gnupg/pubring.gpg
+--------------------------------
+pub   rsa4096/4D2701F13EDE5839 2018-04-02 [SC]
+      6F291BE625AF2FF8E2E207514D2701F13EDE5839
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+sub   rsa4096/D437EEC879CD75B6 2018-04-02 [E]
+
+pub   rsa4096/067D98D9C5F1ED56 2018-04-02 [SC] [expires: 2034-03-29]
+      61732CF1F6E9D36AF37E2D6B067D98D9C5F1ED56
+uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+sub   rsa4096/E887D573CA2F0ABE 2018-04-02 [E] [expires: 2034-03-29]
+
+pub   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+      AA86BF07B16AF7D371AFB129D9839DD152BBC30E
+uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
+sub   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
+</code></pre>
+
+<p>Let&rsquo;s also look at the private ones as well:</p>
+
+<pre><code class="language-bash">$ gpg -K --keyid-format long
+
+/Users/tanner/.gnupg/pubring.gpg
+--------------------------------
+sec   rsa4096/4D2701F13EDE5839 2018-04-02 [SC]
+      6F291BE625AF2FF8E2E207514D2701F13EDE5839
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/D437EEC879CD75B6 2018-04-02 [E]
+
+sec   rsa4096/067D98D9C5F1ED56 2018-04-02 [SC] [expires: 2034-03-29]
+      61732CF1F6E9D36AF37E2D6B067D98D9C5F1ED56
+uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/E887D573CA2F0ABE 2018-04-02 [E] [expires: 2034-03-29]
+
+sec   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+      AA86BF07B16AF7D371AFB129D9839DD152BBC30E
+uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
+ssb   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
+</code></pre>
+
+<p>The first key is the one that I don&rsquo;t remember the reason for its creation, the second key is the one I had created to sign GitHub commits, and the third key is my workplace key.
+None of these are the key that exists on Keybase, so I&rsquo;ll need to grab that next.</p>
+
+<h2 id="import-the-old-key-from-keybase">- import the old key from keybase</h2>
+
+<p>Import the public key:</p>
+
+<pre><code class="language-bash">$ keybase pgp export | gpg --import
+gpg: key 54B8519A0C437FEA: public key &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot; imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+</code></pre>
+
+<p>And import the private key:</p>
+
+<pre><code class="language-bash">$ keybase pgp export -s | gpg --import --allow-secret-key
+
+gpg: key 54B8519A0C437FEA: &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot; 1 new signature
+gpg: key 54B8519A0C437FEA: secret key imported
+gpg: Total number processed: 1
+gpg:         new signatures: 1
+gpg:       secret keys read: 1
+gpg:   secret keys imported: 1
+</code></pre>
+
+<p>Now let&rsquo;s take a look at that new key, and confirm that both the public and private keys were imported:</p>
+
+<pre><code class="language-bash">$ gpg -k --keyid_format long 54B8519A0C437FEA
+
+pub   rsa4096/54B8519A0C437FEA 2016-11-11 [SC]
+      EAC03C08A76EA0F91ECD650254B8519A0C437FEA
+uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+uid                 [ unknown] keybase.io/tlake &lt;tlake@keybase.io&gt;
+sub   rsa2048/6C444A94152F77FC 2016-11-11 [E] [expires: 2024-11-09]
+sub   rsa2048/6227D98814ACA2F0 2016-11-11 [SA] [expires: 2024-11-09]
+</code></pre>
+
+<pre><code class="language-bash">$ gpg -K --keyid_format long 54B8519A0C437FEA
+
+sec   rsa4096/54B8519A0C437FEA 2016-11-11 [SC]
+      EAC03C08A76EA0F91ECD650254B8519A0C437FEA
+uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+uid                 [ unknown] keybase.io/tlake &lt;tlake@keybase.io&gt;
+ssb   rsa2048/6C444A94152F77FC 2016-11-11 [E] [expires: 2024-11-09]
+ssb   rsa2048/6227D98814ACA2F0 2016-11-11 [SA] [expires: 2024-11-09]
+</code></pre>
+
+<h2 id="generate-a-new-master-key">- generate a new master key</h2>
+
+<p>This <code>--full-gen-key</code> flag will enter me into an interactive prompt, and <code>--expert</code> exposes otherwise-hidden options.
+I want to use the RSA algorithm and set my own capabilities, so that&rsquo;s the option I&rsquo;ll choose.</p>
+
+<pre><code class="language-bash">$ gpg --expert --full-gen-key
+
+gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+   (7) DSA (set your own capabilities)
+   (8) RSA (set your own capabilities)
+   (9) ECC and ECC
+  (10) ECC (sign only)
+  (11) ECC (set your own capabilities)
+  (13) Existing key
+Your selection? 8
+</code></pre>
+
+<p>For this master key, I only want it to have certification abilities; the other actions will be assigned their own subkeys.</p>
+
+<pre><code class="language-bash">Possible actions for a RSA key: Sign Certify Encrypt Authenticate
+Current allowed actions: Sign Certify Encrypt
+
+   (S) Toggle the sign capability
+   (E) Toggle the encrypt capability
+   (A) Toggle the authenticate capability
+   (Q) Finished
+
+Your selection? s
+
+Possible actions for a RSA key: Sign Certify Encrypt Authenticate
+Current allowed actions: Certify Encrypt
+
+   (S) Toggle the sign capability
+   (E) Toggle the encrypt capability
+   (A) Toggle the authenticate capability
+   (Q) Finished
+
+Your selection? e
+
+Possible actions for a RSA key: Sign Certify Encrypt Authenticate
+Current allowed actions: Certify
+
+   (S) Toggle the sign capability
+   (E) Toggle the encrypt capability
+   (A) Toggle the authenticate capability
+   (Q) Finished
+
+Your selection? q
+</code></pre>
+
+<p>Set the keysize and expiration.</p>
+
+<pre><code class="language-bash">RSA keys may be between 1024 and 4096 bits long.
+What keysize do you want? (2048) 4096
+Requested keysize is 4096 bits
+Please specify how long the key should be valid.
+         0 = key does not expire
+      &lt;n&gt;  = key expires in n days
+      &lt;n&gt;w = key expires in n weeks
+      &lt;n&gt;m = key expires in n months
+      &lt;n&gt;y = key expires in n years
+Key is valid for? (0) 10y
+Key expires at Fri Apr 20 13:19:45 2029 PDT
+Is this correct? (y/N) y
+</code></pre>
+
+<p>Supply a name, an email, and an optional comment, and then the key will be created.</p>
+
+<pre><code class="language-bash">GnuPG needs to construct a user ID to identify your key.
+
+Real name: Tanner Lake
+Email address: tanner.lake@gmail.com
+Comment:
+You selected this USER-ID:
+    &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot;
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+gpg: key E3D3AB877ED44CED marked as ultimately trusted
+gpg: revocation certificate stored as '/Users/tanner/.gnupg/openpgp-revocs.d/4069A137076EF02F8D4BEA3BE3D3AB877ED44CED.rev'
+public and secret key created and signed.
+
+pub   rsa4096 2019-04-23 [C] [expires: 2029-04-20]
+      4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
+uid                      Tanner Lake &lt;tanner.lake@gmail.com&gt;
+</code></pre>
+
+<p>That&rsquo;s the master key created, but it&rsquo;s not yet complete.
+I still want to add my keybase UID, and I still need to add the other subkeys.</p>
+
+<p>Enter the <code>--edit-key</code> flag.
+I could supply a key&rsquo;s UID, fingerprint, or key ID to target a key.
+I&rsquo;ll use the key ID (E3D3AB877ED44CED), given in the output just above where the key was marked as ultimately trusted.</p>
+
+<pre><code class="language-bash">$ gpg --expert --edit-key E3D3AB877ED44CED
+
+gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Secret key is available.
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+[ultimate] (1). Tanner Lake &lt;tanner.lake@gmail.com&gt;
+
+gpg&gt;
+</code></pre>
+
+<p>I&rsquo;ll start by adding and trusting my Keybase UID.</p>
+
+<pre><code class="language-bash">gpg&gt; adduid
+Real name: keybase.io/tlake
+Email address: tlake@keybase.io
+Comment:
+You selected this USER-ID:
+    &quot;keybase.io/tlake &lt;tlake@keybase.io&gt;&quot;
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? o
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+[ultimate] (1)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+[ unknown] (2). keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+gpg&gt; uid 2
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+[ultimate] (1)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+[ unknown] (2)* keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+gpg&gt; trust
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+[ultimate] (1)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+[ unknown] (2)* keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+Please decide how far you trust this user to correctly verify other users' keys
+(by looking at passports, checking fingerprints from different sources, etc.)
+
+  1 = I don't know or won't say
+  2 = I do NOT trust
+  3 = I trust marginally
+  4 = I trust fully
+  5 = I trust ultimately
+  m = back to the main menu
+
+Your decision? 5
+Do you really want to set this key to ultimate trust? (y/N) y
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+[ultimate] (1)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+[ unknown] (2)* keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+gpg&gt; save
+</code></pre>
+
+<p>If I look at the key again, I&rsquo;ll see that both UIDs are trusted.</p>
+
+<pre><code class="language-bash">$ gpg -k --keyid-format long E3D3AB877ED44CED
+
+pub   rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+      4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
+uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+</code></pre>
+
+<p>Next, I need to create three subkeys using the <code>addkey</code> gpg command.
+When prompted for the kind of key I want, again I choose option 8, which is RSA + set capabilities.
+Each subkey will have one of the actions associated with it, and will have an expiration of 5 years.</p>
+
+<p>When all subkeys have been generated, exit with <code>save</code> again.</p>
+
+<pre><code class="language-bash">$ gpg --expert --edit-key E3D3AB877ED44CED
+
+gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Secret key is available.
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+[ultimate] (1). keybase.io/tlake &lt;tlake@keybase.io&gt;
+[ultimate] (2)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+
+gpg&gt; addkey
+
+. . . . .
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+ssb  rsa4096/1601789A6957B1FF
+     created: 2019-04-23  expires: 2024-04-21  usage: S
+ssb  rsa4096/1010346AB8850E6D
+     created: 2019-04-23  expires: 2024-04-21  usage: E
+ssb  rsa4096/D3C910B1DE464464
+     created: 2019-04-23  expires: 2024-04-21  usage: A
+[ultimate] (1). keybase.io/tlake &lt;tlake@keybase.io&gt;
+[ultimate] (2)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+
+gpg&gt; save
+</code></pre>
+
+<h2 id="cross-sign-the-old-and-new-keys">- cross-sign the old and new keys</h2>
+
+<p>As noted by sungo, to maintain the web of trust I need to first sign the new key with the old key, and then sign the old key with the new key.
+Note my key IDs:</p>
+
+<ul>
+<li>Old Key ID: <code>54B8519A0C437FEA</code></li>
+<li>New Key ID: <code>E3D3AB877ED44CED</code></li>
+</ul>
+
+<pre><code class="language-bash">$ gpg --default-key 54B8519A0C437FEA --sign-key E3D3AB877ED44CED
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+ssb  rsa4096/1601789A6957B1FF
+     created: 2019-04-23  expires: 2024-04-21  usage: S
+ssb  rsa4096/1010346AB8850E6D
+     created: 2019-04-23  expires: 2024-04-21  usage: E
+ssb  rsa4096/D3C910B1DE464464
+     created: 2019-04-23  expires: 2024-04-21  usage: A
+[ultimate] (1). keybase.io/tlake &lt;tlake@keybase.io&gt;
+[ultimate] (2)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+
+Really sign all user IDs? (y/N) y
+gpg: using &quot;54B8519A0C437FEA&quot; as default secret key for signing
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+ Primary key fingerprint: 4069 A137 076E F02F 8D4B  EA3B E3D3 AB87 7ED4 4CED
+
+     keybase.io/tlake &lt;tlake@keybase.io&gt;
+     Tanner Lake &lt;tanner.lake@gmail.com&gt;
+
+This key is due to expire on 2029-04-20.
+Are you sure that you want to sign this key with your
+key &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot; (54B8519A0C437FEA)
+
+Really sign? (y/N) y
+</code></pre>
+
+<pre><code class="language-bash">$ gpg --default-key E3D3AB877ED44CED --sign-key 54B8519A0C437FEA
+
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: next trustdb check due at 2029-04-20
+sec  rsa4096/54B8519A0C437FEA
+     created: 2016-11-11  expires: never       usage: SC
+     trust: unknown       validity: unknown
+ssb  rsa2048/6C444A94152F77FC
+     created: 2016-11-11  expires: 2024-11-09  usage: E
+ssb  rsa2048/6227D98814ACA2F0
+     created: 2016-11-11  expires: 2024-11-09  usage: SA
+[ unknown] (1). Tanner Lake &lt;tanner.lake@gmail.com&gt;
+[ unknown] (2)  keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+Really sign all user IDs? (y/N) y
+gpg: using &quot;E3D3AB877ED44CED&quot; as default secret key for signing
+
+sec  rsa4096/54B8519A0C437FEA
+     created: 2016-11-11  expires: never       usage: SC
+     trust: unknown       validity: unknown
+ Primary key fingerprint: EAC0 3C08 A76E A0F9 1ECD  6502 54B8 519A 0C43 7FEA
+
+     Tanner Lake &lt;tanner.lake@gmail.com&gt;
+     keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+Are you sure that you want to sign this key with your
+key &quot;keybase.io/tlake &lt;tlake@keybase.io&gt;&quot; (E3D3AB877ED44CED)
+
+Really sign? (y/N) y
+</code></pre>
+
+<h2 id="secure-the-new-key">- secure the new key</h2>
+
+<p>I&rsquo;ve created an encrypted container on a USB device using VeraCrypt, and that&rsquo;s going to contain a backup of my personal key.
+In addition, that encrypted containter will be the <em>only</em> location of my private master key.</p>
+
+<p>I&rsquo;ll start by creating a revocation certificate for the key in case it ever becomes compromised, and saving it to a file called <code>revocation_cert</code>.</p>
+
+<pre><code class="language-bash">$ gpg -a --gen-revoke E3D3AB877ED44CED &gt; ./revocation_cert
+
+sec  rsa4096/E3D3AB877ED44CED 2019-04-23 keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+Create a revocation certificate for this key? (y/N) y
+Please select the reason for the revocation:
+  0 = No reason specified
+  1 = Key has been compromised
+  2 = Key is superseded
+  3 = Key is no longer used
+  Q = Cancel
+(Probably you want to select 1 here)
+Your decision? 1
+Enter an optional description; end it with an empty line:
+&gt;
+Reason for revocation: Key has been compromised
+(No description given)
+Is this okay? (y/N) y
+Revocation certificate created.
+
+Please move it to a medium which you can hide away; if Mallory gets
+access to this certificate he can use it to make your key unusable.
+It is smart to print this certificate and store it away, just in case
+your media become unreadable.  But have some caution:  The print system of
+your machine might store the data and make it available to others!
+</code></pre>
+
+<p>I&rsquo;m not sure who this Mallory character is, but fuck that person.</p>
+
+<p>Now, I&rsquo;ll create the backups of the private and public keys.</p>
+
+<pre><code class="language-bash">$ gpg -a --export E3D3AB877ED44CED &gt; ./public_key
+
+$ gpg -a --export-secret-key E3D3AB877ED44CED &gt; ./secret_key
+</code></pre>
+
+<p>Finally, I want to remove the master private key (the one with certification abilities) from my machine, so that the only copy of it lives on that USB.
+That&rsquo;s a three step process:</p>
+
+<h4 id="1-export-just-the-master-private-subkeys-to-a-file">1. Export <em>just</em> the master private subkeys to a file</h4>
+
+<pre><code class="language-bash">$ gpg -a --export-secret-subkeys E3D3AB877ED44CED &gt; ./secret_subkeys
+</code></pre>
+
+<h4 id="2-delete-all-the-master-private-keys-primary-and-sub-from-gpg">2. Delete <em>all</em> the master private keys (primary and sub) from GPG</h4>
+
+<pre><code class="language-bash">$ gpg --delete-secret-keys E3D3AB877ED44CED
+
+gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+
+sec  rsa4096/E3D3AB877ED44CED 2019-04-23 keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+Delete this key from the keyring? (y/N) y
+This is a secret key! - really delete? (y/N) y
+</code></pre>
+
+<p>Confirmation:</p>
+
+<pre><code class="language-bash">$ gpg -k --keyid-format long E3D3AB877ED44CED
+
+pub   rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+      4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
+uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+sub   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
+sub   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
+sub   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
+
+
+$ gpg -K --keyid-format long E3D3AB877ED44CED
+
+gpg: error reading key: No secret key
+</code></pre>
+
+<h4 id="3-import-the-subkey-file">3. Import the subkey file</h4>
+
+<pre><code class="language-bash">$ gpg --import ./secret_subkeys
+
+gpg: key E3D3AB877ED44CED: &quot;keybase.io/tlake &lt;tlake@keybase.io&gt;&quot; not changed
+gpg: To migrate 'secring.gpg', with each smartcard, run: gpg --card-status
+gpg: key E3D3AB877ED44CED: secret key imported
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+gpg:       secret keys read: 1
+gpg:   secret keys imported: 1
+</code></pre>
+
+<p>Confirm that the master private subkeys have been imported, but that the master private primary key has not (the <code>#</code> after <code>sec</code> indicates that the key is missing):</p>
+
+<pre><code class="language-bash">$ gpg -K --keyid-format long E3D3AB877ED44CED
+
+sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+      4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
+uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
+ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
+ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
+</code></pre>
+
+<p>I&rsquo;ll make sure those special files are encrypted in the USB container, then delete them from my machine.</p>
+
+<h2 id="obsolete-the-old-key">- obsolete the old key</h2>
+
+<p>I&rsquo;ll note the keyid that the old key has been obsoleted in favor of.</p>
+
+<pre><code class="language-bash">$ gpg -a --gen-revoke 54B8519A0C437FEA &gt; ./revoke-oldkey
+
+sec  rsa4096/54B8519A0C437FEA 2016-11-11 Tanner Lake &lt;tanner.lake@gmail.com&gt;
+
+Create a revocation certificate for this key? (y/N) y
+Please select the reason for the revocation:
+  0 = No reason specified
+  1 = Key has been compromised
+  2 = Key is superseded
+  3 = Key is no longer used
+  Q = Cancel
+(Probably you want to select 1 here)
+Your decision? 2
+Enter an optional description; end it with an empty line:
+&gt; superseded by keyid=E3D3AB877ED44CED
+&gt;
+Reason for revocation: Key is superseded
+superseded by keyid=E3D3AB877ED44CED
+Is this okay? (y/N) y
+Revocation certificate created.
+
+Please move it to a medium which you can hide away; if Mallory gets
+access to this certificate he can use it to make your key unusable.
+It is smart to print this certificate and store it away, just in case
+your media become unreadable.  But have some caution:  The print system of
+your machine might store the data and make it available to others!
+</code></pre>
+
+<p>Import the revocation certificate to officially invalidate the old key.</p>
+
+<pre><code class="language-bash">$ gpg --import ./revoke-oldkey
+
+gpg: key 54B8519A0C437FEA: &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot; revocation certificate imported
+gpg: Total number processed: 1
+gpg:    new key revocations: 1
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: next trustdb check due at 2029-04-20
+</code></pre>
+
+<p>And confirm that it is so:</p>
+
+<pre><code class="language-bash">$ gpg -k --keyid-format long 54B8519A0C437FEA
+
+pub   rsa4096/54B8519A0C437FEA 2016-11-11 [SC] [revoked: 2019-04-23]
+      EAC03C08A76EA0F91ECD650254B8519A0C437FEA
+uid                 [ revoked] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+uid                 [ revoked] keybase.io/tlake &lt;tlake@keybase.io&gt;
+</code></pre>
+
+<h2 id="update-keybase">- update keybase</h2>
+
+<p>I&rsquo;ll add the new key to Keybase:</p>
+
+<pre><code class="language-bash">$ keybase pgp select --multi E3D3AB877ED44CED
+
+You are selecting a PGP key from your local GnuPG keychain, and
+will publish a statement signed with this key to make it part of
+your Keybase.io identity.
+
+Note that GnuPG will prompt you to perform this signature.
+
+You can also import the secret key to *local*, *encrypted* Keybase
+keyring, enabling decryption and signing with the Keybase client.
+To do that, use &quot;--import&quot; flag.
+
+Learn more: keybase pgp help select
+
+#    Algo    Key Id             Created   UserId
+=    ====    ======             =======   ======
+1    4096R   E3D3AB877ED44CED             keybase.io/tlake &lt;tlake@keybase.io&gt;, Tanner Lake &lt;tanner.lake@gmail.com&gt;
+Choose a key: 1
+▶ INFO Generated new PGP key:
+▶ INFO   user: keybase.io/tlake &lt;tlake@keybase.io&gt;
+▶ INFO   4096-bit RSA key, ID E3D3AB877ED44CED, created 2019-04-23
+</code></pre>
+
+<p>Then I&rsquo;ll use Keybase&rsquo;s UI to select the option to revoke the old key.
+This opens a modal that contains the CLI command to run:</p>
+
+<pre><code class="language-bash">$ keybase pgp drop '0101c1f152a7c66c09ebec1121c4ee088b7422c8688ee875b1273e19dca8a7d066390a'
+
+▶ INFO Revoking KIDs:
+▶ INFO   0101c1f152a7c66c09ebec1121c4ee088b7422c8688ee875b1273e19dca8a7d066390a
+</code></pre>
+
+<h2 id="update-github">- update github</h2>
+
+<p>I removed all the GPG keys that were already associated with my account, then used GPG to export the ASCII-armor-formatted master public key to stdout.</p>
+
+<pre><code class="language-bash">$ gpg -a --export E3D3AB877ED44CED
+
+# big public key output here
+</code></pre>
+
+<p>I copied that and pasted it into GitHub as a new GPG key, and then updated my <code>~/.gitconfig</code> file to sign commits using the key ID of the master key&rsquo;s signing subkey, which is the subkey with <code>[S]</code> in the list output.</p>
+
+<pre><code class="language-bash">$ gpg -K --keyid-format long E3D3AB877ED44CED
+
+sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+      4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
+uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
+ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
+ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
+</code></pre>
+
+<pre><code class="language-bash"># ~/.gitconfig
+
+[user]
+    name = Tanner Lake
+    email = tanner.lake@gmail.com
+    signingkey = 1601789A6957B1FF
+</code></pre>
+
+<h1 id="local-cleanup">local cleanup</h1>
+
+<p>Now it&rsquo;s time to remove all the remaining artifacts and trash - namely, the unnecessary keys.
+Secret keys need to be removed before the public keys can be removed.</p>
+
+<pre><code class="language-bash">$ gpg -K --keyid-format long
+/Users/tanner/.gnupg/pubring.gpg
+--------------------------------
+sec   rsa4096/4D2701F13EDE5839 2018-04-02 [SC]
+      6F291BE625AF2FF8E2E207514D2701F13EDE5839
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/D437EEC879CD75B6 2018-04-02 [E]
+
+sec   rsa4096/067D98D9C5F1ED56 2018-04-02 [SC] [expires: 2034-03-29]
+      61732CF1F6E9D36AF37E2D6B067D98D9C5F1ED56
+uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/E887D573CA2F0ABE 2018-04-02 [E] [expires: 2034-03-29]
+
+sec   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+      AA86BF07B16AF7D371AFB129D9839DD152BBC30E
+uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
+ssb   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
+
+sec   rsa4096/54B8519A0C437FEA 2016-11-11 [SC] [revoked: 2019-04-23]
+      EAC03C08A76EA0F91ECD650254B8519A0C437FEA
+uid                 [ revoked] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+uid                 [ revoked] keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+      4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
+uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
+ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
+ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
+</code></pre>
+
+<p>These are the key IDs of the three keys that need to be deleted:</p>
+
+<ul>
+<li><code>4D2701F13EDE5839</code></li>
+<li><code>067D98D9C5F1ED56</code></li>
+<li><code>54B8519A0C437FEA</code></li>
+</ul>
+
+<pre><code class="language-bash">$ for keyid in 4D2701F13EDE5839 067D98D9C5F1ED56 54B8519A0C437FEA ; \
+	do gpg --delete-secret-key ${keyid} ; \
+	gpg --delete-key ${keyid} ; \
+done
+</code></pre>
+
+<pre><code class="language-bash">$ gpg -k --keyid-format long
+
+/Users/tanner/.gnupg/pubring.gpg
+--------------------------------
+pub   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+      AA86BF07B16AF7D371AFB129D9839DD152BBC30E
+uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
+sub   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
+
+pub   rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+      4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
+uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+sub   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
+sub   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
+sub   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
+
+
+$ gpg -K --keyid-format long
+
+/Users/tanner/.gnupg/pubring.gpg
+--------------------------------
+sec   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+      AA86BF07B16AF7D371AFB129D9839DD152BBC30E
+uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
+ssb   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
+
+sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+      4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
+uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
+ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
+ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
+</code></pre>
+
+<h1 id="and-that-s-that">and that&rsquo;s that!</h1>
+
+<p>I&rsquo;m <a href="https://keybase.io/tlake">tlake</a> on Keybase, which should now be wrangled into something sane.
+It bothers me that my Keybase graph and history looks messy af with all these additions and revocations, but I guess pobody&rsquo;s nerfect, right?
+Life&rsquo;s about the journey or whatever.</p>
+
+<h1 id="helpful-resources">helpful resources</h1>
+
+<p>These first are the two that really helped me the most with understanding what I was doing and how the moving parts of keys and subkeys work together (fun fact, the second link is also linked to in the first link):</p>
+
+<ul>
+<li><a href="https://sungo.wtf/2016/11/23/gpg-strong-keys-rotation-and-keybase.html">a detailed but also top-level guide by sungo</a></li>
+<li><a href="https://spin.atomicobject.com/2013/11/24/secure-gpg-keys-guide/">a step-by-step how-to by Mike English</a></li>
+</ul>
+
+<p>The following links were still helpful, and although I came across them before the two above, they made better sense to me only after I&rsquo;d read through the first two:</p>
+
+<ul>
+<li><a href="https://www.integralist.co.uk/posts/security-basics/index.html">PGP security basics by Mark McDonnell</a></li>
+<li><a href="https://www.ahmadnassri.com/blog/github-gpg-keybase-pgp/index.html">Github GPG + Keybase PGP by Ahmad Nassri</a></li>
+<li><a href="https://blog.scottlowe.org/2017/09/06/using-keybase-gpg-macos/">Keybase and GPG by Scott Lowe</a></li>
+<li><a href="https://security.stackexchange.com/questions/29851/how-many-openpgp-keys-should-i-make">PGP key management on Stack Exchange</a></li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/crypto" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">crypto</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/keybase" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">keybase</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/pgp" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">pgp</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/gpg" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">gpg</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/github" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">github</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "tlake.io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">What&#39;s in this blog</p>
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#the-start">the start</a></li>
+<li><a href="#the-goal">the goal</a></li>
+<li><a href="#the-process">the process</a>
+<ul>
+<li><a href="#take-stock">- take stock</a></li>
+<li><a href="#import-the-old-key-from-keybase">- import the old key from keybase</a></li>
+<li><a href="#generate-a-new-master-key">- generate a new master key</a></li>
+<li><a href="#cross-sign-the-old-and-new-keys">- cross-sign the old and new keys</a></li>
+<li><a href="#secure-the-new-key">- secure the new key</a>
+<ul>
+<li>
+<ul>
+<li><a href="#1-export-just-the-master-private-subkeys-to-a-file">1. Export <em>just</em> the master private subkeys to a file</a></li>
+<li><a href="#2-delete-all-the-master-private-keys-primary-and-sub-from-gpg">2. Delete <em>all</em> the master private keys (primary and sub) from GPG</a></li>
+<li><a href="#3-import-the-subkey-file">3. Import the subkey file</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#obsolete-the-old-key">- obsolete the old key</a></li>
+<li><a href="#update-keybase">- update keybase</a></li>
+<li><a href="#update-github">- update github</a></li>
+</ul></li>
+<li><a href="#local-cleanup">local cleanup</a></li>
+<li><a href="#and-that-s-that">and that&rsquo;s that!</a></li>
+<li><a href="#helpful-resources">helpful resources</a></li>
+</ul>
+</nav>
+  </div>
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/blog/the-dns-and-deployment-of-tlake-io/">the dns and deployment of tlake.io</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://tlake.io" >
+    &copy; 2019 tlake.io
+  </a>
+    <div>
+
+
+
+<a href="https://twitter.com/tanotaur" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://linkedin.com/in/tannerlake" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/tlake" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://gitlab.com/tannerlake" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
