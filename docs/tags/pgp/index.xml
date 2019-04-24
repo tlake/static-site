@@ -6,7 +6,7 @@
     <description>Recent content in pgp on tlake.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2019 09:19:09 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2019 09:19:09 -0700</lastBuildDate>
     
 	<atom:link href="http://tlake.io/tags/pgp/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>spring cleaning my digital identity</title>
       <link>http://tlake.io/blog/spring-cleaning-my-digital-identity/</link>
-      <pubDate>Fri, 19 Apr 2019 09:19:09 -0700</pubDate>
+      <pubDate>Tue, 23 Apr 2019 09:19:09 -0700</pubDate>
       
       <guid>http://tlake.io/blog/spring-cleaning-my-digital-identity/</guid>
       <description>I&amp;rsquo;d been reading up about git-secret and realized that I didn&amp;rsquo;t really grasp what a PGP key is or how to use one (or more). I&amp;rsquo;ve had a Keybase account since 2011, and it&amp;rsquo;s become a bit of a disjointed mess. The addition and revocation of devices makes sense, since I&amp;rsquo;ve gone through a couple of phones since 2011. However, my usage of PGP keys has been erratic.
