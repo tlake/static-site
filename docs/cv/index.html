@@ -155,10 +155,92 @@
     <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
       
 
-<h1 id="tanner-lake">Tanner Lake</h1>
+<h1 id="about">About</h1>
 
-<p>Seattle, WA<br />
+<p>Tanner Lake<br />
+Seattle, WA<br />
 <a href="mailto:tanner.lake@gmail.com">tanner.lake@gmail.com</a></p>
+
+<h1 id="employment">Employment</h1>
+
+<h3 id="iqvia-may-2016-present">IQVIA <em>(May 2016 - present)</em></h3>
+
+<p><em>Software and DevOps engineer</em></p>
+
+<p>Collaborated on creating and maintaining tools to streamline deployment.
+Wrote Terraform modules and configurations.
+Evangelized infrastructure-as-code and best practices.</p>
+
+<h4 id="splunk-eks-deployment">Splunk EKS deployment</h4>
+
+<p>A Terraform and kubectl configuration to deploy a production-ready Splunk cluster onto an existing EKS cluster.</p>
+
+<ul>
+<li>Created deployment Splunk cluster of 1 master node, 2 search heads, and 3 indexers with enabled HTTP Event Collectors.</li>
+<li>Enabled SmartStore to persist warm-and-colder indexer buckets to S3 instead of large, expensive EBS volumes.</li>
+<li>Implemented Auth0-backed SSO.</li>
+</ul>
+
+<h4 id="production-eks-cluster">Production EKS cluster</h4>
+
+<p>A Terraform configuration to deploy a custom Kubernetes cluster on AWS EKS.</p>
+
+<ul>
+<li>Converted Makefile workflow into Terraform workflow.</li>
+<li>Added Tillerless Helm to Terraform configuration.</li>
+<li>Added validation for binaries and dependencies.</li>
+<li>Implemented &ldquo;Terraform admin&rdquo; setup to manage resources through an IAM role instead of AWS credentials directly.</li>
+</ul>
+
+<h4 id="orca">Orca</h4>
+
+<p>A React + Go tool for managing Kubernetes RBAC permissions.</p>
+
+<p>Repository: <a href="https://github.com/quintilesims/orca">https://github.com/quintilesims/orca</a></p>
+
+<ul>
+<li>Assumed ownership of project and led design.</li>
+<li>Implemented API client middleware with authorization header management.</li>
+<li>Refactored as better practices were learned.</li>
+<li>Wrote Jest + Enzyme test suite, set up pre-commit CI.</li>
+</ul>
+
+<h4 id="layer0">Layer0</h4>
+
+<p>A Go CLI tool for deploying Dockerized applications to AWS infrastructure.</p>
+
+<p>Repository: <a href="https://github.com/quintilesims/layer0">https://github.com/quintilesims/layer0</a></p>
+
+<ul>
+<li>Added stateless workflow via AWS Fargate.</li>
+<li>Expanded system tests.</li>
+<li>Took ownership of service entities during big API refactor.</li>
+<li>Added load balancer health checks.</li>
+<li>Wrote usage walkthroughs, updated documentation.</li>
+<li>Automated release process through a GitHub machine user.</li>
+</ul>
+
+<h4 id="d-ims-io">d.ims.io</h4>
+
+<p>A Go wrapper around AWS ECR with custom authentication.</p>
+
+<p>Repository: <a href="https://github.com/quintilesims/d.ims.io">https://github.com/quintilesims/d.ims.io</a></p>
+
+<ul>
+<li>Authored Auth0-backed authentication workflow with retry and exponential backoff logic.</li>
+<li>Implemented <code>/images</code> API endpoint, including Swagger.</li>
+</ul>
+
+<hr />
+
+<h3 id="code-fellows-feb-may-2016">Code Fellows <em>(Feb - May 2016)</em></h3>
+
+<p><em>Teaching assistant</em></p>
+
+<p>Evaluated student assignments and provided feedback and code review.
+Provided assistance and mentorship in person and remotely.</p>
+
+<hr />
 
 <h1 id="education">Education</h1>
 
@@ -167,49 +249,6 @@ Code Fellows, Seattle WA</p>
 
 <p>B.A. in Classical Civilization &ndash; May 2010<br />
 University of Vermont, Burlington VT</p>
-
-<h1 id="employment">Employment</h1>
-
-<p>IQVIA<br />
-<strong>Software Developer</strong> (2016 - present)</p>
-
-<p>Collaborated on creating and maintaining tools to streamline deployment.
-Wrote Terraform modules and configurations.
-Evangelized infrastructure-as-code and best practices.</p>
-
-<ul>
-<li><p><code>Orca:</code>
-A React + Go tool for managing Kubernetes RBAC permissions.
-Assumed ownership of project and led design.
-Implemented API client middleware with authorization header management.
-Refactored as better practices were learned.
-Wrote Jest + Enzyme test suite, set up pre-commit CI.</p></li>
-
-<li><p><code>Layer0:</code>
-A Go CLI tool for deploying Dockerized applications to AWS infrastructure.
-Added stateless workflow via AWS Fargate.
-Expanded system tests.
-Took ownership of service entities during big API refactor.
-Added load balancer health checks.
-Wrote usage walkthroughs, updated documentation.</p></li>
-
-<li><p><code>d.ims.io:</code>
-A Go wrapper around AWS ECR with custom authentication.
-Authored Auth0-backed authentication workflow with retry and exponential backoff logic.
-Implemented <code>/images</code> API endpoint, including Swagger.</p></li>
-
-<li><p><code>Kubernetes Configuration:</code>
-A Terraform configuration to deploy a custom Kubernetes cluster on AWS EKS.
-Converted Makefile workflow into Terraform workflow.
-Added Tillerless Helm to Terraform configuration.
-Added validation for binaries and dependencies.</p></li>
-</ul>
-
-<p>Code Fellows<br />
-<strong>Teaching Assistant</strong> (2016)</p>
-
-<p>Evaluated student assignments and provided feedback and code review.
-Provided assistance and mentorship in person and remotely.</p>
 
     </div>
   </article>
