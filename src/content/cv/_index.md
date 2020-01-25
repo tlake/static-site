@@ -10,7 +10,6 @@ Tanner Lake
 Seattle, WA  
 [tanner.lake@gmail.com](mailto:tanner.lake@gmail.com)  
 
-
 # Employment
 
 ### IQVIA _(May 2016 - present)_
@@ -21,6 +20,13 @@ Collaborated on creating and maintaining tools to streamline deployment.
 Wrote Terraform modules and configurations.
 Evangelized infrastructure-as-code and best practices.
 
+#### Production Terraform Enterprise Deployment
+
+Deployed, maintained, and updated on-prem inter-office Terraform Enterprise installation.
+
+- Implemented Auth0-backed SSO.
+- Created Auth0 rules to auto-assign users to teams and organizations based on LDAP user data.
+
 #### Splunk EKS deployment
 
 A Terraform and kubectl configuration to deploy a production-ready Splunk cluster onto an existing EKS cluster.
@@ -28,6 +34,7 @@ A Terraform and kubectl configuration to deploy a production-ready Splunk cluste
 - Created deployment Splunk cluster of 1 master node, 2 search heads, and 3 indexers with enabled HTTP Event Collectors.
 - Enabled SmartStore to persist warm-and-colder indexer buckets to S3 instead of large, expensive EBS volumes.
 - Implemented Auth0-backed SSO.
+- Replaced local machine workflow with deployment to workspaces in Terraform Enterprise.
 
 #### Production EKS cluster
 
@@ -37,6 +44,7 @@ A Terraform configuration to deploy a custom Kubernetes cluster on AWS EKS.
 - Added Tillerless Helm to Terraform configuration.
 - Added validation for binaries and dependencies.
 - Implemented "Terraform admin" setup to manage resources through an IAM role instead of AWS credentials directly.
+- Replaced local machine workflow with deployment to workspaces in Terraform Enterprise.
 
 #### Orca
 
@@ -81,7 +89,6 @@ Evaluated student assignments and provided feedback and code review.
 Provided assistance and mentorship in person and remotely.
 
 ---
-
 
 # Education
 
