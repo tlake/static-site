@@ -10,6 +10,8 @@ Seattle, WA
 
 [tanner.lake@gmail.com](mailto:tanner.lake@gmail.com)
 
+If you're looking for my resume, you can find it [here](/resume_tannerlake.pdf).
+
 # Experience
 
 ## IQVIA _(May 2016 - March 2020)_
