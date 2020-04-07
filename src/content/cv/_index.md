@@ -4,30 +4,38 @@ date: 2019-04-18T00:11:46-07:00
 layout: "terms"
 ---
 
-# About
+Tanner Lake
 
-Tanner Lake  
-Seattle, WA  
-[tanner.lake@gmail.com](mailto:tanner.lake@gmail.com)  
+Seattle, WA
 
-# Employment
+[tanner.lake@gmail.com](mailto:tanner.lake@gmail.com)
 
-### IQVIA _(May 2016 - present)_
+# Experience
+
+## IQVIA _(May 2016 - March 2020)_
 
 _Software and DevOps engineer_
 
-Collaborated on creating and maintaining tools to streamline deployment.
-Wrote Terraform modules and configurations.
-Evangelized infrastructure-as-code and best practices.
+- Collaborated on creating and maintaining tools to streamline deployment.
+- Wrote Terraform modules and configurations.
+- Evangelized infrastructure-as-code and best practices.
+- Created, maintained, streamlined, and repaired CI/CD pipelines in both GitLab and GitHub.
 
-#### Production Terraform Enterprise Deployment
+### Notable Project
+
+#### AWS Cleanup Tools
+
+- Authored Golang and Bash scripts to identify and terminate unnecessary AWS resources.
+- Composed tools into Helm charts and deployed them into our production EKS cluster to automate recurring cleanup runs.
+
+#### Terraform Enterprise
 
 Deployed, maintained, and updated on-prem inter-office Terraform Enterprise installation.
 
 - Implemented Auth0-backed SSO.
 - Created Auth0 rules to auto-assign users to teams and organizations based on LDAP user data.
 
-#### Splunk EKS deployment
+#### Splunk on EKS
 
 A Terraform and kubectl configuration to deploy a production-ready Splunk cluster onto an existing EKS cluster.
 
@@ -92,8 +100,8 @@ Provided assistance and mentorship in person and remotely.
 
 # Education
 
-Certificate, Full-Stack Python -- August 2015  
-Code Fellows, Seattle WA  
+Certificate, Full-Stack Python -- August 2015
+Code Fellows, Seattle WA
 
-B.A. in Classical Civilization -- May 2010  
+B.A. in Classical Civilization -- May 2010
 University of Vermont, Burlington VT
