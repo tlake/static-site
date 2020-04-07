@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.64.0" />
+    <meta name="generator" content="Hugo 0.40.1" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -35,9 +35,24 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://tlake.io/cv/" />
-<meta property="og:updated_time" content="2019-04-18T00:11:46-07:00" />
+
+
+
+<meta property="og:updated_time" content="2019-04-18T00:11:46-07:00"/>
+
+
+
+
+
+
+
+
+
+
 <meta itemprop="name" content="Curriculum Vitae">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="">
+
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Curriculum Vitae"/>
 <meta name="twitter:description" content=""/>
 
@@ -71,12 +86,6 @@
           <li class="list f5 f4-ns fw4 dib pr3">
             <a class="hover-white no-underline white-90" href="/cv/" title="Curriculum Vitae page">
               Curriculum Vitae
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/projects/" title="Projects page">
-              Projects
             </a>
           </li>
           
@@ -149,32 +158,60 @@
     
   <article class="cf pa3 pa4-m pa4-l">
     <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
-      <h1 id="about">About</h1>
-<p>Tanner Lake<br>
-Seattle, WA<br>
-<a href="mailto:tanner.lake@gmail.com">tanner.lake@gmail.com</a></p>
-<h1 id="employment">Employment</h1>
-<h3 id="iqvia-_may-2016---present_">IQVIA <em>(May 2016 - present)</em></h3>
+      
+
+<p>Tanner Lake</p>
+
+<p>Seattle, WA</p>
+
+<p><a href="mailto:tanner.lake@gmail.com">tanner.lake@gmail.com</a></p>
+
+<h1 id="experience">Experience</h1>
+
+<h2 id="iqvia-may-2016-march-2020">IQVIA <em>(May 2016 - March 2020)</em></h2>
+
 <p><em>Software and DevOps engineer</em></p>
-<p>Collaborated on creating and maintaining tools to streamline deployment.
-Wrote Terraform modules and configurations.
-Evangelized infrastructure-as-code and best practices.</p>
-<h4 id="production-terraform-enterprise-deployment">Production Terraform Enterprise Deployment</h4>
+
+<ul>
+<li>Collaborated on creating and maintaining tools to streamline deployment.</li>
+<li>Wrote Terraform modules and configurations.</li>
+<li>Evangelized infrastructure-as-code and best practices.</li>
+<li>Created, maintained, streamlined, and repaired CI/CD pipelines in both GitLab and GitHub.</li>
+</ul>
+
+<h3 id="notable-project">Notable Project</h3>
+
+<h4 id="aws-cleanup-tools">AWS Cleanup Tools</h4>
+
+<ul>
+<li>Authored Golang and Bash scripts to identify and terminate unnecessary AWS resources.</li>
+<li>Composed tools into Helm charts and deployed them into our production EKS cluster to automate recurring cleanup runs.</li>
+</ul>
+
+<h4 id="terraform-enterprise">Terraform Enterprise</h4>
+
 <p>Deployed, maintained, and updated on-prem inter-office Terraform Enterprise installation.</p>
+
 <ul>
 <li>Implemented Auth0-backed SSO.</li>
 <li>Created Auth0 rules to auto-assign users to teams and organizations based on LDAP user data.</li>
 </ul>
-<h4 id="splunk-eks-deployment">Splunk EKS deployment</h4>
+
+<h4 id="splunk-on-eks">Splunk on EKS</h4>
+
 <p>A Terraform and kubectl configuration to deploy a production-ready Splunk cluster onto an existing EKS cluster.</p>
+
 <ul>
 <li>Created deployment Splunk cluster of 1 master node, 2 search heads, and 3 indexers with enabled HTTP Event Collectors.</li>
 <li>Enabled SmartStore to persist warm-and-colder indexer buckets to S3 instead of large, expensive EBS volumes.</li>
 <li>Implemented Auth0-backed SSO.</li>
 <li>Replaced local machine workflow with deployment to workspaces in Terraform Enterprise.</li>
 </ul>
+
 <h4 id="production-eks-cluster">Production EKS cluster</h4>
+
 <p>A Terraform configuration to deploy a custom Kubernetes cluster on AWS EKS.</p>
+
 <ul>
 <li>Converted Makefile workflow into Terraform workflow.</li>
 <li>Added Tillerless Helm to Terraform configuration.</li>
@@ -182,18 +219,26 @@ Evangelized infrastructure-as-code and best practices.</p>
 <li>Implemented &ldquo;Terraform admin&rdquo; setup to manage resources through an IAM role instead of AWS credentials directly.</li>
 <li>Replaced local machine workflow with deployment to workspaces in Terraform Enterprise.</li>
 </ul>
+
 <h4 id="orca">Orca</h4>
+
 <p>A React + Go tool for managing Kubernetes RBAC permissions.</p>
+
 <p>Repository: <a href="https://github.com/quintilesims/orca">https://github.com/quintilesims/orca</a></p>
+
 <ul>
 <li>Assumed ownership of project and led design.</li>
 <li>Implemented API client middleware with authorization header management.</li>
 <li>Refactored as better practices were learned.</li>
 <li>Wrote Jest + Enzyme test suite, set up pre-commit CI.</li>
 </ul>
+
 <h4 id="layer0">Layer0</h4>
+
 <p>A Go CLI tool for deploying Dockerized applications to AWS infrastructure.</p>
+
 <p>Repository: <a href="https://github.com/quintilesims/layer0">https://github.com/quintilesims/layer0</a></p>
+
 <ul>
 <li>Added stateless workflow via AWS Fargate.</li>
 <li>Expanded system tests.</li>
@@ -202,23 +247,35 @@ Evangelized infrastructure-as-code and best practices.</p>
 <li>Wrote usage walkthroughs, updated documentation.</li>
 <li>Automated release process through a GitHub machine user.</li>
 </ul>
-<h4 id="dimsio">d.ims.io</h4>
+
+<h4 id="d-ims-io">d.ims.io</h4>
+
 <p>A Go wrapper around AWS ECR with custom authentication.</p>
+
 <p>Repository: <a href="https://github.com/quintilesims/d.ims.io">https://github.com/quintilesims/d.ims.io</a></p>
+
 <ul>
 <li>Authored Auth0-backed authentication workflow with retry and exponential backoff logic.</li>
 <li>Implemented <code>/images</code> API endpoint, including Swagger.</li>
 </ul>
-<hr>
-<h3 id="code-fellows-_feb---may-2016_">Code Fellows <em>(Feb - May 2016)</em></h3>
+
+<hr />
+
+<h3 id="code-fellows-feb-may-2016">Code Fellows <em>(Feb - May 2016)</em></h3>
+
 <p><em>Teaching assistant</em></p>
+
 <p>Evaluated student assignments and provided feedback and code review.
 Provided assistance and mentorship in person and remotely.</p>
-<hr>
+
+<hr />
+
 <h1 id="education">Education</h1>
-<p>Certificate, Full-Stack Python &ndash; August 2015<br>
+
+<p>Certificate, Full-Stack Python &ndash; August 2015
 Code Fellows, Seattle WA</p>
-<p>B.A. in Classical Civilization &ndash; May 2010<br>
+
+<p>B.A. in Classical Civilization &ndash; May 2010
 University of Vermont, Burlington VT</p>
 
     </div>
