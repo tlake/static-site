@@ -8,10 +8,10 @@ enableGitInfo = true
 theme = "ananke"
 SectionPagesMenu = "main"
 disqusShortname = "tlake.io"
+
 [params]
     mainSections = ""
     github = "https://github.com/tlake"
     gitlab = "https://gitlab.com/tannerlake"
     twitter = "https://twitter.com/tanotaur"
     linkedin = "https://linkedin.com/in/tannerlake"
-
