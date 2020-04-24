@@ -23,7 +23,7 @@ _Software and DevOps engineer_
 - Evangelized infrastructure-as-code and best practices.
 - Created, maintained, streamlined, and repaired CI/CD pipelines in both GitLab and GitHub.
 
-### Notable Project
+### Notable Projects
 
 #### AWS Cleanup Tools
 
