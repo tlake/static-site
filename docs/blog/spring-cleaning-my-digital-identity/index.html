@@ -9,7 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.40.1" />
+    <meta name="generator" content="Hugo 0.74.3" />
     
     
       <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -33,30 +33,13 @@
 You see, my nebulous grasp of PGP keys roughly equated them with SSH keys, and so I&rsquo;d created and revoked a few of them." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://tlake.io/blog/spring-cleaning-my-digital-identity/" />
-
-
-
-<meta property="article:published_time" content="2019-04-23T09:19:09-07:00"/>
-
-<meta property="article:modified_time" content="2019-04-24T10:20:11-07:00"/>
-
-
-
-
-
-
-
-
-
-
-
+<meta property="article:published_time" content="2019-04-23T09:19:09-07:00" />
+<meta property="article:modified_time" content="2019-04-24T10:20:11-07:00" />
 <meta itemprop="name" content="spring cleaning my digital identity">
 <meta itemprop="description" content="I&rsquo;d been reading up about git-secret and realized that I didn&rsquo;t really grasp what a PGP key is or how to use one (or more). I&rsquo;ve had a Keybase account since 2011, and it&rsquo;s become a bit of a disjointed mess. The addition and revocation of devices makes sense, since I&rsquo;ve gone through a couple of phones since 2011. However, my usage of PGP keys has been erratic.
 You see, my nebulous grasp of PGP keys roughly equated them with SSH keys, and so I&rsquo;d created and revoked a few of them.">
-
-
 <meta itemprop="datePublished" content="2019-04-23T09:19:09-07:00" />
-<meta itemprop="dateModified" content="2019-04-23T09:19:09-07:00" />
+<meta itemprop="dateModified" content="2019-04-24T10:20:11-07:00" />
 <meta itemprop="wordCount" content="4189">
 
 
@@ -178,65 +161,44 @@ You see, my nebulous grasp of PGP keys roughly equated them with SSH keys, and s
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<p>I&rsquo;d been reading up about <a href="https://git-secret.io/"><code>git-secret</code></a> and realized that I didn&rsquo;t really grasp what a PGP key is or how to use one (or more).
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>I&rsquo;d been reading up about <a href="https://git-secret.io/"><code>git-secret</code></a> and realized that I didn&rsquo;t really grasp what a PGP key is or how to use one (or more).
 I&rsquo;ve had a <a href="https://keybase.io">Keybase</a> account since 2011, and it&rsquo;s become a bit of a disjointed mess.
 The addition and revocation of devices makes sense, since I&rsquo;ve gone through a couple of phones since 2011.
 However, my usage of PGP keys has been erratic.</p>
-
 <p>You see, my nebulous grasp of PGP keys roughly equated them with SSH keys, and so I&rsquo;d created and revoked a few of them.
 Only recently have I come to understand that a PGP key has more to do with creating trust and verifying one&rsquo;s identity than with making secure connections.</p>
-
 <p>PGP keys have UIDs attached to them, consisting of a full name, an email address, and an optional comment.
 A PGP key is your identity; it should represent who you are on the internet.
 You can attach multiple UIDs to a PGP key if they&rsquo;re all identities you want to associate together.
 However, if you need to separate some parts of yourself, you should use a different key for each persona.</p>
-
 <p>So unlike SSH keys and API tokens, maybe I <em>shouldn&rsquo;t</em> treat PGP keys as if they were disposable and single-purpose.
 Definitely they should be revoked if compromised, but otherwise they should stick around to build trust and prove that I&rsquo;m <em>me.</em></p>
-
 <p>There&rsquo;s more to say about PGP, but this post is about the process I went through to sanify my PGP key situation.
 There are some links at the end.</p>
-
 <h1 id="the-start">the start</h1>
-
 <p>My Keybase account contained two PGP keys.
 One was the key I had created all the way back in 2011 when I created the account.
 The other was a key I had made in order to verify my identity on GitHub.
 Both keys have the same <code>Tanner Lake &lt;tanner.lake@gmail.com&gt;</code> UID attached.
 I consider both of these identites to belong to the same digital persona, so there&rsquo;s no need for two different keys.</p>
-
 <p>My laptop contained three PGP keys.
 One of them was the GitHub one from above, and another I had recently generated in preparation for <code>git-secret</code> before I decided to learn more about PGP keys
 A third was a workplace key, and I have no idea what the fourth was for.</p>
-
 <h1 id="the-goal">the goal</h1>
-
 <p>The goal is to consolidate down to just two identities; just two keys.</p>
-
 <p>My workplace key will remain unchanged; I don&rsquo;t intend for that to be particularly long-lived, and I haven&rsquo;t had to use it for very much of anything, so its impact is minimal.</p>
-
 <p>My personal key will contain two UIDs: my personal UID (<code>Tanner Lake &lt;tanner.lake@gmail.com&gt;</code>) and my Keybase UID (<code>keybase.io/tlake &lt;tlake@keybase.io&gt;</code>).
 I also intend to separate out capabilities into subkeys.
 The master key will only be able to certify, and I want three separate subkeys which each can do only one of signing, encrypting, and authenticating.
 Furthermore, the master private key will exist <em>only</em> on an offline, encrypted USB device; the private subkeys (as well as the public primary key and subkeys) will continue to live on my working machine.</p>
-
 <p>The old personal key on Keybase will need to be cross-signed with the new one to maintain the web of trust, and then revoked and removed.</p>
-
 <p>The old GitHub key will need to be removed from GitHub, Keybase, and my local GPG keyring, and I&rsquo;ll need to add my new personal public key to GitHub and sign my commits using the new signing key.</p>
-
 <p>All keys that are not my new personal key and my workplace key will be deleted.</p>
-
 <h1 id="the-process">the process</h1>
-
 <p>Sungo&rsquo;s post (linked below) at some point defers to Mike English&rsquo;s article (also linked below) to avoid regurgitation of commands.</p>
-
 <p>I&rsquo;m not that polished.</p>
-
 <p>I&rsquo;m writing to document my actions for myself, and I&rsquo;m gonna list out every dang command I use.
 If doing so is helpful to someone else, that&rsquo;s added value, but not the point.</p>
-
 <ul>
 <li><a href="#take-stock">take stock</a></li>
 <li><a href="#import-the-old-key-from-keybase">import the old key from keybase</a></li>
@@ -248,20 +210,14 @@ If doing so is helpful to someone else, that&rsquo;s added value, but not the po
 <li><a href="#update-github">update github</a></li>
 <li><a href="#local-cleanup">local cleanup</a></li>
 </ul>
-
-<h2 id="take-stock">- take stock</h2>
-
+<h2 id="--take-stock">- take stock</h2>
 <p>But first, a note on reading the output from listing keys.
 Consider the following labelled example:</p>
-
-<pre><code class="language-bash">pub   ENCRYPTION_METHOD/KEY_ID CREATION_DATE [ABILITIES] [EXPIRATION_DATE]
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pub   ENCRYPTION_METHOD/KEY_ID CREATION_DATE <span style="color:#f92672">[</span>ABILITIES<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>EXPIRATION_DATE<span style="color:#f92672">]</span>
       KEY_FINGERPRINT
-uid                 [TRUST_LEVEL] FULL_NAME &lt;EMAIL&gt; COMMENT
-sub   ENCRYPTION_METHOD/KEY_ID CREATION_DATE [ABILITIES] [EXPIRATION_DATE]
-</code></pre>
-
-<p>The first column defines the type of entry.</p>
-
+uid                 <span style="color:#f92672">[</span>TRUST_LEVEL<span style="color:#f92672">]</span> FULL_NAME &lt;EMAIL&gt; COMMENT
+sub   ENCRYPTION_METHOD/KEY_ID CREATION_DATE <span style="color:#f92672">[</span>ABILITIES<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>EXPIRATION_DATE<span style="color:#f92672">]</span>
+</code></pre></div><p>The first column defines the type of entry.</p>
 <ul>
 <li>pub: a public key</li>
 <li>uid: a user ID</li>
@@ -269,216 +225,179 @@ sub   ENCRYPTION_METHOD/KEY_ID CREATION_DATE [ABILITIES] [EXPIRATION_DATE]
 <li>sec: a secret key</li>
 <li>ssb: a secret subkey</li>
 </ul>
-
 <p>Keys have abilities which define what they can do.
 These abilities, noted within <code>[]</code> brackets, are as follows:</p>
-
 <ul>
 <li>C: Certify, or the ability to trust other keys.</li>
 <li>S: Sign, or the ability to state that the key created or approves of the signed data.</li>
 <li>E: Encrypt, or the ability to transform some information into an encoded form.</li>
 <li>A: Authenticate, or the ability to be used instead of a password.</li>
 </ul>
-
 <p>Now, let&rsquo;s start by taking a look at what public keys my keyring has (passing the &ldquo;<code>--keyid-format long</code>&rdquo; flag prints out the key IDs as well):</p>
-
-<pre><code class="language-bash">$ gpg -k --keyid-format long
-
-/Users/tanner/.gnupg/pubring.gpg
---------------------------------
-pub   rsa4096/4D2701F13EDE5839 2018-04-02 [SC]
-      6F291BE625AF2FF8E2E207514D2701F13EDE5839
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-sub   rsa4096/D437EEC879CD75B6 2018-04-02 [E]
-
-pub   rsa4096/067D98D9C5F1ED56 2018-04-02 [SC] [expires: 2034-03-29]
-      61732CF1F6E9D36AF37E2D6B067D98D9C5F1ED56
-uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-sub   rsa4096/E887D573CA2F0ABE 2018-04-02 [E] [expires: 2034-03-29]
-
-pub   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
-      AA86BF07B16AF7D371AFB129D9839DD152BBC30E
-uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
-sub   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
-</code></pre>
-
-<p>Let&rsquo;s also look at the private ones as well:</p>
-
-<pre><code class="language-bash">$ gpg -K --keyid-format long
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -k --keyid-format long
 
 /Users/tanner/.gnupg/pubring.gpg
 --------------------------------
-sec   rsa4096/4D2701F13EDE5839 2018-04-02 [SC]
+pub   rsa4096/4D2701F13EDE5839 2018-04-02 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
       6F291BE625AF2FF8E2E207514D2701F13EDE5839
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-ssb   rsa4096/D437EEC879CD75B6 2018-04-02 [E]
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+sub   rsa4096/D437EEC879CD75B6 2018-04-02 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span>
 
-sec   rsa4096/067D98D9C5F1ED56 2018-04-02 [SC] [expires: 2034-03-29]
+pub   rsa4096/067D98D9C5F1ED56 2018-04-02 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2034-03-29<span style="color:#f92672">]</span>
       61732CF1F6E9D36AF37E2D6B067D98D9C5F1ED56
-uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-ssb   rsa4096/E887D573CA2F0ABE 2018-04-02 [E] [expires: 2034-03-29]
+uid                 <span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+sub   rsa4096/E887D573CA2F0ABE 2018-04-02 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2034-03-29<span style="color:#f92672">]</span>
 
-sec   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+pub   rsa4096/D9839DD152BBC30E 2018-05-16 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
       AA86BF07B16AF7D371AFB129D9839DD152BBC30E
-uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
-ssb   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
-</code></pre>
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tlake@us.imshealth.com&gt;
+sub   rsa4096/D6F32208FCD344C8 2018-05-16 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span>
+</code></pre></div><p>Let&rsquo;s also look at the private ones as well:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -K --keyid-format long
 
-<p>The first key is the one that I don&rsquo;t remember the reason for its creation, the second key is the one I had created to sign GitHub commits, and the third key is my workplace key.
+/Users/tanner/.gnupg/pubring.gpg
+--------------------------------
+sec   rsa4096/4D2701F13EDE5839 2018-04-02 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
+      6F291BE625AF2FF8E2E207514D2701F13EDE5839
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/D437EEC879CD75B6 2018-04-02 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span>
+
+sec   rsa4096/067D98D9C5F1ED56 2018-04-02 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2034-03-29<span style="color:#f92672">]</span>
+      61732CF1F6E9D36AF37E2D6B067D98D9C5F1ED56
+uid                 <span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/E887D573CA2F0ABE 2018-04-02 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2034-03-29<span style="color:#f92672">]</span>
+
+sec   rsa4096/D9839DD152BBC30E 2018-05-16 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
+      AA86BF07B16AF7D371AFB129D9839DD152BBC30E
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tlake@us.imshealth.com&gt;
+ssb   rsa4096/D6F32208FCD344C8 2018-05-16 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span>
+</code></pre></div><p>The first key is the one that I don&rsquo;t remember the reason for its creation, the second key is the one I had created to sign GitHub commits, and the third key is my workplace key.
 None of these are the key that exists on Keybase, so I&rsquo;ll need to grab that next.</p>
-
-<h2 id="import-the-old-key-from-keybase">- import the old key from keybase</h2>
-
+<h2 id="--import-the-old-key-from-keybase">- import the old key from keybase</h2>
 <p>Import the public key:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ keybase pgp export | gpg --import
+gpg: key 54B8519A0C437FEA: public key <span style="color:#e6db74">&#34;Tanner Lake &lt;tanner.lake@gmail.com&gt;&#34;</span> imported
+gpg: Total number processed: <span style="color:#ae81ff">1</span>
+gpg:               imported: <span style="color:#ae81ff">1</span>
+</code></pre></div><p>And import the private key:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ keybase pgp export -s | gpg --import --allow-secret-key
 
-<pre><code class="language-bash">$ keybase pgp export | gpg --import
-gpg: key 54B8519A0C437FEA: public key &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot; imported
-gpg: Total number processed: 1
-gpg:               imported: 1
-</code></pre>
-
-<p>And import the private key:</p>
-
-<pre><code class="language-bash">$ keybase pgp export -s | gpg --import --allow-secret-key
-
-gpg: key 54B8519A0C437FEA: &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot; 1 new signature
+gpg: key 54B8519A0C437FEA: <span style="color:#e6db74">&#34;Tanner Lake &lt;tanner.lake@gmail.com&gt;&#34;</span> <span style="color:#ae81ff">1</span> new signature
 gpg: key 54B8519A0C437FEA: secret key imported
-gpg: Total number processed: 1
-gpg:         new signatures: 1
-gpg:       secret keys read: 1
-gpg:   secret keys imported: 1
-</code></pre>
+gpg: Total number processed: <span style="color:#ae81ff">1</span>
+gpg:         new signatures: <span style="color:#ae81ff">1</span>
+gpg:       secret keys read: <span style="color:#ae81ff">1</span>
+gpg:   secret keys imported: <span style="color:#ae81ff">1</span>
+</code></pre></div><p>Now let&rsquo;s take a look at that new key, and confirm that both the public and private keys were imported:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -k --keyid_format long 54B8519A0C437FEA
 
-<p>Now let&rsquo;s take a look at that new key, and confirm that both the public and private keys were imported:</p>
-
-<pre><code class="language-bash">$ gpg -k --keyid_format long 54B8519A0C437FEA
-
-pub   rsa4096/54B8519A0C437FEA 2016-11-11 [SC]
+pub   rsa4096/54B8519A0C437FEA 2016-11-11 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
       EAC03C08A76EA0F91ECD650254B8519A0C437FEA
-uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-uid                 [ unknown] keybase.io/tlake &lt;tlake@keybase.io&gt;
-sub   rsa2048/6C444A94152F77FC 2016-11-11 [E] [expires: 2024-11-09]
-sub   rsa2048/6227D98814ACA2F0 2016-11-11 [SA] [expires: 2024-11-09]
-</code></pre>
+uid                 <span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+uid                 <span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+sub   rsa2048/6C444A94152F77FC 2016-11-11 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-11-09<span style="color:#f92672">]</span>
+sub   rsa2048/6227D98814ACA2F0 2016-11-11 <span style="color:#f92672">[</span>SA<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-11-09<span style="color:#f92672">]</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -K --keyid_format long 54B8519A0C437FEA
 
-<pre><code class="language-bash">$ gpg -K --keyid_format long 54B8519A0C437FEA
-
-sec   rsa4096/54B8519A0C437FEA 2016-11-11 [SC]
+sec   rsa4096/54B8519A0C437FEA 2016-11-11 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
       EAC03C08A76EA0F91ECD650254B8519A0C437FEA
-uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-uid                 [ unknown] keybase.io/tlake &lt;tlake@keybase.io&gt;
-ssb   rsa2048/6C444A94152F77FC 2016-11-11 [E] [expires: 2024-11-09]
-ssb   rsa2048/6227D98814ACA2F0 2016-11-11 [SA] [expires: 2024-11-09]
-</code></pre>
-
-<h2 id="generate-a-new-master-key">- generate a new master key</h2>
-
+uid                 <span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+uid                 <span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+ssb   rsa2048/6C444A94152F77FC 2016-11-11 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-11-09<span style="color:#f92672">]</span>
+ssb   rsa2048/6227D98814ACA2F0 2016-11-11 <span style="color:#f92672">[</span>SA<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-11-09<span style="color:#f92672">]</span>
+</code></pre></div><h2 id="--generate-a-new-master-key">- generate a new master key</h2>
 <p>This <code>--full-gen-key</code> flag will enter me into an interactive prompt, and <code>--expert</code> exposes otherwise-hidden options.
 I want to use the RSA algorithm and set my own capabilities, so that&rsquo;s the option I&rsquo;ll choose.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg --expert --full-gen-key
 
-<pre><code class="language-bash">$ gpg --expert --full-gen-key
-
-gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
+gpg <span style="color:#f92672">(</span>GnuPG<span style="color:#f92672">)</span> 2.2.13; Copyright <span style="color:#f92672">(</span>C<span style="color:#f92672">)</span> <span style="color:#ae81ff">2019</span> Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
-Please select what kind of key you want:
-   (1) RSA and RSA (default)
-   (2) DSA and Elgamal
-   (3) DSA (sign only)
-   (4) RSA (sign only)
-   (7) DSA (set your own capabilities)
-   (8) RSA (set your own capabilities)
-   (9) ECC and ECC
-  (10) ECC (sign only)
-  (11) ECC (set your own capabilities)
-  (13) Existing key
-Your selection? 8
-</code></pre>
-
-<p>For this master key, I only want it to have certification abilities; the other actions will be assigned their own subkeys.</p>
-
-<pre><code class="language-bash">Possible actions for a RSA key: Sign Certify Encrypt Authenticate
+Please <span style="color:#66d9ef">select</span> what kind of key you want:
+   <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span> RSA and RSA <span style="color:#f92672">(</span>default<span style="color:#f92672">)</span>
+   <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span> DSA and Elgamal
+   <span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> DSA <span style="color:#f92672">(</span>sign only<span style="color:#f92672">)</span>
+   <span style="color:#f92672">(</span>4<span style="color:#f92672">)</span> RSA <span style="color:#f92672">(</span>sign only<span style="color:#f92672">)</span>
+   <span style="color:#f92672">(</span>7<span style="color:#f92672">)</span> DSA <span style="color:#f92672">(</span>set your own capabilities<span style="color:#f92672">)</span>
+   <span style="color:#f92672">(</span>8<span style="color:#f92672">)</span> RSA <span style="color:#f92672">(</span>set your own capabilities<span style="color:#f92672">)</span>
+   <span style="color:#f92672">(</span>9<span style="color:#f92672">)</span> ECC and ECC
+  <span style="color:#f92672">(</span>10<span style="color:#f92672">)</span> ECC <span style="color:#f92672">(</span>sign only<span style="color:#f92672">)</span>
+  <span style="color:#f92672">(</span>11<span style="color:#f92672">)</span> ECC <span style="color:#f92672">(</span>set your own capabilities<span style="color:#f92672">)</span>
+  <span style="color:#f92672">(</span>13<span style="color:#f92672">)</span> Existing key
+Your selection? <span style="color:#ae81ff">8</span>
+</code></pre></div><p>For this master key, I only want it to have certification abilities; the other actions will be assigned their own subkeys.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Possible actions <span style="color:#66d9ef">for</span> a RSA key: Sign Certify Encrypt Authenticate
 Current allowed actions: Sign Certify Encrypt
 
-   (S) Toggle the sign capability
-   (E) Toggle the encrypt capability
-   (A) Toggle the authenticate capability
-   (Q) Finished
+   <span style="color:#f92672">(</span>S<span style="color:#f92672">)</span> Toggle the sign capability
+   <span style="color:#f92672">(</span>E<span style="color:#f92672">)</span> Toggle the encrypt capability
+   <span style="color:#f92672">(</span>A<span style="color:#f92672">)</span> Toggle the authenticate capability
+   <span style="color:#f92672">(</span>Q<span style="color:#f92672">)</span> Finished
 
 Your selection? s
 
-Possible actions for a RSA key: Sign Certify Encrypt Authenticate
+Possible actions <span style="color:#66d9ef">for</span> a RSA key: Sign Certify Encrypt Authenticate
 Current allowed actions: Certify Encrypt
 
-   (S) Toggle the sign capability
-   (E) Toggle the encrypt capability
-   (A) Toggle the authenticate capability
-   (Q) Finished
+   <span style="color:#f92672">(</span>S<span style="color:#f92672">)</span> Toggle the sign capability
+   <span style="color:#f92672">(</span>E<span style="color:#f92672">)</span> Toggle the encrypt capability
+   <span style="color:#f92672">(</span>A<span style="color:#f92672">)</span> Toggle the authenticate capability
+   <span style="color:#f92672">(</span>Q<span style="color:#f92672">)</span> Finished
 
 Your selection? e
 
-Possible actions for a RSA key: Sign Certify Encrypt Authenticate
+Possible actions <span style="color:#66d9ef">for</span> a RSA key: Sign Certify Encrypt Authenticate
 Current allowed actions: Certify
 
-   (S) Toggle the sign capability
-   (E) Toggle the encrypt capability
-   (A) Toggle the authenticate capability
-   (Q) Finished
+   <span style="color:#f92672">(</span>S<span style="color:#f92672">)</span> Toggle the sign capability
+   <span style="color:#f92672">(</span>E<span style="color:#f92672">)</span> Toggle the encrypt capability
+   <span style="color:#f92672">(</span>A<span style="color:#f92672">)</span> Toggle the authenticate capability
+   <span style="color:#f92672">(</span>Q<span style="color:#f92672">)</span> Finished
 
 Your selection? q
-</code></pre>
-
-<p>Set the keysize and expiration.</p>
-
-<pre><code class="language-bash">RSA keys may be between 1024 and 4096 bits long.
-What keysize do you want? (2048) 4096
-Requested keysize is 4096 bits
+</code></pre></div><p>Set the keysize and expiration.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">RSA keys may be between <span style="color:#ae81ff">1024</span> and <span style="color:#ae81ff">4096</span> bits long.
+What keysize <span style="color:#66d9ef">do</span> you want? <span style="color:#f92672">(</span>2048<span style="color:#f92672">)</span> <span style="color:#ae81ff">4096</span>
+Requested keysize is <span style="color:#ae81ff">4096</span> bits
 Please specify how long the key should be valid.
-         0 = key does not expire
-      &lt;n&gt;  = key expires in n days
-      &lt;n&gt;w = key expires in n weeks
-      &lt;n&gt;m = key expires in n months
-      &lt;n&gt;y = key expires in n years
-Key is valid for? (0) 10y
-Key expires at Fri Apr 20 13:19:45 2029 PDT
-Is this correct? (y/N) y
-</code></pre>
-
-<p>Supply a name, an email, and an optional comment, and then the key will be created.</p>
-
-<pre><code class="language-bash">GnuPG needs to construct a user ID to identify your key.
+         0 <span style="color:#f92672">=</span> key does not expire
+      &lt;n&gt;  <span style="color:#f92672">=</span> key expires in n days
+      &lt;n&gt;w <span style="color:#f92672">=</span> key expires in n weeks
+      &lt;n&gt;m <span style="color:#f92672">=</span> key expires in n months
+      &lt;n&gt;y <span style="color:#f92672">=</span> key expires in n years
+Key is valid <span style="color:#66d9ef">for</span>? <span style="color:#f92672">(</span>0<span style="color:#f92672">)</span> 10y
+Key expires at Fri Apr <span style="color:#ae81ff">20</span> 13:19:45 <span style="color:#ae81ff">2029</span> PDT
+Is this correct? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+</code></pre></div><p>Supply a name, an email, and an optional comment, and then the key will be created.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">GnuPG needs to construct a user ID to identify your key.
 
 Real name: Tanner Lake
 Email address: tanner.lake@gmail.com
 Comment:
 You selected this USER-ID:
-    &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot;
+    <span style="color:#e6db74">&#34;Tanner Lake &lt;tanner.lake@gmail.com&gt;&#34;</span>
 
-Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
+Change <span style="color:#f92672">(</span>N<span style="color:#f92672">)</span>ame, <span style="color:#f92672">(</span>C<span style="color:#f92672">)</span>omment, <span style="color:#f92672">(</span>E<span style="color:#f92672">)</span>mail or <span style="color:#f92672">(</span>O<span style="color:#f92672">)</span>kay/<span style="color:#f92672">(</span>Q<span style="color:#f92672">)</span>uit? O
 We need to generate a lot of random bytes. It is a good idea to perform
-some other action (type on the keyboard, move the mouse, utilize the
-disks) during the prime generation; this gives the random number
+some other action <span style="color:#f92672">(</span>type on the keyboard, move the mouse, utilize the
+disks<span style="color:#f92672">)</span> during the prime generation; this gives the random number
 generator a better chance to gain enough entropy.
 gpg: key E3D3AB877ED44CED marked as ultimately trusted
-gpg: revocation certificate stored as '/Users/tanner/.gnupg/openpgp-revocs.d/4069A137076EF02F8D4BEA3BE3D3AB877ED44CED.rev'
+gpg: revocation certificate stored as <span style="color:#e6db74">&#39;/Users/tanner/.gnupg/openpgp-revocs.d/4069A137076EF02F8D4BEA3BE3D3AB877ED44CED.rev&#39;</span>
 public and secret key created and signed.
 
-pub   rsa4096 2019-04-23 [C] [expires: 2029-04-20]
+pub   rsa4096 2019-04-23 <span style="color:#f92672">[</span>C<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2029-04-20<span style="color:#f92672">]</span>
       4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
 uid                      Tanner Lake &lt;tanner.lake@gmail.com&gt;
-</code></pre>
-
-<p>That&rsquo;s the master key created, but it&rsquo;s not yet complete.
+</code></pre></div><p>That&rsquo;s the master key created, but it&rsquo;s not yet complete.
 I still want to add my keybase UID, and I still need to add the other subkeys.</p>
-
 <p>Enter the <code>--edit-key</code> flag.
 I could supply a key&rsquo;s UID, fingerprint, or key ID to target a key.
 I&rsquo;ll use the key ID (E3D3AB877ED44CED), given in the output just above where the key was marked as ultimately trusted.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg --expert --edit-key E3D3AB877ED44CED
 
-<pre><code class="language-bash">$ gpg --expert --edit-key E3D3AB877ED44CED
-
-gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
+gpg <span style="color:#f92672">(</span>GnuPG<span style="color:#f92672">)</span> 2.2.13; Copyright <span style="color:#f92672">(</span>C<span style="color:#f92672">)</span> <span style="color:#ae81ff">2019</span> Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
@@ -487,84 +406,74 @@ Secret key is available.
 sec  rsa4096/E3D3AB877ED44CED
      created: 2019-04-23  expires: 2029-04-20  usage: C
      trust: ultimate      validity: ultimate
-[ultimate] (1). Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>. Tanner Lake &lt;tanner.lake@gmail.com&gt;
 
 gpg&gt;
-</code></pre>
-
-<p>I&rsquo;ll start by adding and trusting my Keybase UID.</p>
-
-<pre><code class="language-bash">gpg&gt; adduid
+</code></pre></div><p>I&rsquo;ll start by adding and trusting my Keybase UID.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gpg&gt; adduid
 Real name: keybase.io/tlake
 Email address: tlake@keybase.io
 Comment:
 You selected this USER-ID:
-    &quot;keybase.io/tlake &lt;tlake@keybase.io&gt;&quot;
+    <span style="color:#e6db74">&#34;keybase.io/tlake &lt;tlake@keybase.io&gt;&#34;</span>
 
-Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? o
-
-sec  rsa4096/E3D3AB877ED44CED
-     created: 2019-04-23  expires: 2029-04-20  usage: C
-     trust: ultimate      validity: ultimate
-[ultimate] (1)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
-[ unknown] (2). keybase.io/tlake &lt;tlake@keybase.io&gt;
-
-gpg&gt; uid 2
+Change <span style="color:#f92672">(</span>N<span style="color:#f92672">)</span>ame, <span style="color:#f92672">(</span>C<span style="color:#f92672">)</span>omment, <span style="color:#f92672">(</span>E<span style="color:#f92672">)</span>mail or <span style="color:#f92672">(</span>O<span style="color:#f92672">)</span>kay/<span style="color:#f92672">(</span>Q<span style="color:#f92672">)</span>uit? o
 
 sec  rsa4096/E3D3AB877ED44CED
      created: 2019-04-23  expires: 2029-04-20  usage: C
      trust: ultimate      validity: ultimate
-[ultimate] (1)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
-[ unknown] (2)* keybase.io/tlake &lt;tlake@keybase.io&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>. keybase.io/tlake &lt;tlake@keybase.io&gt;
+
+gpg&gt; uid <span style="color:#ae81ff">2</span>
+
+sec  rsa4096/E3D3AB877ED44CED
+     created: 2019-04-23  expires: 2029-04-20  usage: C
+     trust: ultimate      validity: ultimate
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>* keybase.io/tlake &lt;tlake@keybase.io&gt;
 
 gpg&gt; trust
 sec  rsa4096/E3D3AB877ED44CED
      created: 2019-04-23  expires: 2029-04-20  usage: C
      trust: ultimate      validity: ultimate
-[ultimate] (1)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
-[ unknown] (2)* keybase.io/tlake &lt;tlake@keybase.io&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>* keybase.io/tlake &lt;tlake@keybase.io&gt;
 
-Please decide how far you trust this user to correctly verify other users' keys
-(by looking at passports, checking fingerprints from different sources, etc.)
+Please decide how far you trust this user to correctly verify other users<span style="color:#e6db74">&#39; keys
+</span><span style="color:#e6db74">(by looking at passports, checking fingerprints from different sources, etc.)
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">  1 = I don&#39;</span>t know or won<span style="color:#960050;background-color:#1e0010">&#39;</span>t say
+  2 <span style="color:#f92672">=</span> I <span style="color:#66d9ef">do</span> NOT trust
+  3 <span style="color:#f92672">=</span> I trust marginally
+  4 <span style="color:#f92672">=</span> I trust fully
+  5 <span style="color:#f92672">=</span> I trust ultimately
+  m <span style="color:#f92672">=</span> back to the main menu
 
-  1 = I don't know or won't say
-  2 = I do NOT trust
-  3 = I trust marginally
-  4 = I trust fully
-  5 = I trust ultimately
-  m = back to the main menu
-
-Your decision? 5
-Do you really want to set this key to ultimate trust? (y/N) y
+Your decision? <span style="color:#ae81ff">5</span>
+Do you really want to set this key to ultimate trust? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
 
 sec  rsa4096/E3D3AB877ED44CED
      created: 2019-04-23  expires: 2029-04-20  usage: C
      trust: ultimate      validity: ultimate
-[ultimate] (1)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
-[ unknown] (2)* keybase.io/tlake &lt;tlake@keybase.io&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>* keybase.io/tlake &lt;tlake@keybase.io&gt;
 
 gpg&gt; save
-</code></pre>
+</code></pre></div><p>If I look at the key again, I&rsquo;ll see that both UIDs are trusted.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -k --keyid-format long E3D3AB877ED44CED
 
-<p>If I look at the key again, I&rsquo;ll see that both UIDs are trusted.</p>
-
-<pre><code class="language-bash">$ gpg -k --keyid-format long E3D3AB877ED44CED
-
-pub   rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+pub   rsa4096/E3D3AB877ED44CED 2019-04-23 <span style="color:#f92672">[</span>C<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2029-04-20<span style="color:#f92672">]</span>
       4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
-uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-</code></pre>
-
-<p>Next, I need to create three subkeys using the <code>addkey</code> gpg command.
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+</code></pre></div><p>Next, I need to create three subkeys using the <code>addkey</code> gpg command.
 When prompted for the kind of key I want, again I choose option 8, which is RSA + set capabilities.
 Each subkey will have one of the actions associated with it, and will have an expiration of 5 years.</p>
-
 <p>When all subkeys have been generated, exit with <code>save</code> again.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg --expert --edit-key E3D3AB877ED44CED
 
-<pre><code class="language-bash">$ gpg --expert --edit-key E3D3AB877ED44CED
-
-gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
+gpg <span style="color:#f92672">(</span>GnuPG<span style="color:#f92672">)</span> 2.2.13; Copyright <span style="color:#f92672">(</span>C<span style="color:#f92672">)</span> <span style="color:#ae81ff">2019</span> Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
@@ -573,8 +482,8 @@ Secret key is available.
 sec  rsa4096/E3D3AB877ED44CED
      created: 2019-04-23  expires: 2029-04-20  usage: C
      trust: ultimate      validity: ultimate
-[ultimate] (1). keybase.io/tlake &lt;tlake@keybase.io&gt;
-[ultimate] (2)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>. keybase.io/tlake &lt;tlake@keybase.io&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>  Tanner Lake &lt;tanner.lake@gmail.com&gt;
 
 gpg&gt; addkey
 
@@ -589,23 +498,18 @@ ssb  rsa4096/1010346AB8850E6D
      created: 2019-04-23  expires: 2024-04-21  usage: E
 ssb  rsa4096/D3C910B1DE464464
      created: 2019-04-23  expires: 2024-04-21  usage: A
-[ultimate] (1). keybase.io/tlake &lt;tlake@keybase.io&gt;
-[ultimate] (2)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>. keybase.io/tlake &lt;tlake@keybase.io&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>  Tanner Lake &lt;tanner.lake@gmail.com&gt;
 
 gpg&gt; save
-</code></pre>
-
-<h2 id="cross-sign-the-old-and-new-keys">- cross-sign the old and new keys</h2>
-
+</code></pre></div><h2 id="--cross-sign-the-old-and-new-keys">- cross-sign the old and new keys</h2>
 <p>As noted by sungo, to maintain the web of trust I need to first sign the new key with the old key, and then sign the old key with the new key.
 Note my key IDs:</p>
-
 <ul>
 <li>Old Key ID: <code>54B8519A0C437FEA</code></li>
 <li>New Key ID: <code>E3D3AB877ED44CED</code></li>
 </ul>
-
-<pre><code class="language-bash">$ gpg --default-key 54B8519A0C437FEA --sign-key E3D3AB877ED44CED
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg --default-key 54B8519A0C437FEA --sign-key E3D3AB877ED44CED
 
 sec  rsa4096/E3D3AB877ED44CED
      created: 2019-04-23  expires: 2029-04-20  usage: C
@@ -616,32 +520,30 @@ ssb  rsa4096/1010346AB8850E6D
      created: 2019-04-23  expires: 2024-04-21  usage: E
 ssb  rsa4096/D3C910B1DE464464
      created: 2019-04-23  expires: 2024-04-21  usage: A
-[ultimate] (1). keybase.io/tlake &lt;tlake@keybase.io&gt;
-[ultimate] (2)  Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>. keybase.io/tlake &lt;tlake@keybase.io&gt;
+<span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>  Tanner Lake &lt;tanner.lake@gmail.com&gt;
 
-Really sign all user IDs? (y/N) y
-gpg: using &quot;54B8519A0C437FEA&quot; as default secret key for signing
+Really sign all user IDs? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+gpg: using <span style="color:#e6db74">&#34;54B8519A0C437FEA&#34;</span> as default secret key <span style="color:#66d9ef">for</span> signing
 
 sec  rsa4096/E3D3AB877ED44CED
      created: 2019-04-23  expires: 2029-04-20  usage: C
      trust: ultimate      validity: ultimate
- Primary key fingerprint: 4069 A137 076E F02F 8D4B  EA3B E3D3 AB87 7ED4 4CED
+ Primary key fingerprint: <span style="color:#ae81ff">4069</span> A137 076E F02F 8D4B  EA3B E3D3 AB87 7ED4 4CED
 
      keybase.io/tlake &lt;tlake@keybase.io&gt;
      Tanner Lake &lt;tanner.lake@gmail.com&gt;
 
 This key is due to expire on 2029-04-20.
 Are you sure that you want to sign this key with your
-key &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot; (54B8519A0C437FEA)
+key <span style="color:#e6db74">&#34;Tanner Lake &lt;tanner.lake@gmail.com&gt;&#34;</span> <span style="color:#f92672">(</span>54B8519A0C437FEA<span style="color:#f92672">)</span>
 
-Really sign? (y/N) y
-</code></pre>
-
-<pre><code class="language-bash">$ gpg --default-key E3D3AB877ED44CED --sign-key 54B8519A0C437FEA
+Really sign? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg --default-key E3D3AB877ED44CED --sign-key 54B8519A0C437FEA
 
 gpg: checking the trustdb
-gpg: marginals needed: 3  completes needed: 1  trust model: pgp
-gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: marginals needed: <span style="color:#ae81ff">3</span>  completes needed: <span style="color:#ae81ff">1</span>  trust model: pgp
+gpg: depth: <span style="color:#ae81ff">0</span>  valid:   <span style="color:#ae81ff">3</span>  signed:   <span style="color:#ae81ff">0</span>  trust: 0-, 0q, 0n, 0m, 0f, 3u
 gpg: next trustdb check due at 2029-04-20
 sec  rsa4096/54B8519A0C437FEA
      created: 2016-11-11  expires: never       usage: SC
@@ -650,197 +552,157 @@ ssb  rsa2048/6C444A94152F77FC
      created: 2016-11-11  expires: 2024-11-09  usage: E
 ssb  rsa2048/6227D98814ACA2F0
      created: 2016-11-11  expires: 2024-11-09  usage: SA
-[ unknown] (1). Tanner Lake &lt;tanner.lake@gmail.com&gt;
-[ unknown] (2)  keybase.io/tlake &lt;tlake@keybase.io&gt;
+<span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>. Tanner Lake &lt;tanner.lake@gmail.com&gt;
+<span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>  keybase.io/tlake &lt;tlake@keybase.io&gt;
 
-Really sign all user IDs? (y/N) y
-gpg: using &quot;E3D3AB877ED44CED&quot; as default secret key for signing
+Really sign all user IDs? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+gpg: using <span style="color:#e6db74">&#34;E3D3AB877ED44CED&#34;</span> as default secret key <span style="color:#66d9ef">for</span> signing
 
 sec  rsa4096/54B8519A0C437FEA
      created: 2016-11-11  expires: never       usage: SC
      trust: unknown       validity: unknown
- Primary key fingerprint: EAC0 3C08 A76E A0F9 1ECD  6502 54B8 519A 0C43 7FEA
+ Primary key fingerprint: EAC0 3C08 A76E A0F9 1ECD  <span style="color:#ae81ff">6502</span> 54B8 519A 0C43 7FEA
 
      Tanner Lake &lt;tanner.lake@gmail.com&gt;
      keybase.io/tlake &lt;tlake@keybase.io&gt;
 
 Are you sure that you want to sign this key with your
-key &quot;keybase.io/tlake &lt;tlake@keybase.io&gt;&quot; (E3D3AB877ED44CED)
+key <span style="color:#e6db74">&#34;keybase.io/tlake &lt;tlake@keybase.io&gt;&#34;</span> <span style="color:#f92672">(</span>E3D3AB877ED44CED<span style="color:#f92672">)</span>
 
-Really sign? (y/N) y
-</code></pre>
-
-<h2 id="secure-the-new-key">- secure the new key</h2>
-
+Really sign? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+</code></pre></div><h2 id="--secure-the-new-key">- secure the new key</h2>
 <p>I&rsquo;ve created an encrypted container on a USB device using VeraCrypt, and that&rsquo;s going to contain a backup of my personal key.
 In addition, that encrypted containter will be the <em>only</em> location of my private master key.</p>
-
 <p>I&rsquo;ll start by creating a revocation certificate for the key in case it ever becomes compromised, and saving it to a file called <code>revocation_cert</code>.</p>
-
-<pre><code class="language-bash">$ gpg -a --gen-revoke E3D3AB877ED44CED &gt; ./revocation_cert
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -a --gen-revoke E3D3AB877ED44CED &gt; ./revocation_cert
 
 sec  rsa4096/E3D3AB877ED44CED 2019-04-23 keybase.io/tlake &lt;tlake@keybase.io&gt;
 
-Create a revocation certificate for this key? (y/N) y
-Please select the reason for the revocation:
-  0 = No reason specified
-  1 = Key has been compromised
-  2 = Key is superseded
-  3 = Key is no longer used
-  Q = Cancel
-(Probably you want to select 1 here)
-Your decision? 1
+Create a revocation certificate <span style="color:#66d9ef">for</span> this key? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+Please <span style="color:#66d9ef">select</span> the reason <span style="color:#66d9ef">for</span> the revocation:
+  0 <span style="color:#f92672">=</span> No reason specified
+  1 <span style="color:#f92672">=</span> Key has been compromised
+  2 <span style="color:#f92672">=</span> Key is superseded
+  3 <span style="color:#f92672">=</span> Key is no longer used
+  Q <span style="color:#f92672">=</span> Cancel
+<span style="color:#f92672">(</span>Probably you want to <span style="color:#66d9ef">select</span> <span style="color:#ae81ff">1</span> here<span style="color:#f92672">)</span>
+Your decision? <span style="color:#ae81ff">1</span>
 Enter an optional description; end it with an empty line:
 &gt;
-Reason for revocation: Key has been compromised
-(No description given)
-Is this okay? (y/N) y
+Reason <span style="color:#66d9ef">for</span> revocation: Key has been compromised
+<span style="color:#f92672">(</span>No description given<span style="color:#f92672">)</span>
+Is this okay? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
 Revocation certificate created.
 
-Please move it to a medium which you can hide away; if Mallory gets
+Please move it to a medium which you can hide away; <span style="color:#66d9ef">if</span> Mallory gets
 access to this certificate he can use it to make your key unusable.
-It is smart to print this certificate and store it away, just in case
+It is smart to print this certificate and store it away, just in <span style="color:#66d9ef">case</span>
 your media become unreadable.  But have some caution:  The print system of
 your machine might store the data and make it available to others!
-</code></pre>
-
-<p>I&rsquo;m not sure who this Mallory character is, but fuck that person.</p>
-
+</code></pre></div><p>I&rsquo;m not sure who this Mallory character is, but fuck that person.</p>
 <p>Now, I&rsquo;ll create the backups of the private and public keys.</p>
-
-<pre><code class="language-bash">$ gpg -a --export E3D3AB877ED44CED &gt; ./public_key
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -a --export E3D3AB877ED44CED &gt; ./public_key
 
 $ gpg -a --export-secret-key E3D3AB877ED44CED &gt; ./secret_key
-</code></pre>
-
-<p>Finally, I want to remove the master private key (the one with certification abilities) from my machine, so that the only copy of it lives on that USB.
+</code></pre></div><p>Finally, I want to remove the master private key (the one with certification abilities) from my machine, so that the only copy of it lives on that USB.
 That&rsquo;s a three step process:</p>
+<h4 id="1-export-_just_-the-master-private-subkeys-to-a-file">1. Export <em>just</em> the master private subkeys to a file</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -a --export-secret-subkeys E3D3AB877ED44CED &gt; ./secret_subkeys
+</code></pre></div><h4 id="2-delete-_all_-the-master-private-keys-primary-and-sub-from-gpg">2. Delete <em>all</em> the master private keys (primary and sub) from GPG</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg --delete-secret-keys E3D3AB877ED44CED
 
-<h4 id="1-export-just-the-master-private-subkeys-to-a-file">1. Export <em>just</em> the master private subkeys to a file</h4>
-
-<pre><code class="language-bash">$ gpg -a --export-secret-subkeys E3D3AB877ED44CED &gt; ./secret_subkeys
-</code></pre>
-
-<h4 id="2-delete-all-the-master-private-keys-primary-and-sub-from-gpg">2. Delete <em>all</em> the master private keys (primary and sub) from GPG</h4>
-
-<pre><code class="language-bash">$ gpg --delete-secret-keys E3D3AB877ED44CED
-
-gpg (GnuPG) 2.2.13; Copyright (C) 2019 Free Software Foundation, Inc.
+gpg <span style="color:#f92672">(</span>GnuPG<span style="color:#f92672">)</span> 2.2.13; Copyright <span style="color:#f92672">(</span>C<span style="color:#f92672">)</span> <span style="color:#ae81ff">2019</span> Free Software Foundation, Inc.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
 
 sec  rsa4096/E3D3AB877ED44CED 2019-04-23 keybase.io/tlake &lt;tlake@keybase.io&gt;
 
-Delete this key from the keyring? (y/N) y
-This is a secret key! - really delete? (y/N) y
-</code></pre>
+Delete this key from the keyring? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+This is a secret key! - really delete? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+</code></pre></div><p>Confirmation:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -k --keyid-format long E3D3AB877ED44CED
 
-<p>Confirmation:</p>
-
-<pre><code class="language-bash">$ gpg -k --keyid-format long E3D3AB877ED44CED
-
-pub   rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+pub   rsa4096/E3D3AB877ED44CED 2019-04-23 <span style="color:#f92672">[</span>C<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2029-04-20<span style="color:#f92672">]</span>
       4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
-uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-sub   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
-sub   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
-sub   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+sub   rsa4096/1601789A6957B1FF 2019-04-23 <span style="color:#f92672">[</span>S<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+sub   rsa4096/1010346AB8850E6D 2019-04-23 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+sub   rsa4096/D3C910B1DE464464 2019-04-23 <span style="color:#f92672">[</span>A<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
 
 
 $ gpg -K --keyid-format long E3D3AB877ED44CED
 
 gpg: error reading key: No secret key
-</code></pre>
+</code></pre></div><h4 id="3-import-the-subkey-file">3. Import the subkey file</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg --import ./secret_subkeys
 
-<h4 id="3-import-the-subkey-file">3. Import the subkey file</h4>
-
-<pre><code class="language-bash">$ gpg --import ./secret_subkeys
-
-gpg: key E3D3AB877ED44CED: &quot;keybase.io/tlake &lt;tlake@keybase.io&gt;&quot; not changed
-gpg: To migrate 'secring.gpg', with each smartcard, run: gpg --card-status
+gpg: key E3D3AB877ED44CED: <span style="color:#e6db74">&#34;keybase.io/tlake &lt;tlake@keybase.io&gt;&#34;</span> not changed
+gpg: To migrate <span style="color:#e6db74">&#39;secring.gpg&#39;</span>, with each smartcard, run: gpg --card-status
 gpg: key E3D3AB877ED44CED: secret key imported
-gpg: Total number processed: 1
-gpg:              unchanged: 1
-gpg:       secret keys read: 1
-gpg:   secret keys imported: 1
-</code></pre>
+gpg: Total number processed: <span style="color:#ae81ff">1</span>
+gpg:              unchanged: <span style="color:#ae81ff">1</span>
+gpg:       secret keys read: <span style="color:#ae81ff">1</span>
+gpg:   secret keys imported: <span style="color:#ae81ff">1</span>
+</code></pre></div><p>Confirm that the master private subkeys have been imported, but that the master private primary key has not (the <code>#</code> after <code>sec</code> indicates that the key is missing):</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -K --keyid-format long E3D3AB877ED44CED
 
-<p>Confirm that the master private subkeys have been imported, but that the master private primary key has not (the <code>#</code> after <code>sec</code> indicates that the key is missing):</p>
-
-<pre><code class="language-bash">$ gpg -K --keyid-format long E3D3AB877ED44CED
-
-sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 <span style="color:#f92672">[</span>C<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2029-04-20<span style="color:#f92672">]</span>
       4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
-uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-ssb   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
-ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
-ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
-</code></pre>
-
-<p>I&rsquo;ll make sure those special files are encrypted in the USB container, then delete them from my machine.</p>
-
-<h2 id="obsolete-the-old-key">- obsolete the old key</h2>
-
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/1601789A6957B1FF 2019-04-23 <span style="color:#f92672">[</span>S<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+ssb   rsa4096/1010346AB8850E6D 2019-04-23 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+ssb   rsa4096/D3C910B1DE464464 2019-04-23 <span style="color:#f92672">[</span>A<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+</code></pre></div><p>I&rsquo;ll make sure those special files are encrypted in the USB container, then delete them from my machine.</p>
+<h2 id="--obsolete-the-old-key">- obsolete the old key</h2>
 <p>I&rsquo;ll note the keyid that the old key has been obsoleted in favor of.</p>
-
-<pre><code class="language-bash">$ gpg -a --gen-revoke 54B8519A0C437FEA &gt; ./revoke-oldkey
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -a --gen-revoke 54B8519A0C437FEA &gt; ./revoke-oldkey
 
 sec  rsa4096/54B8519A0C437FEA 2016-11-11 Tanner Lake &lt;tanner.lake@gmail.com&gt;
 
-Create a revocation certificate for this key? (y/N) y
-Please select the reason for the revocation:
-  0 = No reason specified
-  1 = Key has been compromised
-  2 = Key is superseded
-  3 = Key is no longer used
-  Q = Cancel
-(Probably you want to select 1 here)
-Your decision? 2
+Create a revocation certificate <span style="color:#66d9ef">for</span> this key? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
+Please <span style="color:#66d9ef">select</span> the reason <span style="color:#66d9ef">for</span> the revocation:
+  0 <span style="color:#f92672">=</span> No reason specified
+  1 <span style="color:#f92672">=</span> Key has been compromised
+  2 <span style="color:#f92672">=</span> Key is superseded
+  3 <span style="color:#f92672">=</span> Key is no longer used
+  Q <span style="color:#f92672">=</span> Cancel
+<span style="color:#f92672">(</span>Probably you want to <span style="color:#66d9ef">select</span> <span style="color:#ae81ff">1</span> here<span style="color:#f92672">)</span>
+Your decision? <span style="color:#ae81ff">2</span>
 Enter an optional description; end it with an empty line:
-&gt; superseded by keyid=E3D3AB877ED44CED
+&gt; superseded by keyid<span style="color:#f92672">=</span>E3D3AB877ED44CED
 &gt;
-Reason for revocation: Key is superseded
-superseded by keyid=E3D3AB877ED44CED
-Is this okay? (y/N) y
+Reason <span style="color:#66d9ef">for</span> revocation: Key is superseded
+superseded by keyid<span style="color:#f92672">=</span>E3D3AB877ED44CED
+Is this okay? <span style="color:#f92672">(</span>y/N<span style="color:#f92672">)</span> y
 Revocation certificate created.
 
-Please move it to a medium which you can hide away; if Mallory gets
+Please move it to a medium which you can hide away; <span style="color:#66d9ef">if</span> Mallory gets
 access to this certificate he can use it to make your key unusable.
-It is smart to print this certificate and store it away, just in case
+It is smart to print this certificate and store it away, just in <span style="color:#66d9ef">case</span>
 your media become unreadable.  But have some caution:  The print system of
 your machine might store the data and make it available to others!
-</code></pre>
+</code></pre></div><p>Import the revocation certificate to officially invalidate the old key.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg --import ./revoke-oldkey
 
-<p>Import the revocation certificate to officially invalidate the old key.</p>
-
-<pre><code class="language-bash">$ gpg --import ./revoke-oldkey
-
-gpg: key 54B8519A0C437FEA: &quot;Tanner Lake &lt;tanner.lake@gmail.com&gt;&quot; revocation certificate imported
-gpg: Total number processed: 1
-gpg:    new key revocations: 1
-gpg: marginals needed: 3  completes needed: 1  trust model: pgp
-gpg: depth: 0  valid:   3  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 3u
+gpg: key 54B8519A0C437FEA: <span style="color:#e6db74">&#34;Tanner Lake &lt;tanner.lake@gmail.com&gt;&#34;</span> revocation certificate imported
+gpg: Total number processed: <span style="color:#ae81ff">1</span>
+gpg:    new key revocations: <span style="color:#ae81ff">1</span>
+gpg: marginals needed: <span style="color:#ae81ff">3</span>  completes needed: <span style="color:#ae81ff">1</span>  trust model: pgp
+gpg: depth: <span style="color:#ae81ff">0</span>  valid:   <span style="color:#ae81ff">3</span>  signed:   <span style="color:#ae81ff">0</span>  trust: 0-, 0q, 0n, 0m, 0f, 3u
 gpg: next trustdb check due at 2029-04-20
-</code></pre>
+</code></pre></div><p>And confirm that it is so:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -k --keyid-format long 54B8519A0C437FEA
 
-<p>And confirm that it is so:</p>
-
-<pre><code class="language-bash">$ gpg -k --keyid-format long 54B8519A0C437FEA
-
-pub   rsa4096/54B8519A0C437FEA 2016-11-11 [SC] [revoked: 2019-04-23]
+pub   rsa4096/54B8519A0C437FEA 2016-11-11 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>revoked: 2019-04-23<span style="color:#f92672">]</span>
       EAC03C08A76EA0F91ECD650254B8519A0C437FEA
-uid                 [ revoked] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-uid                 [ revoked] keybase.io/tlake &lt;tlake@keybase.io&gt;
-</code></pre>
-
-<h2 id="update-keybase">- update keybase</h2>
-
+uid                 <span style="color:#f92672">[</span> revoked<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+uid                 <span style="color:#f92672">[</span> revoked<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+</code></pre></div><h2 id="--update-keybase">- update keybase</h2>
 <p>I&rsquo;ll add the new key to Keybase:</p>
-
-<pre><code class="language-bash">$ keybase pgp select --multi E3D3AB877ED44CED
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ keybase pgp <span style="color:#66d9ef">select</span> --multi E3D3AB877ED44CED
 
 You are selecting a PGP key from your local GnuPG keychain, and
 will publish a statement signed with this key to make it part of
@@ -850,168 +712,136 @@ Note that GnuPG will prompt you to perform this signature.
 
 You can also import the secret key to *local*, *encrypted* Keybase
 keyring, enabling decryption and signing with the Keybase client.
-To do that, use &quot;--import&quot; flag.
+To <span style="color:#66d9ef">do</span> that, use <span style="color:#e6db74">&#34;--import&#34;</span> flag.
 
-Learn more: keybase pgp help select
+Learn more: keybase pgp help <span style="color:#66d9ef">select</span>
 
-#    Algo    Key Id             Created   UserId
-=    ====    ======             =======   ======
-1    4096R   E3D3AB877ED44CED             keybase.io/tlake &lt;tlake@keybase.io&gt;, Tanner Lake &lt;tanner.lake@gmail.com&gt;
-Choose a key: 1
+<span style="color:#75715e">#    Algo    Key Id             Created   UserId</span>
+<span style="color:#f92672">=</span>    <span style="color:#f92672">====</span>    <span style="color:#f92672">======</span>             <span style="color:#f92672">=======</span>   <span style="color:#f92672">======</span>
+<span style="color:#ae81ff">1</span>    4096R   E3D3AB877ED44CED             keybase.io/tlake &lt;tlake@keybase.io&gt;, Tanner Lake &lt;tanner.lake@gmail.com&gt;
+Choose a key: <span style="color:#ae81ff">1</span>
 ▶ INFO Generated new PGP key:
 ▶ INFO   user: keybase.io/tlake &lt;tlake@keybase.io&gt;
 ▶ INFO   4096-bit RSA key, ID E3D3AB877ED44CED, created 2019-04-23
-</code></pre>
-
-<p>Then I&rsquo;ll use Keybase&rsquo;s UI to select the option to revoke the old key.
+</code></pre></div><p>Then I&rsquo;ll use Keybase&rsquo;s UI to select the option to revoke the old key.
 This opens a modal that contains the CLI command to run:</p>
-
-<pre><code class="language-bash">$ keybase pgp drop '0101c1f152a7c66c09ebec1121c4ee088b7422c8688ee875b1273e19dca8a7d066390a'
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ keybase pgp drop <span style="color:#e6db74">&#39;0101c1f152a7c66c09ebec1121c4ee088b7422c8688ee875b1273e19dca8a7d066390a&#39;</span>
 
 ▶ INFO Revoking KIDs:
 ▶ INFO   0101c1f152a7c66c09ebec1121c4ee088b7422c8688ee875b1273e19dca8a7d066390a
-</code></pre>
-
-<h2 id="update-github">- update github</h2>
-
+</code></pre></div><h2 id="--update-github">- update github</h2>
 <p>I removed all the GPG keys that were already associated with my account, then used GPG to export the ASCII-armor-formatted master public key to stdout.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -a --export E3D3AB877ED44CED
 
-<pre><code class="language-bash">$ gpg -a --export E3D3AB877ED44CED
+<span style="color:#75715e"># big public key output here</span>
+</code></pre></div><p>I copied that and pasted it into GitHub as a new GPG key, and then updated my <code>~/.gitconfig</code> file to sign commits using the key ID of the master key&rsquo;s signing subkey, which is the subkey with <code>[S]</code> in the list output.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -K --keyid-format long E3D3AB877ED44CED
 
-# big public key output here
-</code></pre>
-
-<p>I copied that and pasted it into GitHub as a new GPG key, and then updated my <code>~/.gitconfig</code> file to sign commits using the key ID of the master key&rsquo;s signing subkey, which is the subkey with <code>[S]</code> in the list output.</p>
-
-<pre><code class="language-bash">$ gpg -K --keyid-format long E3D3AB877ED44CED
-
-sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 <span style="color:#f92672">[</span>C<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2029-04-20<span style="color:#f92672">]</span>
       4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
-uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-ssb   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
-ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
-ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
-</code></pre>
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/1601789A6957B1FF 2019-04-23 <span style="color:#f92672">[</span>S<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+ssb   rsa4096/1010346AB8850E6D 2019-04-23 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+ssb   rsa4096/D3C910B1DE464464 2019-04-23 <span style="color:#f92672">[</span>A<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># ~/.gitconfig</span>
 
-<pre><code class="language-bash"># ~/.gitconfig
-
-[user]
-    name = Tanner Lake
-    email = tanner.lake@gmail.com
-    signingkey = 1601789A6957B1FF
-</code></pre>
-
-<p>In hindsight, I probably could/should have left all my previous GPG keys on GitHub, which would have <em>not</em> stripped all the &ldquo;Verified&rdquo; tags that had been previously made with other keys.
+<span style="color:#f92672">[</span>user<span style="color:#f92672">]</span>
+    name <span style="color:#f92672">=</span> Tanner Lake
+    email <span style="color:#f92672">=</span> tanner.lake@gmail.com
+    signingkey <span style="color:#f92672">=</span> 1601789A6957B1FF
+</code></pre></div><p>In hindsight, I probably could/should have left all my previous GPG keys on GitHub, which would have <em>not</em> stripped all the &ldquo;Verified&rdquo; tags that had been previously made with other keys.
 The lesson there, I guess, is that it&rsquo;s okay to keep revoked keys on GitHub just for history&rsquo;s sake; it&rsquo;s not like I&rsquo;d be signing more commits with a key once it&rsquo;s been revoked.</p>
-
 <p>Whatever.
 A little scorched earth never hurt anyone.</p>
-
 <h1 id="local-cleanup">local cleanup</h1>
-
 <p>Now it&rsquo;s time to remove all the remaining artifacts and trash - namely, the unnecessary keys.
 Secret keys need to be removed before the public keys can be removed.</p>
-
-<pre><code class="language-bash">$ gpg -K --keyid-format long
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -K --keyid-format long
 /Users/tanner/.gnupg/pubring.gpg
 --------------------------------
-sec   rsa4096/4D2701F13EDE5839 2018-04-02 [SC]
+sec   rsa4096/4D2701F13EDE5839 2018-04-02 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
       6F291BE625AF2FF8E2E207514D2701F13EDE5839
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-ssb   rsa4096/D437EEC879CD75B6 2018-04-02 [E]
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/D437EEC879CD75B6 2018-04-02 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span>
 
-sec   rsa4096/067D98D9C5F1ED56 2018-04-02 [SC] [expires: 2034-03-29]
+sec   rsa4096/067D98D9C5F1ED56 2018-04-02 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2034-03-29<span style="color:#f92672">]</span>
       61732CF1F6E9D36AF37E2D6B067D98D9C5F1ED56
-uid                 [ unknown] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-ssb   rsa4096/E887D573CA2F0ABE 2018-04-02 [E] [expires: 2034-03-29]
+uid                 <span style="color:#f92672">[</span> unknown<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/E887D573CA2F0ABE 2018-04-02 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2034-03-29<span style="color:#f92672">]</span>
 
-sec   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+sec   rsa4096/D9839DD152BBC30E 2018-05-16 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
       AA86BF07B16AF7D371AFB129D9839DD152BBC30E
-uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
-ssb   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tlake@us.imshealth.com&gt;
+ssb   rsa4096/D6F32208FCD344C8 2018-05-16 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span>
 
-sec   rsa4096/54B8519A0C437FEA 2016-11-11 [SC] [revoked: 2019-04-23]
+sec   rsa4096/54B8519A0C437FEA 2016-11-11 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>revoked: 2019-04-23<span style="color:#f92672">]</span>
       EAC03C08A76EA0F91ECD650254B8519A0C437FEA
-uid                 [ revoked] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-uid                 [ revoked] keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 <span style="color:#f92672">[</span> revoked<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+uid                 <span style="color:#f92672">[</span> revoked<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
 
-sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 <span style="color:#f92672">[</span>C<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2029-04-20<span style="color:#f92672">]</span>
       4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
-uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-ssb   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
-ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
-ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
-</code></pre>
-
-<p>These are the key IDs of the three keys that need to be deleted:</p>
-
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/1601789A6957B1FF 2019-04-23 <span style="color:#f92672">[</span>S<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+ssb   rsa4096/1010346AB8850E6D 2019-04-23 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+ssb   rsa4096/D3C910B1DE464464 2019-04-23 <span style="color:#f92672">[</span>A<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+</code></pre></div><p>These are the key IDs of the three keys that need to be deleted:</p>
 <ul>
 <li><code>4D2701F13EDE5839</code></li>
 <li><code>067D98D9C5F1ED56</code></li>
 <li><code>54B8519A0C437FEA</code></li>
 </ul>
-
-<pre><code class="language-bash">$ for keyid in 4D2701F13EDE5839 067D98D9C5F1ED56 54B8519A0C437FEA ; \
-	do gpg --delete-secret-key ${keyid} ; \
-	gpg --delete-key ${keyid} ; \
-done
-</code></pre>
-
-<pre><code class="language-bash">$ gpg -k --keyid-format long
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ <span style="color:#66d9ef">for</span> keyid in 4D2701F13EDE5839 067D98D9C5F1ED56 54B8519A0C437FEA ; <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>	<span style="color:#66d9ef">do</span> gpg --delete-secret-key <span style="color:#e6db74">${</span>keyid<span style="color:#e6db74">}</span> ; <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>	gpg --delete-key <span style="color:#e6db74">${</span>keyid<span style="color:#e6db74">}</span> ; <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span><span style="color:#66d9ef">done</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gpg -k --keyid-format long
 
 /Users/tanner/.gnupg/pubring.gpg
 --------------------------------
-pub   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+pub   rsa4096/D9839DD152BBC30E 2018-05-16 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
       AA86BF07B16AF7D371AFB129D9839DD152BBC30E
-uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
-sub   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tlake@us.imshealth.com&gt;
+sub   rsa4096/D6F32208FCD344C8 2018-05-16 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span>
 
-pub   rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+pub   rsa4096/E3D3AB877ED44CED 2019-04-23 <span style="color:#f92672">[</span>C<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2029-04-20<span style="color:#f92672">]</span>
       4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
-uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-sub   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
-sub   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
-sub   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+sub   rsa4096/1601789A6957B1FF 2019-04-23 <span style="color:#f92672">[</span>S<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+sub   rsa4096/1010346AB8850E6D 2019-04-23 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+sub   rsa4096/D3C910B1DE464464 2019-04-23 <span style="color:#f92672">[</span>A<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
 
 
 $ gpg -K --keyid-format long
 
 /Users/tanner/.gnupg/pubring.gpg
 --------------------------------
-sec   rsa4096/D9839DD152BBC30E 2018-05-16 [SC]
+sec   rsa4096/D9839DD152BBC30E 2018-05-16 <span style="color:#f92672">[</span>SC<span style="color:#f92672">]</span>
       AA86BF07B16AF7D371AFB129D9839DD152BBC30E
-uid                 [ultimate] Tanner Lake &lt;tlake@us.imshealth.com&gt;
-ssb   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tlake@us.imshealth.com&gt;
+ssb   rsa4096/D6F32208FCD344C8 2018-05-16 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span>
 
-sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 [C] [expires: 2029-04-20]
+sec#  rsa4096/E3D3AB877ED44CED 2019-04-23 <span style="color:#f92672">[</span>C<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2029-04-20<span style="color:#f92672">]</span>
       4069A137076EF02F8D4BEA3BE3D3AB877ED44CED
-uid                 [ultimate] keybase.io/tlake &lt;tlake@keybase.io&gt;
-uid                 [ultimate] Tanner Lake &lt;tanner.lake@gmail.com&gt;
-ssb   rsa4096/1601789A6957B1FF 2019-04-23 [S] [expires: 2024-04-21]
-ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
-ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
-</code></pre>
-
-<h1 id="and-that-s-that">and that&rsquo;s that!</h1>
-
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> keybase.io/tlake &lt;tlake@keybase.io&gt;
+uid                 <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span> Tanner Lake &lt;tanner.lake@gmail.com&gt;
+ssb   rsa4096/1601789A6957B1FF 2019-04-23 <span style="color:#f92672">[</span>S<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+ssb   rsa4096/1010346AB8850E6D 2019-04-23 <span style="color:#f92672">[</span>E<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+ssb   rsa4096/D3C910B1DE464464 2019-04-23 <span style="color:#f92672">[</span>A<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>expires: 2024-04-21<span style="color:#f92672">]</span>
+</code></pre></div><h1 id="and-thats-that">and that&rsquo;s that!</h1>
 <p>I&rsquo;m <a href="https://keybase.io/tlake">tlake</a> on Keybase, which should now be wrangled into something sane.
 It bothers me that my Keybase graph and history looks messy af with all these additions and revocations, but I guess pobody&rsquo;s nerfect, right?
 Life&rsquo;s about the journey or whatever.</p>
-
 <h1 id="helpful-resources">helpful resources</h1>
-
 <p>These first are the two that really helped me the most with understanding what I was doing and how the moving parts of keys and subkeys work together (fun fact, the second link is also linked to in the first link):</p>
-
 <ul>
 <li><a href="https://sungo.wtf/2016/11/23/gpg-strong-keys-rotation-and-keybase.html">a detailed but also top-level guide by sungo</a></li>
 <li><a href="https://spin.atomicobject.com/2013/11/24/secure-gpg-keys-guide/">a step-by-step how-to by Mike English</a></li>
 </ul>
-
 <p>The following links were still helpful, and although I came across them before the two above, they made better sense to me only after I&rsquo;d read through the first two:</p>
-
 <ul>
 <li><a href="https://www.integralist.co.uk/posts/security-basics/index.html">PGP security basics by Mark McDonnell</a></li>
 <li><a href="https://www.ahmadnassri.com/blog/github-gpg-keybase-pgp/index.html">Github GPG + Keybase PGP by Ahmad Nassri</a></li>
@@ -1043,7 +873,7 @@ Life&rsquo;s about the journey or whatever.</p>
 </ul>
 <div class="mt6">
         <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -1055,7 +885,7 @@ Life&rsquo;s about the journey or whatever.</p>
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "tlake.io" + '.disqus.com/embed.js';
+        s.src = '//' + "tlake-io" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
@@ -1068,32 +898,20 @@ Life&rsquo;s about the journey or whatever.</p>
     <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">What&#39;s in this blog</p>
       <nav id="TableOfContents">
-<ul>
-<li><a href="#the-start">the start</a></li>
-<li><a href="#the-goal">the goal</a></li>
-<li><a href="#the-process">the process</a>
-<ul>
-<li><a href="#take-stock">- take stock</a></li>
-<li><a href="#import-the-old-key-from-keybase">- import the old key from keybase</a></li>
-<li><a href="#generate-a-new-master-key">- generate a new master key</a></li>
-<li><a href="#cross-sign-the-old-and-new-keys">- cross-sign the old and new keys</a></li>
-<li><a href="#secure-the-new-key">- secure the new key</a>
-<ul>
-<li>
-<ul>
-<li><a href="#1-export-just-the-master-private-subkeys-to-a-file">1. Export <em>just</em> the master private subkeys to a file</a></li>
-<li><a href="#2-delete-all-the-master-private-keys-primary-and-sub-from-gpg">2. Delete <em>all</em> the master private keys (primary and sub) from GPG</a></li>
-<li><a href="#3-import-the-subkey-file">3. Import the subkey file</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#obsolete-the-old-key">- obsolete the old key</a></li>
-<li><a href="#update-keybase">- update keybase</a></li>
-<li><a href="#update-github">- update github</a></li>
-</ul></li>
-<li><a href="#local-cleanup">local cleanup</a></li>
-<li><a href="#and-that-s-that">and that&rsquo;s that!</a></li>
-<li><a href="#helpful-resources">helpful resources</a></li>
-</ul>
+  <ul>
+    <li><a href="#--take-stock">- take stock</a></li>
+    <li><a href="#--import-the-old-key-from-keybase">- import the old key from keybase</a></li>
+    <li><a href="#--generate-a-new-master-key">- generate a new master key</a></li>
+    <li><a href="#--cross-sign-the-old-and-new-keys">- cross-sign the old and new keys</a></li>
+    <li><a href="#--secure-the-new-key">- secure the new key</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#--obsolete-the-old-key">- obsolete the old key</a></li>
+    <li><a href="#--update-keybase">- update keybase</a></li>
+    <li><a href="#--update-github">- update github</a></li>
+  </ul>
 </nav>
   </div>
 
