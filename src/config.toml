@@ -7,7 +7,7 @@ enableGitInfo = true
 
 theme = "ananke"
 SectionPagesMenu = "main"
-disqusShortname = "tlake.io"
+disqusShortname = "tlake-io"
 
 [params]
     mainSections = ""
