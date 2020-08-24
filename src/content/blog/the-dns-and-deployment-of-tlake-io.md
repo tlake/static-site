@@ -1,7 +1,11 @@
 ---
 title: 'the dns and deployment of tlake.io'
 date: 2019-04-18T09:19:09-07:00
-tags: ['dns', 'github', 'github pages']
+tags: [
+    'dns',
+    'github',
+    'github pages',
+]
 ---
 
 ![parked on the bun](/images/parked-on-the-bun.png)
@@ -72,4 +76,3 @@ This combined with the previous `ALIAS` record convinced GitHub to stop complain
 
 And that's about it!
 It's not particularly difficult, but it's a tiny thing that was overlooked in the documentation, and my Google Fu didn't turn up the answer, so here we are.
-

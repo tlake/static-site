@@ -1,12 +1,12 @@
 ---
-title: "spring cleaning my digital identity"
+title: 'spring cleaning my digital identity'
 date: 2019-04-23T09:19:09-07:00
 tags: [
     'crypto',
     'keybase',
     'pgp',
     'gpg',
-	'github',
+    'github',
 ]
 toc: true
 ---
