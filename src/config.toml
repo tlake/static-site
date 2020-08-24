@@ -6,12 +6,14 @@ languageCode = "en-us"
 enableGitInfo = true
 
 theme = "ananke"
+DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 disqusShortname = "tlake-io"
 
 [params]
-    mainSections = ""
+    mainSections = []
     github = "https://github.com/tlake"
     gitlab = "https://gitlab.com/tannerlake"
     twitter = "https://twitter.com/tanotaur"
     linkedin = "https://linkedin.com/in/tannerlake"
+    custom_css = ["css/custom.css"]
