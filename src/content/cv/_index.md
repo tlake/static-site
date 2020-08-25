@@ -4,40 +4,41 @@ date: 2019-04-18T00:11:46-07:00
 layout: "terms"
 ---
 
-Tanner Lake
+## About
 
-Seattle, WA
-
+Tanner Lake  \
+Infrastructure-Side Software Engineer  \
+Seattle, WA  \
 [tanner.lake@gmail.com](mailto:tanner.lake@gmail.com)
 
-If you're looking for my resume, you can find it [here](/resume_tannerlake.pdf).
+If you're looking for my **resume**, you can find it [here](/resume_tannerlake.pdf).
 
-# Experience
+## Experience
 
-## IQVIA _(May 2016 - March 2020)_
+### IQVIA _(May 2016 - March 2020)_
 
-_Software and DevOps engineer_
+_Software and DevOps engineer._
 
 - Collaborated on creating and maintaining tools to streamline deployment.
 - Wrote Terraform modules and configurations.
 - Evangelized infrastructure-as-code and best practices.
 - Created, maintained, streamlined, and repaired CI/CD pipelines in both GitLab and GitHub.
 
-### Notable Projects
+#### Notable Projects
 
-#### AWS Cleanup Tools
+##### AWS Cleanup Tools
 
 - Authored Golang and Bash scripts to identify and terminate unnecessary AWS resources.
 - Composed tools into Helm charts and deployed them into our production EKS cluster to automate recurring cleanup runs.
 
-#### Terraform Enterprise
+##### Terraform Enterprise
 
 Deployed, maintained, and updated on-prem inter-office Terraform Enterprise installation.
 
 - Implemented Auth0-backed SSO.
 - Created Auth0 rules to auto-assign users to teams and organizations based on LDAP user data.
 
-#### Splunk on EKS
+##### Splunk on EKS
 
 A Terraform and kubectl configuration to deploy a production-ready Splunk cluster onto an existing EKS cluster.
 
@@ -46,7 +47,7 @@ A Terraform and kubectl configuration to deploy a production-ready Splunk cluste
 - Implemented Auth0-backed SSO.
 - Replaced local machine workflow with deployment to workspaces in Terraform Enterprise.
 
-#### Production EKS cluster
+##### Production EKS cluster
 
 A Terraform configuration to deploy a custom Kubernetes cluster on AWS EKS.
 
@@ -56,22 +57,22 @@ A Terraform configuration to deploy a custom Kubernetes cluster on AWS EKS.
 - Implemented "Terraform admin" setup to manage resources through an IAM role instead of AWS credentials directly.
 - Replaced local machine workflow with deployment to workspaces in Terraform Enterprise.
 
-#### Orca
+##### Orca
 
 A React + Go tool for managing Kubernetes RBAC permissions.
 
-Repository: https://github.com/quintilesims/orca
+Repository: <https://github.com/quintilesims/orca>
 
 - Assumed ownership of project and led design.
 - Implemented API client middleware with authorization header management.
 - Refactored as better practices were learned.
 - Wrote Jest + Enzyme test suite, set up pre-commit CI.
 
-#### Layer0
+##### Layer0
 
 A Go CLI tool for deploying Dockerized applications to AWS infrastructure.
 
-Repository: https://github.com/quintilesims/layer0
+Repository: <https://github.com/quintilesims/layer0>
 
 - Added stateless workflow via AWS Fargate.
 - Expanded system tests.
@@ -80,11 +81,11 @@ Repository: https://github.com/quintilesims/layer0
 - Wrote usage walkthroughs, updated documentation.
 - Automated release process through a GitHub machine user.
 
-#### d.ims.io
+##### d.ims.io
 
 A Go wrapper around AWS ECR with custom authentication.
 
-Repository: https://github.com/quintilesims/d.ims.io
+Repository: <https://github.com/quintilesims/d.ims.io>
 
 - Authored Auth0-backed authentication workflow with retry and exponential backoff logic.
 - Implemented `/images` API endpoint, including Swagger.
@@ -93,14 +94,14 @@ Repository: https://github.com/quintilesims/d.ims.io
 
 ### Code Fellows _(Feb - May 2016)_
 
-_Teaching assistant_
+_Teaching assistant._
 
 Evaluated student assignments and provided feedback and code review.
 Provided assistance and mentorship in person and remotely.
 
 ---
 
-# Education
+## Education
 
 Certificate, Full-Stack Python -- August 2015
 Code Fellows, Seattle WA
