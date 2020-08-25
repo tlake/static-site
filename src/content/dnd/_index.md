@@ -1,13 +1,14 @@
 ---
-title: "DnD"
+title: "D&D"
 date: 2020-08-22T09:19:09-07:00
-description: "summary posts of game sessions"
+description: "the sky is grey and tinged with regret"
 show_reading_time: true
 ---
 
-Currently, most of the game's historical record is not part of this collection; the early game's content is stuffed inside a postgres database, and the middle game was not recorded, but lately - since our game alternates dates to work around different schedules - I've been making an effort to document each session so that absent players can stay caught up.
+I've pulled the early game's records from the dusty confines of an old postgres database and (for now) that unintegrated information can be found in [the archives](archive).
 
-Maybe one day I'll drag the archival posts out of that db and create some backdated posts.
-Maybe I'll also create some content for The Betweentimes.
+The middle game was not recorded, but I have at least the major plot points of how we got to where we are in my head, and at least one of the players has taken some notes.
+
+Maybe I'll convert the big block of archives into backdated posts. Maybe I'll create some content for The Betweentimes.
 
 Maybe.
