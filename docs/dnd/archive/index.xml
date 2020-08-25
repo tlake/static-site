@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Archives on tlake.io</title>
+    <link>http://tlake.io/dnd/archive/</link>
+    <description>Recent content in The Archives on tlake.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 09:19:09 -0700</lastBuildDate>
+    
+	<atom:link href="http://tlake.io/dnd/archive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Archive; Awaiting Division</title>
+      <link>http://tlake.io/dnd/archive/archive/</link>
+      <pubDate>Fri, 03 Jun 2016 09:19:09 -0700</pubDate>
+      
+      <guid>http://tlake.io/dnd/archive/archive/</guid>
+      <description>&amp;quot; The Calendar of Harptos,&amp;quot;Information in this article is pulled from Sword Coast Adventurer&amp;rsquo;s Guide, pages 14-15.
+There are thirty days (three tendays, or &amp;ldquo;&amp;ldquo;rides&amp;rdquo;&amp;quot;) in each month and five annual holidays that fall between months that make up a year of 365 days on the world of Toril. Once every four years, Shieldmeet occurs as a leap day.
+   Month Name Common Name     1 Hammer Deepwinter    Annual Holiday: Midwinter    2 Alturiak The Claw of Winter   3 Ches The Claw of Sunsets   4 Tarsahk The Claw of Storms    Annual Holiday: Greengrass    5 Mirtul The Melting   6 Kythorn The Time of Flowers   7 Flamerule Summertide    Annual Holiday: Midsummer     Quadrennial Holiday: Shieldmeet    8 Eleasis Highsun   9 Elient The Fading    Annual Holiday: Highharvestide    10 Marpenoth Leaffall   11 Uktar The Rotting    Annual Holiday: The Feast of the Moon    12 Nightal The Drawing Down    &amp;ldquo;01: Introduction (2016-06-10),&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>OG Landing Page</title>
+      <link>http://tlake.io/dnd/archive/landing/</link>
+      <pubDate>Fri, 03 Jun 2016 09:19:09 -0700</pubDate>
+      
+      <guid>http://tlake.io/dnd/archive/landing/</guid>
+      <description>import campaign,&amp;quot;&amp;ldquo;&amp;ldquo;The sky is grey and tinged with regret.&amp;quot;&amp;quot;
+ import campaign is a Seattle-based fifth-edition Dungeons &amp;amp; Dragons campaign run by a Python developer for several other Python developers (&amp;hellip;plus a couple folks who aren&amp;rsquo;t). The campaign started out taking the players through the Lost Mines of Phandelver module, and is now going off the rails into custom content.
+We meet every other Friday, and sometimes we&amp;rsquo;ll tweet about it with #importcampaign.</description>
+    </item>
+    
+  </channel>
+</rss>
