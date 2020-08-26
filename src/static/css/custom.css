@@ -4,16 +4,22 @@
 
 .next-prev-post-nav {
     width: 100%;
-    display: block;
-    clear: both;
+    display: flex;
+    justify-content: space-between;
 }
 
 .next-post {
-    float: left;
-    width: 50%;
+    width: 40%;
 }
 
-.previous-post {
-    float: right;
-    width: 50%;
+.prev-post {
+    width: 40%;
+}
+
+.next-post a {
+    border-bottom-style: dotted;
+}
+
+.prev-post a {
+    border-bottom-style: dotted;
 }
