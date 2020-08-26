@@ -8,6 +8,7 @@ enableGitInfo = true
 theme = "ananke"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
+Paginate = 6
 disqusShortname = "tlake-io"
 
 [params]
