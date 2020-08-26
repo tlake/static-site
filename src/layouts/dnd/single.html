@@ -23,6 +23,10 @@
       {{- .Title -}}
     </h1>
 
+    {{ if .Description }}
+    <p>{{ .Description }}</p>
+    {{ end }}
+
     {{ with .Params.author }}
     <p class="tracked">
       By <strong>
