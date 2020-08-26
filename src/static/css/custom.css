@@ -1,3 +1,25 @@
 .nested-img img {
     width: unset;
 }
+
+.next-prev-post-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-post {
+    width: 40%;
+}
+
+.prev-post {
+    width: 40%;
+}
+
+.next-post a {
+    border-bottom-style: dotted;
+}
+
+.prev-post a {
+    border-bottom-style: dotted;
+}
