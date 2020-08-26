@@ -17,8 +17,7 @@
       <pubDate>Thu, 18 Apr 2019 09:19:09 -0700</pubDate>
       
       <guid>http://tlake.io/blog/the-dns-and-deployment-of-tlake-io/</guid>
-      <description>Porkbun is my new favorite domain registrar and had the best deals on .io domains that I could find, but I wanted to use DNSimple to manage my DNS settings. DNSimple offers a robust API and a Terraform provider, which is very appealing to my infrastructure-as-code aspirations. Luckily, it&amp;rsquo;s pretty easy to get the best of both worlds:
-  Through Porkbun, replace the domain&amp;rsquo;s default nameservers with DNSimple&amp;rsquo;s nameservers.</description>
+      <description>Porkbun is my new favorite domain registrar and had the best deals on .io domains that I could find, but I wanted to use DNSimple to manage my DNS settings. DNSimple offers a robust API and a Terraform provider, which is very appealing to my infrastructure-as-code aspirations.</description>
     </item>
     
   </channel>
