@@ -60,7 +60,7 @@
   </header>
 
   <div
-    class="measure-wide-l center f4 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray pr4-l">
+    class="measure-wide-l center f4 nested-copy-line-height lh-copy nested-links {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray pr4-l">
     {{- .Content -}}
     {{- partial "tags.html" . -}}
   </div>
