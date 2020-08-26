@@ -9,6 +9,7 @@ theme = "ananke"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 6
+summaryLength = 30
 disqusShortname = "tlake-io"
 
 [params]
