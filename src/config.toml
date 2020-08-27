@@ -19,3 +19,12 @@ disqusShortname = "tlake-io"
     twitter = "https://twitter.com/tanotaur"
     linkedin = "https://linkedin.com/in/tannerlake"
     custom_css = ["css/custom.css"]
+
+    primary_bg_color_class = "bg-near-black"
+    primary_font_color_class = "moon-gray"
+
+    secondary_bg_color_class = "bg-black"
+    secondary_font_color_class = "moon-gray"
+
+    tertiary_bg_color_class = "bg-black"
+    tertiary_font_color_class = "white"

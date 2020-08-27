@@ -2,7 +2,8 @@
     <div class="next-post">
         {{ if .NextPage }}
         {{ if eq .NextPage.Section .Page.Section }}
-        <a class="link black dim" href="{{ .NextPage.RelPermalink }}">
+        <a class="link {{ $.Param "secondary_font_color_class" | default "black"}} dim"
+            href="{{ .NextPage.RelPermalink }}">
             « {{ .NextPage.Title | truncate 50 "..." }}</a>
         {{ end }}
         {{ end }}
@@ -10,7 +11,8 @@
     <div class="prev-post">
         {{ if .PrevPage }}
         {{ if eq .PrevPage.Section .Page.Section }}
-        <a class="link black dim" href="{{ .PrevPage.RelPermalink }}">
+        <a class="link {{ $.Param "secondary_font_color_class" | default "black"}} dim"
+            href="{{ .PrevPage.RelPermalink }}">
             {{ .PrevPage.Title | truncate 50 "..."}} »</a>
         {{ end }}
         {{ end }}
