@@ -13,3 +13,9 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# vscode
+.vscode
+
+# mac
+.DS_Store
