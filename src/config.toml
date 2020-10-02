@@ -4,6 +4,7 @@ title = "tlake.io"
 baseURL = "http://tlake.io"
 languageCode = "en-us"
 enableGitInfo = true
+enableEmoji = true
 
 theme = "ananke"
 DefaultContentLanguage = "en"
