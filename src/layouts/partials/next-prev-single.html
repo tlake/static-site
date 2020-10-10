@@ -1,4 +1,8 @@
 <div class="next-prev-post-nav">
+    <p>{{ .Site.Pages}}</p>
+    {{ range where .Pages .Dir "dnd/hidden/"}}
+    <p>page: {{.Page}}</p>
+    {{end}}
     <div class="next-post">
         {{ if .NextPage }}
         {{ if ne .NextPage.Dir "dnd/hidden/"}}
