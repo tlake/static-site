@@ -1,28 +1,17 @@
 <div class="next-prev-post-nav">
-    <p>{{ .Site.Pages}}</p>
-    {{ range where .Pages .Dir "dnd/hidden/"}}
-    <p>page: {{.Page}}</p>
-    {{end}}
     <div class="next-post">
-        {{ if .NextPage }}
-        {{ if ne .NextPage.Dir "dnd/hidden/"}}
-        {{ if eq .NextPage.Section .Page.Section }}
+        {{ if .NextInSection }}
         <a class="link {{ $.Param "secondary_font_color_class" | default "black"}} dim"
-            href="{{ .NextPage.RelPermalink }}">
-            « {{ .NextPage.Title | truncate 50 "..." }}</a>
-        {{ end }}
-        {{ end }}
+            href="{{ .NextInSection.RelPermalink }}">
+            « {{ .NextInSection.Title | truncate 50 "..." }}</a>
         {{ end }}
     </div>
+
     <div class="prev-post">
-        {{ if .PrevPage }}
-        {{ if ne .PrevPage.Dir "dnd/hidden/"}}
-        {{ if eq .PrevPage.Section .Page.Section }}
+        {{ if .PrevInSection }}
         <a class="link {{ $.Param "secondary_font_color_class" | default "black"}} dim"
-            href="{{ .PrevPage.RelPermalink }}">
-            {{ .PrevPage.Title | truncate 50 "..."}} »</a>
-        {{ end }}
-        {{ end }}
+            href="{{ .PrevInSection.RelPermalink }}">
+            {{ .PrevInSection.Title | truncate 50 "..."}} »</a>
         {{ end }}
     </div>
 </div>
