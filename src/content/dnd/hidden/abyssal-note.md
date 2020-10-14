@@ -1,7 +1,8 @@
 ---
 title: "Val's Abyssal Note"
-date: 2020-10-02T09:19:09-07:00
+date: 2020-10-01T09:19:09-07:00
 layout: "one-off"
+type: "hidden"
 ---
 
 _I've fought through the haze for what I fear will be the last time. I hope there remain moments enough to draft this warning and to scatter it far enough beyond my reach._
