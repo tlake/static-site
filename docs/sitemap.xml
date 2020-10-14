@@ -3,23 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://tlake.io/dnd/2020-10-09/</loc>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/dnd/2020-10-02/</loc>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/dnd/hidden/</loc>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tlake.io/dnd/hidden/abyssal-note/</loc>
-    <lastmod>2020-10-03T01:20:06-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://tlake.io/dnd/2020-09-05/</loc>
-    <lastmod>2020-10-01T19:22:19-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://tlake.io/dnd/2020-08-28/</loc>
-    <lastmod>2020-08-30T19:12:10-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://tlake.io/dnd/</loc>
-    <lastmod>2020-08-25T16:20:34-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
@@ -29,32 +44,32 @@
   
   <url>
     <loc>http://tlake.io/dnd/2020-08-14/</loc>
-    <lastmod>2020-08-30T18:52:07-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://tlake.io/dnd/2020-08-08/</loc>
-    <lastmod>2020-08-26T16:59:05-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://tlake.io/dnd/2020-07-31/</loc>
-    <lastmod>2020-08-30T18:52:07-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://tlake.io/dnd/2020-07-25/</loc>
-    <lastmod>2020-08-30T18:52:07-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://tlake.io/dnd/2020-07-10/</loc>
-    <lastmod>2020-08-26T16:59:05-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://tlake.io/dnd/archive/</loc>
-    <lastmod>2020-08-26T16:59:05-07:00</lastmod>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
   <url>
@@ -384,6 +399,11 @@
   
   <url>
     <loc>http://tlake.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/dnd/characters/</loc>
+    <lastmod>2020-10-14T12:30:16-07:00</lastmod>
   </url>
   
 </urlset>

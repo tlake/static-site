@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tlake.io</title>
+    <link>http://tlake.io/dnd/hidden/</link>
+    <description>Recent content on tlake.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Oct 2020 09:19:09 -0700</lastBuildDate><atom:link href="http://tlake.io/dnd/hidden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Val&#39;s Abyssal Note</title>
+      <link>http://tlake.io/dnd/hidden/abyssal-note/</link>
+      <pubDate>Thu, 01 Oct 2020 09:19:09 -0700</pubDate>
+      
+      <guid>http://tlake.io/dnd/hidden/abyssal-note/</guid>
+      <description>I&amp;rsquo;ve fought through the haze for what I fear will be the last time. I hope there remain moments enough to draft this warning and to scatter it far enough beyond my reach.</description>
+    </item>
+    
+  </channel>
+</rss>

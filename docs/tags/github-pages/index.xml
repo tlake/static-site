@@ -6,11 +6,7 @@
     <description>Recent content in github pages on tlake.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Apr 2019 09:19:09 -0700</lastBuildDate>
-    
-	<atom:link href="http://tlake.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 18 Apr 2019 09:19:09 -0700</lastBuildDate><atom:link href="http://tlake.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>the dns and deployment of tlake.io</title>
       <link>http://tlake.io/blog/the-dns-and-deployment-of-tlake-io/</link>
