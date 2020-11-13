@@ -6,7 +6,11 @@
     <description>Recent content in Blog on tlake.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2019 09:19:09 -0700</lastBuildDate><atom:link href="http://tlake.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2019 09:19:09 -0700</lastBuildDate>
+    
+	<atom:link href="http://tlake.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>spring cleaning my digital identity</title>
       <link>http://tlake.io/blog/spring-cleaning-my-digital-identity/</link>

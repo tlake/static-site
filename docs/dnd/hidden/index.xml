@@ -6,7 +6,11 @@
     <description>Recent content on tlake.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2020 09:19:09 -0700</lastBuildDate><atom:link href="http://tlake.io/dnd/hidden/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Oct 2020 09:19:09 -0700</lastBuildDate>
+    
+	<atom:link href="http://tlake.io/dnd/hidden/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Val&#39;s Abyssal Note</title>
       <link>http://tlake.io/dnd/hidden/abyssal-note/</link>
