@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://tlake.io/dnd/2021-01-08/</loc>
+    <lastmod>2021-01-08T23:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/dnd/2020-12-11/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tlake.io/dnd/2020-11-27/</loc>
     <lastmod>2020-12-01T00:45:14-08:00</lastmod>
   </url>
@@ -88,6 +98,46 @@
   </url>
   
   <url>
+    <loc>http://tlake.io/tags/backup/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/nas/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/privacy/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/private-cloud/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/raspberry-pi/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/blog/raspberry-pi-backup-and-nas/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/rsync/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tlake.io/tags/</loc>
+    <lastmod>2021-01-21T22:36:24-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tlake.io/tags/crypto/</loc>
     <lastmod>2020-08-23T23:35:03-07:00</lastmod>
   </url>
@@ -114,11 +164,6 @@
   
   <url>
     <loc>http://tlake.io/blog/spring-cleaning-my-digital-identity/</loc>
-    <lastmod>2020-08-23T23:35:03-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tlake.io/tags/</loc>
     <lastmod>2020-08-23T23:35:03-07:00</lastmod>
   </url>
   

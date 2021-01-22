@@ -5,10 +5,6 @@
     <link>http://tlake.io/dnd/characters/</link>
     <description>Recent content in The Menagerie on tlake.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://tlake.io/dnd/characters/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://tlake.io/dnd/characters/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
