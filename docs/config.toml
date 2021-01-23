@@ -1,0 +1,31 @@
+publishDir = "../docs"
+
+title = "tlake.io"
+baseURL = "http://tlake.io"
+languageCode = "en-us"
+enableGitInfo = true
+enableEmoji = true
+
+theme = "ananke"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 6
+summaryLength = 30
+disqusShortname = "tlake-io"
+
+[params]
+    mainSections = []
+    github = "https://github.com/tlake"
+    gitlab = "https://gitlab.com/tannerlake"
+    twitter = "https://twitter.com/tanotaur"
+    linkedin = "https://linkedin.com/in/tannerlake"
+    custom_css = ["css/custom.css"]
+
+    primary_bg_color_class = "bg-black-80"
+    primary_font_color_class = "moon-gray"
+
+    secondary_bg_color_class = "bg-near-black"
+    secondary_font_color_class = "moon-gray"
+
+    tertiary_bg_color_class = "bg-black"
+    tertiary_font_color_class = "white"
