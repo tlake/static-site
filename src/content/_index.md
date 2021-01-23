@@ -7,6 +7,8 @@ type: list
 
 ---
 
+Let's see if this gets picked up.
+
 I'm originally from Vermont, but I make my home in Seattle where I drink coffee, make puns, and play D&D.
 
 I enjoy writing Terraform configurations and CI/CD pipelines, and I believe in infrastructure as code.
