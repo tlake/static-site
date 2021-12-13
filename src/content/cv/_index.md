@@ -15,7 +15,11 @@ If you're looking for my **resume**, you can find it [here](/resume_tannerlake.p
 
 ## Experience
 
-### IQVIA _(May 2016 - March 2020)_
+### Fandom _(Jan 2021 - Present)_
+
+_TechOps Engineer, **D&D Beyond**_
+
+### IQVIA _(May 2016 - Mar 2020)_
 
 _Software and DevOps engineer._
 
