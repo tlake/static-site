@@ -9,8 +9,6 @@ type: list
 
 I'm originally from Vermont, but I make my home in Seattle where I drink coffee, make puns, and play D&D.
 
-I enjoy writing Terraform configurations and CI/CD pipelines, and I believe in infrastructure as code.
-
-I trend towards backend work where I primarily use Golang and Python, but I'll dip into React from time to time.
+I also work on the Characters team for **[D&D Beyond](https://www.dndbeyond.com/)**!
 
 ---
