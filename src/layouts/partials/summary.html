@@ -4,7 +4,7 @@
     <!-- <span class="f6 db">{{ humanize .Section }}</span> -->
 
     <h1 class="f3 near-black">
-      <a href="{{ .URL }}" class="link {{ $.Param "secondary_font_color_class" | default "black"}} dim">
+      <a href="{{ .Permalink }}" class="link {{ $.Param "secondary_font_color_class" | default "black"}} dim">
         {{ .Title }}
       </a>
     </h1>
