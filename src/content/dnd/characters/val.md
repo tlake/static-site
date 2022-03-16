@@ -10,10 +10,8 @@ title: Val
 # Val
 
 ![Pasted image 20211106142422.png](/images/dnd/pc-val.png)
-- wood elf druid  
-- [(D&D Beyond)](https://ddb.ac/characters/4089164/aw7aLd)
-
-## DM Notes
+wood elf druid
+[(D&D Beyond)](https://ddb.ac/characters/4089164/aw7aLd)
 
 -   never surprised
 -   flexible morality

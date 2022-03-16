@@ -10,10 +10,8 @@ title: Haeltin Var Astora
 # Haeltin Var Astora
 
 ![Pasted image 20211106142251.png](/images/dnd/pc-gray.png)
-- half-drow blood hunter  
-- [(D&D Beyond)](https://ddb.ac/characters/1769763/nKFcbG)
-
-## DM Notes
+half-drow blood hunter
+[(D&D Beyond)](https://ddb.ac/characters/1769763/nKFcbG)
 
 - goes by "Grey"
 - formerly Haeltin Var Astora

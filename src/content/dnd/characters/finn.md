@@ -9,10 +9,8 @@ title: Finn
 
 # Finn
 ![Pasted image 20211106142218.png](/images/dnd/pc-finn.png)
-- Halfling Barbarian  
-- [(D&D Beyond)](https://ddb.ac/characters/2019554/v1gXQ3)
-  
-## DM Notes
+Halfling Barbarian
+[(D&D Beyond)](https://ddb.ac/characters/2019554/v1gXQ3)
 
 - the “conjurer”
 - #LowIntLifeLessons

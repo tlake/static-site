@@ -10,10 +10,8 @@ title: Zed
 # Zed
 
 ![Pasted image 20211106142439.png](/images/dnd/pc-zed.png)
-- half-orc paladin  
-- [(D&D Beyond)](https://ddb.ac/characters/2020367/QmB5LP)
-
-## DM Notes
+half-orc paladin
+[(D&D Beyond)](https://ddb.ac/characters/2020367/QmB5LP)
 
 -   kindle the yoga
 -   powerful thighs

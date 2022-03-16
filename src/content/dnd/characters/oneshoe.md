@@ -10,11 +10,8 @@ title: Oneshoe
 # Oneshoe
 
 ![Pasted image 20211106142335.png](/images/dnd/pc-onshoe.png)
-- Gnome Rogue/Warlock
-- [(D&D Beyond)](https://ddb.ac/characters/4096309/smb8F9)
-
-
-## DM Notes
+Gnome Rogue/Warlock
+[(D&D Beyond)](https://ddb.ac/characters/4096309/smb8F9)
 
 -   professional detective
 -   business owner

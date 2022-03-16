@@ -15,10 +15,7 @@ toc: true
 # Gimble the Diviner
 
 ![HeroForgeScreenshot (1).png](/images/dnd/pc-gimble.png)
-
-## DM Notes
-
-gnome wizard  
+gnome wizard
 [(D&D Beyond)](https://ddb.ac/characters/598641/CuTN08)
 
 -   “the diviner”

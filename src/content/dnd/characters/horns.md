@@ -10,10 +10,8 @@ title: Horns
 # Horns
 
 ![Pasted image 20211106142316.png](/images/dnd/pc-horns.png)
-- tiefling druid  
-- [(D&D Beyond)](https://ddb.ac/characters/3460406/iBAXVm)
-
-## DM Notes
+tiefling druid
+[(D&D Beyond)](https://ddb.ac/characters/3460406/iBAXVm)
 
 -   knows trees' weak points
 -   formerly a general in the Blood War

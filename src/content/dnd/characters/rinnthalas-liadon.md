@@ -11,8 +11,8 @@ title: Rinn'thalas Liadon
 # Rinn'thalas Liadon
 
 ![Pasted image 20211106142358.png](/images/dnd/pc-rinn.png)
-- Wood Elf Horizon Walker Ranger
-- [DND Beyond](https://www.dndbeyond.com/profile/VigilantPotato/characters/60836645)
+Wood Elf Horizon Walker Ranger
+[DND Beyond](https://www.dndbeyond.com/profile/VigilantPotato/characters/60836645)
 
 ## Description
 
