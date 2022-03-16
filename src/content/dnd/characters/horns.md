@@ -9,7 +9,7 @@ title: Horns
 
 # Horns
 
-![Pasted image 20211106142316.png](/dnd/bins/-media/pasted-image-20211106142316.png)
+![Pasted image 20211106142316.png](/images/dnd/pc-horns.png)
 - tiefling druid  
 - [(D&D Beyond)](https://ddb.ac/characters/3460406/iBAXVm)
 

@@ -9,7 +9,7 @@ title: Oneshoe
 
 # Oneshoe
 
-![Pasted image 20211106142335.png](/dnd/bins/-media/pasted-image-20211106142335.png)
+![Pasted image 20211106142335.png](/images/dnd/pc-onshoe.png)
 - Gnome Rogue/Warlock
 - [(D&D Beyond)](https://ddb.ac/characters/4096309/smb8F9)
 

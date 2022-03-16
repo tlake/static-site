@@ -12,7 +12,7 @@ See also: https://forgottenrealms.fandom.com/wiki/Phandalin
 
 ## Map
 
-![Pasted image 20211113155920.png](/dnd/bins/-media/pasted-image-20211113155920.png)
+![Pasted image 20211113155920.png](/images/dnd/location-phandalin.png)
 
 ## Key Info
 

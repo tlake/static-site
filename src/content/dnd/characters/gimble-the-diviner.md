@@ -14,7 +14,7 @@ toc: true
 
 # Gimble the Diviner
 
-![HeroForgeScreenshot (1).png](/dnd/bins/-media/hero-forge-screenshot-1.png)
+![HeroForgeScreenshot (1).png](/images/dnd/pc-gimble.png)
 
 ## DM Notes
 

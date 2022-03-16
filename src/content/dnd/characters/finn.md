@@ -5,10 +5,10 @@ tags:
 title: Finn
 ---
 
-[Import Campaign Characters](/dnd/import-campaign/import-campaign-characters/)
+[Import Campaign Characters](/dnd/characters/)
 
 # Finn
-![Pasted image 20211106142218.png](/dnd/bins/-media/pasted-image-20211106142218.png)
+![Pasted image 20211106142218.png](/images/dnd/pc-finn.png)
 - Halfling Barbarian  
 - [(D&D Beyond)](https://ddb.ac/characters/2019554/v1gXQ3)
   

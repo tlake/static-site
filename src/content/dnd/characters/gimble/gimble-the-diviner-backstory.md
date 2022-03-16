@@ -11,12 +11,11 @@ title: Gimble the Diviner Backstory
 
 ## Formatted
 
-![73418061.pdf](/dnd/bins/-media/73418061.pdf)
+[Gimble the Diviner Backstory -- Formatted](/dnd/media/gimble-backstory.pdf)
 
 ## Text Version
 
 Gimble seeks to unravel the mystery of a strange, blank book and its connection to his lost sister.
-
 
 ### Quiet beginnings
 Gimblebanadutempletraxian...† grew up in a small gnomish village in the hills of (?). His father, Dimble, was a member of the Gemcutters Guild and possessed a whimsical spirit. Gimble's mother, Nyssa, on the other hand, took her job as the local tinker quite seriously, as she did most things. 
@@ -38,8 +37,7 @@ Confused, Gimble dropped the letter on the bookshelf and went to find his parent
 Despite his parents' assurances, Gimble was unable to forget what he had read. He started to ask around town, but no one seemed to know anything about him ever having a sister. When Gimble persisted, others started to think him peculiar or even begin to doubt his sanity. Sensing this, Gimble decided to continue his own research in secret, taking an apprenticeship at the town library, much to the chagrin of the librarian's own son, who had thought he would have been awarded the post.
 
 Over years, Gimble consumed the stacks in hope of learning something about the missing sister, but he was unable find any evidence. He, too, began to doubt himself at times.
-```
-```
+
 ### Pushing boundaries
 Eventually exhausting most of the library's open resources, Gimble decided to sneak in at night and explore the restricted sections, which Master Orrenth, the librarian, had forbidden him to enter. Here he found a dusty spellbook and worked out the beginnings of magic, first focusing on how to remain hidden so that he might continue searching the dark corners of the library unnoticed by the either the librarian or his son, who constantly searched for a reason to have Gimble thrown out.
 
@@ -58,11 +56,7 @@ He ran through the remains of the library, leaving illusions behind him. He ran 
 
 Gimble left the village that night.
 
-<div class='pageNumber'>1</div>
-<div class='footnote'>PART 1 | The Village</div>
-\page
-
-
+---
 
 ### Before joining the party
 Gimble travelled a bit, earning his way as a tinker or scholar when needed. Hoping for clues about his sister, he searched for his aunt in a few locations without much success.
@@ -70,7 +64,6 @@ Gimble travelled a bit, earning his way as a tinker or scholar when needed. Hopi
 He spent much of his time examining the book. It was a curious thing. Devoid of any decoration or letters, the book would not allow any new mark to be made upon itself. Neither ink, chalk, nor graphite would take to the pages.
 
 Eventually landing in Neverwinter, Gimble caught a rumor of his Aunt having travelled through there on the way to Phandalin, so he decided to make his way there. It seemed that a dwarf was hiring an escort for a small caravan to the town...
-
 
 ### After joining the party
 Though somewhat distracted from his own quest by the affairs in Phandalin, Gimble still started each day looking through the book, hoping to trigger another memory of his sister or somehow derive some meaning by peering even more closely at the blank pages.
@@ -82,8 +75,7 @@ For a brief moment, words appeared. The words made no sense, for they described 
 Those fragments later came to pass.
 
 And so have the others which have appeared each morning since.
-```
-```
+
 > ##### What Gimble Knows
 > * A letter from his Aunt Lyra claimed he has an older sister.
 > * His parents and the village say he does not.
@@ -101,6 +93,3 @@ And so have the others which have appeared each morning since.
 > * What happened to the sister.
 > * What happened to his aunt.
 > * The full meaning of the book.
-
-<div class='pageNumber'>2</div>
-<div class='footnote'>PART 2 | The Search</div>

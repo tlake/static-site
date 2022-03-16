@@ -9,7 +9,7 @@ title: Haeltin Var Astora
 
 # Haeltin Var Astora
 
-![Pasted image 20211106142251.png](/dnd/bins/-media/pasted-image-20211106142251.png)
+![Pasted image 20211106142251.png](/images/dnd/pc-gray.png)
 - half-drow blood hunter  
 - [(D&D Beyond)](https://ddb.ac/characters/1769763/nKFcbG)
 

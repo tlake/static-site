@@ -9,7 +9,7 @@ title: Zed
 
 # Zed
 
-![Pasted image 20211106142439.png](/dnd/bins/-media/pasted-image-20211106142439.png)
+![Pasted image 20211106142439.png](/images/dnd/pc-zed.png)
 - half-orc paladin  
 - [(D&D Beyond)](https://ddb.ac/characters/2020367/QmB5LP)
 

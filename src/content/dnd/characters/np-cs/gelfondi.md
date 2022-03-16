@@ -6,7 +6,7 @@ title: Gelfondi
 ---
 
 
-[Import Campaign Characters](/dnd/import-campaign/import-campaign-characters/)
+[Import Campaign Characters](/dnd/characters/)
 
 # Gelfondi
 
