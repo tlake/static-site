@@ -28,4 +28,4 @@ The main characters comprise a loosely-formed coalition known as The Menagerie.
 - [Kithri Tealeaf](/dnd/characters/kithri-tealeaf/)
 - [Mindartis](/dnd/characters/mindartis/)
 - [Orsik Stoneskin](/dnd/characters/orsik-stoneskin/)
-- [Zane a Presque Du’Cal](/dnd/characters/zed/)
+- [Zane a Presque Du’Cal](/dnd/characters/zane-a-presque-ducal/)
