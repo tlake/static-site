@@ -10,7 +10,7 @@ title: Gelfondi
 
 # Gelfondi
 
-The devil in charge of the operations on the 42nd floor of [Fierna](/dnd/characters/np-cs/fierna/)'s tower.
+The devil in charge of the operations on the 42nd floor of [Fierna](/dnd/characters/npcs/fierna/)'s tower.
 
 ## Description
 

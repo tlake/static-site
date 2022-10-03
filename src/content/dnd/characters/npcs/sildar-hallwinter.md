@@ -10,7 +10,7 @@ title: Sildar Hallwinter
 
 # Sildar Hallwinter
 
-Human soldier and member of the Lords' Alliance who accompanies [Gundren Rockseeker](/dnd/characters/np-cs/gundren-rockseeker/) on travel from Neverwinter to [Phandalin](/dnd/locations/phandalin/).
+Human soldier and member of the Lords' Alliance who accompanies [Gundren Rockseeker](/dnd/characters/npcs/gundren-rockseeker/) on travel from Neverwinter to [Phandalin](/dnd/locations/phandalin/).
 
 ## Description
 
@@ -32,7 +32,7 @@ Sildar Hallwinter is a retired soldier from the city of Neverwinter, and a membe
 
 ## Relationships
 
-- friend of [Gundren Rockseeker](/dnd/characters/np-cs/gundren-rockseeker/)
+- friend of [Gundren Rockseeker](/dnd/characters/npcs/gundren-rockseeker/)
 - distrusted Harbin Wester, the previous ruler of the town.
 
 ## Quotations

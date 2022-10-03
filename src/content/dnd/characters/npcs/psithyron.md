@@ -23,7 +23,7 @@ Impish.
 
 ## Key Info
 
-- Early on in the campaign, Psithyron manifested as a small, devilish figure that Horns had with him when he washed ashore on the beach and [Reidoth](/dnd/characters/np-cs/reidoth/) found him.
+- Early on in the campaign, Psithyron manifested as a small, devilish figure that Horns had with him when he washed ashore on the beach and [Reidoth](/dnd/characters/npcs/reidoth/) found him.
 - After the first trip to Hell after the Mount Hotenow katabasis, Psithyron awakened and returned to his imp form.
 - Until 2021-08-18 Import Campaign#The Return of Horns' Secret Friend, Psithyron has stayed a secret from the rest of the party by staying invisible or in one of its beast forms when others are around.
 
@@ -35,6 +35,6 @@ Impish.
 
 ## Quotations
 
-- [Psithyron](/dnd/characters/np-cs/psithyron/): "Do you know how embarrassing it is to have to kill yourself to get back here?"
+- [Psithyron](/dnd/characters/npcs/psithyron/): "Do you know how embarrassing it is to have to kill yourself to get back here?"
 
 ## Trivia

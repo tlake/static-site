@@ -23,8 +23,8 @@ Gundren Rockseeker was one of the three dwarf brothers who rediscovered Wave Ech
 
 ### Late Brothers
 
-- brother to [Tharden Rockseeker](/dnd/characters/np-cs/tharden-rockseeker/)
-- older brother to [Nundro Rockseeker](/dnd/characters/np-cs/nundro-rockseeker/)
+- brother to [Tharden Rockseeker](/dnd/characters/npcs/tharden-rockseeker/)
+- older brother to [Nundro Rockseeker](/dnd/characters/npcs/nundro-rockseeker/)
 
 ### Val
 

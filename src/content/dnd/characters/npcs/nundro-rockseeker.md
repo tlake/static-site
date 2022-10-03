@@ -21,12 +21,12 @@ Nundro Rockseeker was one of the three dwarf brothers who rediscovered Wave Echo
 
 ## Relationships
 
-- younger brother to [Gundren Rockseeker](/dnd/characters/np-cs/gundren-rockseeker/)
-- younger brother to [Tharden Rockseeker](/dnd/characters/np-cs/tharden-rockseeker/)
+- younger brother to [Gundren Rockseeker](/dnd/characters/npcs/gundren-rockseeker/)
+- younger brother to [Tharden Rockseeker](/dnd/characters/npcs/tharden-rockseeker/)
 
 ## Key Info
 
-- slain in The Wave Echo Cave by forces of [The Black Spider](/dnd/characters/np-cs/nezznar-the-black-spider/) 
+- slain in The Wave Echo Cave by forces of [The Black Spider](/dnd/characters/npcs/nezznar-the-black-spider/) 
 
 ## Quotations
 

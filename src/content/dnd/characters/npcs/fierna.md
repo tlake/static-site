@@ -9,7 +9,7 @@ title: Fierna
 
 # Fierna
 
-Daughter of [Belial](/dnd/characters/np-cs/belial/), with whom she co-rules Phlegethos.
+Daughter of [Belial](/dnd/characters/npcs/belial/), with whom she co-rules Phlegethos.
 
 ## Description
 

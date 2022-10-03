@@ -25,8 +25,8 @@ Absorbed in coordinating his operations, Tymphal seemingly thought the party was
 
 ## Key Info
 
-- According to [Ignaraz](/dnd/characters/np-cs/ignaraz/), Tymphal lost one of his chief engineers, a duegar named [Magrin](/dnd/characters/np-cs/magrin/). He has apparently been abducted to [Fierna](/dnd/characters/np-cs/fierna/)'s tower. Without Magrin, Tymphal's operation has lost much of its operational efficiency.
-- Through Ignaraz, the party is employed by [Tymphal's Contract](/dnd/other-notes/tymphals-contract/) to collect Magrin from his captivity in the Caper at Fierna's Tower.
+- According to [Ignaroz](/dnd/characters/npcs/ignaraz/), Tymphal lost one of his chief engineers, a duegar named [Magrin](/dnd/characters/npcs/magrin/). He has apparently been abducted to [Fierna](/dnd/characters/npcs/fierna/)'s tower. Without Magrin, Tymphal's operation has lost much of its operational efficiency.
+- Through Ignaroz, the party is employed by [Tymphal's Contract](/dnd/other-notes/tymphals-contract/) to collect Magrin from his captivity in the Caper at Fierna's Tower.
 
 ## Relationships
 

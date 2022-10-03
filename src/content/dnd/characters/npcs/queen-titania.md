@@ -23,8 +23,8 @@ Archfey and queen of the Summer Court of the Feywild.
 
 - While the party visited the Court of Stars, they witnessed an assassination attempt on Queen Titania which left her gravely injured.
 - The party was imprisoned in oubliettes on suspicion of their involvement in the attack.
-- There are indications that [Caerwyn](/dnd/characters/np-cs/caerwyn-cadogan/) may have been involved in the assassination and/or coverup.
-- From last reports, Queen Titania is still in a comatose state, and this has caused [Oberon](/dnd/characters/np-cs/oberon/) to rage with an unending Wild Hunt.
+- There are indications that [Caerwyn](/dnd/characters/npcs/caerwyn-cadogan/) may have been involved in the assassination and/or coverup.
+- From last reports, Queen Titania is still in a comatose state, and this has caused [Oberon](/dnd/characters/npcs/oberon/) to rage with an unending Wild Hunt.
 
 ## Relationships
 

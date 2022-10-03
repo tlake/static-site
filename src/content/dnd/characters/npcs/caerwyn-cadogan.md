@@ -28,9 +28,9 @@ A tuathan from the Feywild--once friend and a guide to the realm, now enemy afte
 
 - initial guide to the Feywild for the party
 - seemingly betrayed the party at the Court of Stars
-    - Caerwyn may have been involved with assassination attempt on [Queen Titania](/dnd/characters/np-cs/queen-titania/) and subsequent frame up of The Menagerie
+    - Caerwyn may have been involved with assassination attempt on [Queen Titania](/dnd/characters/npcs/queen-titania/) and subsequent frame up of The Menagerie
 - owed a minor favor to [Gimble](/dnd/characters/gimble-the-diviner/)
-    - this was paid by Caerwyn as he helped The Menagerie escape the oubliette prisons they were sequestered in after the attack on [Queen Titania](/dnd/characters/np-cs/queen-titania/)
+    - this was paid by Caerwyn as he helped The Menagerie escape the oubliette prisons they were sequestered in after the attack on [Queen Titania](/dnd/characters/npcs/queen-titania/)
 
 ## Quotations
 

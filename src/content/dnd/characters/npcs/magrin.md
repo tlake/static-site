@@ -9,7 +9,7 @@ title: Magrin
 
 # Magrin
 
-A duergar who ~~serves~~ served as a chief manager of [Tymphal](/dnd/characters/np-cs/tymphal/)'s operations.
+A duergar who ~~serves~~ served as a chief manager of [Tymphal](/dnd/characters/npcs/tymphal/)'s operations.
 
 ## Description
 
@@ -33,14 +33,14 @@ Magrin's essence is now confined within a green steel shield.
 
 ## Key Info
 
-- According to Tymphal, Magrin was abducted by [Fierna](/dnd/characters/np-cs/fierna/), and without him, Tymphal's operations are flailing. This is the basis of the work in [Tymphal's Contract](/dnd/other-notes/tymphals-contract/).
+- According to Tymphal, Magrin was abducted by [Fierna](/dnd/characters/npcs/fierna/), and without him, Tymphal's operations are flailing. This is the basis of the work in [Tymphal's Contract](/dnd/other-notes/tymphals-contract/).
 - However, in 2021-12-22 Import Campaign#The Library, [Oneshoe](/dnd/characters/oneshoe/) finds a contract between Fierna and Magrin which implies it was a consensual arrangement.
 
 ## Relationships
 
-### Ignaraz
+### Ignaroz
 
-- During 2022-03-30 Import Campaign#The Rewards of Loyalty, it was implied that Ignaraz may have been quite close to Magrin, as she displayed a strong, personal reaction to the revelation that he went to Fierna willingly.
+- During 2022-03-30 Import Campaign#The Rewards of Loyalty, it was implied that Ignaroz may have been quite close to Magrin, as she displayed a strong, personal reaction to the revelation that he went to Fierna willingly.
 
 ### Tymphal
 
@@ -49,7 +49,7 @@ Magrin's essence is now confined within a green steel shield.
 
 ## Quotations
 
-- [Magrin](/dnd/characters/np-cs/magrin/): (haltingly) Please help. (about the only words he could manage when found in the torture chamber in Fierna's tower.)
+- [Magrin](/dnd/characters/npcs/magrin/): (haltingly) Please help. (about the only words he could manage when found in the torture chamber in Fierna's tower.)
 
 ## Quotations
 

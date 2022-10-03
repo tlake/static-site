@@ -1,14 +1,14 @@
 ---
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
-title: Ignaraz
+title: Ignaroz
 ---
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Ignaraz
+# Ignaroz
 
-Assistant to [Carmen](/dnd/characters/np-cs/carmen/) (?) who facilitates creation and administration of [Tymphal's Contract](/dnd/other-notes/tymphals-contract/) with the The Menagerie.
+Assistant to [Carmen](/dnd/characters/npcs/carmen/) (?) who facilitates creation and administration of [Tymphal's Contract](/dnd/other-notes/tymphals-contract/) with the The Menagerie.
 
 ## Description
 
@@ -21,7 +21,7 @@ Assistant to [Carmen](/dnd/characters/np-cs/carmen/) (?) who facilitates creatio
 
 #### After the Caper at Fierna's Tower
 
-After her promotion following the successful Caper at Fierna's Tower, Ignaraz's new form is described as:
+After her promotion following the successful Caper at Fierna's Tower, Ignaroz's new form is described as:
 
 - not quite as rough and tumble as a normal bearded devil, but taller and with more "gravitas"
 
@@ -39,16 +39,16 @@ After her promotion following the successful Caper at Fierna's Tower, Ignaraz's 
 
 ### Magrin
 
-- During 2022-03-30 Import Campaign#The Rewards of Loyalty, it was implied that Ignaraz may have been quite close to Magrin, as she displayed a strong, personal reaction to the revelation that he went to Fierna willingly.
+- During 2022-03-30 Import Campaign#The Rewards of Loyalty, it was implied that Ignaroz may have been quite close to Magrin, as she displayed a strong, personal reaction to the revelation that he went to Fierna willingly.
 
 ### Tymphal
 
-- Ignaraz has demonstrated strong loyalty and deference to Tymphal.
+- Ignaroz has demonstrated strong loyalty and deference to Tymphal.
 
 ## Key Info
 
 - point of contact for Tymphal's Contract
-- was promoted to bearded devil by [Tymphal](/dnd/characters/np-cs/tymphal/) for her role facilitating the successful execution of Tymphal's Contract
+- was promoted to bearded devil by [Tymphal](/dnd/characters/npcs/tymphal/) for her role facilitating the successful execution of Tymphal's Contract
 
 ## Quotations
 

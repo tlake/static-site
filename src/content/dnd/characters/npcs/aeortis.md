@@ -9,7 +9,7 @@ title: Aeortis
 
 # Aeortis
 
-An apparent young girl who designed much [Fierna](/dnd/characters/np-cs/fierna/)'s tower.
+An apparent young girl who designed much [Fierna](/dnd/characters/npcs/fierna/)'s tower.
 
 ## Description
 
@@ -25,7 +25,7 @@ An apparent young girl who designed much [Fierna](/dnd/characters/np-cs/fierna/)
 
 ### Oneshoe
 
-In payment for giving information to the party, Aeortis required the party to perform a service for her and retrieve a particular soul coin from [Fierna](/dnd/characters/np-cs/fierna/)'s tower. [Oneshoe](/dnd/characters/oneshoe/) signed a contract with Aeortis to cement this deal.
+In payment for giving information to the party, Aeortis required the party to perform a service for her and retrieve a particular soul coin from [Fierna](/dnd/characters/npcs/fierna/)'s tower. [Oneshoe](/dnd/characters/oneshoe/) signed a contract with Aeortis to cement this deal.
 
 ## Key Info
 

@@ -35,6 +35,6 @@ Val took a liking to Denarial and named her "D-Rock". Denarial took to calling V
 
 ## Trivia
 
-- [Val](/dnd/characters/val/)'s nickname for Denarial, [D-Rock](/dnd/characters/np-cs/denarial/), continues the "-Rock" trend started with [G-Rock](/dnd/characters/np-cs/gundren-rockseeker/) back in [Phandalin](/dnd/locations/phandalin/).
+- [Val](/dnd/characters/val/)'s nickname for Denarial, [D-Rock](/dnd/characters/npcs/denarial/), continues the "-Rock" trend started with [G-Rock](/dnd/characters/npcs/gundren-rockseeker/) back in [Phandalin](/dnd/locations/phandalin/).
 
 ## References

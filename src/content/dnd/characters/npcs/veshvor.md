@@ -9,7 +9,7 @@ title: Veshvor
 
 # Veshvor
 
-A patron of The Brimstone who crossed [Magnanomy](/dnd/characters/np-cs/magnanomy/).
+A patron of The Brimstone who crossed [Magnanimy](/dnd/characters/npcs/magnanomy/).
 
 ## Description
 
@@ -21,7 +21,7 @@ A patron of The Brimstone who crossed [Magnanomy](/dnd/characters/np-cs/magnanom
 
 ## Key Info
 
-- Veshvor won a special necklace from [Magnanomy](/dnd/characters/np-cs/magnanomy/). Magnanomy took offense to Veshvor's behavior and asked [Rinn'thalas](/dnd/characters/rinnthalas-liadon/) to secure the return of the necklace in exchange for some information.
+- Veshvor won a special necklace from [Magnanimy](/dnd/characters/npcs/magnanomy/). Magnanimy took offense to Veshvor's behavior and asked [Rinn'thalas](/dnd/characters/rinnthalas-liadon/) to secure the return of the necklace in exchange for some information.
 - In 2021-11-10 Import Campaign *Teambuilding through Larceny*, [Rinn'thalas](/dnd/characters/rinnthalas-liadon/), [Gray](/dnd/characters/haeltin-var-astora/), and [Oneshoe](/dnd/characters/oneshoe/) worked together to steal the necklace back from Veshvor.
 - Showed ability to charm others, which he unsuccessfully attempted on Gray.
 
