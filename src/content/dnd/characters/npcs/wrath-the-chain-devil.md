@@ -21,7 +21,7 @@ A powerful chain devil who reportedly may know something about the whereabouts o
 
 ## Key Info
 
-- [Magnanimy](/dnd/characters/npcs/magnanomy/) claimed that Ze'brak may have drawn the ire of Wrath. 
+- [Magnanimy](/dnd/characters/npcs/magnanimy/) claimed that Ze'brak may have drawn the ire of Wrath. 
 - Wrath may be located in the Jangling Hiter.
 
 ## Relationships
