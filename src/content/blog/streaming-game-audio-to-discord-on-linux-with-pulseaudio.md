@@ -8,6 +8,7 @@ tags: [
     "discord",
     "linux",
     "mint",
+    "No Man's Sky",
     "pacmd",
     "pactl",
     "pagraphcontrol",
@@ -60,8 +61,71 @@ With my system visualized, it was time to learn some `pactl` commands and actual
 >
 > For each loopback, name the sink that should be its input, or at least one that isn't what you will make the output.
 
-Mine wasn't very different from theirs, so a little copypasta later and I was mostly in business!
+Mine wasn't very different from theirs, so a little copypasta later and I was mostly in business! What came next was making sure that the arrows in the diagram were accurately reflected in the system - of course, they weren't, and it took some doing to understand just what needed to happen. The end of Emma's post contained a video where they stepped through their process, but I had some trouble keeping everything straight; despite passing "`sink_name=`" the sinks all displayed as "Null Output" in the `pavucontrol` window and it was difficult telling which was which.
+
+I decided to do a bit of a deeper dive into `pactl load-module` and the modules I was using, to see if there was any kind of sane way to differentiate my custom sinks. [Documentation on freedesktop.org](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/#devicedrivermodules) keyed me into the `device.description` property common to sink arguments, so I now had a way to name my sinks. And for the `module-loopback` argument, I learned about `source_dont_move=1` to prevent a loopback's source from jumping around, and that in addition to setting `sink=` I can also set `source=` in the command, so I wouldn't need to fuss with the `pavucontrol` GUI to try and set my arrows.
+
+I decided to name my out-to-Discord sink `"vs-broadcast"` and my in-from-application sink `"vs-splitter"`. I then had to do some investigating with `pactl list` in order to figure out the correct names for my microphone and headphones devices, but once I had them, it was time to construct my commands and run 'em!
+
+### - Commands
+
+```zsh
+# create sink "vs-broadcast"
+pactl load-module module-null-sink sink_name=vs-broadcast sink_properties=device.description=vs-broadcast
+
+# create sink "vs-splitter"
+pactl load-module module-null-sink sink_name=vs-splitter sink_properties=device.description=vs-splitter
+
+# connect microphone to vs-broadcast
+pactl load-module module-loopback source_dont_move=1 source=alsa_input.usb-SteelSeries_SteelSeries_Arctis_5_00000000-00.analog-chat sink=vs-broadcast
+
+# connect vs-splitter to vs-broadcast
+# note that a virtual sink's source address is sinkname.monitor
+pactl load-module module-loopback source_dont_move=1 source=vs-splitter.monitor sink=vs-broadcast
+
+# connect vs-splitter to headphones
+# note that a virtual sink's source address is sinkname.monitor
+pactl load-module module-loopback source_dont_move=1 source=vs-splitter.monitor sink=alsa_output.usb-SteelSeries_SteelSeries_Arctis_5_00000000-00.analog-chat
+```
+
+## Complication 1: Discord and noise reduction
 
 ![Figure 03: The system with preprocessing via PulseEffects](/images/blog/discord-fig-03.png)
+
+### - What luck, a visualizer
+
 ![Graph 00: The first completed version, as visualized by pagraphcontrol](/images/blog/discord-graph-00.png)
+
+## Complication 2: No game audio when game window isn't active
+
+```bash
+#!/bin/bash
+
+################
+# README
+# 1. Set up all the PulseAudio sinks and loopbacks, such that a sink 'vs-splitter' is going
+#    out to both a broadcast sink and to your desired headphones playback.
+# 2. Get No Man's Sky running.
+# 3. Run something like `for x in {0..4} ; do sleep 2 ; ./remap-nomansky-sink-input-to-vs-splitter.bash ; done`
+#    Then, before the loop terminates, switch to the No Man's Sky window so that its audio is playing.
+#    This script should pick up the No Man's Sky sink and redirect it to the vs-splitter sink.
+#    In theory, it should then stay that way across multiple window defocusing events.
+
+name="No Man"
+inputs=$(pacmd list-sink-inputs |
+    tr '\n' '\r' |
+    perl -pe 's/.*? *index: ([0-9]+).+?application\.name = "([^\r]+)"\r.+?(?=index:|$)/\2:\1\r/g' |
+    tr '\r' '\n')
+
+echo "inputs:"
+echo "${inputs}"
+
+if [[ "$inputs" == *"${name}"* ]] ; then
+    echo "found something in the inputs"
+    index=$(echo "${inputs}" | awk -F ":" '/'"${name}"'/ {print $2}')
+    echo $index
+    pactl move-sink-input ${index} "vs-splitter"
+fi
+```
+
 ![Graph 01: The second completed version, as visualized by pagraphcontrol](/images/blog/discord-graph-01.png)
