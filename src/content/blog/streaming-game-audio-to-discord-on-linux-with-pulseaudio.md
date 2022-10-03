@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Streaming to Discord on Linux: Managing audio streams via PulseAudio"
-date: 2022-10-02T18:00:00-07:00
+date: 2022-10-02T21:00:00-08:00
 toc: true,
 tags: [
     "bash",
