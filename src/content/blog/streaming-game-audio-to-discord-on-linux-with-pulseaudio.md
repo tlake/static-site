@@ -90,13 +90,43 @@ pactl load-module module-loopback source_dont_move=1 source=vs-splitter.monitor 
 
 ## Complication 1: Discord and noise reduction
 
+The system was working! I could pipe my application audio to Discord along with my voice, and to my headphones along with my friends' voices! I was testing my setup by using a music player for the application, and that's when I noticed that Discord was filtering out parts of the music just like it would do for my voice. This was a problem, because it meant that I wouldn't be able to broadcast application audio at a low level relative to my voice, which meant that anyone listening would be struggling with hearing me over the application. But if I cranked Discord's input sensitivity setting way down so that it could pick up the quieter application audio, it would _also_ pick up all the annoying background noises coming into my microphone!
+
+I had no choice - I would have to take the processing of my voice away from Discord and handle it myself.
+
+Enter PulseEffects - or rather, I guess it's called Easy Effects these days? In any event, it's a software EQ-and-effects application, and one of its features is a noise gate effect that I should be able to use in order to cut out some of the background noises from my mic before I send it into the vs-broadcast sink.
+
 ![Figure 03: The system with preprocessing via PulseEffects](/images/blog/discord-fig-03.png)
 
-### - What luck, a visualizer
+PulseEffects creates several virtual sinks of its own, and at this point it was starting to become difficult again to keep track of all the devices and their connections, even though I had my diagrams and even though the devices and sinks in `pavucontrol` were named different, recognizable things. I began wishing for a graphical way to configure these settings, and I found one!
+
+### - What luck, a graphical editor!
+
+I came across the [pagraphcontrol github repo](https://github.com/futpib/pagraphcontrol), and while there doesn't seem to be a PPA for my distro (I'm running Linux Mint 20.2 at the time of this writing), it was easy to clone down the repo and install/build/run the project with `yarn`.
+
+Then, after a little trial and error with all the new items that PulseEffects added to my system, I was able to connect the right boxes with the right arrows to get a system that was working!
 
 ![Graph 00: The first completed version, as visualized by pagraphcontrol](/images/blog/discord-graph-00.png)
 
+_**Note 1:** I still don't fully understand the resources that PulseEffects creates. It has a section for applying effects to application-like outputs and a section for applying effects to microphone-like inputs, and each of these sections seems to create a familiar-looking virtual sink setup. However, each section **also** creates a pair of objects sporting the PulseEffects icon, and there's no visual way to distinguish between them except that some of them can accept an input and the others can output to devices. Furthermore, as seen in the diagram, there's no visible connecting arrow between the input and output of a PulseEffects pair, which can make it difficult to keep track of everything._
+
+_My best understanding at the moment is that the icon-input "device" collects input streams and pipes them into the PulseEffects application so that it can do work applying effects. The end result seems to be piped out through the icon-output object, which must send to the virtual "PulseEffects(mic)" sink. Now we're back in familiar territory, as I can grab the output of that sink (or rather, its monitor) with a loopback in order to send it off to some other device._
+
+_**Note 2:** In the above diagram, you may notice that I'm sending the "PulseEffects(mic)" into the "vs-splitter" (shown as "Splitter") sink instead of to the "vs-broadcast" (shown as "OutForBroadcast") sink as originally intended. By doing so, I'm able to send my voice out to Discord as well as to my headphones, so that I can hear the results of messing with the effects. This is only for testing purposes, and once I've got my mic stream sounding the way I want, I would change the loopback to connect "PulseEffects(mic)" instead to "vs-broadcast"._
+
+I won't pretend that I know what I'm doing with PulseEffects yet, but at least the audio routes properly now.
+
 ## Complication 2: No game audio when game window isn't active
+
+This is a problem with No Man's Sky in particular: when you alt+tab out of NMS (or take some other action that results in the NMS game window not being the active window), the game pauses. Or maybe not _fully_ pauses, there seems to be some debate about whether or not it pauses in multiplayer, but regardless, the audio stops playing when the game window isn't the active window.
+
+This makes it incredibly frustrating to try and change the pathing of the audio, since there's no representation of the audio stream that exists in the system unless the audio is actively playing. If I put NMS in windowed mode and open pagraphcontrol beside it, I can see an audio device-or-stream appear when I make NMS the active window. Unfortunately, by default the game doesn't send to my vs-splitter sink, so the game audio doesn't go out to Discord. For any other application, I could just drag the arrow in pagraphcontrol to the correct sink, or hit up the terminal and use `pactl move-sink-input` to do the same thing - except with NMS, as soon as I enter the pagraphcontrol or my terminal, the NMS window becomes unfocused and stops playing audio, which causes its device to no longer exist for these other appliations to target them.
+
+So then I wanted to write a quick little bash script that could run in the background and perform that `pactl move-sink-input` - unfortunately, this command requires the index of the sink and not some sort of human-readable name; even more unfortunately, `pactl list-sink-inputs` is more human-readable than programmatic, so parsing out the index of a sink input is not straightforward.
+
+Luckily, [this parsing problem was solved a couple years ago on stackoverflow](https://stackoverflow.com/questions/39736580/look-up-pulseaudio-sink-input-index-by-property), so I was able to lift the perl regex and awk filtering from there. I ran into a bit of a problem trying to account for the apostrophe in the name "No Man's Sky" which turned out to be a problem because the awk regex also needs to be in single quotes it seems, so instead of trying to find the right combination of escapes and special characters, I just changed the substring search to `*"No Man"*`.
+
+With the script working, all I needed to do was get it to run while the game was playing. I didn't want to keep it running forever in the background (and it seems I don't have to - after switching it once, it seems to stay configured that way), so I just wrapped the script execution command in a quick for-loop that iterated just a handful of times, kicked it off, and switched into NMS before the loop was finished iterating.
 
 ```bash
 #!/bin/bash
@@ -127,5 +157,7 @@ if [[ "$inputs" == *"${name}"* ]] ; then
     pactl move-sink-input ${index} "vs-splitter"
 fi
 ```
+
+Finally the system seems to be working as intended! The extra arrows on the following diagram are just visual glitches caused by trying to drag the NMS device up to group with Spotify in the tiny window of time between clicking out of NMS and the audio stopping.
 
 ![Graph 01: The second completed version, as visualized by pagraphcontrol](/images/blog/discord-graph-01.png)
