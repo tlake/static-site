@@ -6,27 +6,27 @@ title: Mindartis
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Mindartis
+## Mindartis
 
 wood elf rogue
 
--   master looter
--   somewhere else
+- master looter
+- somewhere else
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

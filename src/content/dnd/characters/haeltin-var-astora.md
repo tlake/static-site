@@ -7,7 +7,7 @@ title: Haeltin Var Astora
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Haeltin Var Astora
+## Haeltin Var Astora
 
 ![Pasted image 20211106142251.png](/images/dnd/pc-gray.png)
 half-drow blood hunter
@@ -19,26 +19,26 @@ half-drow blood hunter
 - formerly deceased
 - anime werewolf motorcycle boi
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-### Alter egos
+#### Alter egos
 
-#### Jared
+##### Jared
 
 Gray took on the persona of "Jared" several times in the Sword Coast.
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

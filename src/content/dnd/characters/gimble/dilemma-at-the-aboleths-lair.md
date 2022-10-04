@@ -7,7 +7,7 @@ title: Dilemma at the Aboleth's Lair
 
 [Gimble the Diviner](/dnd/characters/gimble-the-diviner/)
 
-# Dilemma at the Aboleth's Lair
+## Dilemma at the Aboleth's Lair
 
 In Shadow Leilon, [Gimble](/dnd/characters/gimble-the-diviner/) was finally able to locate his missing sister and aunt in the depths of the aboleth's lair in [2019-08-09 Import Campaign](/dnd/2019-08-09-import-campaign/). [Nyx](/dnd/characters/npcs/nyx/) and Lyra were found unmoving and encased in a large crystal. When [Gimble](/dnd/characters/gimble-the-diviner/) failed to extricate them from their apparent prison, the aboleth returned and attacked the party.
 

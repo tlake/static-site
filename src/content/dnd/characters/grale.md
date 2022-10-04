@@ -6,30 +6,30 @@ title: Grale
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Grale
+## Grale
 
 half-orc monk/ranger
 [(D&D Beyond)](https://ddb.ac/characters/9011212/L4EhKS)
 
--   like, three Narutos, and also a Goku
--   shadow run (but not like the rpg)
--   stuns for days
--   biggus stickus
+- like, three Narutos, and also a Goku
+- shadow run (but not like the rpg)
+- stuns for days
+- biggus stickus
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

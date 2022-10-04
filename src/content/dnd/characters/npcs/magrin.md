@@ -7,19 +7,19 @@ title: Magrin
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Magrin
+## Magrin
 
 A duergar who ~~serves~~ served as a chief manager of [Tymphal](/dnd/characters/npcs/tymphal/)'s operations.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-#### Initial Meeting in the Torture Room at Fierna's Tower
+##### Initial Meeting in the Torture Room at Fierna's Tower
 
 - a now frail and despondent duergar, heavily beaten and lacking teeth
 
-#### After Tymphal's Punishment
+##### After Tymphal's Punishment
 
 Magrin's essence is now confined within a green steel shield.
 
@@ -27,30 +27,30 @@ Magrin's essence is now confined within a green steel shield.
 
 > **Magrin's Betrayal** is a sentient shield made by an archdevil of Phlegethos, Tymphal, that houses the soul coin of Magrin, his once loyal assistant. It is an exquisitely made, smooth, circular, targe shield made from baatoran green steel. It is decorated along the circumference with infernal letters of obsidian, that says “Magrin, the Betrayer”. A highly-polished, wicked-looking silver spike comes out of the center. Because of Magrin’s disloyalty, Tymphal fused Magrin’s soul coin within the prison of this shield, to serve another master for eternity. Tymphal thinks it is appropriate, and humorous, that Magrin will be continually struck for the remainder of his days, serving a mortal master.
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
 - According to Tymphal, Magrin was abducted by [Fierna](/dnd/characters/npcs/fierna/), and without him, Tymphal's operations are flailing. This is the basis of the work in [Tymphal's Contract](/dnd/other-notes/tymphals-contract/).
 - However, in 2021-12-22 Import Campaign#The Library, [Oneshoe](/dnd/characters/oneshoe/) finds a contract between Fierna and Magrin which implies it was a consensual arrangement.
 
-## Relationships
+### Relationships
 
-### Ignaroz
+#### Ignaroz
 
 - During 2022-03-30 Import Campaign#The Rewards of Loyalty, it was implied that Ignaroz may have been quite close to Magrin, as she displayed a strong, personal reaction to the revelation that he went to Fierna willingly.
 
-### Tymphal
+#### Tymphal
 
 - Once Tymphal depended upon Magrin as a lynchpin of his operations.
 - After news of his disloyalty with Fierna, Tymphal was swift with his punishment.
 
-## Quotations
+### Quotations
 
 - [Magrin](/dnd/characters/npcs/magrin/): (haltingly) Please help. (about the only words he could manage when found in the torture chamber in Fierna's tower.)
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

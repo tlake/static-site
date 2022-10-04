@@ -6,26 +6,26 @@ title: Kithri Tealeaf
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Kithri Tealeaf
+## Kithri Tealeaf
 
 halfling rogue
 
 - surprisingly nice, for a rogue
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

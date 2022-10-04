@@ -7,22 +7,22 @@ title: Keith Stone
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Keith Stone
+## Keith Stone
 
 Stone Giant that provides hospitality for the party on the Road of Cinders.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
-## Relationships
+### Relationships
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

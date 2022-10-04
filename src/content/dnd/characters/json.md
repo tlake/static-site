@@ -6,27 +6,27 @@ title: JSON
 
 [Import Campaign Characters](/dnd/characters/)
 
-# JSON
+## JSON
 
 wood elf bard
 
--   out on tour
--   the greatest insult to black puddings
+- out on tour
+- the greatest insult to black puddings
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

@@ -7,29 +7,29 @@ title: Tharden Rockseeker
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Tharden Rockseeker
+## Tharden Rockseeker
 
 Tharden Rockseeker was one of the three dwarf brothers who rediscovered Wave Echo Cave.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
 - older brother to [Gundren Rockseeker](/dnd/characters/npcs/gundren-rockseeker/)
 - older brother to [Nundro Rockseeker](/dnd/characters/npcs/nundro-rockseeker/)
 
-## Key Info
+### Key Info
 
 - The dwarf was slain by forces under the command of [Nezznar, The Black Spider](/dnd/characters/npcs/nezznar-the-black-spider/).
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

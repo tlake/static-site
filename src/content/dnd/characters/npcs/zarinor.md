@@ -7,30 +7,30 @@ title: Zarinor
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Zarinor
+## Zarinor
 
 A white dragon, found bound in chains on the 42nd-floor during the Caper at Fierna's Tower.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
 Large-sized, white dragon.
 
-### Personality
+#### Personality
 
 Abnormally docile and intelligent for a smaller white dragon.
 
-## Biography
+### Biography
 
 Zarinor was slain and had her horde stolen by another dragon, Harion.
 
-## Key Info
+### Key Info
 
 - Zarinor asks [Val](/dnd/characters/val/) to venture to a location in the far north of the Sword Coast to find and slay Harion. In return, Val is free to keep the horde.
 
-## Relationships
+### Relationships
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

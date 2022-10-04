@@ -8,41 +8,39 @@ title: Rinn'thalas Liadon
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Rinn'thalas Liadon
+## Rinn'thalas Liadon
 
 ![Pasted image 20211106142358.png](/images/dnd/pc-rinn.png)
 Wood Elf Horizon Walker Ranger
 [DND Beyond](https://www.dndbeyond.com/profile/VigilantPotato/characters/60836645)
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-### Biography
+#### Biography
 
-#### Background
+##### Background
 
-#### With Menagerie in Baator
+##### With Menagerie in Baator
 
-## Relationships
+### Relationships
 
-### Ze'brak
+#### Ze'brak
 
-### Gorstag
+#### Gorstag
 
+### Character Info
 
-
-## Character Info
-
-### Quests
+#### Quests
 
 - [x] Deliver a letter to the party (a favor for [Gorstag](/dnd/characters/gorstag/) orchestrated by [Gimble](/dnd/characters/gimble-the-diviner/))
 - [ ] Find his lost friend, Ze'brak
 
-### Notable Items
+#### Notable Items
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

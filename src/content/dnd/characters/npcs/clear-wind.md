@@ -7,28 +7,28 @@ title: Clear Wind
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Clear Wind
+## Clear Wind
 
 A tabaxi bartender at the Moonlight All-Night Diner in Shadow Leilon.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
-## Relationships
+### Relationships
 
-### Val
+#### Val
 
 Val is chatty with Clear Wind and calls her "Water Wendy".
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

@@ -7,26 +7,26 @@ title: Iarno Albrek
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Iarno Albrek
+## Iarno Albrek
 
 - human wizard, secret leader of The Redbrands under the name Glasstaff.
 
-## Description
+### Description
 
-### Appearnce
+#### Appearnce
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
 - Previously a member of the Lord's Alliance.
 - Secretly the leader of The Redbrands.
-- In league with [The Black Spider](/dnd/characters/npcs/nezznar-the-black-spider/) 
+- In league with [The Black Spider](/dnd/characters/npcs/nezznar-the-black-spider/)
 
-## Relationships
+### Relationships
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

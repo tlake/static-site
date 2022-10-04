@@ -7,26 +7,26 @@ title: Zilry
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Zilry
+## Zilry
 
 An elf researcher who arrived in [Phandalin](/dnd/locations/phandalin/) along with [Waybert](/dnd/characters/npcs/waybert-spinzig/) to study the incoming Modron March.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
-## Relationships
+### Relationships
 
-### Waybert Spinzig
+#### Waybert Spinzig
 
 Waybert is a companion who joins in Zilry's study.
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

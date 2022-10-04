@@ -7,29 +7,29 @@ title: Nundro Rockseeker
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Nundro Rockseeker
+## Nundro Rockseeker
 
 Nundro Rockseeker was one of the three dwarf brothers who rediscovered Wave Echo Cave.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
 - younger brother to [Gundren Rockseeker](/dnd/characters/npcs/gundren-rockseeker/)
 - younger brother to [Tharden Rockseeker](/dnd/characters/npcs/tharden-rockseeker/)
 
-## Key Info
+### Key Info
 
-- slain in The Wave Echo Cave by forces of [The Black Spider](/dnd/characters/npcs/nezznar-the-black-spider/) 
+- slain in The Wave Echo Cave by forces of [The Black Spider](/dnd/characters/npcs/nezznar-the-black-spider/)
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

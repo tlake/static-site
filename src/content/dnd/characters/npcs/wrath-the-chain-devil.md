@@ -7,25 +7,25 @@ title: Wrath the Chain Devil
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Wrath the Chain Devil
+## Wrath the Chain Devil
 
 A powerful chain devil who reportedly may know something about the whereabouts of Ze'brak.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
-- [Magnanimy](/dnd/characters/npcs/magnanimy/) claimed that Ze'brak may have drawn the ire of Wrath. 
+- [Magnanimy](/dnd/characters/npcs/magnanimy/) claimed that Ze'brak may have drawn the ire of Wrath.
 - Wrath may be located in the Jangling Hiter.
 
-## Relationships
+### Relationships
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

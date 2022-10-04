@@ -7,24 +7,24 @@ title: Fierna
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Fierna
+## Fierna
 
 Daughter of [Belial](/dnd/characters/npcs/belial/), with whom she co-rules Phlegethos.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
 Described as fiery and even recklessly passionate.
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
-## Relationships
+### Relationships
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

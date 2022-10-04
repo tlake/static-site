@@ -7,30 +7,30 @@ title: Elirion'tar
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Elirion'tar
+## Elirion'tar
 
 Brother to [Val](/dnd/characters/val/) and was fround working on a ship docked in Neverwinter.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
 - Said he was on way to Chult and said the party could meet him later.
 
-## Relationships
+### Relationships
 
-### Val
+#### Val
 
 - Ellie is one of [Val](/dnd/characters/val/)'s brothers.
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

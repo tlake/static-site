@@ -8,26 +8,26 @@ title: Waybert Spinzig
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Waybert Spinzig
+## Waybert Spinzig
 
 A gnome researcher who arrived in [Phandalin](/dnd/locations/phandalin/) along with [Zilry](/dnd/characters/npcs/zilry/) to study the incoming Modron March.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
-## Relationships
+### Relationships
 
-### Zilry
+#### Zilry
 
 Zilry is a companion who joins in Wayberts's study.
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

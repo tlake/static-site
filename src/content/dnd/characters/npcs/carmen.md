@@ -7,25 +7,25 @@ title: Carmen
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Carmen
+## Carmen
 
 Known as one of the most powerful and effective lawyers in Phlegethos.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
 - Due to her extraordinary reputation, Carmen commands exceedingly high fees for her services.
 - In order to pay for these services, the party enters into [Tymphal's Contract](/dnd/other-notes/tymphals-contract/).
 
-## Relationships
+### Relationships
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia

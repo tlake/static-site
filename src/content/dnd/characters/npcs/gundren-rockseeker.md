@@ -7,33 +7,33 @@ title: Gundren Rockseeker
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Gundren Rockseeker
+## Gundren Rockseeker
 
 Gundren Rockseeker was one of the three dwarf brothers who rediscovered Wave Echo Cave.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-### Late Brothers
+#### Late Brothers
 
 - brother to [Tharden Rockseeker](/dnd/characters/npcs/tharden-rockseeker/)
 - older brother to [Nundro Rockseeker](/dnd/characters/npcs/nundro-rockseeker/)
 
-### Val
+#### Val
 
 Gundren and Val become fast friends and drinking buddies. Val calls Gundren "G-Rock", and Gundren calls Val "A real dwarf's elf."
 
-## Key Info
+### Key Info
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

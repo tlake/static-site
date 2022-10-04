@@ -6,34 +6,34 @@ title: Caerwyn Cadogan
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Caerwyn Cadogan
+## Caerwyn Cadogan
 
 A tuathan from the Feywild--once friend and a guide to the realm, now enemy after his betrayal at the Court of Stars.
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
 - A handsome, anthromorphic fox. Think Disney Robin Hood.
 
-### Personality
+#### Personality
 
 - friendly and charismatic; though possessed of typical fey enigma.
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Key Info
+### Key Info
 
 - initial guide to the Feywild for the party
 - seemingly betrayed the party at the Court of Stars
-    - Caerwyn may have been involved with assassination attempt on [Queen Titania](/dnd/characters/npcs/queen-titania/) and subsequent frame up of The Menagerie
+  - Caerwyn may have been involved with assassination attempt on [Queen Titania](/dnd/characters/npcs/queen-titania/) and subsequent frame up of The Menagerie
 - owed a minor favor to [Gimble](/dnd/characters/gimble-the-diviner/)
-    - this was paid by Caerwyn as he helped The Menagerie escape the oubliette prisons they were sequestered in after the attack on [Queen Titania](/dnd/characters/npcs/queen-titania/)
+  - this was paid by Caerwyn as he helped The Menagerie escape the oubliette prisons they were sequestered in after the attack on [Queen Titania](/dnd/characters/npcs/queen-titania/)
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

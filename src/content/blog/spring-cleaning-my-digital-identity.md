@@ -30,7 +30,6 @@ Definitely they should be revoked if compromised, but otherwise they should stic
 There's more to say about PGP, but this post is about the process I went through to sanify my PGP key situation.
 There are some links at the end.
 
-
 # the start
 
 My Keybase account contained two PGP keys.
@@ -42,7 +41,6 @@ I consider both of these identites to belong to the same digital persona, so the
 My laptop contained three PGP keys.
 One of them was the GitHub one from above, and another I had recently generated in preparation for `git-secret` before I decided to learn more about PGP keys
 A third was a workplace key, and I have no idea what the fourth was for.
-
 
 # the goal
 
@@ -60,7 +58,6 @@ The old personal key on Keybase will need to be cross-signed with the new one to
 The old GitHub key will need to be removed from GitHub, Keybase, and my local GPG keyring, and I'll need to add my new personal public key to GitHub and sign my commits using the new signing key.
 
 All keys that are not my new personal key and my workplace key will be deleted.
-
 
 # the process
 
@@ -80,7 +77,6 @@ If doing so is helpful to someone else, that's added value, but not the point.
 - [update keybase](#update-keybase)
 - [update github](#update-github)
 - [local cleanup](#local-cleanup)
-
 
 ## - take stock
 
@@ -159,7 +155,6 @@ ssb   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
 The first key is the one that I don't remember the reason for its creation, the second key is the one I had created to sign GitHub commits, and the third key is my workplace key.
 None of these are the key that exists on Keybase, so I'll need to grab that next.
 
-
 ## - import the old key from keybase
 
 Import the public key:
@@ -207,7 +202,6 @@ uid                 [ unknown] keybase.io/tlake <tlake@keybase.io>
 ssb   rsa2048/6C444A94152F77FC 2016-11-11 [E] [expires: 2024-11-09]
 ssb   rsa2048/6227D98814ACA2F0 2016-11-11 [SA] [expires: 2024-11-09]
 ```
-
 
 ## - generate a new master key
 
@@ -441,7 +435,6 @@ ssb  rsa4096/D3C910B1DE464464
 gpg> save
 ```
 
-
 ## - cross-sign the old and new keys
 
 As noted by sungo, to maintain the web of trust I need to first sign the new key with the old key, and then sign the old key with the new key.
@@ -557,9 +550,9 @@ I'm not sure who this Mallory character is, but fuck that person.
 Now, I'll create the backups of the private and public keys.
 
 ```bash
-$ gpg -a --export E3D3AB877ED44CED > ./public_key
+gpg -a --export E3D3AB877ED44CED > ./public_key
 
-$ gpg -a --export-secret-key E3D3AB877ED44CED > ./secret_key
+gpg -a --export-secret-key E3D3AB877ED44CED > ./secret_key
 ```
 
 Finally, I want to remove the master private key (the one with certification abilities) from my machine, so that the only copy of it lives on that USB.
@@ -568,7 +561,7 @@ That's a three step process:
 #### 1. Export _just_ the master private subkeys to a file
 
 ```bash
-$ gpg -a --export-secret-subkeys E3D3AB877ED44CED > ./secret_subkeys
+gpg -a --export-secret-subkeys E3D3AB877ED44CED > ./secret_subkeys
 ```
 
 #### 2. Delete _all_ the master private keys (primary and sub) from GPG
@@ -635,7 +628,6 @@ ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
 ```
 
 I'll make sure those special files are encrypted in the USB container, then delete them from my machine.
-
 
 ## - obsolete the old key
 
@@ -771,7 +763,6 @@ The lesson there, I guess, is that it's okay to keep revoked keys on GitHub just
 Whatever.
 A little scorched earth never hurt anyone.
 
-
 # local cleanup
 
 Now it's time to remove all the remaining artifacts and trash - namely, the unnecessary keys.
@@ -818,8 +809,8 @@ These are the key IDs of the three keys that need to be deleted:
 
 ```bash
 $ for keyid in 4D2701F13EDE5839 067D98D9C5F1ED56 54B8519A0C437FEA ; \
-	do gpg --delete-secret-key ${keyid} ; \
-	gpg --delete-key ${keyid} ; \
+ do gpg --delete-secret-key ${keyid} ; \
+ gpg --delete-key ${keyid} ; \
 done
 ```
 
@@ -860,13 +851,11 @@ ssb   rsa4096/1010346AB8850E6D 2019-04-23 [E] [expires: 2024-04-21]
 ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
 ```
 
-
 # and that's that!
 
 I'm [tlake](https://keybase.io/tlake) on Keybase, which should now be wrangled into something sane.
 It bothers me that my Keybase graph and history looks messy af with all these additions and revocations, but I guess pobody's nerfect, right?
 Life's about the journey or whatever.
-
 
 # helpful resources
 

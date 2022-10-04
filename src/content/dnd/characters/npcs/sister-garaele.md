@@ -8,25 +8,25 @@ title: Sister Garaele
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Sister Garaele
+## Sister Garaele
 
-## Description
+### Description
 
 Elf cleric of Tymora who tends the Luck Shrine in town.
 
-## Biography
+### Biography
 
-## Key Info
+### Key Info
 
 - member of The Harpers
 - sent party on a quest to get information from a banshee named Agatha about the location of Bowgentle's spellbook
 
-## Relationships
+### Relationships
 
-### Gimble
+#### Gimble
 
 - Taught [Gimble](/dnd/characters/gimble-the-diviner/) the ritual for *Gentle Repose*
 
-### Quotations
+#### Quotations
 
-## Trivia
+### Trivia
