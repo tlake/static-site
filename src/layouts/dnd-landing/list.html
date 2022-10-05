@@ -2,16 +2,18 @@
 <article class="pa3 pa4-ns nested-copy-line-height nested-img">
   <section
     class='cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "primary_font_color_class" | default "mid-gray" }} nested-links'>
-    {{- .Content -}}
+    {{ .Content }}
+  </section>
+  <section
+    class='ph3 f4 tc-l center measure-wide lh-copy {{ $.Param "primary_font_color_class" | default "mid-gray" }} nested-links'>
+    <p><a href="/dnd/posts/">All Posts</a></p>
   </section>
   <section class="flex-ns flex-wrap justify-around mt5">
-    {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-    {{ range $paginator.Pages }}
+    {{ range first 3 (where .Site.Pages "Type" "post") }}
     <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
       {{- partial "summary.html" . -}}
     </div>
     {{ end }}
   </section>
-  {{- template "_internal/pagination.html" . -}}
 </article>
 {{ end }}
