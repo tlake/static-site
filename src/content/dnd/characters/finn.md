@@ -7,7 +7,8 @@ title: Finn
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Finn
+## Finn
+
 ![Pasted image 20211106142218.png](/images/dnd/pc-finn.png)
 Halfling Barbarian
 [(D&D Beyond)](https://ddb.ac/characters/2019554/v1gXQ3)
@@ -17,20 +18,20 @@ Halfling Barbarian
 - friend to Not-Bailey
 - don’t ask about Bailey
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

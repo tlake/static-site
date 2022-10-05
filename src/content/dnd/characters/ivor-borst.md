@@ -6,27 +6,27 @@ title: Ivor Borst
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Ivor Borst
+## Ivor Borst
 
 human barbarian
 
--   no door is safe
--   Loviatar - wait, WHAT
+- no door is safe
+- Loviatar - wait, WHAT
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

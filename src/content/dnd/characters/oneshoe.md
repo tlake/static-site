@@ -7,31 +7,31 @@ title: Oneshoe
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Oneshoe
+## Oneshoe
 
 ![Pasted image 20211106142335.png](/images/dnd/pc-onshoe.png)
 Gnome Rogue/Warlock
 [(D&D Beyond)](https://ddb.ac/characters/4096309/smb8F9)
 
--   professional detective
--   business owner
--   don’t ask about the other shoe
--   goddammit Harold
+- professional detective
+- business owner
+- don’t ask about the other shoe
+- goddammit Harold
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

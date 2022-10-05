@@ -7,34 +7,34 @@ title: Zed
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Zed
+## Zed
 
 ![Pasted image 20211106142439.png](/images/dnd/pc-zed.png)
 half-orc paladin
 [(D&D Beyond)](https://ddb.ac/characters/2020367/QmB5LP)
 
--   kindle the yoga
--   powerful thighs
--   “Bullwinkle take the wheel”
--   the puns start coming
-    -   and they never stop coming
-        -   and they never stop coming
-            -   and they never stop coming
+- kindle the yoga
+- powerful thighs
+- “Bullwinkle take the wheel”
+- the puns start coming
+  - and they never stop coming
+    - and they never stop coming
+      - and they never stop coming
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

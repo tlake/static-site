@@ -6,30 +6,30 @@ title: Gorstag
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Gorstag
+## Gorstag
 
-human fighter  
+human fighter
 [(D&D Beyond)](https://ddb.ac/characters/4095889/9jPFQF)
 
--   trans-dimensional gambling baron
--   rolls with anything
--   occasional corrective community service
--   portal technology: unknown
+- trans-dimensional gambling baron
+- rolls with anything
+- occasional corrective community service
+- portal technology: unknown
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

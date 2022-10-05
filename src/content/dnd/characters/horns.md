@@ -7,31 +7,31 @@ title: Horns
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Horns
+## Horns
 
 ![Pasted image 20211106142316.png](/images/dnd/pc-horns.png)
 tiefling druid
 [(D&D Beyond)](https://ddb.ac/characters/3460406/iBAXVm)
 
--   knows trees' weak points
--   formerly a general in the Blood War
--   probably not evil - like, _probably_
--   new and improved, now with wings!
+- knows trees' weak points
+- formerly a general in the Blood War
+- probably not evil - like, _probably_
+- new and improved, now with wings!
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

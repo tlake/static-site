@@ -242,6 +242,7 @@ $: sudo apt install --yes nfs-kernel-server
 ```
 
 Then I can define the export of the data drive within the `/etc/exports` file. There are several options that I'll want to supply:
+
 - `rw`, because I want the drive to be readable and writable
 - `sync`, because I want the NFS server to reply to requests only after changes have been committed to stable storage
 - `no_subtree_check`, because I value the small reliability increase of safeguarding against filename changes upon an open file over the small security increase of `subtree_check`

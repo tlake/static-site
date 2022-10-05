@@ -7,28 +7,28 @@ title: Zane a Presque Du'Cal
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Zane a Presque Du’Cal
+## Zane a Presque Du’Cal
 
 half-elf bard
 
--   deceased
--   savaged by a _Grey_ wolf
--   misguider of innocents
+- deceased
+- savaged by a _Grey_ wolf
+- misguider of innocents
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References

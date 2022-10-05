@@ -6,26 +6,26 @@ title: Orsik Stoneskin
 
 [Import Campaign Characters](/dnd/characters/)
 
-# Orsik Stoneskin
+## Orsik Stoneskin
 
 dwarf monk
 
--   is he _still_ at Old Owl Well?
+- is he _still_ at Old Owl Well?
 
-## Description
+### Description
 
-### Appearance
+#### Appearance
 
-### Personality
+#### Personality
 
-## Biography
+### Biography
 
-## Relationships
+### Relationships
 
-## Character Information
+### Character Information
 
-## Quotations
+### Quotations
 
-## Trivia
+### Trivia
 
-## References
+### References
