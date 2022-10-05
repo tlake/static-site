@@ -3,11 +3,12 @@ title: "D&D"
 date: 2020-08-22T09:19:09-07:00
 description: "the sky is grey and tinged with regret"
 show_reading_time: true
+type: dnd-landing
 ---
 
 The current (and former) complement of The Menagerie can be found [here](characters).
 
----
+-----
 
 I've pulled the early game's records from the dusty confines of an old postgres database and (for now) that unintegrated information can be found in [the archives](archive).
 
@@ -17,4 +18,4 @@ Maybe I'll convert the big block of archives into backdated posts. Maybe I'll cr
 
 Maybe.
 
----
+-----
