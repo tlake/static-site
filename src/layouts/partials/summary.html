@@ -1,17 +1,17 @@
-<div class="relative w-100 mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }} nested-copy-line-height">
-  <div
-    class="{{ $.Param "secondary_bg_color_class" | default "bg-white" }} {{ $.Param "secondary_font_color_class" | default "gray" }} mb3 pa4 overflow-hidden">
+<div class='relative w-100 mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }} nested-copy-line-height'>
+  <div class='{{ $.Param "secondary_bg_color_class" | default "bg-white" }} {{ $.Param "secondary_font_color_class" |
+    default "gray" }} mb3 pa4 overflow-hidden'>
     <!-- <span class="f6 db">{{ humanize .Section }}</span> -->
 
     <h1 class="f3 near-black">
-      <a href="{{ .Permalink }}" class="link {{ $.Param "secondary_font_color_class" | default "black"}} dim">
+      <a href="{{ .Permalink }}" class='link {{ $.Param "secondary_font_color_class" | default "black" }} dim'>
         {{ .Title }}
       </a>
     </h1>
 
     <div class="f6 mv3 dib tracked">
-      <time class={{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
-        {{- .Date.Format "Mon, January 2, 2006" -}}
+      <time class='{{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00" ) | safeHTMLAttr }}'>
+        {{ .Date.Format "Mon, January 2, 2006" }}
       </time>
 
       {{ if .Description }}
@@ -22,7 +22,7 @@
     </div>
 
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      {{ .Summary  }}
+      {{ .Summary }}
     </div>
 
   </div>
