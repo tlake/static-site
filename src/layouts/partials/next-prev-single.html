@@ -1,6 +1,6 @@
 <div class="next-prev-post-nav">
 
-    {{- $dirPages := where .Site.Pages "File.Dir" .Page.File.Dir }}
+    {{- $dirPages := where (where .Site.Pages "File.Dir" .Page.File.Dir) "Kind" "page" }}
 
     {{- $curPos := 0 }}
     {{- $idx := 0 }}
