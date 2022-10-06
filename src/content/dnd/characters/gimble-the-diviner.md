@@ -6,7 +6,7 @@ tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
 - my/DND/campaigns/import_campaign/characters/main/inactive
 title: Gimble the Diviner
-type: article
+# type: article
 toc: true
 ---
 
