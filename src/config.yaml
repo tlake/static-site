@@ -3,6 +3,7 @@ publishDir: "../docs"
 title: "tlake.io"
 baseURL: "http://tlake.io"
 languageCode: "en-us"
+timeZone: America/Los_Angeles
 enableGitInfo: true
 enableEmoji: true
 
