@@ -11,7 +11,7 @@ title: Haeltin Var Astora
 half-drow blood hunter
 [(D&D Beyond)](https://ddb.ac/characters/1769763/nKFcbG)
 
-- goes by "Grey"
+- goes by "Gray"
 - formerly Haeltin Var Astora
 - formerly a paladin
 - formerly deceased

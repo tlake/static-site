@@ -12,7 +12,7 @@ The main characters comprise a loosely-formed coalition known as The Menagerie.
 - [Finn](/dnd/characters/finn/)
 - [Gorstag](/dnd/characters/gorstag/)
 - [Grale](/dnd/characters/grale/)
-- [Grey](/dnd/characters/haeltin-var-astora/)
+- [Gray](/dnd/characters/haeltin-var-astora/)
 - [Horns](/dnd/characters/horns/)
 - [Oneshoe](/dnd/characters/oneshoe/)
 - [Val](/dnd/characters/val/)
