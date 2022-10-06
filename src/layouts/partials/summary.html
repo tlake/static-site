@@ -5,24 +5,24 @@
 
     <h1 class="f3 near-black">
       <a href="{{ .Permalink }}" class='link {{ $.Param "secondary_font_color_class" | default "black" }} dim'>
-        {{ .Title }}
+        {{- .Title -}}
       </a>
     </h1>
 
     <div class="f6 mv3 dib tracked">
       <time class='{{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00" ) | safeHTMLAttr }}'>
-        {{ .Date.Format "Mon, January 2, 2006" }}
+        {{- .Date.Format "Mon, January 2, 2006" -}}
       </time>
 
       {{ if .Description }}
       <p>
-        {{ .Description }}
+        {{- .Description -}}
       </p>
       {{ end }}
     </div>
 
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      {{ .Summary }}
+      {{- .Summary -}}
     </div>
 
   </div>
