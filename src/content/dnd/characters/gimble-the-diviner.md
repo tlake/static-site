@@ -6,7 +6,6 @@ tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
 - my/DND/campaigns/import_campaign/characters/main/inactive
 title: Gimble the Diviner
-# type: article
 toc: true
 ---
 
@@ -41,7 +40,7 @@ Gimble seeks to unravel the mystery of a strange, blank book and its connection 
 
 [Gimble the Diviner Backstory](/dnd/characters/gimble/gimble-the-diviner-backstory/)
 
-#### The Phandolin Affair
+#### The Phandalin Affair
 
 - The first meetings of the party.
 - Gimble tells the party to save themselves as he is left behind at Cragmaw Castle, hiding from the resident hobgoblins.
