@@ -33,7 +33,7 @@ Magrin's essence is now confined within a green steel shield.
 
 ### Key Info
 
-- According to Tymphal, Magrin was abducted by [Fierna](/dnd/npcs/fierna/), and without him, Tymphal's operations are flailing. This is the basis of the work in [Tymphal's Contract](/dnd/other-notes/tymphals-contract/).
+- According to Tymphal, Magrin was abducted by [Fierna](/dnd/npcs/fierna/), and without him, Tymphal's operations are flailing. This is the basis of the work in [Tymphal's Contract](/dnd/notes/tymphals-contract/).
 - However, in 2021-12-22 Import Campaign#The Library, [Oneshoe](/dnd/characters/oneshoe/) finds a contract between Fierna and Magrin which implies it was a consensual arrangement.
 
 ### Relationships

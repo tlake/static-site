@@ -9,7 +9,7 @@ title: Ignaroz
 
 ## Ignaroz
 
-Assistant to [Carmen](/dnd/npcs/carmen/) (?) who facilitates creation and administration of [Tymphal's Contract](/dnd/other-notes/tymphals-contract/) with the The Menagerie.
+Assistant to [Carmen](/dnd/npcs/carmen/) (?) who facilitates creation and administration of [Tymphal's Contract](/dnd/notes/tymphals-contract/) with the The Menagerie.
 
 ### Description
 

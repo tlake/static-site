@@ -38,7 +38,7 @@ menu:
     - identifier: notes
       name: notes
       title: notes
-      url: /dnd/other-notes
+      url: /dnd/notes
       weight: 5
     - identifier: archive
       name: archive

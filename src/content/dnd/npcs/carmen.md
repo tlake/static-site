@@ -22,7 +22,7 @@ Known as one of the most powerful and effective lawyers in Phlegethos.
 ### Key Info
 
 - Due to her extraordinary reputation, Carmen commands exceedingly high fees for her services.
-- In order to pay for these services, the party enters into [Tymphal's Contract](/dnd/other-notes/tymphals-contract/).
+- In order to pay for these services, the party enters into [Tymphal's Contract](/dnd/notes/tymphals-contract/).
 
 ### Relationships
 
