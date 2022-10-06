@@ -4,8 +4,6 @@ tags:
 title: Grale
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Grale
 
 half-orc monk/ranger

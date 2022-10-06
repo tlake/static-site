@@ -5,8 +5,6 @@ tags:
 title: Haeltin Var Astora
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Haeltin Var Astora
 
 ![Pasted image 20211106142251.png](/images/dnd/pc-gray.png)

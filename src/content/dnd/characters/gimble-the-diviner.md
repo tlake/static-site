@@ -10,8 +10,6 @@ type: article
 toc: true
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Gimble the Diviner
 
 ![HeroForgeScreenshot (1).png](/images/dnd/pc-gimble.png)

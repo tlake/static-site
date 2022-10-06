@@ -5,8 +5,6 @@ tags:
 title: Finn
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Finn
 
 ![Pasted image 20211106142218.png](/images/dnd/pc-finn.png)

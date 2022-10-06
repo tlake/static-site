@@ -4,8 +4,6 @@ tags:
 title: Gorstag
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Gorstag
 
 human fighter

@@ -4,8 +4,6 @@ tags:
 title: Ivor Borst
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Ivor Borst
 
 human barbarian

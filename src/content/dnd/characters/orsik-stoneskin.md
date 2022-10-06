@@ -4,8 +4,6 @@ tags:
 title: Orsik Stoneskin
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Orsik Stoneskin
 
 dwarf monk

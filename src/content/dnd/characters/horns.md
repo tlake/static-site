@@ -5,8 +5,6 @@ tags:
 title: Horns
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Horns
 
 ![Pasted image 20211106142316.png](/images/dnd/pc-horns.png)

@@ -5,8 +5,6 @@ tags:
 title: Zane a Presque Du'Cal
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Zane a Presque Du’Cal
 
 half-elf bard
