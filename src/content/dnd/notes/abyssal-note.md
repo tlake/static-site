@@ -1,6 +1,6 @@
 ---
 title: "Val's Abyssal Note"
-date: 2020-10-01T09:19:09-07:00
+date: 2022-09-28T23:00:00-07:00
 layout: "one-off"
 type: "hidden"
 ---
