@@ -3,6 +3,6 @@ cascade:
   - _target:
       kind: page
     type: post
-title: posts _index.md
+title: posts
 type: section
 ---
