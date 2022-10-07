@@ -1,7 +1,10 @@
 ---
-title: "The Menagerie"
+cascade:
+  - _target:
+    kind: character
 kind: "page"
 layout: "one-off"
+title: "The Menagerie"
 type: "characters"
 ---
 
