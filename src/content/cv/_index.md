@@ -1,7 +1,7 @@
 ---
-title: "Curriculum Vitae"
 date: 2019-04-18T00:11:46-07:00
 layout: "terms"
+title: "Curriculum Vitae"
 ---
 
 ## About
@@ -9,13 +9,19 @@ layout: "terms"
 Tanner Lake  \
 Infrastructure-Side Software Engineer  \
 Seattle, WA  \
-[tanner.lake@gmail.com](mailto:tanner.lake@gmail.com)
+[tanner.lake@protonmail.com](mailto:tanner.lake@gmail.com)
 
 If you're looking for my **resume**, you can find it [here](/resume_tannerlake.pdf).
 
 ## Experience
 
-### Fandom _(Jan 2021 - Present)_
+### Hasbro / Wizards of the Coast _(May 2022 - Present)_
+
+_Senior DevOps Engineer_
+
+### Fandom _(Jan 2021 - May 2022)_
+
+_Senior TechOps Engineer, **D&D Beyond**_
 
 _TechOps Engineer, **D&D Beyond**_
 
