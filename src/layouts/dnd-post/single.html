@@ -27,7 +27,9 @@
 
     {{- partial "date-and-reading-time.html" . -}}
 
-    {{- partial "next-prev-single.html" . -}}
+    <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
+      {{- partial "next-prev-single.html" . -}}
+    </div>
 
     <h1 class="f1 athelas mt3 mb1">
       {{- .Title -}}
@@ -57,14 +59,12 @@
     {{- partial "tags.html" . -}}
   </div>
 
+
   <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
-    <!-- {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray pr4-l" -->
-
-    {{/*
-    Display links to the next and previous posts in the section.
-    */}}
     {{- partial "next-prev-single.html" . -}}
+  </div>
 
+  <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
     <div class="mt6 instapaper_ignoref">
       {{ if .Site.DisqusShortname }}
       {{ template "_internal/disqus.html" . }}

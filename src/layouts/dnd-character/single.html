@@ -23,10 +23,12 @@
       {{with .CurrentSection.Title }}{{. | upper }}{{end}}
     </aside>
 
-    {{ partial "social-share.html" . }}
+    {{- partial "social-share.html" . -}}
+
+    {{- partial "next-prev-single.html" . -}}
 
     <h1 class="f1 athelas mt3 mb1">
-      {{- .Title -}} (hit the dnd-character/single layout)
+      {{- .Title -}}
     </h1>
 
     {{ if .Description }}
@@ -44,32 +46,16 @@
       </strong>
     </p>
     {{ end }}
-
-    {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-    {{ if .Date }}
-    <time class="f6 mv4 dib tracked" {{ printf `datetime="%s" ` (.Date.Format "2006-01-02T15:04:05Z07:00" ) |
-      safeHTMLAttr }}>
-      {{- .Date.Format "Mon, January 2, 2006" -}}
-    </time>
-    {{ end }}
-
-    {{/*
-    Show "reading time" and "word count" but only if one of the following are true:
-    1) A global config `params` value is set `show_reading_time = true`
-    2) A section front matter value is set `show_reading_time = true`
-    3) A page front matter value is set `show_reading_time = true`
-    */}}
-    {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
-    <span class="f6 mv4 dib tracked"> {{if .Date}}-{{end}} {{ .ReadingTime}} minutes read</span>
-    <span class="f6 mv4 dib tracked"> - {{ .WordCount}} words</span>
-    {{ end }}
-
   </header>
 
-  <div class="measure-wide-l center f4 nested-copy-line-height lh-copy nested-links {{ $.Param " post_content_classes" |
-    default "serif" }} f4 nested-links nested-img {{ $.Param "primary_font_color_class" | default "mid-gray" }} pr4-l">
+  <div class='measure-wide-l center f4 nested-copy-line-height lh-copy nested-links {{ $.Param "post_content_classes" |
+    default "serif" }} f4 nested-links nested-img {{ $.Param "primary_font_color_class" | default "mid-gray" }} pr4-l'>
     {{- .Content -}}
     {{- partial "tags.html" . -}}
+  </div>
+
+  <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
+    {{- partial "next-prev-single.html" . -}}
   </div>
 
   <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
@@ -81,10 +67,6 @@
       {{- partial "commento.html" . -}}
       {{ end }}
     </div>
-
-    <aside class="w-30-l mt6-l">
-      {{- partial "menu-contextual.html" . -}}
-    </aside>
   </div>
 
 </article>
