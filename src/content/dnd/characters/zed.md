@@ -5,8 +5,6 @@ tags:
 title: Zed
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Zed
 
 ![Pasted image 20211106142439.png](/images/dnd/pc-zed.png)

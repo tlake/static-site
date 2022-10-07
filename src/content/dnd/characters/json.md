@@ -4,8 +4,6 @@ tags:
 title: JSON
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## JSON
 
 wood elf bard

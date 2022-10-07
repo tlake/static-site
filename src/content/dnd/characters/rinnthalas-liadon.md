@@ -6,8 +6,6 @@ tags:
 title: Rinn'thalas Liadon
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Rinn'thalas Liadon
 
 ![Pasted image 20211106142358.png](/images/dnd/pc-rinn.png)

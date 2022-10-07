@@ -5,8 +5,6 @@ tags:
 title: Oneshoe
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Oneshoe
 
 ![Pasted image 20211106142335.png](/images/dnd/pc-onshoe.png)

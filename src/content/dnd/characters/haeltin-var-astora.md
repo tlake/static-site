@@ -5,15 +5,13 @@ tags:
 title: Haeltin Var Astora
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Haeltin Var Astora
 
 ![Pasted image 20211106142251.png](/images/dnd/pc-gray.png)
 half-drow blood hunter
 [(D&D Beyond)](https://ddb.ac/characters/1769763/nKFcbG)
 
-- goes by "Grey"
+- goes by "Gray"
 - formerly Haeltin Var Astora
 - formerly a paladin
 - formerly deceased

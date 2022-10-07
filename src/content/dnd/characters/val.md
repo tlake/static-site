@@ -5,8 +5,6 @@ tags:
 title: Val
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Val
 
 ![Pasted image 20211106142422.png](/images/dnd/pc-val.png)

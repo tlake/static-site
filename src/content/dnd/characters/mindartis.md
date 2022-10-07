@@ -4,8 +4,6 @@ tags:
 title: Mindartis
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Mindartis
 
 wood elf rogue

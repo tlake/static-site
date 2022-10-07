@@ -6,11 +6,8 @@ tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
 - my/DND/campaigns/import_campaign/characters/main/inactive
 title: Gimble the Diviner
-type: article
 toc: true
 ---
-
-[Import Campaign Characters](/dnd/characters/)
 
 ## Gimble the Diviner
 
@@ -43,7 +40,7 @@ Gimble seeks to unravel the mystery of a strange, blank book and its connection 
 
 [Gimble the Diviner Backstory](/dnd/characters/gimble/gimble-the-diviner-backstory/)
 
-#### The Phandolin Affair
+#### The Phandalin Affair
 
 - The first meetings of the party.
 - Gimble tells the party to save themselves as he is left behind at Cragmaw Castle, hiding from the resident hobgoblins.
@@ -101,11 +98,11 @@ Early in the campaign, Gimble and [Finn](/dnd/characters/finn/) became friends. 
 When [Gimble Became Lawful Evil in Avernus](/dnd/characters/gimble/gimble-became-lawful-evil-in-avernus/), he knew he had to escape the hellish plane and would no longer wait for the party to come to their senses. Still, his friendship with Finn made him waver. Gimble first made some [special castings](/dnd/characters/gimble/gimble-prepares-special-defensive-magic-for-finn/) into his *Ioun stone* and gave it to Finn, hoping it would help keep her safe. When Gimble finally confronted the party with his need to leave, he paused for a moment, saying "I'm sorry, Finn," before
 banishing himself from the plane.
 
-#### Grey
+#### Gray
 
-Gimble respects [Grey](/dnd/characters/haeltin-var-astora/). At several points, Grey and Gimble have entrusted each other to do the right thing when they couldn't fully trust themselves to do so. Grey asked Gimble to put him down if he ever lost control and attacked the party. Gimble entrusted Grey with the keeping of the *Plane Shift* scroll when he foresaw the possibility of [being corrupted in Avernus](/dnd/characters/gimble/gimble-became-lawful-evil-in-avernus/).
+Gimble respects [Gray](/dnd/characters/haeltin-var-astora/). At several points, Gray and Gimble have entrusted each other to do the right thing when they couldn't fully trust themselves to do so. Gray asked Gimble to put him down if he ever lost control and attacked the party. Gimble entrusted Gray with the keeping of the *Plane Shift* scroll when he foresaw the possibility of [being corrupted in Avernus](/dnd/characters/gimble/gimble-became-lawful-evil-in-avernus/).
 
-Gimble has also felt indebted to Grey for his sacrifices on behalf of Gimble in Leilon.
+Gimble has also felt indebted to Gray for his sacrifices on behalf of Gimble in Leilon.
 
 #### Horns
 
@@ -175,7 +172,7 @@ This certainly hasn't been helped by the trip to Avernus, during which Zed gleef
 
 ### Quotations
 
-- [Gimble](/dnd/characters/gimble-the-diviner/): "The sky is grey and tinged with regret." (Gimble reflecting upon the ashen sky after fleeing a wildfire he had caused.)
+- [Gimble](/dnd/characters/gimble-the-diviner/): "The sky is gray and tinged with regret." (Gimble reflecting upon the ashen sky after fleeing a wildfire he had caused.)
 - [Gimble](/dnd/characters/gimble-the-diviner/): "You did what?!" (Gimble reacting to the party's shenanigans)
 - [Gimble](/dnd/characters/gimble-the-diviner/): "I'm sorry, Finn." (Gimble's last words to the party at Avernus)
 

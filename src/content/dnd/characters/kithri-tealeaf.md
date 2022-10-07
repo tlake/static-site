@@ -4,8 +4,6 @@ tags:
 title: Kithri Tealeaf
 ---
 
-[Import Campaign Characters](/dnd/characters/)
-
 ## Kithri Tealeaf
 
 halfling rogue
