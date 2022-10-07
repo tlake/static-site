@@ -4,7 +4,6 @@
 {{ end }}
 
 {{ define "main" }}
-{{ $section := .Site.GetPage "section" .Section }}
 
 {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
 <ul>
@@ -26,6 +25,10 @@
 
     {{ partial "social-share.html" . }}
 
+    {{- partial "date-and-reading-time.html" . -}}
+
+    {{- partial "next-prev-single.html" . -}}
+
     <h1 class="f1 athelas mt3 mb1">
       {{- .Title -}}
     </h1>
@@ -45,28 +48,6 @@
       </strong>
     </p>
     {{ end }}
-
-    {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-    <time class="f6 mv4 dib tracked" {{ printf `datetime="%s" ` (.Date.Format "2006-01-02T15:04:05Z07:00" ) |
-      safeHTMLAttr }}>
-      {{- .Date.Format "Mon, January 2, 2006" -}}
-    </time>
-
-    {{/*
-    Show "reading time" and "word count" but only if one of the following are true:
-    1) A global config `params` value is set `show_reading_time = true`
-    2) A section front matter value is set `show_reading_time = true`
-    3) A page front matter value is set `show_reading_time = true`
-    */}}
-    {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
-    <span class="f6 mv4 dib tracked"> - {{ .ReadingTime}} minutes read</span>
-    <span class="f6 mv4 dib tracked"> - {{ .WordCount}} words</span>
-    {{ end }}
-
-    {{/*
-    Display links to the next and previous posts in the section.
-    */}}
-    {{- partial "next-prev-single.html" . -}}
 
   </header>
 
