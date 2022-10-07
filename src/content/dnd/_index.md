@@ -1,9 +1,9 @@
 ---
-title: "D&D"
-date: 2020-08-22T09:19:09-07:00
-description: "the sky is gray and tinged with regret"
+date: 2020-08-22
+description: the sky is gray and tinged with regret
 show_reading_time: true
-layout: dnd-landing
+title: D&D
+type: dnd-landing
 ---
 
 ### recent posts
