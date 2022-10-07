@@ -1,11 +1,9 @@
 ---
 mortality: alive
 tags:
-- my/DND/campaigns/import_campaign/characters/main/active
+  - my/DND/campaigns/import_campaign/characters/main/active
 title: Finn
 ---
-
-## Finn
 
 ![Pasted image 20211106142218.png](/images/dnd/pc-finn.png)
 Halfling Barbarian
@@ -16,20 +14,20 @@ Halfling Barbarian
 - friend to Not-Bailey
 - don’t ask about Bailey
 
-### Description
+## Description
 
-#### Appearance
+### Appearance
 
-#### Personality
+### Personality
 
-### Biography
+## Biography
 
-### Relationships
+## Relationships
 
-### Character Information
+## Character Information
 
-### Quotations
+## Quotations
 
-### Trivia
+## Trivia
 
-### References
+## References
