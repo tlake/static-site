@@ -53,9 +53,10 @@
 
   {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
   <main class="pb3" role="main">
-    {{- if eq (getenv "HUGO_ENV") "debug" }}
+    {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
     <ul>
       <li>$HUGO_ENV: {{ getenv "HUGO_ENV" }}</li>
+      <li>.Site.Params.env: {{ .Site.Params.env }}</li>
       <li>.Section: {{ .Section }}</li>
       <li>.CurrentSection: {{ .CurrentSection }}</li>
       <li>.FirstSection: {{ .FirstSection }}</li>

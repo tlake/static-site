@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{- if eq (getenv "HUGO_ENV") "debug" }}
+{{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
 <ul>
   <li>layout: dnd/list.html</li>
 </ul>

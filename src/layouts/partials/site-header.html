@@ -16,6 +16,7 @@
       {{ end }}
     </div>
   </div>
+  {{- if eq .Section "dnd" }}
   <ul class="pl0 mr3 tc-l">
     {{ $currentPage := . }}
     {{ range .Site.Menus.dnd }}
@@ -26,6 +27,7 @@
     </li>
     {{ end }}
   </ul>
+  {{- end }}
 </header>
 {{ else }}
 <header>
@@ -42,8 +44,8 @@
       {{ end }}
     </div>
   </div>
+  {{- if eq .Section "dnd" }}
   <ul class="pl0 mr3 tc-l">
-    {{ $currentPage := . }}
     {{ range .Site.Menus.dnd }}
     <li class="list tc-l f3 f3-ns fw4 dib pl3 pr3">
       <a class="hover-white  white-90" href="{{ .URL }}" title="{{ .Name }} page">
@@ -52,5 +54,6 @@
     </li>
     {{ end }}
   </ul>
+  {{- end }}
 </header>
 {{ end }}

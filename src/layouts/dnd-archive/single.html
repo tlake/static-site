@@ -6,7 +6,7 @@
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
 
-{{- if eq (getenv "HUGO_ENV") "debug" }}
+{{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
 <ul>
   <li>layout: dnd-archive/single.html</li>
 </ul>
