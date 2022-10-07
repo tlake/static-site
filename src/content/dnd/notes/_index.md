@@ -1,7 +1,7 @@
 ---
 cascade:
   - _target:
-    kind: note
+    type: dnd-note
 title: notes
-type: section
+type: dnd-note
 ---

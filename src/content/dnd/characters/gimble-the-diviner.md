@@ -7,6 +7,7 @@ tags:
 - my/DND/campaigns/import_campaign/characters/main/inactive
 title: Gimble the Diviner
 toc: true
+type: article
 ---
 
 ## Gimble the Diviner

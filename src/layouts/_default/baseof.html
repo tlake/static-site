@@ -53,6 +53,18 @@
 
   {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
   <main class="pb3" role="main">
+    {{- if eq (getenv "HUGO_ENV") "debug" }}
+    <ul>
+      <li>$HUGO_ENV: {{ getenv "HUGO_ENV" }}</li>
+      <li>.Section: {{ .Section }}</li>
+      <li>.CurrentSection: {{ .CurrentSection }}</li>
+      <li>.FirstSection: {{ .FirstSection }}</li>
+      <li>.Sections: {{ .Sections }}</li>
+      <li>.Type: {{ .Type }}</li>
+      <li>.Layout: {{ .Layout }}</li>
+      <li>.Kind: {{ .Kind }}</li>
+    </ul>
+    {{ end -}}
     {{ block "main" . }}{{ end }}
   </main>
   {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}

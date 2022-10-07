@@ -1,7 +1,7 @@
 ---
 cascade:
   - _target:
-    kind: npc
+    type: dnd-npc
 title: npcs
-type: section
+type: dnd-npc
 ---

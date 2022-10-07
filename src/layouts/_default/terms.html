@@ -1,8 +1,15 @@
 {{ define "main" }}
 {{ $data := .Data }}
+
+{{- if eq (getenv "HUGO_ENV") "debug" }}
+<ul>
+  <li>layout: _default/terms.html</li>
+</ul>
+{{- end }}
+
 <article class="cf pa3 pa4-m pa4-l">
   <div
-    class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img {{ $.Param "primary_font_color_class" | default "mid-gray" }}">
+    class='measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img {{ $.Param "primary_font_color_class" | default "mid-gray" }}'>
     {{ .Content }}
   </div>
 </article>
@@ -10,7 +17,7 @@
   <section class="ph4">
     {{ range $key, $value := .Data.Terms }}
     <h2 class="f1">
-      <a href="{{ "/" | relLangURL }}{{ $.Data.Plural | urlize }}/{{ $key | urlize }}" class="link blue hover-black">
+      <a href='{{ "/" | relLangURL }}{{ $.Data.Plural | urlize }}/{{ $key | urlize }}' class="link blue hover-black">
         {{ $.Data.Singular | humanize }}: {{ $key }}
       </a>
     </h2>

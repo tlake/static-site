@@ -5,6 +5,13 @@
 
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
+
+{{- if eq (getenv "HUGO_ENV") "debug" }}
+<ul>
+  <li>layout: dnd/single.html</li>
+</ul>
+{{- end }}
+
 <article class="cf pa3 pa4-m pa4-l">
   <!-- <header class="mt4 w-100"> -->
   <header class="measure-wide-l center f4 lh-copy">

@@ -1,7 +1,7 @@
 ---
 cascade:
   - _target:
-    kind: post
+    type: dnd-post
 title: posts
-type: section
+type: dnd-post
 ---

@@ -1,7 +1,7 @@
 ---
 cascade:
   - _target:
-    kind: location
+    type: dnd-location
 title: locations
-type: section
+type: dnd-location
 ---

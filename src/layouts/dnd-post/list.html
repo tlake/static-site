@@ -2,7 +2,7 @@
 
 {{- if eq (getenv "HUGO_ENV") "debug" }}
 <ul>
-  <li>layout: dnd-landing/list.html</li>
+  <li>layout: dnd-post/list.html</li>
 </ul>
 {{- end }}
 
@@ -12,11 +12,13 @@
     {{- .Content -}}
   </section>
   <section class="flex-ns flex-wrap justify-around mt5">
-    {{ range first 3 (where .Site.Pages "File.Dir" "dnd/posts/") }}
+    {{ $paginator := .Paginate (where .Pages "File.Dir" "!=" "dnd/hidden/") }}
+    {{ range $paginator.Pages }}
     <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
       {{- partial "summary.html" . -}}
     </div>
     {{ end }}
   </section>
+  {{- template "_internal/pagination.html" . -}}
 </article>
 {{ end }}
