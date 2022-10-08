@@ -2,8 +2,7 @@
   {{/* since .Next/.Prev and .NextInSection/.PrevInSection can't be customized */}}
   {{/* to filter by, say, .File.Dir, let's write our own! */}}
 
-  {{- $dirPages := where (where .Site.Pages "File.Dir" .Page.File.Dir) "Kind" "page" }}
-  {{/*- $dirPages := where .Site.Pages "Type" .Page.Type */}}
+  {{- $dirPages := where .Site.RegularPages "Type" .Page.Type }}
 
   {{- $curPos := 0 }}
   {{- $idx := 0 }}
