@@ -2,6 +2,7 @@
 tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
 title: That time Val tried to murder Gimble
+type: dnd-character-note
 ---
 
 

@@ -2,6 +2,7 @@
 tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
 title: Gimble Became Lawful Evil in Avernus
+type: dnd-character-note
 ---
 
 

@@ -2,6 +2,7 @@
 tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
 title: Gimble prepares special defensive magic for Finn
+type: dnd-character-note
 ---
 
 

@@ -2,6 +2,7 @@
 tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
 title: Gimble the Diviner Backstory
+type: dnd-character-note
 ---
 
 
