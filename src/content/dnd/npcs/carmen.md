@@ -1,5 +1,11 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Carmen
+dnd/ref/locations:
+  - Abriymoch
+  - Baator
+  - Phlegethos
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
 title: Carmen

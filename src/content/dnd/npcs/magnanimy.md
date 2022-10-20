@@ -1,5 +1,12 @@
 ---
 date: "2021-12-27"
+dnd/ref/characters:
+  - Magnanimy
+dnd/ref/locations:
+  - Abriymoch
+  - Baator
+  - Phlegethos
+  - The Brimstone
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Magnanimy

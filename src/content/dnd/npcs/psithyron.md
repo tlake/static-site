@@ -1,5 +1,12 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Psithyron
+dnd/ref/locations:
+  - Baator
+  - Phandalin
+  - Thundertree
+  - Tresendar Manor
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
 title: Psithyron

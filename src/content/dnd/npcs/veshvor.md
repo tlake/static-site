@@ -1,5 +1,12 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Veshvor
+dnd/ref/locations:
+  - Abriymoch
+  - Baator
+  - Phlegethos
+  - The Brimstone
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Veshvor

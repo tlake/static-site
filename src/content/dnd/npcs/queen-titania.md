@@ -1,5 +1,11 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Queen Titania
+dnd/ref/locations:
+  - Feywild
+  - Summer Court
+  - The Court of Stars
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Queen Titania

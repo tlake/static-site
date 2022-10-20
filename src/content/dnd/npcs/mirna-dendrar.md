@@ -1,5 +1,11 @@
 ---
 mortality: alive
+dnd/ref/characters:
+  - Mirna Dendrar
+dnd/ref/locations:
+  - Thundertree
+  - Tresendar Manor
+  - Phandalin
 places: Phandalin
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
@@ -28,7 +34,7 @@ title: Mirna Dendrar
 ### Key Info
 
 - Rescued by the party from Redband hideout in Phandalin
-- Agreed to stay on and provide upkeep for Tresandor Manor, after the party had it restored.
+- Agreed to stay on and provide upkeep for Tresandar Manor, after the party had it restored.
 - provided info for the party to find an expensive heirloom near Thundertree
 
 ### Quotations

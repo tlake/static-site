@@ -1,5 +1,9 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Waybert Spinzig
+dnd/ref/locations:
+  - Phandalin
 mortality: alive
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other

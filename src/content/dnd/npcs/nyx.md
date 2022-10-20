@@ -1,5 +1,9 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Nyx
+dnd/ref/locations:
+  - The Sword Coast
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
 title: Nyx

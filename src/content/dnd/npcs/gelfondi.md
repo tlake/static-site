@@ -1,5 +1,12 @@
 ---
 date: "2022-02-02"
+dnd/ref/characters:
+  - Gelfondi
+dnd/ref/locations:
+  - Abriymoch
+  - Baator
+  - Fierna's Tower
+  - Phlegethos
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC
 title: Gelfondi

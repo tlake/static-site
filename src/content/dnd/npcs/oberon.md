@@ -1,5 +1,11 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Oberon
+dnd/ref/locations:
+  - Feywild
+  - Summer Court
+  - The Court of Stars
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Oberon

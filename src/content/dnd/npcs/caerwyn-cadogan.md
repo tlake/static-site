@@ -1,5 +1,9 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Caerwyn Cadogan
+dnd/ref/locations:
+  - Feywild
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/enemy
 title: Caerwyn Cadogan

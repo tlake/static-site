@@ -1,6 +1,9 @@
 ---
+dnd/ref/characters:
+  - Garaele
+dnd/ref/locations:
+  - Phandalin
 mortality: alive
-places: Phandalin
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
 title: Sister Garaele

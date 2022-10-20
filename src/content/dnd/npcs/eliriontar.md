@@ -1,5 +1,10 @@
 ---
 date: "2022-01-08"
+dnd/ref/characters:
+  - Elirion'tar
+dnd/ref/locations:
+  - Neverwinter
+  - The Jade Arbor
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Elirion'tar
@@ -9,7 +14,7 @@ title: Elirion'tar
 
 ## Elirion'tar
 
-Brother to [Val](/dnd/characters/val/) and was fround working on a ship docked in Neverwinter.
+Brother to [Val](/dnd/characters/val/) and was found working on a ship docked in Neverwinter.
 
 ### Description
 

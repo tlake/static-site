@@ -1,4 +1,8 @@
 ---
+dnd/ref/characters:
+  - Harold Peters
+dnd/ref/locations:
+  - Shadow Leilon
 mortality: alive
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
