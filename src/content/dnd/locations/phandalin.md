@@ -1,5 +1,8 @@
 ---
 date: 2016-06-01
+dnd/ref/characters:
+dnd/ref/locations:
+  - Phandalin
 tags:
 title: Phandalin
 ---
