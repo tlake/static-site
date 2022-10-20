@@ -1,4 +1,7 @@
 ---
+dnd/ref/characters:
+  - Zane a Presque Du'Cal
+dnd/ref/locations:
 mortality: deceased
 tags:
 - my/DND/campaigns/import_campaign/characters/main/inactive

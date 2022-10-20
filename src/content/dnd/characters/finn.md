@@ -1,5 +1,8 @@
 ---
 mortality: alive
+dnd/ref/characters:
+  - Finn
+dnd/ref/locations:
 tags:
   - my/DND/campaigns/import_campaign/characters/main/active
 title: Finn

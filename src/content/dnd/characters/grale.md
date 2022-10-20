@@ -1,4 +1,7 @@
 ---
+dnd/ref/characters:
+  - Grale
+dnd/ref/locations:
 tags:
 - my/DND/campaigns/import_campaign/characters/main/inactive
 title: Grale
