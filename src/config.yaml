@@ -51,6 +51,7 @@ params:
   mainSections:
   github: "https://github.com/tlake"
   gitlab: "https://gitlab.com/tannerlake"
+  mastodon: "https://hachyderm.io/@tlake"
   twitter: "https://twitter.com/tanotaur"
   linkedin: "https://linkedin.com/in/tannerlake"
   custom_css:
