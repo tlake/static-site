@@ -20,6 +20,12 @@ HTTPS was a solved problem - I've set up Traefik already to automatically genera
 The HSTS headers were new to me, though.
 It took a few hours, but here's a summary of what ended up working for me.
 
+**EDIT:** In a previous version of this post, I had been adding the STS headers to both the NginX container's labels as well as in the NginX config file's `location /` block.
+I did this because after writing the container's middleware labels, my browsers still refused to connect to NginX, and [this HSTS header analyzer tool](https://geekflare.com/tools/hsts-test) still told me that the headers were missing.
+I thought that perhaps servers behind Traefik also needed to configure these headers, so I added them to NginX as well, and then the site resolved properly.
+However, I was an idiot - although I had written the correct middleware labels, I _hadn't_ associated the middleware with the container's Traefik router, so those headers weren't being applied at all.
+After I correctly connected the HSTS middleware to the router, I was able to omit the HSTS configuration from the NginX file and the site was still HSTS compliant.
+
 ## Traefik Labels on the NginX Container's Compose File
 
 ```yaml
@@ -30,19 +36,26 @@ services:
     deploy:
       labels:
         traefik.enable: "true"
+
+        # These are the HSTS headers I needed to add:
+        traefik.http.middlewares.home-proxy.headers.browserxssfilter: "true"
+        traefik.http.middlewares.home-proxy.headers.forcestsheader: "true"
+        traefik.http.middlewares.home-proxy.headers.framedeny: "true"
+        traefik.http.middlewares.home-proxy.headers.stsincludesubdomains: "true"
+        traefik.http.middlewares.home-proxy.headers.stspreload: "true"
+        traefik.http.middlewares.home-proxy.headers.stsseconds: "31536000"
+
         traefik.http.routers.home-proxy.entrypoints: "web, websecure"
+
+        # And this is where I connect the middleware to the router
+        # (this is the crucial step I originally missed)
+        traefik.http.routers.home-proxy.middlewares: "home-proxy"
+
         traefik.http.routers.home-proxy.rule: "Host(`cooldomain.dev`)"
         traefik.http.routers.home-proxy.tls: "true"
         traefik.http.routers.home-proxy.tls.certresolver: "production"
         traefik.http.services.home-proxy.loadbalancer.server.port: 80
-		#
-		# The following are the HSTS headers I needed to add:
-		#
-        traefik.frontend.headers.STSSeconds: "31536000"
-        traefik.frontend.headers.STSIncludeSubdomains: "true"
-        traefik.frontend.headers.STSPreload: "true"
-        traefik.http.middlewares.hsts.headers.framedeny: "true"
-        traefik.http.middlewares.hsts.headers.browserxssfilter: "true"
+
       mode: "replicated"
       replicas: 1
       restart_policy:
@@ -68,64 +81,5 @@ networks:
 
 volumes:
   app_config:
-```
-
-## NginX Config File
-
-This file lives at `/etc/nginx/nginx.conf` in the NginX container.
-Specifically, within that volume `app_config` on the host machine defined above which is mounted as `/etc/nginx` in the container.
-
-```nginx
-user  nginx;
-worker_processes  auto;
-
-error_log  /var/log/nginx/error.log notice;
-pid        /var/run/nginx.pid;
-
-events {
-    worker_connections  1024;
-}
-
-http {
-    include       /etc/nginx/mime.types;
-    default_type  application/octet-stream;
-
-    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
-                      '$status $body_bytes_sent "$http_referer" '
-                      '"$http_user_agent" "$http_x_forwarded_for"';
-
-    access_log  /var/log/nginx/access.log  main;
-
-    sendfile        on;
-    keepalive_timeout  65;
-
-    include /etc/nginx/conf.d/*.conf;
-
-    server {
-        listen 80 default_server;
-        listen 443 default_server;
-
-        # Sets the Max Upload size to 299 MB
-        client_max_body_size 300M;
-
-        # Proxy Requests to Foundry VTT
-        location / {
-            # Set proxy headers
-            proxy_set_header Host $host;
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-            proxy_set_header X-Forwarded-Proto $scheme;
-
-            # These are important to support WebSockets
-            proxy_set_header Upgrade $http_upgrade;
-            proxy_set_header Connection "Upgrade";
-
-            # Make sure to set your Foundry VTT port number
-            proxy_pass http://HOUSEMATE_IP:30001;
-
-			# HSTS Header
-            add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
-        }
-    }
-}
 ```
 
