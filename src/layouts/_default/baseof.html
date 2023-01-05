@@ -48,8 +48,7 @@
 </head>
 
 <body
-  class='ma0 {{ $.Param "primary_bg_color_class" | default "bg-near-white" }} {{ $.Param "primary_font_color_class"
-  | default "mid-gray" }} {{ $.Param "body_classes" | default "avenir" }}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}'>
+  class='ma0 {{ $.Param "primary_bg_color_class" | default "bg-near-white" }} {{ $.Param "primary_font_color_class" | default "mid-gray" }} {{ $.Param "body_classes" | default "avenir" }}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}'>
 
   {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
   <main class="pb3" role="main">
