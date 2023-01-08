@@ -27,16 +27,32 @@ This can be done through use of the `-k` flag:
 hugo -k [archetype] [filepath]/[filename]
 ```
 
-Some common examples:
+Additionally, depending on the archetype, some configuration can be passed as environment variables (like `HUGO_PARAMS_paramter_name_here` to `hugo new` in order to automatically populate the new file.
+Perhaps most common is to pass the name of a new D&D post in order to automatically generate both the post's title and its URL at the time of creation:
 
 ```bash
-# from src/ dir
-
-hugo new -k dnd-post content/dnd/posts/filename.md
-hugo new -k dnd-location content/dnd/locations/filename.md
+HUGO_PARAMS_Name="my cool title" hugo new -k dnd-post content/dnd/posts/2023-01-07.md
 ```
 
-Consult the `src/archetypes/` dir for a list of available archetypes.
+Given a `dnd-post` archetype that includes the following templating in its front matter
+
+```toml
+---
+title: {{ .Site.Params.Name | title }}
+url: /dnd/posts/{{- time.Format "2006" .Date -}}/{{- time.Format "01" .Date -}}/{{- time.Format "02" .Date -}}/{{- .Site.Params.Name | urlize }}
+---
+```
+
+the `hugo new` command above will generate the file `content/dnd/posts/2023-01-07.md` with front matter that looks like so:
+
+```toml
+---
+title: My Cool Title
+url: /dnd/posts/2023/01/07/my-cool-title
+---
+```
+
+Available archetypes can be found within the `src/archetypes/` dir.
 
 ## Deploying
 
