@@ -1,4 +1,9 @@
 ---
+dnd/ref/characters:
+  - Tharden Rockseeker
+dnd/ref/locations:
+  - Phandalin
+  - Wave Echo Cave
 mortality: deceased
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally

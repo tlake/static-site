@@ -1,5 +1,10 @@
 ---
 mortality: deceased
+dnd/ref/characters:
+  - Nezznar
+dnd/ref/locations:
+  - Phandalin
+  - Wave Echo Cave
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/enemy
 title: Nezznar, The Black Spider

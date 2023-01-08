@@ -1,4 +1,7 @@
 ---
+dnd/ref/characters:
+  - Rinn'thalas Liadon
+dnd/ref/locations:
 mortality: alive
 tags:
 - my/DND/campaigns/import_campaign/characters/Rinn

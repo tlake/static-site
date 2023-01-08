@@ -1,6 +1,12 @@
 ---
 date: "2022-01-07"
 mortality: deceased
+dnd/ref/characters:
+  - Quilnorae
+dnd/ref/locations:
+  - Baator
+  - Fierna's Tower
+  - Phlegethos
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Quilnorae

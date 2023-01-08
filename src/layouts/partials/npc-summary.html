@@ -1,0 +1,25 @@
+<div class='relative w-100 mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }} nested-copy-line-height'>
+  <div class='{{ $.Param "secondary_bg_color_class" | default "bg-white" }} {{ $.Param "secondary_font_color_class" | default "gray" }} mb3 pa4 overflow-hidden'>
+
+    <h1 class="f3 near-black">
+      <a href="{{ .Permalink }}" class='link {{ $.Param "secondary_font_color_class" | default "black" }} dim'>
+        {{- .Title -}}
+      </a>
+    </h1>
+
+    <div class="f6 mv0 dib tracked">
+      <p>
+        Locations:
+        {{ range $_, $location := .Param "dnd/ref/locations" -}}
+          {{- $url_case := lower $location -}}
+          {{- $url_case = replace $url_case " " "-" -}}
+          {{- $url_case = replace $url_case "'" "" -}}
+          <a href="/dnd/locations/ {{- $url_case -}}" class='link {{ $.Param
+          "secondary_font_color_class" | default "blue" }}
+              dim'>[{{- $location -}}]</a>
+        {{ end }}
+      </p>
+    </div>
+
+  </div>
+</div>

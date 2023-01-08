@@ -1,6 +1,9 @@
 ---
 mortality: alive
-places: Thundertree
+dnd/ref/characters:
+  - Reidoth
+dnd/ref/locations:
+  - Thundertree
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
 title: Reidoth

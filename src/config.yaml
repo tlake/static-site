@@ -47,6 +47,11 @@ menu:
       url: /dnd/archive
       weight: 6
 
+taxonomies:
+  character: dnd/ref/characters
+  location: dnd/ref/locations
+  tag: tags
+
 params:
   mainSections:
   github: "https://github.com/tlake"

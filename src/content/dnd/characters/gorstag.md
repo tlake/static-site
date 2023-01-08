@@ -1,4 +1,7 @@
 ---
+dnd/ref/characters:
+  - Gorstag
+dnd/ref/locations:
 tags:
 - my/DND/campaigns/import_campaign/characters/main/inactive
 title: Gorstag

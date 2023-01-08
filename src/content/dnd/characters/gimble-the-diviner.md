@@ -1,5 +1,8 @@
 ---
 active: false
+dnd/ref/characters:
+  - Gimble the Diviner
+dnd/ref/locations:
 mortality: alive
 race: Gnome
 tags:

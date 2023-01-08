@@ -1,4 +1,7 @@
 ---
+dnd/ref/characters:
+  - Val
+dnd/ref/locations:
 mortality: alive
 tags:
 - my/DND/campaigns/import_campaign/characters/main/active

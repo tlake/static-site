@@ -1,5 +1,11 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Cassandra Belacourt
+dnd/ref/locations:
+  - Avernus
+  - Baator
+  - Mount Celestia
 mortality: alive
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
@@ -29,7 +35,7 @@ While interacting with the party in Avernus, Cassandra was very composed and pro
 - agent of The Reclamation
 - on business in the Hells to track down and return a dangerous criminal
 - Cassandra agreed to assist the party in exchange for the *Bag of Devouring, which was the target of her mission.
-- Served as a point of contact between [Oneshoe](/dnd/characters/oneshoe/) and her unicorn patron.
+- Served as a point of contact between [Oneshoe](/dnd/characters/oneshoe/) and her unicorn patron [Mooncolor](dnd/npcs/mooncolor/).
 
 ### Relationships
 

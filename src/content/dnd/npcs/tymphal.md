@@ -1,5 +1,11 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Tymphal
+dnd/ref/locations:
+  - Baator
+  - Phlegethos
+  - Tymphalos
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Tymphal

@@ -1,5 +1,11 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Zarinor
+dnd/ref/locations:
+  - Baator
+  - Fierna's Tower
+  - Phlegethos
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Zarinor
@@ -27,7 +33,7 @@ Zarinor was slain and had her horde stolen by another dragon, Harion.
 
 ### Key Info
 
-- Zarinor asks [Val](/dnd/characters/val/) to venture to a location in the far north of the Sword Coast to find and slay Harion. In return, Val is free to keep the horde.
+- Zarinor asks [Val](/dnd/characters/val/) to venture to a location in the far north of the Sword Coast to find and slay [Harion](dnd/npcs/harion/). In return, Val is free to keep the horde.
 
 ### Relationships
 

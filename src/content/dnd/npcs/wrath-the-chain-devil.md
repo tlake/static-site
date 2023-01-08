@@ -1,5 +1,11 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Wrath
+dnd/ref/locations:
+  - Baator
+  - Jangling Hiter
+  - Minauros
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/other
 title: Wrath the Chain Devil

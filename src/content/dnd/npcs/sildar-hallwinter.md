@@ -1,6 +1,9 @@
 ---
 mortality: alive
-places: Phandalin
+dnd/ref/characters:
+  - Sildar Hallwinter
+dnd/ref/locations:
+  - Phandalin
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
 title: Sildar Hallwinter

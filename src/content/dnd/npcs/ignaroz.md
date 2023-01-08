@@ -1,5 +1,12 @@
 ---
 date: "2022-01-07"
+dnd/ref/characters:
+  - Ignaroz
+dnd/ref/locations:
+  - Abriymoch
+  - Baator
+  - Phlegethos
+  - Tymphalos
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
 title: Ignaroz
