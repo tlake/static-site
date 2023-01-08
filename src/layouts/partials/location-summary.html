@@ -11,10 +11,7 @@
       <p>
         Characters:
         {{ range $_, $character := .Param "dnd/ref/characters" -}}
-          {{- $url_case := lower $character -}}
-          {{- $url_case = replace $url_case " " "-" -}}
-          {{- $url_case = replace $url_case "'" "" -}}
-          <a href="/dnd/npcs/ {{- $url_case -}}" class='link {{ $.Param "secondary_font_color_class" | default "blue" }} dim'>[{{- $character -}}]</a>
+          <a href="/dnd/npcs/ {{- urlize $character -}}" class='link {{ $.Param "secondary_font_color_class" | default "blue" }} dim'>[{{- $character -}}]</a>
         {{ end }}
       </p>
     </div>

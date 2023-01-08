@@ -11,12 +11,7 @@
       <p>
         Locations:
         {{ range $_, $location := .Param "dnd/ref/locations" -}}
-          {{- $url_case := lower $location -}}
-          {{- $url_case = replace $url_case " " "-" -}}
-          {{- $url_case = replace $url_case "'" "" -}}
-          <a href="/dnd/locations/ {{- $url_case -}}" class='link {{ $.Param
-          "secondary_font_color_class" | default "blue" }}
-              dim'>[{{- $location -}}]</a>
+          <a href="/dnd/locations/{{- urlize $location -}}" class='link {{ $.Param "secondary_font_color_class" | default "blue" }} dim'>[{{- $location -}}]</a>
         {{ end }}
       </p>
     </div>
