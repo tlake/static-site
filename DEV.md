@@ -39,7 +39,7 @@ Given a `dnd-post` archetype that includes the following templating in its front
 ```toml
 ---
 title: {{ .Site.Params.Name | title }}
-url: /dnd/posts/{{- time.Format "2006" .Date -}}/{{- time.Format "01" .Date -}}/{{- .Site.Params.Name | urlize }}
+url: /dnd/posts/{{- time.Format "2006" .Date -}}/{{- time.Format "01" .Date -}}/{{- time.Format "02" .Date -}}/{{- .Site.Params.Name | urlize }}
 ---
 ```
 
@@ -48,7 +48,7 @@ the `hugo new` command above will generate the file `content/dnd/posts/2023-01-0
 ```toml
 ---
 title: My Cool Title
-url: /dnd/posts/2023/01/my-cool-title
+url: /dnd/posts/2023/01/07/my-cool-title
 ---
 ```
 
