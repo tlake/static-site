@@ -19,20 +19,25 @@ Gnome Rogue/Warlock
 - don’t ask about the other shoe
 - goddammit Harold
 
-### Description
+## Description
 
-#### Appearance
+### Appearance
 
-#### Personality
+Oneshoe is a rock gnome. Her brown hair is cut with asymmetrical bangs, which helps to hide some burn scars on the left side of her face. Since taking on her warlock patron, Oneshoe has golden tattoos across her arms and is often seen sporting a wicked pair of aviators. She makes her own clothes.
 
-### Biography
+### Personality
 
-### Relationships
+## Biography
 
-### Character Information
+- Came from a gnomish community within a medium-sized, cosmopolitan settlement.
+- She received her nickname, "Oneshoe", after she was found in the ruins of a fire, clutching the shoe of her dead brother.
 
-### Quotations
+## Relationships
 
-### Trivia
+## Character Information
 
-### References
+## Quotations
+
+## Trivia
+
+## References
