@@ -42,6 +42,6 @@ Master Elian has agreed to keep a watchful eye on Val's behavior and will inform
 
 ## Trivia
 
-- In 2022-08-17 Import Campaign#Can They Hug it Out?, Master Elian casts *Time Stop*, which implies that he is a wizard of at least 17th level.
+- In [2022-08-17 Import Campaign]({{< ref "/dnd/posts/2022-08-17#can-they-hug-it-out">}}), Master Elian casts *Time Stop*, which implies that he may be a wizard of at least 17th level.
 
 ## References
