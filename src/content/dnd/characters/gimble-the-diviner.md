@@ -48,7 +48,7 @@ Gimble seeks to unravel the mystery of a strange, blank book and its connection 
 - The first meetings of the party.
 - Gimble tells the party to save themselves as he is left behind at Cragmaw Castle, hiding from the resident hobgoblins.
 - Gimble negligently causes a vast wildfire while trying to defend the party from a pack of gnolls using a *Flaming Sphere*.
-- Gimble provokes a large battle with [Iarno Albrek](/dnd/characters/npcs/iarno-albrek/) and The Redbrands, which leads to a tense standoff and [Gray](/dnd/characters/haeltin-var-astora/)'s (first) death.
+- Gimble provokes a large battle with [Iarno Albrek](/dnd/npcs/iarno-albrek/) and The Redbrands, which leads to a tense standoff and [Gray](/dnd/characters/haeltin-var-astora/)'s (first) death.
 
 #### Mount Hotenow Katabasis
 
@@ -56,12 +56,12 @@ Gimble seeks to unravel the mystery of a strange, blank book and its connection 
 
 #### Journeys in the Feywild
 
-- Gimble acquires a favor from [Caerwyn Cadogan](/dnd/characters/npcs/caerwyn-cadogan/), valid for a year and a day.
-- On advice from [Caerwyn](/dnd/characters/npcs/caerwyn-cadogan/), Gimble learns the faerie verse of pleasant disengagement, "Beneath the sun or falling rain, I yield to thee thy path again."
+- Gimble acquires a favor from [Caerwyn Cadogan](/dnd/npcs/caerwyn-cadogan/), valid for a year and a day.
+- On advice from [Caerwyn](/dnd/npcs/caerwyn-cadogan/), Gimble learns the faerie verse of pleasant disengagement, "Beneath the sun or falling rain, I yield to thee thy path again."
   - This never proves useful.
 - Gimble trades spell scrolls with a paper drake for several magic items for the party, including [Val](/dnd/characters/val/)'s *Wand of Wonder*.
 - Gimble gives away a secret (one of his daily portents) in exchange for admittance to the Court of Stars
-- When [Caerwyn](/dnd/characters/npcs/caerwyn-cadogan/) repays Gimble's favor and sets the party free from the oubliettes, Caerwyn gives him a small box. Opening it later, the party finds a fabric made of shadow, which unfurled to reveal itself as a *Portable Hole*. Inside the hole, the party finds the dagger used to strike Queen Titania.
+- When [Caerwyn](/dnd/npcs/caerwyn-cadogan/) repays Gimble's favor and sets the party free from the oubliettes, Caerwyn gives him a small box. Opening it later, the party finds a fabric made of shadow, which unfurled to reveal itself as a *Portable Hole*. Inside the hole, the party finds the dagger used to strike Queen Titania.
 
 #### Downtime at the Manor
 
@@ -80,9 +80,9 @@ Gimble seeks to unravel the mystery of a strange, blank book and its connection 
 - Gimble is briefly lost and alone in the Shadowfell.
 - Gimble meets The Grammarian.
 - Gimble acquires the *Ring of the Grammarian*.
-- Gimble attempts to end the suffering of the wife of Harold Peters (you know, [The Tinkerer](/dnd/characters/npcs/the-tinkerer/)) with a casting of *GentleR Repose* using the power of the Grammarian.
+- Gimble attempts to end the suffering of the wife of Harold Peters (you know, [The Tinkerer](/dnd/npcs/the-tinkerer/)) with a casting of *GentleR Repose* using the power of the Grammarian.
 - Gimble breaks the ancient seal in pursuit of his sister
-- Gimble finds his Aunt Lyra and sister [Nyx](/dnd/characters/npcs/nyx/) encased in crystal in the depths of the aboleth's lair.
+- Gimble finds his Aunt Lyra and sister [Nyx](/dnd/npcs/nyx/) encased in crystal in the depths of the aboleth's lair.
 - Nyx seemingly warps reality to save Gimble from a critical blow from the aboleth.
 - Gimble is faced with the [Dilemma at the Aboleth's Lair](/dnd/characters/gimble/dilemma-at-the-aboleths-lair/) and opts to save [Val](/dnd/characters/val/) first, counting on [Horns](/dnd/characters/horns/) to save his family from drowning.
 
@@ -160,7 +160,7 @@ This certainly hasn't been helped by the trip to Avernus, during which Zed gleef
 - *Inscriptor*
 - *Ring of the Grammarian*
 - *Ring of Protection*
-- *Spider Staff* (acquired from [Nezznar, The Black Spider](/dnd/characters/npcs/nezznar-the-black-spider/))
+- *Spider Staff* (acquired from [Nezznar, The Black Spider](/dnd/npcs/nezznar-the-black-spider/))
 
 #### Former Items
 

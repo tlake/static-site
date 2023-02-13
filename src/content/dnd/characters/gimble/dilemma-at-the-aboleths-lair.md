@@ -10,9 +10,9 @@ type: dnd-character-note
 
 ## Dilemma at the Aboleth's Lair
 
-In Shadow Leilon, [Gimble](/dnd/characters/gimble-the-diviner/) was finally able to locate his missing sister and aunt in the depths of the aboleth's lair in [2019-08-09 Import Campaign](/dnd/2019-08-09-import-campaign/). [Nyx](/dnd/characters/npcs/nyx/) and Lyra were found unmoving and encased in a large crystal. When [Gimble](/dnd/characters/gimble-the-diviner/) failed to extricate them from their apparent prison, the aboleth returned and attacked the party.
+In Shadow Leilon, [Gimble](/dnd/characters/gimble-the-diviner/) was finally able to locate his missing sister and aunt in the depths of the aboleth's lair in [2019-08-09 Import Campaign](/dnd/2019-08-09-import-campaign/). [Nyx](/dnd/npcs/nyx/) and Lyra were found unmoving and encased in a large crystal. When [Gimble](/dnd/characters/gimble-the-diviner/) failed to extricate them from their apparent prison, the aboleth returned and attacked the party.
 
-After a lengthy battle, there was a moment in time when the aboleth appeared to land a critical blow upon Gimble. Just then, the crystal shattered, [Nyx](/dnd/characters/npcs/nyx/) put her hand out, and the events changed, with the devastating attack missing Gimble instead. His sister had saved him, but with the crystal sanctum broken, both Nyx and Lyra seemed doomed to drown without quick intervention.
+After a lengthy battle, there was a moment in time when the aboleth appeared to land a critical blow upon Gimble. Just then, the crystal shattered, [Nyx](/dnd/npcs/nyx/) put her hand out, and the events changed, with the devastating attack missing Gimble instead. His sister had saved him, but with the crystal sanctum broken, both Nyx and Lyra seemed doomed to drown without quick intervention.
 
 At the same time, a heavily wounded [Val](/dnd/characters/val/) was beset on all sides by the remaining powerful servitors of the aboleth, and things look grim for the druid.
 
