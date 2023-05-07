@@ -25,13 +25,13 @@
     border-bottom-style: dotted;
 }
 
-// keep footer stuck to bottom
+/* keep footer stuck to bottom */
 html, body {
     height: 100%;
 }
 
-// keep footer stuck to bottom
+/* keep footer stuck to bottom */
 body > footer {
     position: sticky;
-    top: 100vh;
+    top: 1000vh;
 }
