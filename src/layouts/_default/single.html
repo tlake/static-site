@@ -56,19 +56,20 @@
     class='nested-copy-line-height lh-copy {{ $.Param "post_content_classes" | default "serif" }} {{ $.Param "primary_font_color_class" | default "mid-gray" }} f4 nested-links nested-img pr4-l w-two-thirds-l'>
     {{- .Content -}}
     {{- partial "tags.html" . -}}
-    <div class="mt6 instapaper_ignoref">
-      {{ if .Site.DisqusShortname }}
-      {{ template "_internal/disqus.html" . }}
-      {{ end }}
-      {{ if .Site.Params.commentoEnable }}
-      {{- partial "commento.html" . -}}
-      {{ end }}
-    </div>
   </div>
 
-  <aside class="w-30-l mt6-l">
-    {{- partial "menu-contextual.html" . -}}
-  </aside>
+  <div class="measure-wide-l mt5-l center f4">
+    {{- partial "dnd-related.html" . -}}
+  </div>
+
+  <div class="mt6 instapaper_ignoref">
+    {{ if .Site.DisqusShortname }}
+    {{ template "_internal/disqus.html" . }}
+    {{ end }}
+    {{ if .Site.Params.commentoEnable }}
+    {{- partial "commento.html" . -}}
+    {{ end }}
+  </div>
 
 </article>
 {{ end }}

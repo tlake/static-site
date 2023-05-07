@@ -76,6 +76,10 @@
     {{- partial "tags.html" . -}}
   </div>
 
+  <div class="measure-wide-l mt5-l center f4">
+    {{- partial "dnd-related.html" . -}}
+  </div>
+
   <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
     <!-- {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray pr4-l" -->
 
@@ -92,10 +96,6 @@
       {{- partial "commento.html" . -}}
       {{ end }}
     </div>
-
-    <aside class="w-30-l mt6-l">
-      {{- partial "menu-contextual.html" . -}}
-    </aside>
   </div>
 
 </article>
