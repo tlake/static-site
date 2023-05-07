@@ -1,5 +1,7 @@
 ---
 
+author:
+  - Author Placeholder
 date: {{ now.Format "2006-01-02" }}
 description: Description Placeholder
 dnd/ref/characters:
