@@ -1,6 +1,7 @@
 publishDir: "../docs"
 
 title: "tlake.io"
+copyright: Tanner Lake
 baseURL: "http://tlake.io"
 languageCode: "en-us"
 timeZone: America/Los_Angeles
