@@ -1,14 +1,9 @@
-{{ define "header" }}
-{{/* We can override any block in the baseof file be defining it in the template */}}
-{{ partial "page-header.html" . }}
-{{ end }}
-
 {{ define "main" }}
 {{ $section := .Site.GetPage "section" .Section }}
 
 {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
 <ul>
-  <li>layout: dnd-character/one-off.html</li>
+  <li>layout: dnd-character/list.html</li>
 </ul>
 {{- end }}
 
