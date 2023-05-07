@@ -12,7 +12,7 @@
 </ul>
 {{- end }}
 
-<article class="flex-l flex-wrap justify-between mw8 center ph3">
+<article class="flex-l flex-wrap justify-between mw8 center ph3 w-100-l">
   <header class="mt4 w-100">
     <aside class="instapaper_ignoref b helvetica tracked">
       {{/*
@@ -52,13 +52,12 @@
     <span class="f6 mv4 dib tracked"> - {{ .WordCount}} words</span>
     {{ end }}
   </header>
-  <div
-    class='nested-copy-line-height lh-copy {{ $.Param "post_content_classes" | default "serif" }} {{ $.Param "primary_font_color_class" | default "mid-gray" }} f4 nested-links nested-img pr4-l w-two-thirds-l'>
+  <div class='w-100-l nested-copy-line-height lh-copy {{ $.Param "post_content_classes" | default "serif" }} {{ $.Param "primary_font_color_class" | default "mid-gray" }} f4 nested-links nested-img pr4-l'>
     {{- .Content -}}
     {{- partial "tags.html" . -}}
   </div>
 
-  <div class="mt6 instapaper_ignoref">
+  <div class="w-100-l mt6 instapaper_ignoref">
     {{ if .Site.DisqusShortname }}
     {{ template "_internal/disqus.html" . }}
     {{ end }}
