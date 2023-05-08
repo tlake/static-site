@@ -1,5 +1,13 @@
 {{ define "main" }}
-<article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "primary_font_color_class" | default "mid-gray" }}">
+
+{{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
+<ul>
+  <li>layout: index.html</li>
+</ul>
+{{- end }}
+
+<article class="{{ $.Param "secondary_bg_color_class" | default "bg-light-gray"
+    }} cf ph3 ph5-l pv3 pv4-l mv6 f4 tc-l center measure-wide lh-copy {{ $.Param "primary_font_color_class" | default "mid-gray" }} nested-links">
   {{ .Content }}
 </article>
 

@@ -1,8 +1,9 @@
 ---
+
 tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
 title: Dilemma at the Aboleth's Lair
-type: dnd-character-note
+
 ---
 
 

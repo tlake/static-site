@@ -1,9 +1,7 @@
 ---
-cascade:
-  - _target:
-    type: dnd-character
+
 title: characters
-type: dnd-character
+
 ---
 
 The main characters comprise a loosely-formed coalition known as The Menagerie.

@@ -7,18 +7,60 @@
 {{- end }}
 
 <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-  <section
-    class='cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "primary_font_color_class" | default "mid-gray" }} nested-links'>
-    {{- .Content -}}
+
+  {{/* Section for displaying list page content. */}}
+  {{/* Only render if the current page actually has .Content set. */}}
+  {{ with .Page.Content }}
+  <section class='cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "primary_font_color_class" | default "mid-gray" }} {{ $.Param "secondary_bg_color_class" | default "bg-light-gray" }} nested-links'>
+    {{- . -}}
   </section>
+  {{ end }}
+
+  {{/* Section for displaying list items. */}}
   <section class="flex-ns flex-wrap justify-around mt5">
-    {{ $paginator := .Paginate (where .Pages "File.Dir" "!=" "dnd/hidden/") }}
-    {{ range $paginator.Pages }}
-    <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
-      {{- partial "summary.html" . -}}
-    </div>
+
+    {{ if eq .Params.family "dnd-landing" }}
+      {{ range first 3 (where .Site.Pages "Params.family" "dnd-post") }}
+      <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
+        {{- partial "summary.html" . -}}
+      </div>
+      {{ end }}
+
+    {{ else if or
+      (eq .Params.family "dnd-post")
+      (eq .Params.family "dnd-note")
+      (eq .Params.family "dnd-archive")
+    }}
+      {{ $paginator := .Paginate (where .Pages "File.Dir" "!=" "dnd/hidden/") }}
+      {{ range $paginator.Pages }}
+      <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
+        {{- partial "summary.html" . -}}
+      </div>
+      {{ end }}
+
+    {{ else if eq .Params.family "dnd-npc" }}
+      {{- $sortedpages := .Pages.ByParam "title" }}
+      {{ $paginator := .Paginate (where $sortedpages "File.Dir" "!=" "dnd/hidden/") 12 }}
+      {{ range $paginator.Pages }}
+        <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
+          {{- partial "npc-summary.html" . -}}
+        </div>
+      {{ end }}
+
+    {{ else if eq .Params.family "dnd-location" }}
+      {{- $sortedpages := .Pages.ByParam "title" -}}
+      {{ $paginator := .Paginate (where $sortedpages "File.Dir" "!=" "dnd/hidden/") 12 }}
+      {{ range $paginator.Pages }}
+      <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
+        {{- partial "location-summary.html" . -}}
+      </div>
+      {{ end }}
+  
     {{ end }}
   </section>
+
   {{- template "_internal/pagination.html" . -}}
+
 </article>
+
 {{ end }}
