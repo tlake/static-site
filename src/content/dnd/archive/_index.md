@@ -1,10 +1,8 @@
 ---
-cascade:
-  - _target:
-    type: dnd-archive
+
 date: 2020-07-10T09:19:09-07:00
 title: The Archives
-type: dnd-archive
+
 ---
 
 I've pulled the early game's records from the dusty confines of an old postgres database and (for now) that unintegrated information can be found here.
