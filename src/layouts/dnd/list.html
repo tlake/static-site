@@ -19,17 +19,17 @@
   {{/* Section for displaying list items. */}}
   <section class="flex-ns flex-wrap justify-around mt5">
 
-    {{ if eq .Page.Type "dnd-landing" }}
-      {{ range first 3 (where .Site.Pages "Type" "dnd-post") }}
+    {{ if eq .Params.family "dnd-landing" }}
+      {{ range first 3 (where .Site.Pages "Params.family" "dnd-post") }}
       <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
         {{- partial "summary.html" . -}}
       </div>
       {{ end }}
 
     {{ else if or
-      (eq .Page.Type "dnd-post")
-      (eq .Page.Type "dnd-note")
-      (eq .Page.Type "dnd-archive")
+      (eq .Params.family "dnd-post")
+      (eq .Params.family "dnd-note")
+      (eq .Params.family "dnd-archive")
     }}
       {{ $paginator := .Paginate (where .Pages "File.Dir" "!=" "dnd/hidden/") }}
       {{ range $paginator.Pages }}
@@ -38,7 +38,7 @@
       </div>
       {{ end }}
 
-    {{ else if eq .Page.Type "dnd-npc" }}
+    {{ else if eq .Params.family "dnd-npc" }}
       {{- $sortedpages := .Pages.ByParam "title" }}
       {{ $paginator := .Paginate (where $sortedpages "File.Dir" "!=" "dnd/hidden/") 12 }}
       {{ range $paginator.Pages }}
@@ -47,7 +47,7 @@
         </div>
       {{ end }}
 
-    {{ else if eq .Page.Type "dnd-location" }}
+    {{ else if eq .Params.family "dnd-location" }}
       {{- $sortedpages := .Pages.ByParam "title" -}}
       {{ $paginator := .Paginate (where $sortedpages "File.Dir" "!=" "dnd/hidden/") 12 }}
       {{ range $paginator.Pages }}
