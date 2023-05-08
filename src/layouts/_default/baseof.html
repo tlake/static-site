@@ -64,6 +64,10 @@
       <li>.Layout: {{ .Layout }}</li>
       <li>.Kind: {{ .Kind }}</li>
       <li>.Permalink: {{ .Permalink }}</li>
+      <li>.Parent: {{ .Parent }}</li>
+      <li>.Path: {{ .Path }}</li>
+      <li>path.Dir: {{ path.Dir .Path }}</li>
+      <li>.Params.family: {{ .Params.family }}</li>
     </ul>
     {{ end -}}
     {{ block "main" . }}{{ end }}
