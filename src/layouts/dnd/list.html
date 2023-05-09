@@ -43,7 +43,7 @@
       {{ $paginator := .Paginate (where $sortedpages "File.Dir" "!=" "dnd/hidden/") 12 }}
       {{ range $paginator.Pages }}
         <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
-          {{- partial "npc-summary.html" . -}}
+          {{- partial "dnd/npc-summary.html" . -}}
         </div>
       {{ end }}
 
@@ -52,7 +52,7 @@
       {{ $paginator := .Paginate (where $sortedpages "File.Dir" "!=" "dnd/hidden/") 12 }}
       {{ range $paginator.Pages }}
       <div class='relative w-100 w-30-l mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }}'>
-        {{- partial "location-summary.html" . -}}
+        {{- partial "dnd/location-summary.html" . -}}
       </div>
       {{ end }}
   
