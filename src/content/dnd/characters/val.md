@@ -28,7 +28,7 @@ wood elf druid
 ### Biography
 
 - Born as Nadyantal'laval
-- Has a brother, [Elirion'tar](/dnd/characters/npcs/eliriontar/).
+- Has a brother, [Elirion'tar](/dnd/npcs/eliriontar/).
 - Apparently, Val has other siblings, including an eldest brother.
 - May have connection to the Heart Tree, in the druid grove.
 
@@ -36,7 +36,26 @@ wood elf druid
 
 #### Elirion'tar
 
-[Elirion'tar](/dnd/characters/npcs/eliriontar/) is Val's brother. She doesn't seem to want the party to know about him.
+[Elirion'tar](/dnd/npcs/eliriontar/) is Val's brother. She doesn't seem to want the party to know about him.
+
+### Finn
+
+Val seems to have a bit of a soft spot for [Finn](/dnd/characters/finn/). Even if Val is enraged at the entire party, she usually makes an exception for Finn and remains friendly to the halfling. When Val took the pact with Graz'zt in the Hells, she relied upon Finn to be her moral compass.
+
+### Graz'zt
+
+After a chance meeting with Graz'zt in Avernus, Val was seduced by his offer of power and entered into a pact with the demon lord. Over time, she ceded more an more of her control, and this eventually led to The Battle of Neverwinter.
+
+### Master Elian Amaadon
+
+Val cajoled [Master Elian Amaadon](/dnd/npcs/elian-amaadon/) into teaching her basic magic via correspondence. Master Elian has proven to be patient and generous instructor, despite Val's eccentricities or the fact that she casually refers to him as "Master E". When he heard of Graz'zt's control of Val, Master Elian jumped into action and eventually took charge of Val's recovery from the demon lord's influence.
+
+## Character Information
+
+## Quotations
+
+- "I am never surprised."
+- "Crossbow!"
 
 ### Character Information
 
@@ -44,8 +63,8 @@ wood elf druid
 
 ### Trivia
 
-- [Val](/dnd/characters/val/) has a habit of nicknaming character's she likes with a name like `<Letter>-Rock`. Honorary members of [Val](/dnd/characters/val/)'s "Rock" group include:
-  - [G-Rock](/dnd/characters/npcs/gundren-rockseeker/), the OG
-  - [D-Rock](/dnd/characters/npcs/denarial/)
+- Val has a habit of nicknaming character's she likes with a name like `<Letter>-Rock`. Honorary members of Val's "Rock" group include:
+  - [G-Rock](/dnd/npcs/gundren-rockseeker/), the OG
+  - [D-Rock](/dnd/npcs/denarial/)
 
 ### References

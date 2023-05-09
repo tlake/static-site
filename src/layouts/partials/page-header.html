@@ -32,6 +32,8 @@
   <div class='{{ $.Param "tertiary_bg_color_class" | default "bg-black" }}'>
     {{- partial "site-navigation.html" . -}}
   </div>
+
+  {{- if eq .Section "dnd" }}
   <ul class="pl0 mr3 tc-l">
     {{ $currentPage := . }}
     {{ range .Site.Menus.dnd }}
@@ -42,5 +44,7 @@
     </li>
     {{ end }}
   </ul>
+  {{ end }}
+
 </header>
 {{ end }}

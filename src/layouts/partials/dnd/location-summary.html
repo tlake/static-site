@@ -1,0 +1,20 @@
+<div class='relative w-100 mb4 {{ $.Param "secondary_bg_color_class" | default "bg-white" }} nested-copy-line-height'>
+  <div class='{{ $.Param "secondary_bg_color_class" | default "bg-white" }} {{ $.Param "secondary_font_color_class" | default "gray" }} mb3 pa4 overflow-hidden'>
+
+    <h1 class="f3 near-black">
+      <a href="{{ .Permalink }}" class='link {{ $.Param "secondary_font_color_class" | default "black" }} dim'>
+        {{- .Title -}}
+      </a>
+    </h1>
+
+    <div class="f6 mv0 dib tracked">
+      <p>
+        Characters:
+        {{ range $_, $character := .Param "dnd/ref/characters" -}}
+          <a href="/dnd/npcs/{{- urlize $character -}}" class='link {{ $.Param "secondary_font_color_class" | default "blue" }} dim'>[{{- $character -}}]</a>
+        {{ end }}
+      </p>
+    </div>
+
+  </div>
+</div>

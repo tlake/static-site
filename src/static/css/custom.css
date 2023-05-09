@@ -24,3 +24,14 @@
 .prev-post a {
     border-bottom-style: dotted;
 }
+
+/* keep footer stuck to bottom */
+html, body {
+    height: 100%;
+}
+
+/* keep footer stuck to bottom */
+body > footer {
+    position: sticky;
+    top: 1000vh;
+}

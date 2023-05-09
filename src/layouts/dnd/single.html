@@ -1,10 +1,9 @@
 {{ define "header" }}
-{{/* We can override any block in the baseof file be defining it in the template */}}
+{{/* We can override any block in the baseof file by defining it in the template */}}
 {{ partial "page-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
-{{ $section := .Site.GetPage "section" .Section }}
 
 {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
 <ul>
@@ -12,8 +11,8 @@
 </ul>
 {{- end }}
 
-<article class="cf pa3 pa4-m pa4-l">
-  <!-- <header class="mt4 w-100"> -->
+<article class="w-60 center cf pa3 pa4-m pa4-l mt5 mb4 {{ $.Param "secondary_bg_color_class" | default "bg-light-gray" }}">
+
   <header class="measure-wide-l center f4 lh-copy">
 
     <aside class="instapaper_ignoref b helvetica tracked">
@@ -26,12 +25,17 @@
 
     {{ partial "social-share.html" . }}
 
+    {{- partial "date-and-reading-time.html" . -}}
+    <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
+      {{- partial "next-prev-single.html" . -}}
+    </div>
+
     <h1 class="f1 athelas mt3 mb1">
       {{- .Title -}}
     </h1>
 
-    {{ if .Description }}
-    <p>{{ .Description }}</p>
+    {{ with .Description }}
+    <p>{{ . }}</p>
     {{ end }}
 
     {{ with .Params.author }}
@@ -46,27 +50,6 @@
     </p>
     {{ end }}
 
-    {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-    <time class="f6 mv4 dib tracked" {{ printf `datetime="%s" ` (.Date.Format "2006-01-02T15:04:05Z07:00" ) | safeHTMLAttr }}>
-      {{- .Date.Format "Mon, January 2, 2006" -}}
-    </time>
-
-    {{/*
-    Show "reading time" and "word count" but only if one of the following are true:
-    1) A global config `params` value is set `show_reading_time = true`
-    2) A section front matter value is set `show_reading_time = true`
-    3) A page front matter value is set `show_reading_time = true`
-    */}}
-    {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
-    <span class="f6 mv4 dib tracked"> - {{ .ReadingTime}} minutes read</span>
-    <span class="f6 mv4 dib tracked"> - {{ .WordCount}} words</span>
-    {{ end }}
-
-    {{/*
-    Display links to the next and previous posts in the section.
-    */}}
-    {{- partial "next-prev-single.html" . -}}
-
   </header>
 
   <div class="measure-wide-l center f4 nested-copy-line-height lh-copy nested-links {{ $.Param " post_content_classes" | default "serif" }} f4 nested-links nested-img {{ $.Param "primary_font_color_class" | default "mid-gray" }} pr4-l">
@@ -75,13 +58,14 @@
   </div>
 
   <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
-    <!-- {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray pr4-l" -->
-
-    {{/*
-    Display links to the next and previous posts in the section.
-    */}}
     {{- partial "next-prev-single.html" . -}}
+  </div>
 
+  <div class="measure-wide-l mt5-l center f4">
+    {{- partial "dnd/dnd-related.html" . -}}
+  </div>
+
+  <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">
     <div class="mt6 instapaper_ignoref">
       {{ if .Site.DisqusShortname }}
       {{ template "_internal/disqus.html" . }}
@@ -90,11 +74,8 @@
       {{- partial "commento.html" . -}}
       {{ end }}
     </div>
-
-    <aside class="w-30-l mt6-l">
-      {{- partial "menu-contextual.html" . -}}
-    </aside>
   </div>
 
 </article>
+
 {{ end }}
