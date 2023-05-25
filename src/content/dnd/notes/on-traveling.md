@@ -14,7 +14,7 @@ title: On Traveling
 
 Distance from Neverwinter to the southern tip of the Tethyr Peninsula, following the coast as a ship would: ≈ 1600 miles.
 
-On [this map](https://i.pinimg.com/originals/6e/1c/5b/6e1c5b2e9ff90379bd7d130a13a1f1a4.jpg) it's roughly 16 hexes from the southern tip/ of the Tethyr Peninsula to Port Nyanzaru as a ship would sail, cutting along the west side of the eastern islands south of the peninsula. Each hex is roughly 25 miles, so 16 * 25 = 400 miles.
+On [this map](https://i.pinimg.com/originals/6e/1c/5b/6e1c5b2e9ff90379bd7d130a13a1f1a4.jpg) it's roughly 16 hexes from the southern tip of the Tethyr Peninsula to Port Nyanzaru as a ship would sail, cutting along the west side of the eastern islands south of the peninsula. Each hex is roughly 25 miles, so 16 * 25 = 400 miles.
 
 Total distance as a ship would sail, following the coastline: ≈ 2000 miles.
 
