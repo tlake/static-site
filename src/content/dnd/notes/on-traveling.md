@@ -41,7 +41,7 @@ The DMG actually has a [section on special travel paces](https://www.dndbeyond.c
 > Similarly, a [phantom steed](https://www.dndbeyond.com/spells/phantom-steed) spell creates a magical mount with a speed of 100 feet that doesn’t tire like a real horse. A character on a phantom steed can cover 1,000 feet in 1 minute at a normal pace, 1,333 feet at a fast pace, or 666 feet at a slow pace. In 1 hour, the character can travel 7, 10, or 13 miles.
 
 
-So, assuming 8 hours of travel a day at a standard pace, *wind walk* would get them 240 miles per day, which would have them arrive at Port Nyanzaru in 2000 ÷ 240 = **8 1/3** days.
+So, assuming 8 hours of travel a day at a fast pace, *wind walk* would get them 320 miles per day, which would have them arrive at Port Nyanzaru in 2000 ÷ 320 = **6 1/4 days**.
 
 That's basically all you get with one casting of *wind walk* anyway, but if we had multiple castings we would need to factor in [exhaustion rules](https://www.dndbeyond.com/sources/phb/adventuring#TravelPace) from the PHB:
 
@@ -51,5 +51,5 @@ That's basically all you get with one casting of *wind walk* anyway, but if we h
 > 
 > For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 **+ 1** for each hour past 8 hours. On a failed saving throw, a character suffers one level of [exhaustion](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Exhaustion) (see [Appendix A](https://www.dndbeyond.com/sources/phb/appendix-a-conditions#Unconscious)).
 
-If we assume that all those exhaustion saves (the total number of saving throws would be 4(DC 11, DC 12, …, DC 18), so **32 saves** of varying difficulties per person) are successful and movement speed isn’t reduced, 2 castings of *********wind walk********* per day would get them there in 4 days.
+If we assume that all those exhaustion saves (the total number of saving throws would be 4(DC 11, DC 12, …, DC 18), so **32 saves** of varying difficulties per person) are successful and movement speed isn’t reduced, 2 castings of _wind walk_ per day would get them there in **just over 3 days**.
 
