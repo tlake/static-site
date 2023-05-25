@@ -51,5 +51,6 @@ That's basically all you get with one casting of *wind walk* anyway, but if we h
 > 
 > For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 **+ 1** for each hour past 8 hours. On a failed saving throw, a character suffers one level of [exhaustion](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Exhaustion) (see [Appendix A](https://www.dndbeyond.com/sources/phb/appendix-a-conditions#Unconscious)).
 
-If we assume that all those exhaustion saves (the total number of saving throws would be 4(DC 11, DC 12, …, DC 18), so **32 saves** of varying difficulties per person) are successful and movement speed isn’t reduced, 2 castings of _wind walk_ per day would get them there in **just over 3 days**.
+If we assume that all those exhaustion saves are successful and movement speed isn’t reduced, 2 castings of _wind walk_ per day would get them there in **just over 3 days**.
+Those saves, btw, would be 8 saves of DCs 11, 12, .., 17, 18 per day of travel, and if all of them are successful and movement speed isn't reduced by exhaustion, each traveler would need to make a minimum of 24 saves over the trip.
 
