@@ -13,7 +13,7 @@ title: Gimble the Diviner Backstory
 
 ### Formatted
 
-[Gimble the Diviner Backstory -- Formatted](/dnd/media/gimble-backstory.pdf)
+[Gimble the Diviner Backstory -- Formatted](/media/dnd/gimble-backstory.pdf)
 
 ### Text Version
 
