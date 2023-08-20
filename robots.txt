@@ -1,5 +1,7 @@
 User-agent: *
 
+Disallow: /dnd/posts/2023/06/07/can-i-get-a-receipt/
+
 Disallow: /dnd/notes/on-traveling/
 
 Disallow: /dnd/npcs/brooke/
@@ -430,11 +432,15 @@ Disallow: /dnd/ref/locations/azzagrat/
 
 Disallow: /dnd/ref/locations/baator/
 
+Disallow: /dnd/ref/locations/baldurs-gate/
+
 Disallow: /dnd/ref/characters/belial/
 
 Disallow: /dnd/ref/characters/brooke/
 
 Disallow: /dnd/ref/characters/caerwyn-cadogan/
+
+Disallow: /dnd/ref/locations/candlekeep/
 
 Disallow: /dnd/ref/characters/carmen/
 
@@ -535,6 +541,8 @@ Disallow: /dnd/ref/characters/ivor-borst/
 Disallow: /dnd/characters/ivor-borst/
 
 Disallow: /dnd/ref/locations/jangling-hiter/
+
+Disallow: /dnd/ref/characters/jarvis-iii/
 
 Disallow: /dnd/ref/characters/jefferson/
 
@@ -656,6 +664,8 @@ Disallow: /dnd/ref/characters/rinnthalas-liadon/
 
 Disallow: /dnd/characters/rinnthalas-liadon/
 
+Disallow: /dnd/ref/characters/rubella-blackhand/
+
 Disallow: /dnd/ref/locations/shadow-leilon/
 
 Disallow: /dnd/ref/locations/sigil/
@@ -703,6 +713,8 @@ Disallow: /dnd/ref/locations/the-sword-coast/
 Disallow: /dnd/npcs/the-tinkerer/
 
 Disallow: /dnd/ref/characters/the-vigil/
+
+Disallow: /dnd/ref/characters/the-wolves/
 
 Disallow: /dnd/ref/locations/thundertree/
 
