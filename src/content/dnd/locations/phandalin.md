@@ -17,4 +17,4 @@ See also: <https://forgottenrealms.fandom.com/wiki/Phandalin>
 
 ## Key Info
 
-- The Menagerie keeps a home here at Tresandor Manor
+- The Menagerie keeps a home here at [Tresandar Manor](/dnd/locations/tresendar-manor)

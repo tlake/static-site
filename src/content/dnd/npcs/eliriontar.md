@@ -14,7 +14,7 @@ title: Elirion'tar
 
 ## Elirion'tar
 
-Brother to [Val](/dnd/characters/val/) and was found working on a ship docked in Neverwinter.
+Brother to [Val](/dnd/characters/val) and was found working on a ship docked in Neverwinter.
 
 ### Description
 
@@ -32,7 +32,7 @@ Brother to [Val](/dnd/characters/val/) and was found working on a ship docked in
 
 #### Val
 
-- Ellie is one of [Val](/dnd/characters/val/)'s brothers.
+- Ellie is one of [Val](/dnd/characters/val)'s brothers.
 
 ### Quotations
 

@@ -17,7 +17,7 @@ title: Magrin
 
 ## Magrin
 
-A duergar who ~~serves~~ served as a chief manager of [Tymphal](/dnd/npcs/tymphal/)'s operations.
+A duergar who ~~serves~~ served as a chief manager of [Tymphal](/dnd/npcs/tymphal)'s operations.
 
 ### Description
 
@@ -41,8 +41,8 @@ Magrin's essence is now confined within a green steel shield.
 
 ### Key Info
 
-- According to Tymphal, Magrin was abducted by [Fierna](/dnd/npcs/fierna/), and without him, Tymphal's operations are flailing. This is the basis of the work in [Tymphal's Contract](/dnd/notes/tymphals-contract/).
-- However, in 2021-12-22 Import Campaign#The Library, [Oneshoe](/dnd/characters/oneshoe/) finds a contract between Fierna and Magrin which implies it was a consensual arrangement.
+- According to Tymphal, Magrin was abducted by [Fierna](/dnd/npcs/fierna), and without him, Tymphal's operations are flailing. This is the basis of the work in [Tymphal's Contract](/dnd/notes/tymphals-contract).
+- However, in 2021-12-22 Import Campaign#The Library, [Oneshoe](/dnd/characters/oneshoe) finds a contract between Fierna and Magrin which implies it was a consensual arrangement.
 
 ### Relationships
 
@@ -57,7 +57,7 @@ Magrin's essence is now confined within a green steel shield.
 
 ### Quotations
 
-- [Magrin](/dnd/npcs/magrin/): (haltingly) Please help. (about the only words he could manage when found in the torture chamber in Fierna's tower.)
+- [Magrin](/dnd/npcs/magrin): (haltingly) Please help. (about the only words he could manage when found in the torture chamber in Fierna's tower.)
 
 ### Quotations
 

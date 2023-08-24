@@ -7,7 +7,7 @@ title: Gimble Became Lawful Evil in Avernus
 ---
 
 
-[Gimble the Diviner](/dnd/characters/gimble-the-diviner/)
+[Gimble the Diviner](/dnd/characters/gimble-the-diviner)
 
 ## Gimble Became Lawful Evil in Avernus
 

@@ -26,12 +26,12 @@ Tharden Rockseeker was one of the three dwarf brothers who rediscovered Wave Ech
 
 ### Relationships
 
-- older brother to [Gundren Rockseeker](/dnd/npcs/gundren-rockseeker/)
-- older brother to [Nundro Rockseeker](/dnd/npcs/nundro-rockseeker/)
+- older brother to [Gundren Rockseeker](/dnd/npcs/gundren-rockseeker)
+- older brother to [Nundro Rockseeker](/dnd/npcs/nundro-rockseeker)
 
 ### Key Info
 
-- The dwarf was slain by forces under the command of [Nezznar, The Black Spider](/dnd/npcs/nezznar-the-black-spider/).
+- The dwarf was slain by forces under the command of [Nezznar, The Black Spider](/dnd/npcs/nezznar-the-black-spider).
 
 ### Quotations
 

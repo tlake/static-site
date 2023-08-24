@@ -14,7 +14,7 @@ title: Waybert Spinzig
 
 ## Waybert Spinzig
 
-A gnome researcher who arrived in [Phandalin](/dnd/locations/phandalin/) along with [Zilry](/dnd/npcs/zilry/) to study the incoming Modron March.
+A gnome researcher who arrived in [Phandalin](/dnd/locations/phandalin) along with [Zilry](/dnd/npcs/zilry) to study the incoming Modron March.
 
 ### Description
 

@@ -37,7 +37,7 @@ Wood Elf Horizon Walker Ranger
 
 #### Quests
 
-- [x] Deliver a letter to the party (a favor for [Gorstag](/dnd/characters/gorstag/) orchestrated by [Gimble](/dnd/characters/gimble-the-diviner/))
+- [x] Deliver a letter to the party (a favor for [Gorstag](/dnd/characters/gorstag) orchestrated by [Gimble](/dnd/characters/gimble-the-diviner))
 - [ ] Find his lost friend, Ze'brak
 
 #### Notable Items

@@ -30,4 +30,4 @@ title: Nezznar, The Black Spider
 
 ### Trivia
 
-- source of [Gimble](/dnd/characters/gimble-the-diviner/)'s *Spider Staff*
+- source of [Gimble](/dnd/characters/gimble-the-diviner)'s *Spider Staff*

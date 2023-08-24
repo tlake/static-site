@@ -13,7 +13,7 @@ title: Zilry
 
 ## Zilry
 
-An elf researcher who arrived in [Phandalin](/dnd/locations/phandalin/) along with [Waybert](/dnd/npcs/waybert-spinzig/) to study the incoming Modron March.
+An elf researcher who arrived in [Phandalin](/dnd/locations/phandalin) along with [Waybert](/dnd/npcs/waybert-spinzig) to study the incoming Modron March.
 
 ### Description
 

@@ -15,7 +15,7 @@ title: Oberon
 
 ## Oberon
 
-Oberon, Lord of Beasts, consort of [Queen Titania](/dnd/npcs/queen-titania/), and member of the Seelie Court.
+Oberon, Lord of Beasts, consort of [Queen Titania](/dnd/npcs/queen-titania), and member of the Seelie Court.
 
 ### Description
 
@@ -27,8 +27,8 @@ Oberon, Lord of Beasts, consort of [Queen Titania](/dnd/npcs/queen-titania/), an
 
 ### Key Info
 
-- Incensed by the assassination attempt on [Queen Titania](/dnd/npcs/queen-titania/) that left her comatose, Oberon has been leading an unending form of The Wild Hunt.
-- [Oberon](/dnd/npcs/oberon/) suspects the parts was involved in the assassination attempt.
+- Incensed by the assassination attempt on [Queen Titania](/dnd/npcs/queen-titania) that left her comatose, Oberon has been leading an unending form of The Wild Hunt.
+- [Oberon](/dnd/npcs/oberon) suspects the parts was involved in the assassination attempt.
 
 ### Relationships
 

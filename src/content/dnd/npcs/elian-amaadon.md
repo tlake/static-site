@@ -26,7 +26,7 @@ Displays earned confidence with a proper bearing. Shows patience and care for hi
 ## Key Info
 
 - Senior professor of the Neverwinter mage college
-- Reluctant, but caring remote instructor for [Val](/dnd/characters/val/)
+- Reluctant, but caring remote instructor for [Val](/dnd/characters/val)
 
 ## Relationships
 
@@ -36,7 +36,7 @@ After much cajoling, Master Elian eventually agreed to teaching Val basic magic 
 
 ### Rinn'thalas
 
-Master Elian has agreed to keep a watchful eye on Val's behavior and will inform [Rinn'thalas](/dnd/characters/rinnthalas-liadon/) if she becomes a danger again. He has accepted an Amulet of the Vigil as a means of staying in contact with Rinn'thalas, but he explicitly would not commit the resources of the college towards an outside organization. 
+Master Elian has agreed to keep a watchful eye on Val's behavior and will inform [Rinn'thalas](/dnd/characters/rinnthalas-liadon) if she becomes a danger again. He has accepted an Amulet of the Vigil as a means of staying in contact with Rinn'thalas, but he explicitly would not commit the resources of the college towards an outside organization. 
 
 ## Quotations
 

@@ -28,7 +28,7 @@ Elf cleric of Tymora who tends the Luck Shrine in town.
 
 #### Gimble
 
-- Taught [Gimble](/dnd/characters/gimble-the-diviner/) the ritual for *Gentle Repose*
+- Taught [Gimble](/dnd/characters/gimble-the-diviner) the ritual for *Gentle Repose*
 
 #### Quotations
 

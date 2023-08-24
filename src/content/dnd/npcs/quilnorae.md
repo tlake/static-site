@@ -16,7 +16,7 @@ title: Quilnorae
 
 ## Quilnorae
 
-Reportedly an elvish paladin whose soul ended up in a Soul Coin in [Fierna](/dnd/npcs/fierna/)'s tower.
+Reportedly an elvish paladin whose soul ended up in a Soul Coin in [Fierna](/dnd/npcs/fierna)'s tower.
 
 ### Description
 
@@ -28,7 +28,7 @@ Reportedly an elvish paladin whose soul ended up in a Soul Coin in [Fierna](/dnd
 
 ### Key Info
 
-- [Aeortis](/dnd/npcs/aeortis/) issues a quest for [Oneshoe](/dnd/characters/oneshoe/) to retrieve the coin with the soul of Quilnorae.
+- [Aeortis](/dnd/npcs/aeortis) issues a quest for [Oneshoe](/dnd/characters/oneshoe) to retrieve the coin with the soul of Quilnorae.
 
 ### Relationships
 

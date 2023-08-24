@@ -16,7 +16,7 @@ title: Ignaroz
 
 ## Ignaroz
 
-Assistant to [Carmen](/dnd/npcs/carmen/) (?) who facilitates creation and administration of [Tymphal's Contract](/dnd/notes/tymphals-contract/) with the The Menagerie.
+Assistant to [Carmen](/dnd/npcs/carmen) (?) who facilitates creation and administration of [Tymphal's Contract](/dnd/notes/tymphals-contract) with the The Menagerie.
 
 ### Description
 
@@ -56,7 +56,7 @@ After her promotion following the successful Caper at Fierna's Tower, Ignaroz's 
 ### Key Info
 
 - point of contact for Tymphal's Contract
-- was promoted to bearded devil by [Tymphal](/dnd/npcs/tymphal/) for her role facilitating the successful execution of Tymphal's Contract
+- was promoted to bearded devil by [Tymphal](/dnd/npcs/tymphal) for her role facilitating the successful execution of Tymphal's Contract
 
 ### Quotations
 
