@@ -17,13 +17,13 @@ title: Gelfondi
 
 ## Gelfondi
 
-The devil in charge of the operations on the 42nd floor of [Fierna](/dnd/npcs/fierna/)'s tower.
+The devil in charge of the operations on the 42nd floor of [Fierna](/dnd/npcs/fierna)'s tower.
 
 ### Description
 
 #### Appearance
 
-Gelfondi is a horned devil, slightly shorter than usual. He was wearing some type or robes when the party surprised him in [2022-02-02 Import Campaign](/dnd/2022-02-02/).
+Gelfondi is a horned devil, slightly shorter than usual. He was wearing some type or robes when the party surprised him in [2022-02-02 Import Campaign](/dnd/posts/2022-02-02).
 
 #### Personality
 

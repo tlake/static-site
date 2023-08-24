@@ -29,7 +29,7 @@ title: Iarno Albrek
 
 - Previously a member of the Lord's Alliance.
 - Secretly the leader of The Redbrands.
-- In league with [The Black Spider](/dnd/npcs/nezznar-the-black-spider/)
+- In league with [The Black Spider](/dnd/npcs/nezznar-the-black-spider)
 
 ### Relationships
 

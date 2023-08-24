@@ -18,7 +18,7 @@ title: Mirna Dendrar
 
 ### Description
 
-- Human commoner from [Phandalin](/dnd/locations/phandalin/)
+- Human commoner from [Phandalin](/dnd/locations/phandalin)
 
 ### Biography
 

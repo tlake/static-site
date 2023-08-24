@@ -5,6 +5,7 @@ dnd/ref/characters:
 dnd/ref/locations:
   - Avernus
   - Baator
+  - Candlekeep
   - Mount Celestia
 mortality: alive
 tags:
@@ -26,16 +27,16 @@ A female drow.
 
 #### Personality
 
-While interacting with the party in Avernus, Cassandra was very composed and professional. She dealt fairly with the party.
+While interacting with the party in [Avernus](/dnd/locations/avernus), Cassandra was very composed and professional. She dealt fairly with the party.
 
 ### Biography
 
 ### Key Info
 
 - agent of The Reclamation
-- on business in the Hells to track down and return a dangerous criminal
-- Cassandra agreed to assist the party in exchange for the *Bag of Devouring, which was the target of her mission.
-- Served as a point of contact between [Oneshoe](/dnd/characters/oneshoe/) and her unicorn patron [Mooncolor](dnd/npcs/mooncolor/).
+- on business in [the Hells](/dnd/locations/baator) to track down and return a dangerous criminal
+- Cassandra agreed to assist the party in exchange for the _Bag of Devouring,_ which was the target of her mission.
+- Served as a point of contact between [Oneshoe](/dnd/characters/oneshoe) and her unicorn patron [Mooncolor](/dnd/npcs/mooncolor) who resides in [Mount Celestia](/dnd/locations/mount-celestia).
 
 ### Relationships
 

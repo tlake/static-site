@@ -14,7 +14,7 @@ title: Brooke
 
 ## Brooke
 
-Brooke became the proprietor of The Sleeping Giant in [Phandalin](/obsidian/locations/phandalin/) after The Redbrands were run out of town.
+Brooke became the proprietor of The Sleeping Giant in [Phandalin](/dnd/locations/phandalin) after The Redbrands were run out of town.
 
 ### Description
 
@@ -26,8 +26,8 @@ Brooke became the proprietor of The Sleeping Giant in [Phandalin](/obsidian/loca
 
 ### Key Info
 
-- [Gray](/dnd/characters/haeltin-var-astora/) states the Brooke is a secret member of The Wolves.
-- On several occasions, Brooke has been trying to dig up info on Gray, usually by getting [Finn](/dnd/characters/finn/) alone and asking questions.
+- [Gray](/dnd/characters/haeltin-var-astora) states the Brooke is a secret member of [The Wolves](/dnd/npcs/the-wolves).
+- On several occasions, Brooke has been trying to dig up info on Gray, usually by getting [Finn](/dnd/characters/finn) alone and asking questions.
 
 ### Relationships
 

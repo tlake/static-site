@@ -29,8 +29,8 @@ Gundren Rockseeker was one of the three dwarf brothers who rediscovered Wave Ech
 
 #### Late Brothers
 
-- brother to [Tharden Rockseeker](/dnd/npcs/tharden-rockseeker/)
-- older brother to [Nundro Rockseeker](/dnd/npcs/nundro-rockseeker/)
+- brother to [Tharden Rockseeker](/dnd/npcs/tharden-rockseeker)
+- older brother to [Nundro Rockseeker](/dnd/npcs/nundro-rockseeker)
 
 #### Val
 
@@ -38,8 +38,8 @@ Gundren and Val become fast friends and drinking buddies. Val calls Gundren "G-R
 
 ### Key Info
 
-- Hired the original members of The Menagerie to guard a caravan from Neverwinter to [Phandalin](/obsidian/locations/phandalin/).
-- Was kidnapped by goblin forces at the behest of [The Black Spider](/dnd/npcs/nezznar-the-black-spider/). He was saved by the party.
+- Hired the original members of The Menagerie to guard a caravan from Neverwinter to [Phandalin](/dnd/locations/phandalin).
+- Was kidnapped by goblin forces at the behest of [The Black Spider](/dnd/npcs/nezznar-the-black-spider). He was saved by the party.
 - Along with his late brothers, Gundren rediscovered The Wave Echo Cave and restored operation.
 - As tribute to the party, Gundren provides them small stream of income from a portion of his profits at the cave.
 

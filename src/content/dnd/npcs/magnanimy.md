@@ -27,7 +27,7 @@ Looks to be a tiefling-ish, higher-class gentleman.
 ### Key Info
 
 - Magnanimy is fond of gambling. He is less fond of losing to those with poor manners.
-- He offers [Rinn'thalas](/dnd/characters/rinnthalas-liadon/) information on the whereabouts of Ze'brak, in exchange for the return of a certain item taken from him by another patron at The Brimstone.
+- He offers [Rinn'thalas](/dnd/characters/rinnthalas-liadon) information on the whereabouts of Ze'brak, in exchange for the return of a certain item taken from him by another patron at The Brimstone.
 
 ### Relationships
 

@@ -6,12 +6,12 @@ dnd/ref/locations:
   - Shadow Leilon
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally
-title: Denarial
+title: Denariel
 ---
 
 [Import Campaign Characters](/dnd/characters/)
 
-## Denarial
+## Denariel
 
 A sorceress and leader of a large contingent of drow in Shadow Leilon.
 
@@ -27,18 +27,18 @@ A female drow.
 
 ### Key Info
 
-- Denarial desires to take over as mayor of Shadow Leilon.
+- Denariel desires to take over as mayor of Shadow Leilon.
 
 ### Relationships
 
 #### Val
 
-Val took a liking to Denarial and named her "D-Rock". Denarial took to calling Val, "V-Rock" in return.
+Val took a liking to Denariel and named her "D-Rock". Denariel took to calling Val, "V-Rock" in return.
 
 ### Quotations
 
 ### Trivia
 
-- [Val](/dnd/characters/val/)'s nickname for Denarial, [D-Rock](/dnd/npcs/denarial/), continues the "-Rock" trend started with [G-Rock](/dnd/npcs/gundren-rockseeker/) back in [Phandalin](/dnd/locations/phandalin/).
+- [Val](/dnd/characters/val)'s nickname for Denariel, [D-Rock](/dnd/npcs/denariel), continues the "-Rock" trend started with [G-Rock](/dnd/npcs/gundren-rockseeker) back in [Phandalin](/dnd/locations/phandalin).
 
 ### References

@@ -17,7 +17,7 @@ THEREFORE, the Parties agree as follows:
 
 The Client requests and the Mortals agree to perform the following specific Services (the “Services”):
 
-1. The Mortals will find [Magrin](/dnd/npcs/magrin/) and bring him back to the Client, either alive or within the given Soul Coin.
+1. The Mortals will find [Magrin](/dnd/npcs/magrin) and bring him back to the Client, either alive or within the given Soul Coin.
 
 ### 2. Compensation
 

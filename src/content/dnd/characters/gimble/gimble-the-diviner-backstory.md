@@ -7,7 +7,7 @@ title: Gimble the Diviner Backstory
 ---
 
 
-[Gimble the Diviner](/dnd/characters/gimble-the-diviner/)
+[Gimble the Diviner](/dnd/characters/gimble-the-diviner)
 
 ## Gimble the Diviner Backstory
 

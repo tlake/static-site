@@ -16,7 +16,7 @@ title: Belial
 
 ## Belial
 
-Belial is the lord of Phlegethos, who jointly rules the fourth layer together with his daughter [Fierna](/dnd/npcs/fierna/). This unusual partnership was allowed by Asmodeus as an exception to the usual requirement of one ruler per layer.
+Belial is the lord of Phlegethos, who jointly rules the fourth layer together with his daughter [Fierna](/dnd/npcs/fierna). This unusual partnership was allowed by Asmodeus as an exception to the usual requirement of one ruler per layer.
 
 ### Description
 

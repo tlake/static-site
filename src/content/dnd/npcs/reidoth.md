@@ -24,7 +24,7 @@ See also: <https://forgottenrealms.fandom.com/wiki/Reidoth#History>
 ### Key Info
 
 - Member of the Emerald Enclave
-- Many years prior, was part of the force which repelled the initial infernal invasion at Mount Hotenow which lead to the eruption and connection to the mystery surrounding the backstory of [Horns](/dnd/characters/horns/)
+- Many years prior, was part of the force which repelled the initial infernal invasion at Mount Hotenow which lead to the eruption and connection to the mystery surrounding the backstory of [Horns](/dnd/characters/horns)
 
 ### Relationships
 
@@ -32,7 +32,7 @@ See also: <https://forgottenrealms.fandom.com/wiki/Reidoth#History>
 
 #### Horns
 
-- Found [Horns](/dnd/characters/horns/) washed up naked on the beach with no memories
+- Found [Horns](/dnd/characters/horns) washed up naked on the beach with no memories
 - Reidoth took care of him and taught him his druidic ways
 
 ### Quotations
