@@ -1,5 +1,45 @@
 User-agent: *
 
+Disallow: /dnd/locations/ale-echo-cave/
+
+Disallow: /dnd/locations/baldurs-gate/
+
+Disallow: /dnd/npcs/benedora-stoneforge/
+
+Disallow: /dnd/locations/candlekeep/
+
+Disallow: /dnd/npcs/feldmar-bisset-iii/
+
+Disallow: /dnd/npcs/gruumsh/
+
+Disallow: /dnd/npcs/jarvis-iii/
+
+Disallow: /dnd/npcs/kei-tigersteel/
+
+Disallow: /dnd/npcs/kheril-hammerbind/
+
+Disallow: /dnd/locations/marea/
+
+Disallow: /dnd/npcs/mooncolor/
+
+Disallow: /dnd/locations/mount-celestia/
+
+Disallow: /dnd/locations/nesme/
+
+Disallow: /dnd/npcs/raeneth-var-astora/
+
+Disallow: /dnd/npcs/rubella-blackhand/
+
+Disallow: /dnd/locations/sleeping-giant-inn/
+
+Disallow: /dnd/npcs/the-revenant/
+
+Disallow: /dnd/npcs/the-wolves/
+
+Disallow: /dnd/locations/tresendar-manor/
+
+Disallow: /dnd/npcs/trynna-briegarden/
+
 Disallow: /dnd/posts/2023/06/07/can-i-get-a-receipt/
 
 Disallow: /dnd/posts/2023/05/24/a-study-in-synthwave/
@@ -168,7 +208,7 @@ Disallow: /dnd/posts/2022/01/19/2022-01-19/
 
 Disallow: /dnd/npcs/clear-wind/
 
-Disallow: /dnd/npcs/denarial/
+Disallow: /dnd/npcs/denariel/
 
 Disallow: /dnd/npcs/eliriontar/
 
@@ -438,9 +478,9 @@ Disallow: /dnd/ref/locations/baldurs-gate/
 
 Disallow: /dnd/ref/characters/belial/
 
-Disallow: /dnd/ref/characters/brooke/
+Disallow: /dnd/ref/characters/benedora-stoneforge/
 
-Disallow: /dnd/ref/characters/caerwyn/
+Disallow: /dnd/ref/characters/brooke/
 
 Disallow: /dnd/ref/characters/caerwyn-cadogan/
 
@@ -477,6 +517,8 @@ Disallow: /dnd/ref/characters/elian/
 Disallow: /dnd/ref/characters/elian-amaadon/
 
 Disallow: /dnd/ref/characters/eliriontar/
+
+Disallow: /dnd/ref/characters/feldmar-bisset-iii/
 
 Disallow: /dnd/ref/locations/feywild/
 
@@ -516,6 +558,8 @@ Disallow: /dnd/ref/characters/grazzt/
 
 Disallow: /dnd/ref/characters/gregor/
 
+Disallow: /dnd/ref/characters/gruumsh/
+
 Disallow: /dnd/ref/characters/gundren-rockseeker/
 
 Disallow: /dnd/ref/characters/haeltin-var-astora/
@@ -554,7 +598,11 @@ Disallow: /dnd/ref/characters/json/
 
 Disallow: /dnd/characters/json/
 
+Disallow: /dnd/ref/characters/kei-tigersteel/
+
 Disallow: /dnd/ref/characters/keith-stone/
+
+Disallow: /dnd/ref/characters/kheril-hammerbind/
 
 Disallow: /dnd/ref/characters/kithri-tealeaf/
 
@@ -574,6 +622,8 @@ Disallow: /dnd/ref/characters/magnanimy/
 
 Disallow: /dnd/ref/characters/magrin/
 
+Disallow: /dnd/ref/locations/marea/
+
 Disallow: /dnd/ref/characters/master-elian/
 
 Disallow: /dnd/ref/characters/melkor/
@@ -587,6 +637,8 @@ Disallow: /dnd/characters/mindartis/
 Disallow: /dnd/ref/characters/mirna-dendrar/
 
 Disallow: /dnd/npcs/mirna-dendrar/
+
+Disallow: /dnd/ref/characters/mooncolor/
 
 Disallow: /dnd/ref/characters/mother/
 
@@ -615,6 +667,8 @@ Disallow: /tags/my/dnd/campaigns/import_campaign/characters/npc/other/
 Disallow: /tags/my/dnd/campaigns/import_campaign/characters/rinn/
 
 Disallow: /tags/my/dnd/campaigns/import_campaign/sessions/
+
+Disallow: /dnd/ref/locations/nesm%C3%A9/
 
 Disallow: /dnd/ref/locations/neverwinter/
 
@@ -658,15 +712,13 @@ Disallow: /dnd/ref/characters/queen-titania/
 
 Disallow: /dnd/ref/characters/quilnorae/
 
-Disallow: /dnd/ref/characters/raeneth/
+Disallow: /dnd/ref/characters/raeneth-var-astora/
 
 Disallow: /dnd/ref/characters/ravio/
 
 Disallow: /dnd/ref/characters/reidoth/
 
 Disallow: /dnd/npcs/reidoth/
-
-Disallow: /dnd/ref/characters/rinnthalas/
 
 Disallow: /dnd/ref/characters/rinnthalas-liadon/
 
@@ -711,6 +763,8 @@ Disallow: /dnd/ref/characters/the-cult-of-the-dragon/
 Disallow: /dnd/ref/locations/the-hells/
 
 Disallow: /dnd/ref/locations/the-jade-arbor/
+
+Disallow: /dnd/ref/characters/the-revenant/
 
 Disallow: /dnd/ref/locations/the-river-styx/
 
