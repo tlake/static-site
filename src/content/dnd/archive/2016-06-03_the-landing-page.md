@@ -3,41 +3,43 @@ title: OG Landing Page
 date: 2016-06-03T09:19:09-07:00
 ---
 
-import campaign,"_""The sky is gray and tinged with regret.""_
+## `import campaign`
 
-###
+_"The sky is gray and tinged with regret."
+
+---
 
 `import campaign` is a Seattle-based fifth-edition _Dungeons & Dragons_ campaign run by a Python developer for several other Python developers (...plus a couple folks who aren't). The campaign started out taking the players through the _Lost Mines of Phandelver_ module, and is now going off the rails into custom content.
 
 We meet every other Friday, and sometimes we'll tweet about it with [#importcampaign](https://twitter.com/search?q=%23importcampaign&src=typd).
 
-# Links
+## Links
 
-### [Session Summaries](session-summaries)
+### [Session Summaries](/dnd/posts/_index)
 
-### [Player Characters](player-characters)
+### [Player Characters](/dnd/characters/_index)
 
-### [Non-Player Characters](non-player-characters)
+### [Non-Player Characters](/dnd/npcs/_index)
 
-### [The Calendar of Harptos](calendar-harptos) _(SCAG 14-15)_"
+### [The Calendar of Harptos](/dnd/notes/calendar-of-harptos) _(SCAG 14-15)_"
 
 Player Characters,"[TOC]
 
-# Active Characters
+## Active Characters
 
-## Finn
+### Finn
 
 Halfling Barbarian
 
 _(the ""conjurer"")_
 
-## Gimble
+### Gimble
 
 Gnome Wizard
 
 _(the diviner)_
 
-## Hael
+### Hael
 
 Half-Drow Blood Hunter (Order of the Lycan)
 
@@ -47,50 +49,51 @@ _(previously a paladin)_
 
 _(previously deceased)_
 
-## Horns
+### Horns
 
 Tiefling Druid
 
-## Val
+### Val
 
 Wood Elf Druid
 
-# Inactive Characters
+## Inactive Characters
 
-## Gorstag
+### Gorstag
 
 Human Fighter
 
-## Ivor Borst
+### Ivor Borst
 
 Human Barbarian
 
-## Orsik Stoneskin
+### Orsik Stoneskin
 
 Dwarf Monk
 
-## JSON
+### JSON
 
 Wood Elf Bard
 
 (out on tour)
 
-## Kithri Tealeaf
+### Kithri Tealeaf
 
 Halfling Rogue
 
-## Mindartis
+### Mindartis
 
 Wood Elf Rogue
 
 (somewhere else)
 
-## Zane a Presque Du'Cal
+### Zane a Presque Du'Cal
 
 Half-Elf Bard
 
 (deceased, savaged by a Gray wolf)"
-Non-Player Characters,"[TOC]
+
+## Non-Player Characters,"
 
 ### Lyra Farsong
 
@@ -117,14 +120,25 @@ Was rescued from goblins by _The Menagerie_; currently spending time in Phandali
 
 Inventor of the douche (also known as a shower _(non-canonical)_).
 
-...all these, plus the cast of the _Lost Mines of Phandelver_ module"
-Session Summaries,"### [43: Fomorian Forward Camp, Part 1 (2018-03-09)](43-fomorian-forward-camp-part-1)
+...all these, plus the cast of the _Lost Mines of Phandelver_ module
+
+## Session Summaries
+
+### [??: Six Months Later (2018-10-05)](/dnd/archive/2018-10-05)
+
+In which the party reconvenes.
+
+### [??: Return to Phandalin (2018-09-21)](/dnd/archive/2018-09-21)
+
+In which the Menagerie become homeowners.
+
+### [43: Fomorian Forward Camp, Part 1 (2018-03-09)](/dnd/archive/2018-03-09)
 
 In which cloaks turn out be not-cloaks.
 
 _(Finn, Gimble, Hael, Val, Zed)_
 
-### [Interlude: The Sunless Citadel, Part 4 (2018-03-03)](interlude-sunless-citadel-part-4)
+### [Interlude: The Sunless Citadel, Part 4 (2018-03-03)](/dnd/archive/2018-03-03)
 
 In which a dragon is ""managed.""
 
@@ -132,267 +146,267 @@ _Guest DM: Jonathan_
 
 _(Endymion, Ol' One Shot, Reginald, Tinder)_
 
-### [42: The Crimson Bulwark (2018-02-16)](42-crimson-bulwark)
+### [42: The Crimson Bulwark (2018-02-16)](/dnd/archive/2018-02-16)
 
 In which the Menagerie grows a little larger.
 
 _(Finn, Gimble, Hael, Horns, Ivor, Oneshoe, Val, Zed)_
 
-### [41: A Friend On The Inside (2018-02-02)](41-friend-inside)
+### [41: A Friend On The Inside (2018-02-02)](/dnd/archive/2018-02-02)
 
 In which the party gains access to the Court of Stars.
 
 _(Finn, Gimble, Hael, Horns, Val)_
 
-### [40: What Fever Dreams May Come (2018-01-12)](40-what-fever-dreams-may-come)
+### [40: What Fever Dreams May Come (2018-01-12)](/dnd/archive/2018-01-12)
 
 In which the characters learn something about one another.
 
 _(Finn, Gimble, Hael, Horns, Ivor, Val)_
 
-### [39: Unexpected Guests (2017-12-01)](39-unexpected-guests)
+### [39: Unexpected Guests (2017-12-01)](/dnd/archive/2017-12-01)
 
 In which a surprising dinner party is attended.
 
 _(Finn, Hael, Horns, Ivor, Kithri)_
 
-### [38: The Bookwyrm (2017-11-04)](38-bookwyrm)
+### [38: The Bookwyrm (2017-11-04)](/dnd/archive/2017-11-04)
 
 In which the party learns the secret at the top of the tower of the Thoughtstealer goblin tribe.
 
 _(Finn, Gimble, Hael, Ivor, Val)_
 
-### [37: Feywild 101 (2017-10-20)](37-feywild-101)
+### [37: Feywild 101 (2017-10-20)](/dnd/archive/2017-10-20)
 
 In which a Tuathan is startled, and the party become members of Goblin Hood's Merry Men.
 
 _(Finn, Gimble, Hael, Gorstag, Ivor, Val)_
 
-### [Interlude: The Tomb of Gauntletvania (2017-10-06)](interlude-tomb-gauntletvania)
+### [Interlude: The Tomb of Gauntletvania (2017-10-06)](/dnd/archive/2017-10-06)
 
 In which I reskin the _Tomb of Horrors_ module into a retro videogame experience like _Gauntlet_ or _Castlevania_.
 
-### [36: The Mission (2017-09-08)](36-mission)
+### [36: The Mission (2017-09-08)](/dnd/archive/2017-09-08)
 
 In which a portal is closed.
 
 _(Finn, Gimble, Hael, Horns, Ivor, Val)_
 
-### [35: The Katabasis, Part 4 (2017-08-25)](35-katabasis-part-4)
+### [35: The Katabasis, Part 4 (2017-08-25)](/dnd/archive/2017-08-25)
 
 In which the party goes to hell.
 
 _(Finn, Hael, Horns, Ivor, Val)_
 
-### [34: The Katabasis, Part 3 (2017-08-18)](34-katabasis-part-3)
+### [34: The Katabasis, Part 3 (2017-08-18)](/dnd/archive/2017-08-18)
 
 In which the bottom of a volcano is reached.
 
 _(Finn, Gimble, Hael, Horns, Ivor, Val)_
 
-### [Interlude: Everyone Is Twentieth Level (2017-07-20)](interlude-everyone-twentieth-level)
+### [Interlude: Everyone Is Twentieth Level (2017-07-20)](/dnd/archive/2017-07-20)
 
 _Guest DM: Austin_
 
-### [33: The Katabasis, Part 2 (2017-07-11)](33-katabasis-part-2)
+### [33: The Katabasis, Part 2 (2017-07-11)](/dnd/archive/2017-07-11)
 
 In which many devils are defeated.
 
 _(Finn, Gimble, Hael, Horns, Val)_
 
-### [Interlude: The Sunless Citadel, Part 3 (2017-06-23)](interlude-sunless-citadel-part-3)
+### [Interlude: The Sunless Citadel, Part 3 (2017-06-23)](/dnd/archive/2017-06-23)
 
 _Guest DM: Jonathan_
 
 _(Endymion, Lulubell, Ol' One Shot, Reginald, Tinder)_
 
-### [32: The Katabasis, Part 1 (2017-06-16)](32-katabasis-part-1)
+### [32: The Katabasis, Part 1 (2017-06-16)](/dnd/archive/2017-06-16)
 
 In which a volcano is entered.
 
 _(Finn, Gimble, Gorstag, Hael, Horns, Val)_
 
-### [31: What's In A Name? (2017-06-02)](31-whats-name)
+### [31: What's In A Name? (2017-06-02)](/dnd/archive/2017-06-02)
 
 In which Lyra has been lost.
 
 _(Finn, Gimble, Hael, Horns, Val)_
 
-### [Interlude: The Sunless Citadel, Part 2 (2017-05-12)](interlude-sunless-citadel-part-2)
+### [Interlude: The Sunless Citadel, Part 2 (2017-05-12)](/dnd/archive/2017-05-12)
 
 _Guest DM: Jonathan_
 
 _(Endymion, Ol' One Shot, Tinder, Doge)_
 
-### [Interlude: The Sunless Citadel, Part 1 (2017-04-28)](interlude-sunless-citadel-part-1)
+### [Interlude: The Sunless Citadel, Part 1 (2017-04-28)](/dnd/archive/2017-04-28)
 
 _Guest DM: Jonathan_
 
 _(Endymion, Lulubell, Ol' One Shot, Tinder)_
 
-### [30: Thundertree: The Devil You Know, and Were Is Gray (2017-04-14)](30-thundertree-devil-you-know-and-were-gray)
+### [30: Thundertree: The Devil You Know, and Were Is Gray (2017-04-14)](/dnd/archive/2017-04-14)
 
 In which Horns' past comes to light and Zane is killed.
 
 _(Finn, Gimble, Gray, Horns, Zane)_
 
-### [29: Thundertree: Here There Be Dragon(""Cultist"")s (2017-03-31)](29-thundertree-here-there-be-dragoncultists)
+### [29: Thundertree: Here There Be Dragon(""Cultist"")s (2017-03-31)](/dnd/archive/2017-03-31)
 
 In which Thundertree is explored.
 
 _(Gimble, Horns, Zane)_
 
-### [28: Thundertree: Stay Awhile And Listen (2017-03-17)](28-thundertree-stay-awhile-and-listen)
+### [28: Thundertree: Stay Awhile And Listen (2017-03-17)](/dnd/archive/2017-03-17)
 
 In which an old druid is discovered.
 
 _(Finn, Gimble, Gorstag, Horns, Zane)_
 
-### [27: Forests Are Better Than Open Roads (2017-03-03)](27-forests-are-better-open-roads)
+### [27: Forests Are Better Than Open Roads (2017-03-03)](/dnd/archive/2017-03-03)
 
 In which the dangerous path is taken.
 
 _(Gimble, Gorstag, Horns, Zane)_
 
-### [26: Tut Tut, It Looks Like Rain (2017-02-17)](26-tut-tut-it-looks-rain)
+### [26: Tut Tut, It Looks Like Rain (2017-02-17)](/dnd/archive/2017-02-17)
 
 In which a gnome is introduced.
 
 _(Finn, Gorstag, Horns, Orsik, Zane)_
 
-### [25: Tresendar Manor: Cellar, Part 2 (2017-02-03)](25-tresendar-manor-cellar-part-2)
+### [25: Tresendar Manor: Cellar, Part 2 (2017-02-03)](/dnd/archive/2017-02-03)
 
 In which a goblin is unceremoniously dispatched.
 
 _(Gimble, Horns, Mindartis, Zane)_
 
-### [24: Tresendar Manor: Cellar, Part 1 (2017-01-20)](24-tresendar-manor-cellar-part-1)
+### [24: Tresendar Manor: Cellar, Part 1 (2017-01-20)](/dnd/archive/2017-01-20)
 
 In which a new member joins the party.
 
 _(Finn, Gimble, Gorstag, Horns, Zane)_
 
-### [23: Battle at Tresendar Manor (2017-01-06)](23-battle-tresendar-manor)
+### [23: Battle at Tresendar Manor (2017-01-06)](/dnd/archive/2017-01-06)
 
 In which a party member dies.
 
 _(Finn, Gimble, Horns, Ivor, Gray)_
 
-### [22: Gnomish ""Diplomacy"" (2016-12-16)](22-gnomish-diplomacy)
+### [22: Gnomish ""Diplomacy"" (2016-12-16)](/dnd/archive/2016-12-16)
 
 In which Gimble starts a fight.
 
 _(Finn, Gimble, Gray, Ivor, Mindartis)_
 
-### [21: Wave Echo Cave Revisited, Part 2 (2016-12-02)](21-wave-echo-cave-revisited-part-2)
+### [21: Wave Echo Cave Revisited, Part 2 (2016-12-02)](/dnd/archive/2016-12-02)
 
 In which a wraith is encountered.
 
 _(Finn, Gimble, Gray, Horns, Ivor, Val)_
 
-### [20: Wave Echo Cave Revisited, Part 1 (2016-11-18)](20-wave-echo-cave-revisited-part-1)
+### [20: Wave Echo Cave Revisited, Part 1 (2016-11-18)](/dnd/archive/2016-11-18)
 
 In which a flaming skull is re-killed.
 
 _(Finn, Gimble, Gray, Horns, Val)_
 
-### [19: Gettin' Prepped (2016-11-11)](19-gettin-prepped)
+### [19: Gettin' Prepped (2016-11-11)](/dnd/archive/2016-11-11)
 
 In which the party steels themselves to reenter a cave.
 
 _(Finn, Gimble, Gray, Horns, Ivor, Val)_
 
-### [18: Lord Ashewood's Party, Part 2 (2016-11-04)](18-lord-ashewoods-party-part-2)
+### [18: Lord Ashewood's Party, Part 2 (2016-11-04)](/dnd/archive/2016-11-04)
 
 In which a mystery is solved.
 
 _(Finn, Gray, Horns, Ivor)_
 
-### [17: Lord Ashewood's Party, Part 1 (2016-10-28)](17-lord-ashewoods-party-part-1)
+### [17: Lord Ashewood's Party, Part 1 (2016-10-28)](/dnd/archive/2016-10-28)
 
 In which a dinner party goes awry.
 
 _(Finn, Gray, Horns, Ivor)_
 
-### [16: In Memoriam: Bailey (2016-10-14)](16-memoriam-bailey)
+### [16: In Memoriam: Bailey (2016-10-14)](/dnd/archive/2016-10-14)
 
 In which Lyra is escorted to Neverwinter.
 
 _(Finn, Gimble, Gorstag, Gray, Horns, Ivor, Val)_
 
-### [15: Wave Echo Cave, Part 5 (2016-10-07)](15-wave-echo-cave-part-5)
+### [15: Wave Echo Cave, Part 5 (2016-10-07)](/dnd/archive/2016-10-07)
 
 In which a dear companion is killed.
 
 _(Finn, Horns, Gray, Ivor)_
 
-### [14: Wave Echo Cave, Part 4 (2016-09-30)](14-wave-echo-cave-part-4)
+### [14: Wave Echo Cave, Part 4 (2016-09-30)](/dnd/archive/2016-09-30)
 
 In which events get out of hand.
 
 _(Finn, Gimble, Gray, Horns, Val)_
 
-### [13: Wave Echo Cave, Part 3 (2016-09-23)](13-wave-echo-cave-part-3)
+### [13: Wave Echo Cave, Part 3 (2016-09-23)](/dnd/archive/2016-09-23)
 
 In which a nemesis is killed.
 
 _(Finn, Gray, Horns, Val)_
 
-### [12: Wave Echo Cave, Part 2 (2016-09-16)](12-wave-echo-cave-part-2)
+### [12: Wave Echo Cave, Part 2 (2016-09-16)](/dnd/archive/2016-09-16)
 
 In which a nemesis escapes.
 
 _(Finn, Gimble, Gorstag, Gray, Horns, Mindartis, Val)_
 
-### [11: Wave Echo Cave, Part 1 (2016-09-09)](11-wave-echo-cave-part-1)
+### [11: Wave Echo Cave, Part 1 (2016-09-09)](/dnd/archive/2016-09-09)
 
 In which magic has gone wrong.
 
 _(Finn, Gimble, Gray, Horns, JSON, Mindartis, Val)_
 
-### [10: (Un)Living History (2016-08-26)](10-unliving-history)
+### [10: (Un)Living History (2016-08-26)](/dnd/archive/2016-08-26)
 
 In which Gimble is exposed to a new school of thought.
 
 _(Finn, Gimble, Gorstag, Horns, Ivor, Kithri, Mindartis, Val)_
 
-### [09: What's Val's Alignment Again...? (2016-08-19)](09-whats-vals-alignment-again)
+### [09: What's Val's Alignment Again...? (2016-08-19)](/dnd/archive/2016-08-19)
 
 In which a friend is rescued and a new acquaintance is made.
 
 _(Finn, Gimble, Gray, Val)_
 
-### [08: A Date With A Banshee (2016-08-05)](08-date-banshee)
+### [08: A Date With A Banshee (2016-08-05)](/dnd/archive/2016-08-05)
 
 In which a conversation is had with a banshee.
 
 _(Finn, Gimble, Gorstag, Gray Horns)_
 
-### [07: With Great Power Comes Great Irresponsibility (2016-07-29)](07-great-power-comes-great-irresponsibility)
+### [07: With Great Power Comes Great Irresponsibility (2016-07-29)](/dnd/archive/2016-07-29)
 
 In which a battle goes worse than anticipated.
 
-### [06: The Assault on Cragmaw Castle (2016-07-15)](06-assault-cragmaw-castle)
+### [06: The Assault on Cragmaw Castle (2016-07-15)](/dnd/archive/2016-07-15)
 
 In which a map is fought for (and won).
 
-### [05: Cragmaw Castle: The Patented Colville Screw (2016-07-08)](05-cragmaw-castle-patented-colville-screw)
+### [05: Cragmaw Castle: The Patented Colville Screw (2016-07-08)](/dnd/archive/2016-07-08)
 
 In which a rescue mission is only partially completed.
 
-### [04: Cragmaw Hideout, Revisited (2016-07-01)](04-cragmaw-hideout-revisited)
+### [04: Cragmaw Hideout, Revisited (2016-07-01)](/dnd/archive/2016-07-01)
 
 In which a goblin is ""coerced"" into helping the party.
 
-### [03: Cragmaw Hideout Part 2 (2016-06-24)](03-cragmaw-hideout-part-2)
+### [03: Cragmaw Hideout Part 2 (2016-06-24)](/dnd/archive/2016-06-24)
 
 In which Finn makes new friends.
 
-### [02: Cragmaw Hideout Part 1 (2016-06-17)](02-cragmaw-hideout-part-1)
+### [02: Cragmaw Hideout Part 1 (2016-06-17)](/dnd/archive/2016-06-17)
 
 In which a regime is toppled.
 
-### [01: Introduction (2016-06-10)](01-introduction)
+### [01: Introduction (2016-06-10)](/dnd/archive/2016-06-10)
 
 In which an adventure begins.
 
