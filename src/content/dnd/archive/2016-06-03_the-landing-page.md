@@ -5,7 +5,7 @@ date: 2016-06-03T09:19:09-07:00
 
 ## `import campaign`
 
-_"The sky is gray and tinged with regret."
+_"The sky is gray and tinged with regret."_
 
 ---
 
