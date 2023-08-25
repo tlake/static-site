@@ -452,11 +452,9 @@ Disallow: /dnd/archive/2016-06-17/
 
 Disallow: /dnd/archive/2016-06-10/
 
-Disallow: /dnd/archive/2016-06-03_1/
-
 Disallow: /dnd/notes/calendar-of-harptos/
 
-Disallow: /dnd/archive/2016-06-03_0/
+Disallow: /dnd/archive/2016-06-03_the-landing-page/
 
 Disallow: /dnd/locations/phandalin/
 
