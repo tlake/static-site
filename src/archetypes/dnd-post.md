@@ -15,9 +15,9 @@ url: /dnd/posts/{{- time.Format "2006" .Date -}}/{{- time.Format "01" .Date -}}/
 
 ## Scaena et Tempore
 
-_`DR YYYY-MM-DD (Month Name, Month Common Name)`_
+_[Location](/dnd/locations/) ; [Perhaps another location?](/dnd/locations/)_
 
-_[Location](/dnd/locations/) | [Perhaps another location?](/dnd/locations/)_
+_DR YYYY-MM-DD (Month Name, Month Common Name)_
 
 ## Synopsis
 
@@ -36,5 +36,3 @@ _[Location](/dnd/locations/) | [Perhaps another location?](/dnd/locations/)_
 ## Inventory
 
 ## Trivia
-
-## References
