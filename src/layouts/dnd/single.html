@@ -34,11 +34,11 @@
       {{- .Title -}}
     </h1>
 
-    {{ with .Description }}
+    {{- with .Description }}
     <p>{{ . }}</p>
-    {{ end }}
+    {{- end }}
 
-    {{ with .Params.author }}
+    {{- with .Params.author }}
     <p class="tracked">
       By <strong>
         {{ if reflect.IsSlice . }}
@@ -48,13 +48,18 @@
         {{ end }}
       </strong>
     </p>
-    {{ end }}
-
+    {{- end }}
   </header>
 
   <div class="measure-wide-l center f4 nested-copy-line-height lh-copy nested-links {{ $.Param " post_content_classes" | default "serif" }} f4 nested-links nested-img {{ $.Param "primary_font_color_class" | default "mid-gray" }} pr4-l">
-    {{- .Content -}}
-    {{- partial "tags.html" . -}}
+    {{- with .Params.summary }}
+    <h2>Summary</h2>
+    <p>{{ . | markdownify }}</p>
+    {{- end }}
+
+    {{- .Content }}
+
+    {{- partial "tags.html" . }}
   </div>
 
   <div class="measure-wide-l center f4 nested-copy-line-height lh-copy">

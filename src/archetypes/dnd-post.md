@@ -13,5 +13,28 @@ url: /dnd/posts/{{- time.Format "2006" .Date -}}/{{- time.Format "01" .Date -}}/
 
 ---
 
-Content Placeholder
+## Scaena et Tempore
 
+_`DR YYYY-MM-DD (Month Name, Month Common Name)`_
+
+_[Location](/dnd/locations/) | [Perhaps another location?](/dnd/locations/)_
+
+## Synopsis
+
+## Dramatis Personae
+
+### The Party
+
+### Returning
+
+### New
+
+### Mentioned
+
+## Quotations
+
+## Inventory
+
+## Trivia
+
+## References

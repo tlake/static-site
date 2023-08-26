@@ -15,7 +15,7 @@ title: Zarinor
 
 ## Zarinor
 
-A white dragon, found bound in chains on the 42nd-floor during the Caper at Fierna's Tower.
+A white dragon, found bound in chains on the 42nd-floor during the Caper at [Fierna's Tower](/dnd/locations/fiernas-tower).
 
 ### Description
 
