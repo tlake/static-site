@@ -22,3 +22,6 @@
 
 # hugo
 **/.hugo_build.lock
+
+# obsidian
+**/.obsidian
