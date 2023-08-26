@@ -52,6 +52,8 @@
   </header>
 
   <div class="measure-wide-l center f4 nested-copy-line-height lh-copy nested-links {{ $.Param " post_content_classes" | default "serif" }} f4 nested-links nested-img {{ $.Param "primary_font_color_class" | default "mid-gray" }} pr4-l">
+    {{- partial "recap-from-prev-summary.html" . }}
+
     {{- with .Params.summary }}
     <h2>Summary</h2>
     <p>{{ . | markdownify }}</p>
