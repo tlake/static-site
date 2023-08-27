@@ -4,7 +4,7 @@ dnd/ref/characters:
   - Gelfondi
 dnd/ref/locations:
   - Abriymoch
-  - Baator
+  - The Nine Hells of Baator
   - Fierna's Tower
   - Phlegethos
 tags:

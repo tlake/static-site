@@ -3,7 +3,7 @@ date: "2022-01-07"
 dnd/ref/characters:
   - Keith Stone
 dnd/ref/locations:
-  - Baator
+  - The Nine Hells of Baator
   - Phlegethos
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally

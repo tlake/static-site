@@ -1,10 +1,12 @@
 ---
+
 date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
-  - Phlegethos
+  - Cania
 tags:
-title: Phlegethos
+title: Cania
+
 ---
 
 ## Map
@@ -12,3 +14,4 @@ title: Phlegethos
 ![location.png](/images/dnd/location.png)
 
 ## Key Info
+

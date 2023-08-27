@@ -1,12 +1,12 @@
 ---
 
-date: 2023-08-26
+date: 2020-07-10
 dnd/ref/characters:
   - Haruman
   - Zariel
 dnd/ref/locations:
   - Avernus
-  - Baator
+  - The Nine Hells of Baator
 tags:
   - my/DND/campaigns/import_campaign/characters/NPC
 title: Haruman
@@ -15,7 +15,7 @@ title: Haruman
 
 ## Description
 
-A _narzugon_ that the Menagerie encountered in [Avernus](/dnd/locations/avernus), the first layer of [the Nine Hells of Baator](/dnd/locations/baator).
+A _narzugon_ that the Menagerie encountered in [Avernus](/dnd/locations/avernus), the first layer of [the Nine Hells of Baator](the-nine-hells-of-baator.md).
 
 ### Appearance
 

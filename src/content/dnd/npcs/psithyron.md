@@ -3,7 +3,7 @@ date: "2022-01-07"
 dnd/ref/characters:
   - Psithyron
 dnd/ref/locations:
-  - Baator
+  - The Nine Hells of Baator
   - Phandalin
   - Thundertree
   - Tresendar Manor

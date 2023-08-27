@@ -4,7 +4,7 @@ dnd/ref/characters:
   - Magnanimy
 dnd/ref/locations:
   - Abriymoch
-  - Baator
+  - The Nine Hells of Baator
   - Phlegethos
   - The Brimstone
 tags:

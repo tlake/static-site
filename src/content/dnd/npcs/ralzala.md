@@ -1,14 +1,14 @@
 ---
 
-date: 2023-02-18
+date: 2020-07-25
 dnd/ref/characters:
-  - Levistus
+  - Ralzala
 dnd/ref/locations:
+  - Avernus
   - The Nine Hells of Baator
-  - Stygia
 tags:
   - my/DND/campaigns/import_campaign/characters/NPC
-title: Levistus
+title: Ralzala
 
 ---
 
@@ -19,6 +19,8 @@ title: Levistus
 ### Personality
 
 ## Biography
+
+A dao who was responsible for guarding the Demon Zapper on [Avernus](/dnd/locations/avernus) in [the Nine Hells of Baator](the-nine-hells-of-baator.md).
 
 ## Key Info
 

@@ -1,14 +1,15 @@
 ---
 
-date: 2023-02-18
+date: 2020-07-25
 dnd/ref/characters:
-  - Levistus
+  - Bel
+  - Zariel
 dnd/ref/locations:
+  - Avernus
   - The Nine Hells of Baator
-  - Stygia
 tags:
   - my/DND/campaigns/import_campaign/characters/NPC
-title: Levistus
+title: Bel
 
 ---
 
@@ -19,6 +20,8 @@ title: Levistus
 ### Personality
 
 ## Biography
+
+Unwilling advisor and second-in-command to [Zariel](/dnd/npcs/zariel) on [Avernus](/dnd/locations/avernus) in [the Nine Hells of Baator](the-nine-hells-of-baator.md).
 
 ## Key Info
 
