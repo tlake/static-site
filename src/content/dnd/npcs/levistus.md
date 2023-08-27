@@ -4,7 +4,7 @@ date: 2023-02-18
 dnd/ref/characters:
   - Levistus
 dnd/ref/locations:
-  - Baator
+  - The Nine Hells of Baator
   - Stygia
 tags:
   - my/DND/campaigns/import_campaign/characters/NPC

@@ -1,0 +1,35 @@
+---
+
+date: 2020-08-14
+dnd/ref/characters:
+  - Arkhan
+dnd/ref/locations:
+  - Arkhan's Tower
+  - Avernus
+  - The Nine Hells of Baator
+tags:
+  - my/DND/campaigns/import_campaign/characters/NPC
+title: Arkhan
+
+---
+
+## Description
+
+A male red chromatic dragonborn.
+
+### Appearance
+
+### Personality
+
+## Biography
+
+A devout follower of [Tiamat](/dnd/npcs/tiamat), he maintains a [tower](/dnd/locations/arhkans-tower) on [Avernus](/dnd/locations/avernus) in [the Nine Hells of Baator](/dnd/locations/the-nine-hells-of-baator)
+
+## Key Info
+
+## Relationships
+
+## Quotations
+
+## Trivia
+

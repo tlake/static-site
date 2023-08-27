@@ -4,7 +4,7 @@ mortality: deceased
 dnd/ref/characters:
   - Quilnorae
 dnd/ref/locations:
-  - Baator
+  - The Nine Hells of Baator
   - Fierna's Tower
   - Phlegethos
 tags:

@@ -1,6 +1,6 @@
 ---
 
-date: 2023-08-23
+date: 2020-08-22
 dnd/ref/characters:
 dnd/ref/locations:
   - Candlekeep
@@ -14,4 +14,3 @@ title: Candlekeep
 ![location.png](/images/dnd/location.png)
 
 ## Key Info
-

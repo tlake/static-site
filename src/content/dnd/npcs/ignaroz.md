@@ -4,7 +4,7 @@ dnd/ref/characters:
   - Ignaroz
 dnd/ref/locations:
   - Abriymoch
-  - Baator
+  - The Nine Hells of Baator
   - Phlegethos
   - Tymphalos
 tags:

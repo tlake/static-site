@@ -1,10 +1,12 @@
 ---
-date: 2022-10-20
+
+date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
-  - Feywild
+  - Stygia
 tags:
-title: Feywild
+title: Stygia
+
 ---
 
 ## Map
@@ -12,3 +14,4 @@ title: Feywild
 ![location.png](/images/dnd/location.png)
 
 ## Key Info
+

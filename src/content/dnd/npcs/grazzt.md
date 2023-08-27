@@ -5,7 +5,7 @@ dnd/ref/characters:
 dnd/ref/locations:
   - Avernus
   - Azzagrat
-  - Baator
+  - The Nine Hells of Baator
   - The Abyss
   - The Argent Palace
   - Zelatar

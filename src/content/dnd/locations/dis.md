@@ -1,5 +1,5 @@
 ---
-date: 2022-10-20
+date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
   - Dis

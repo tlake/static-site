@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "6b4085177f861052",
+    "type": "split",
+    "children": [
+      {
+        "id": "19711ea59d2e3127",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9651691ec5882966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/posts/2023-06-21.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1fa9973d1a68b1e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/posts/2023-08-02.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1acdf8e0056596aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/posts/2023-08-30.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "df958383fb3b75e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/posts/2022-05-25.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3c3534058bc92936",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0880a1ec79cba683",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e3c18570d17e983",
+    "type": "split",
+    "children": [
+      {
+        "id": "e525fa5561fac565",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75c08b624d739ea6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d178fbc9f8a9c6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2c0825883ac7cdd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b823e1f9a1e89ef1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e1713f5ca0fa3bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0109d97bd2d89316",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dnd/posts/2023-06-21.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d5153e2b10a48c51",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dnd/posts/2023-06-21.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4cc3a48c1fb16f93",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5bb1a2951e83bea3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dnd/posts/2023-06-21.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9651691ec5882966",
+  "lastOpenFiles": [
+    "dnd/posts/2023-08-02.md",
+    "dnd/posts/2023-08-30.md",
+    "dnd/posts/2020-08-14.md",
+    "dnd/posts/2020-08-08.md",
+    "dnd/posts/2020-07-31.md",
+    "dnd/posts/2020-07-25.md",
+    "dnd/posts/2020-07-10.md",
+    "dnd/posts/2023-06-07.md",
+    "dnd/posts/2023-06-21.md",
+    "dnd/posts/2022-05-25.md",
+    "dnd/npcs/zilry.md",
+    "dnd/posts/_index.md",
+    "dnd/posts/Untitled",
+    "dnd/posts/2020-08-22.md",
+    "dnd/npcs/krull.md",
+    "dnd/posts/2020-08-28.md",
+    "dnd/npcs/hawthorne-macdarmott.md",
+    "dnd/locations/shadow-leilon.md",
+    "dnd/npcs/torogar-steelfist.md",
+    "dnd/locations/arkhans-tower.md",
+    "dnd/npcs/the-raven-queen.md",
+    "dnd/locations/the-feywild.md",
+    "dnd/locations/candlekeep.md",
+    "dnd/npcs/cassandra-belacourt.md",
+    "dnd/npcs/arkhan.md",
+    "dnd/npcs/tiamat.md",
+    "dnd/npcs/uldrak.md",
+    "images/dnd",
+    "images"
+  ]
+}
