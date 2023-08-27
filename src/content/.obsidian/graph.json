@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "path: dnd",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path: archive",
+      "color": {
+        "a": 1,
+        "rgb": 8798980
+      }
+    },
+    {
+      "query": "path: characters",
+      "color": {
+        "a": 1,
+        "rgb": 64511
+      }
+    },
+    {
+      "query": "path: locations",
+      "color": {
+        "a": 1,
+        "rgb": 16711927
+      }
+    },
+    {
+      "query": "path: notes",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "path: npcs",
+      "color": {
+        "a": 1,
+        "rgb": 84724
+      }
+    },
+    {
+      "query": "path: posts",
+      "color": {
+        "a": 1,
+        "rgb": 16746496
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.19753086419753071,
+  "close": true
+}

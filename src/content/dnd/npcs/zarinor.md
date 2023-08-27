@@ -3,7 +3,7 @@ date: "2022-01-07"
 dnd/ref/characters:
   - Zarinor
 dnd/ref/locations:
-  - Baator
+  - The Nine Hells of Baator
   - Fierna's Tower
   - Phlegethos
 tags:
@@ -15,7 +15,7 @@ title: Zarinor
 
 ## Zarinor
 
-A white dragon, found bound in chains on the 42nd-floor during the Caper at Fierna's Tower.
+A white dragon, found bound in chains on the 42nd-floor during the Caper at [Fierna's Tower](/dnd/locations/fiernas-tower).
 
 ### Description
 

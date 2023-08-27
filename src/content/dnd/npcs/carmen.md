@@ -4,7 +4,7 @@ dnd/ref/characters:
   - Carmen
 dnd/ref/locations:
   - Abriymoch
-  - Baator
+  - The Nine Hells of Baator
   - Phlegethos
 tags:
 - my/DND/campaigns/import_campaign/characters/NPC/ally

@@ -96,3 +96,9 @@ params:
 
   tertiary_bg_color_class: "bg-black"
   tertiary_font_color_class: "white"
+
+modules:
+  mounts:
+    - source: content
+      target: content
+      excludeFiles: .obsidian/*
