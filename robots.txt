@@ -1,12 +1,12 @@
 User-agent: *
 
+Disallow: /dnd/npcs/harion/
+
 Disallow: /dnd/locations/ale-echo-cave/
 
 Disallow: /dnd/locations/baldurs-gate/
 
 Disallow: /dnd/npcs/benedora-stoneforge/
-
-Disallow: /dnd/locations/candlekeep/
 
 Disallow: /dnd/npcs/feldmar-bisset-iii/
 
@@ -39,6 +39,10 @@ Disallow: /dnd/npcs/the-wolves/
 Disallow: /dnd/locations/tresendar-manor/
 
 Disallow: /dnd/npcs/trynna-briegarden/
+
+Disallow: /dnd/posts/2023/08/02/research-obstructing-research/
+
+Disallow: /dnd/posts/2023/06/21/arrival-in-candlekeep/
 
 Disallow: /dnd/posts/2023/06/07/can-i-get-a-receipt/
 
@@ -102,15 +106,7 @@ Disallow: /dnd/npcs/elian-amaadon/
 
 Disallow: /dnd/posts/2022/12/07/mission-possible/
 
-Disallow: /dnd/locations/avernus/
-
-Disallow: /dnd/locations/baator/
-
 Disallow: /dnd/locations/conyberry/
-
-Disallow: /dnd/locations/dis/
-
-Disallow: /dnd/locations/feywild/
 
 Disallow: /dnd/locations/fiernas-tower/
 
@@ -120,21 +116,19 @@ Disallow: /dnd/locations/leilon/
 
 Disallow: /dnd/locations/luskan/
 
-Disallow: /dnd/locations/minauros/
-
 Disallow: /dnd/locations/mt-hotenow/
 
 Disallow: /dnd/locations/neverwinter/
 
 Disallow: /dnd/locations/old-owl-well/
 
-Disallow: /dnd/locations/phlegethos/
-
 Disallow: /dnd/locations/shadow-leilon/
 
 Disallow: /dnd/locations/summer-court/
 
 Disallow: /dnd/locations/court-of-stars/
+
+Disallow: /dnd/locations/the-feywild/
 
 Disallow: /dnd/locations/thundertree/
 
@@ -219,8 +213,6 @@ Disallow: /dnd/npcs/belial/
 Disallow: /dnd/npcs/caerwyn-cadogan/
 
 Disallow: /dnd/npcs/carmen/
-
-Disallow: /dnd/npcs/cassandra-belacourt/
 
 Disallow: /dnd/npcs/fierna/
 
@@ -312,21 +304,83 @@ Disallow: /dnd/posts/2020/09/05/catch-22-items/
 
 Disallow: /dnd/posts/2020/08/28/collecting-blood-for-fun-and-profit/
 
+Disallow: /dnd/npcs/hawthorne-macdarmott/
+
+Disallow: /dnd/npcs/krull/
+
+Disallow: /dnd/npcs/torogar-steelfist/
+
 Disallow: /dnd/posts/2020/08/22/of-motorcycles-and-newtonian-physics/
+
+Disallow: /dnd/locations/candlekeep/
+
+Disallow: /dnd/npcs/cassandra-belacourt/
 
 Disallow: /dnd/
 
+Disallow: /dnd/npcs/the-raven-queen/
+
 Disallow: /dnd/posts/2020/08/14/stack-push-quest/
+
+Disallow: /dnd/npcs/arkhan/
+
+Disallow: /dnd/locations/arkhans-tower/
+
+Disallow: /dnd/npcs/tiamat/
+
+Disallow: /dnd/npcs/uldrak/
 
 Disallow: /dnd/posts/2020/08/08/friendly-fire/
 
 Disallow: /dnd/posts/2020/07/31/avernian-errands/
 
+Disallow: /dnd/locations/fort-knucklebone/
+
+Disallow: /dnd/npcs/mad-maggie/
+
+Disallow: /dnd/npcs/mahadi/
+
+Disallow: /dnd/locations/the-wandering-emporium/
+
+Disallow: /dnd/npcs/bel/
+
 Disallow: /dnd/posts/2020/07/25/hashtag-not-all-bags/
+
+Disallow: /dnd/npcs/ralzala/
+
+Disallow: /dnd/npcs/red-ruth/
+
+Disallow: /dnd/locations/the-bone-brambles/
+
+Disallow: /dnd/archive/
 
 Disallow: /dnd/posts/2020/07/10/zeds-folly/
 
-Disallow: /dnd/archive/
+Disallow: /dnd/locations/avernus/
+
+Disallow: /dnd/locations/cania/
+
+Disallow: /dnd/locations/dis/
+
+Disallow: /dnd/npcs/haruman/
+
+Disallow: /dnd/npcs/lulu/
+
+Disallow: /dnd/locations/maladomini/
+
+Disallow: /dnd/locations/malbolge/
+
+Disallow: /dnd/locations/minauros/
+
+Disallow: /dnd/locations/nessus/
+
+Disallow: /dnd/locations/phlegethos/
+
+Disallow: /dnd/locations/stygia/
+
+Disallow: /dnd/locations/the-nine-hells-of-baator/
+
+Disallow: /dnd/npcs/zariel/
 
 Disallow: /tags/crypto/
 
@@ -466,13 +520,17 @@ Disallow: /dnd/ref/locations/ale-echo-cave/
 
 Disallow: /dnd/ref/locations/argent-palace/
 
+Disallow: /dnd/ref/characters/arkhan/
+
+Disallow: /dnd/ref/locations/arkhans-tower/
+
 Disallow: /dnd/ref/locations/avernus/
 
 Disallow: /dnd/ref/locations/azzagrat/
 
-Disallow: /dnd/ref/locations/baator/
-
 Disallow: /dnd/ref/locations/baldurs-gate/
+
+Disallow: /dnd/ref/characters/bel/
 
 Disallow: /dnd/ref/characters/belial/
 
@@ -483,6 +541,8 @@ Disallow: /dnd/ref/characters/brooke/
 Disallow: /dnd/ref/characters/caerwyn-cadogan/
 
 Disallow: /dnd/ref/locations/candlekeep/
+
+Disallow: /dnd/ref/locations/cania/
 
 Disallow: /dnd/ref/characters/carmen/
 
@@ -528,6 +588,10 @@ Disallow: /dnd/ref/characters/finn/
 
 Disallow: /dnd/characters/finn/
 
+Disallow: /dnd/ref/locations/fort-knucklebone/
+
+Disallow: /dnd/ref/locations/fort-knucklebones/
+
 Disallow: /dnd/ref/characters/garaele/
 
 Disallow: /dnd/ref/locations/gauntlgrym/
@@ -570,6 +634,10 @@ Disallow: /dnd/ref/characters/harold/
 
 Disallow: /dnd/ref/characters/harold-peters/
 
+Disallow: /dnd/ref/characters/haruman/
+
+Disallow: /dnd/ref/characters/hawthorne-macdarmott/
+
 Disallow: /dnd/ref/characters/horns/
 
 Disallow: /dnd/characters/horns/
@@ -606,6 +674,8 @@ Disallow: /dnd/ref/characters/kithri-tealeaf/
 
 Disallow: /dnd/characters/kithri-tealeaf/
 
+Disallow: /dnd/ref/characters/krull/
+
 Disallow: /dnd/ref/locations/leilon/
 
 Disallow: /dnd/ref/characters/levistus/
@@ -614,11 +684,21 @@ Disallow: /dnd/ref/characters/lily-ashewood/
 
 Disallow: /dnd/locations/
 
+Disallow: /dnd/ref/characters/lulu/
+
 Disallow: /dnd/ref/locations/luskan/
+
+Disallow: /dnd/ref/characters/mad-maggie/
 
 Disallow: /dnd/ref/characters/magnanimy/
 
 Disallow: /dnd/ref/characters/magrin/
+
+Disallow: /dnd/ref/characters/mahadi/
+
+Disallow: /dnd/ref/locations/maladomini/
+
+Disallow: /dnd/ref/locations/malbolge/
 
 Disallow: /dnd/ref/locations/marea/
 
@@ -668,6 +748,8 @@ Disallow: /tags/my/dnd/campaigns/import_campaign/sessions/
 
 Disallow: /dnd/ref/locations/nesm%C3%A9/
 
+Disallow: /dnd/ref/locations/nessus/
+
 Disallow: /dnd/ref/locations/neverwinter/
 
 Disallow: /dnd/ref/characters/nezznar/
@@ -712,7 +794,11 @@ Disallow: /dnd/ref/characters/quilnorae/
 
 Disallow: /dnd/ref/characters/raeneth-var-astora/
 
+Disallow: /dnd/ref/characters/ralzala/
+
 Disallow: /dnd/ref/characters/ravio/
+
+Disallow: /dnd/ref/characters/red-ruth/
 
 Disallow: /dnd/ref/characters/reidoth/
 
@@ -750,6 +836,8 @@ Disallow: /dnd/ref/locations/the-abyss/
 
 Disallow: /dnd/ref/locations/the-argent-palace/
 
+Disallow: /dnd/ref/locations/the-bone-brambles/
+
 Disallow: /dnd/ref/locations/the-brimstone/
 
 Disallow: /dnd/ref/locations/the-cloak-tower/
@@ -758,9 +846,15 @@ Disallow: /dnd/ref/locations/the-court-of-stars/
 
 Disallow: /dnd/ref/characters/the-cult-of-the-dragon/
 
+Disallow: /dnd/ref/locations/the-feywild/
+
 Disallow: /dnd/ref/locations/the-hells/
 
 Disallow: /dnd/ref/locations/the-jade-arbor/
+
+Disallow: /dnd/ref/locations/the-nine-hells-of-baator/
+
+Disallow: /dnd/ref/characters/the-raven-queen/
 
 Disallow: /dnd/ref/characters/the-revenant/
 
@@ -774,9 +868,17 @@ Disallow: /dnd/npcs/the-tinkerer/
 
 Disallow: /dnd/ref/characters/the-vigil/
 
+Disallow: /dnd/ref/locations/the-wandering-emporium/
+
+Disallow: /dnd/ref/characters/the-wandering-emporium/
+
 Disallow: /dnd/ref/characters/the-wolves/
 
 Disallow: /dnd/ref/locations/thundertree/
+
+Disallow: /dnd/ref/characters/tiamat/
+
+Disallow: /dnd/ref/characters/torogar-steelfist/
 
 Disallow: /dnd/ref/locations/tresendar-manor/
 
@@ -787,6 +889,8 @@ Disallow: /dnd/ref/characters/trynna-briegarden/
 Disallow: /dnd/ref/characters/tymphal/
 
 Disallow: /dnd/ref/locations/tymphalos/
+
+Disallow: /dnd/ref/characters/uldrak/
 
 Disallow: /dnd/ref/characters/unidius/
 
@@ -807,6 +911,8 @@ Disallow: /dnd/ref/characters/wrath/
 Disallow: /dnd/ref/characters/zane-a-presque-ducal/
 
 Disallow: /dnd/characters/zane-a-presque-ducal/
+
+Disallow: /dnd/ref/characters/zariel/
 
 Disallow: /dnd/ref/characters/zarinor/
 
