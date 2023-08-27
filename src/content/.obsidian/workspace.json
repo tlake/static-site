@@ -8,31 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fd07aee6c87ba6c8",
+            "id": "80b8307702c664e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dnd/posts/2020-07-25.md",
+                "file": "dnd/posts/2020-07-31.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "243cdd7d42d5f8d8",
+            "id": "df958383fb3b75e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dnd/npcs/bel.md",
+                "file": "dnd/posts/2022-05-25.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3c3534058bc92936",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dnd/npcs/bel.md",
+                "file": "dnd/posts/2020-07-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dnd/npcs/bel.md",
+                "file": "dnd/posts/2020-07-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dnd/npcs/bel.md"
+                "file": "dnd/posts/2020-07-31.md"
               }
             }
           }
@@ -170,39 +169,38 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "terminal:Open terminal": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "243cdd7d42d5f8d8",
+  "active": "80b8307702c664e3",
   "lastOpenFiles": [
+    "dnd/npcs/mad-maggie.md",
+    "dnd/locations/fort-knucklebone.md",
+    "dnd/locations/fort-knucklebone2.md",
+    "dnd/npcs/mahadi.md",
+    "dnd/posts/2020-07-31.md",
+    "dnd/locations/the-bone-brambles.md",
     "dnd/posts/2020-07-25.md",
     "dnd/posts/2020-07-10.md",
-    "dnd/posts/2023-06-07.md",
+    "dnd/locations/the-wandering-emporium.md",
     "dnd/npcs/bel.md",
-    "dnd/npcs/lulu.md",
+    "dnd/npcs/red-ruth.md",
+    "dnd/npcs/ralzala.md",
     "dnd/npcs/zariel.md",
-    "images/dnd/pc-oneshoe.png.md",
-    "images/dnd",
-    "images",
+    "dnd/locations/avernus.md",
+    "dnd/locations/the-nine-hells-of-baator.md",
+    "dnd/locations/nessus.md",
+    "dnd/locations/cania.md",
+    "dnd/locations/maladomini.md",
+    "dnd/locations/malbolge.md",
+    "dnd/locations/stygia.md",
+    "dnd/locations/phlegethos.md",
+    "dnd/locations/minauros.md",
+    "dnd/locations/dis.md",
+    "dnd/npcs/lulu.md",
     "dnd/npcs/haruman.md",
-    "dnd/posts/2022-01-05.md",
-    "dnd/posts/2022-02-16.md",
-    "dnd/posts/2022-03-16.md",
-    "dnd/posts/2022-03-30.md",
-    "dnd/posts/2022-04-13.md",
-    "dnd/posts/2022-06-08.md",
-    "dnd/posts/2022-08-03.md",
-    "dnd/posts/2022-06-22.md",
     "dnd/posts/2022-05-25.md",
-    "dnd/posts/2022-09-28.md",
-    "dnd/posts/2023-05-10.md",
-    "dnd/posts/2023-05-24.md",
-    "dnd/posts/2020-10-23.md",
-    "dnd/posts/2020-10-09.md",
-    "dnd/posts/2020-10-02.md",
-    "dnd/posts/2020-09-05.md",
-    "dnd/posts/2020-08-28.md",
-    "dnd/posts/2020-08-22.md"
+    "images/dnd",
+    "images"
   ]
 }

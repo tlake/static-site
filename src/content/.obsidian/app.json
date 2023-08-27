@@ -1,4 +1,5 @@
 {
   "vimMode": true,
-  "livePreview": false
+  "livePreview": false,
+  "useMarkdownLinks": true
 }
