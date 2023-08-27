@@ -8,12 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8547b23b9d27f38",
+            "id": "9651691ec5882966",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dnd/posts/2020-08-22.md",
+                "file": "dnd/posts/2023-06-21.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1fa9973d1a68b1e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/posts/2023-08-02.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1acdf8e0056596aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/posts/2023-08-30.md",
                 "mode": "source",
                 "source": true
               }
@@ -111,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dnd/posts/2020-08-22.md",
+                "file": "dnd/posts/2023-06-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dnd/posts/2020-08-22.md",
+                "file": "dnd/posts/2023-06-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dnd/posts/2020-08-22.md"
+                "file": "dnd/posts/2023-06-21.md"
               }
             }
           }
@@ -172,34 +196,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8547b23b9d27f38",
+  "active": "9651691ec5882966",
   "lastOpenFiles": [
+    "dnd/posts/2023-08-02.md",
+    "dnd/posts/2023-08-30.md",
+    "dnd/posts/2020-08-14.md",
+    "dnd/posts/2020-08-08.md",
+    "dnd/posts/2020-07-31.md",
+    "dnd/posts/2020-07-25.md",
+    "dnd/posts/2020-07-10.md",
+    "dnd/posts/2023-06-07.md",
+    "dnd/posts/2023-06-21.md",
+    "dnd/posts/2022-05-25.md",
+    "dnd/npcs/zilry.md",
+    "dnd/posts/_index.md",
+    "dnd/posts/Untitled",
+    "dnd/posts/2020-08-22.md",
     "dnd/npcs/krull.md",
     "dnd/posts/2020-08-28.md",
     "dnd/npcs/hawthorne-macdarmott.md",
     "dnd/locations/shadow-leilon.md",
     "dnd/npcs/torogar-steelfist.md",
-    "dnd/posts/2022-05-25.md",
-    "dnd/posts/2020-08-22.md",
     "dnd/locations/arkhans-tower.md",
     "dnd/npcs/the-raven-queen.md",
     "dnd/locations/the-feywild.md",
     "dnd/locations/candlekeep.md",
     "dnd/npcs/cassandra-belacourt.md",
-    "dnd/posts/2020-08-14.md",
     "dnd/npcs/arkhan.md",
     "dnd/npcs/tiamat.md",
     "dnd/npcs/uldrak.md",
-    "dnd/posts/2020-08-08.md",
-    "dnd/posts/2020-07-31.md",
-    "dnd/posts/2020-07-10.md",
-    "dnd/posts/2020-07-25.md",
-    "dnd/npcs/mad-maggie.md",
-    "dnd/locations/fort-knucklebone.md",
-    "dnd/locations/fort-knucklebone2.md",
-    "dnd/npcs/mahadi.md",
-    "dnd/locations/the-bone-brambles.md",
-    "dnd/locations/the-wandering-emporium.md",
     "images/dnd",
     "images"
   ]
