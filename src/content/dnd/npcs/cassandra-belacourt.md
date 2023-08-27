@@ -1,5 +1,5 @@
 ---
-date: "2022-01-07"
+date: 2020-08-22
 dnd/ref/characters:
   - Cassandra Belacourt
 dnd/ref/locations:

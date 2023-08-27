@@ -1,10 +1,11 @@
 ---
 date: 2022-10-20
 dnd/ref/characters:
+  - Hawthorne MacDarmott
 dnd/ref/locations:
   - Shadow Leilon
 tags:
-title: Shadow Leilon
+title: shadow-Leilon
 ---
 
 ## Map

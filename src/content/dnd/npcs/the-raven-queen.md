@@ -1,12 +1,12 @@
 ---
 
-date: {{ default now .Site.Params.Date | time.Format "2006-01-02" }}
+date: 2020-08-22
 dnd/ref/characters:
-  - {{ default .Name .Site.Params.Name | title }}
+  - The Raven Queen
 dnd/ref/locations:
 tags:
   - my/DND/campaigns/import_campaign/characters/NPC
-title: {{ default .Name .Site.Params.Name | title }}
+title: The Raven Queen
 
 ---
 
@@ -14,9 +14,13 @@ title: {{ default .Name .Site.Params.Name | title }}
 
 ### Appearance
 
+Unknown, but most commonly she appears as a floating porcelain mask.
+
 ### Personality
 
 ## Biography
+
+A goddess of death and lost souls.
 
 ## Key Info
 

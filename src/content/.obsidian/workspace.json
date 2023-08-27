@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "80b8307702c664e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dnd/posts/2020-08-08.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "e8547b23b9d27f38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dnd/posts/2020-08-14.md",
+                "file": "dnd/posts/2020-08-22.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3c3534058bc92936",
@@ -124,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dnd/posts/2020-08-14.md",
+                "file": "dnd/posts/2020-08-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dnd/posts/2020-08-14.md",
+                "file": "dnd/posts/2020-08-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dnd/posts/2020-08-14.md"
+                "file": "dnd/posts/2020-08-22.md"
               }
             }
           }
@@ -187,10 +174,22 @@
   },
   "active": "e8547b23b9d27f38",
   "lastOpenFiles": [
-    "dnd/npcs/tiamat.md",
-    "dnd/posts/2020-08-14.md",
-    "dnd/npcs/uldrak.md",
+    "dnd/npcs/krull.md",
+    "dnd/posts/2020-08-28.md",
+    "dnd/npcs/hawthorne-macdarmott.md",
+    "dnd/locations/shadow-leilon.md",
+    "dnd/npcs/torogar-steelfist.md",
     "dnd/posts/2022-05-25.md",
+    "dnd/posts/2020-08-22.md",
+    "dnd/locations/arkhans-tower.md",
+    "dnd/npcs/the-raven-queen.md",
+    "dnd/locations/the-feywild.md",
+    "dnd/locations/candlekeep.md",
+    "dnd/npcs/cassandra-belacourt.md",
+    "dnd/posts/2020-08-14.md",
+    "dnd/npcs/arkhan.md",
+    "dnd/npcs/tiamat.md",
+    "dnd/npcs/uldrak.md",
     "dnd/posts/2020-08-08.md",
     "dnd/posts/2020-07-31.md",
     "dnd/posts/2020-07-10.md",
@@ -201,18 +200,6 @@
     "dnd/npcs/mahadi.md",
     "dnd/locations/the-bone-brambles.md",
     "dnd/locations/the-wandering-emporium.md",
-    "dnd/npcs/bel.md",
-    "dnd/npcs/red-ruth.md",
-    "dnd/npcs/ralzala.md",
-    "dnd/npcs/zariel.md",
-    "dnd/locations/avernus.md",
-    "dnd/locations/the-nine-hells-of-baator.md",
-    "dnd/locations/nessus.md",
-    "dnd/locations/cania.md",
-    "dnd/locations/maladomini.md",
-    "dnd/locations/malbolge.md",
-    "dnd/locations/stygia.md",
-    "dnd/locations/phlegethos.md",
     "images/dnd",
     "images"
   ]
