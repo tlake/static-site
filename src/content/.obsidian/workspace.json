@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dnd/posts/2020-07-31.md",
+                "file": "dnd/posts/2020-08-08.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e8547b23b9d27f38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/posts/2020-08-14.md",
                 "mode": "source",
                 "source": true
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3c3534058bc92936",
@@ -111,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dnd/posts/2020-07-31.md",
+                "file": "dnd/posts/2020-08-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dnd/posts/2020-07-31.md",
+                "file": "dnd/posts/2020-08-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dnd/posts/2020-07-31.md"
+                "file": "dnd/posts/2020-08-14.md"
               }
             }
           }
@@ -172,16 +185,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80b8307702c664e3",
+  "active": "e8547b23b9d27f38",
   "lastOpenFiles": [
+    "dnd/npcs/tiamat.md",
+    "dnd/posts/2020-08-14.md",
+    "dnd/npcs/uldrak.md",
+    "dnd/posts/2022-05-25.md",
+    "dnd/posts/2020-08-08.md",
+    "dnd/posts/2020-07-31.md",
+    "dnd/posts/2020-07-10.md",
+    "dnd/posts/2020-07-25.md",
     "dnd/npcs/mad-maggie.md",
     "dnd/locations/fort-knucklebone.md",
     "dnd/locations/fort-knucklebone2.md",
     "dnd/npcs/mahadi.md",
-    "dnd/posts/2020-07-31.md",
     "dnd/locations/the-bone-brambles.md",
-    "dnd/posts/2020-07-25.md",
-    "dnd/posts/2020-07-10.md",
     "dnd/locations/the-wandering-emporium.md",
     "dnd/npcs/bel.md",
     "dnd/npcs/red-ruth.md",
@@ -195,11 +213,6 @@
     "dnd/locations/malbolge.md",
     "dnd/locations/stygia.md",
     "dnd/locations/phlegethos.md",
-    "dnd/locations/minauros.md",
-    "dnd/locations/dis.md",
-    "dnd/npcs/lulu.md",
-    "dnd/npcs/haruman.md",
-    "dnd/posts/2022-05-25.md",
     "images/dnd",
     "images"
   ]
