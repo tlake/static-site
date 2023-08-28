@@ -17,6 +17,10 @@ title: Uldrak
 
 ### Appearance
 
+> ![uldrak the empyrean](/images/dnd/monster-empyrean.png)
+>
+> _Image property of Wizards of the Coast LLC._
+
 ### Personality
 
 ## Biography

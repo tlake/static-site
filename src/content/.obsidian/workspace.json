@@ -6,45 +6,10 @@
       {
         "id": "19711ea59d2e3127",
         "type": "tabs",
+        "dimension": 56.137724550898206,
         "children": [
           {
-            "id": "9651691ec5882966",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dnd/posts/2023-06-21.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1fa9973d1a68b1e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dnd/posts/2023-08-02.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1acdf8e0056596aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dnd/posts/2023-08-30.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "df958383fb3b75e7",
+            "id": "5b95722df8556f0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,12 +19,38 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "982221a4e57433e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/posts/2020-08-28.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3bdb8994a0dfbcd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dnd/npcs/torogar-steelfist.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "3c3534058bc92936",
+        "id": "1120ba95c9fe69a4",
         "type": "tabs",
+        "dimension": 43.862275449101794,
         "children": [
           {
             "id": "0880a1ec79cba683",
@@ -119,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 255.5
   },
   "right": {
     "id": "b823e1f9a1e89ef1",
@@ -135,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dnd/posts/2023-06-21.md",
+                "file": "dnd/posts/2020-08-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dnd/posts/2023-06-21.md",
+                "file": "dnd/posts/2020-08-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dnd/posts/2023-06-21.md"
+                "file": "dnd/posts/2020-08-28.md"
               }
             }
           }
@@ -196,35 +187,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9651691ec5882966",
+  "active": "982221a4e57433e9",
   "lastOpenFiles": [
+    "dnd/npcs/waybert-spinzig.md",
+    "dnd/npcs/arkhan.md",
+    "dnd/posts/2020-08-28.md",
+    "dnd/npcs/torogar-steelfist.md",
+    "dnd/npcs/krull.md",
+    "dnd/posts/2022-05-25.md",
+    "dnd/npcs/uldrak.md",
+    "dnd/posts/2020-08-08.md",
+    "dnd/posts/2023-06-21.md",
     "dnd/posts/2023-08-02.md",
     "dnd/posts/2023-08-30.md",
     "dnd/posts/2020-08-14.md",
-    "dnd/posts/2020-08-08.md",
     "dnd/posts/2020-07-31.md",
     "dnd/posts/2020-07-25.md",
     "dnd/posts/2020-07-10.md",
     "dnd/posts/2023-06-07.md",
-    "dnd/posts/2023-06-21.md",
-    "dnd/posts/2022-05-25.md",
     "dnd/npcs/zilry.md",
     "dnd/posts/_index.md",
     "dnd/posts/Untitled",
     "dnd/posts/2020-08-22.md",
-    "dnd/npcs/krull.md",
-    "dnd/posts/2020-08-28.md",
     "dnd/npcs/hawthorne-macdarmott.md",
     "dnd/locations/shadow-leilon.md",
-    "dnd/npcs/torogar-steelfist.md",
     "dnd/locations/arkhans-tower.md",
     "dnd/npcs/the-raven-queen.md",
     "dnd/locations/the-feywild.md",
     "dnd/locations/candlekeep.md",
     "dnd/npcs/cassandra-belacourt.md",
-    "dnd/npcs/arkhan.md",
-    "dnd/npcs/tiamat.md",
-    "dnd/npcs/uldrak.md",
     "images/dnd",
     "images"
   ]
