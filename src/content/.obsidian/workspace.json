@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dnd/posts/2020-08-28.md",
+                "file": "dnd/posts/2020-09-05.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dnd/npcs/torogar-steelfist.md",
+                "file": "dnd/locations/mechanus.md",
                 "mode": "source",
                 "source": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dnd/posts/2020-08-28.md",
+                "file": "dnd/posts/2020-09-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dnd/posts/2020-08-28.md",
+                "file": "dnd/posts/2020-09-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dnd/posts/2020-08-28.md"
+                "file": "dnd/posts/2020-09-05.md"
               }
             }
           }
@@ -189,12 +189,19 @@
   },
   "active": "982221a4e57433e9",
   "lastOpenFiles": [
+    "dnd/locations/mechanus.md",
+    "dnd/npcs/primus.md",
+    "dnd/npcs/grundle-and-chode.md",
+    "dnd/npcs/aunt-lyra.md",
+    "dnd/posts/2023-05-10.md",
+    "dnd/npcs/asmodeus.md",
+    "dnd/npcs/torogar-steelfist.md",
+    "dnd/posts/2020-09-05.md",
+    "dnd/posts/2022-05-25.md",
+    "dnd/posts/2020-08-28.md",
     "dnd/npcs/waybert-spinzig.md",
     "dnd/npcs/arkhan.md",
-    "dnd/posts/2020-08-28.md",
-    "dnd/npcs/torogar-steelfist.md",
     "dnd/npcs/krull.md",
-    "dnd/posts/2022-05-25.md",
     "dnd/npcs/uldrak.md",
     "dnd/posts/2020-08-08.md",
     "dnd/posts/2023-06-21.md",
@@ -209,13 +216,6 @@
     "dnd/posts/_index.md",
     "dnd/posts/Untitled",
     "dnd/posts/2020-08-22.md",
-    "dnd/npcs/hawthorne-macdarmott.md",
-    "dnd/locations/shadow-leilon.md",
-    "dnd/locations/arkhans-tower.md",
-    "dnd/npcs/the-raven-queen.md",
-    "dnd/locations/the-feywild.md",
-    "dnd/locations/candlekeep.md",
-    "dnd/npcs/cassandra-belacourt.md",
     "images/dnd",
     "images"
   ]
