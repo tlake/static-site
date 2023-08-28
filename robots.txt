@@ -302,6 +302,16 @@ Disallow: /dnd/posts/2020/10/02/the-great-escapes/
 
 Disallow: /dnd/posts/2020/09/05/catch-22-items/
 
+Disallow: /dnd/npcs/asmodeus/
+
+Disallow: /dnd/npcs/aunt-lyra/
+
+Disallow: /dnd/npcs/grundle-and-chode/
+
+Disallow: /dnd/locations/mechanus/
+
+Disallow: /dnd/npcs/primus/
+
 Disallow: /dnd/posts/2020/08/28/collecting-blood-for-fun-and-profit/
 
 Disallow: /dnd/npcs/hawthorne-macdarmott/
@@ -524,6 +534,10 @@ Disallow: /dnd/ref/characters/arkhan/
 
 Disallow: /dnd/ref/locations/arkhans-tower/
 
+Disallow: /dnd/ref/characters/asmodeus/
+
+Disallow: /dnd/ref/characters/aunt-lyra/
+
 Disallow: /dnd/ref/locations/avernus/
 
 Disallow: /dnd/ref/locations/azzagrat/
@@ -620,6 +634,8 @@ Disallow: /dnd/ref/characters/grazzt/
 
 Disallow: /dnd/ref/characters/gregor/
 
+Disallow: /dnd/ref/characters/grundle-chode/
+
 Disallow: /dnd/ref/characters/gruumsh/
 
 Disallow: /dnd/ref/characters/gundren-rockseeker/
@@ -704,6 +720,8 @@ Disallow: /dnd/ref/locations/marea/
 
 Disallow: /dnd/ref/characters/master-elian/
 
+Disallow: /dnd/ref/locations/mechanus/
+
 Disallow: /dnd/ref/characters/melkor/
 
 Disallow: /dnd/ref/locations/minauros/
@@ -785,6 +803,8 @@ Disallow: /dnd/ref/locations/phlegethos/
 Disallow: /dnd/ref/characters/piety/
 
 Disallow: /dnd/posts/
+
+Disallow: /dnd/ref/characters/primus/
 
 Disallow: /dnd/ref/characters/psithyron/
 
