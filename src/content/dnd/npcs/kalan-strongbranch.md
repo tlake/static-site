@@ -1,12 +1,13 @@
 ---
 
-date: 2022-08-17
+date: 2023-06-21
 dnd/ref/characters:
-  - Trynna Briegarden
+  - Kalan Strongbranch
 dnd/ref/locations:
+  - Candlekeep
 tags:
   - my/DND/campaigns/import_campaign/characters/NPC
-title: Trynna Briegarden
+title: Kalan Strongbranch
 
 ---
 
@@ -14,9 +15,13 @@ title: Trynna Briegarden
 
 ### Appearance
 
+An older human male.
+
 ### Personality
 
 ## Biography
+
+A keeper of the outer gate at [Candlekeep](/dnd/locations/candlekeep).
 
 ## Key Info
 
@@ -25,4 +30,3 @@ title: Trynna Briegarden
 ## Quotations
 
 ## Trivia
-

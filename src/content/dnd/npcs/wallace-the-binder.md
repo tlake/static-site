@@ -1,12 +1,13 @@
 ---
 
-date: 2022-08-17
+date: 2023-08-02
 dnd/ref/characters:
-  - Trynna Briegarden
+  - Wallace
 dnd/ref/locations:
+  - Candlekeep
 tags:
   - my/DND/campaigns/import_campaign/characters/NPC
-title: Trynna Briegarden
+title: Wallace
 
 ---
 
@@ -18,6 +19,8 @@ title: Trynna Briegarden
 
 ## Biography
 
+A scribe in the House of the Binder at [Candlekeep](/dnd/locations/candlekeep).
+
 ## Key Info
 
 ## Relationships
@@ -25,4 +28,3 @@ title: Trynna Briegarden
 ## Quotations
 
 ## Trivia
-

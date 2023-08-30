@@ -1,12 +1,13 @@
 ---
 
-date: 2022-08-17
+date: 2023-06-21
 dnd/ref/characters:
-  - Trynna Briegarden
+  - Jay the Clerk
 dnd/ref/locations:
+  - Candlekeep
 tags:
   - my/DND/campaigns/import_campaign/characters/NPC
-title: Trynna Briegarden
+title: Jay the Clerk
 
 ---
 
@@ -18,6 +19,9 @@ title: Trynna Briegarden
 
 ## Biography
 
+One of the clerks who manage the front desk of the House of Rest at [Candlekeep](/dnd/locations/candlekeep).
+(The other one is a very quiet Robert.)
+
 ## Key Info
 
 ## Relationships
@@ -25,4 +29,3 @@ title: Trynna Briegarden
 ## Quotations
 
 ## Trivia
-
