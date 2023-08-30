@@ -1,5 +1,7 @@
 User-agent: *
 
+Disallow: /dnd/posts/2023/08/30/title-pending/
+
 Disallow: /dnd/npcs/harion/
 
 Disallow: /dnd/locations/ale-echo-cave/
