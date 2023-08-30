@@ -652,6 +652,8 @@ Disallow: /dnd/ref/characters/harold/
 
 Disallow: /dnd/ref/characters/harold-peters/
 
+Disallow: /dnd/ref/characters/harriet/
+
 Disallow: /dnd/ref/characters/haruman/
 
 Disallow: /dnd/ref/characters/hawthorne-macdarmott/
@@ -676,11 +678,15 @@ Disallow: /dnd/ref/locations/jangling-hiter/
 
 Disallow: /dnd/ref/characters/jarvis-iii/
 
+Disallow: /dnd/ref/characters/jay-the-clerk/
+
 Disallow: /dnd/ref/characters/jefferson/
 
 Disallow: /dnd/ref/characters/json/
 
 Disallow: /dnd/characters/json/
+
+Disallow: /dnd/ref/characters/kalan-strongbranch/
 
 Disallow: /dnd/ref/characters/kei-tigersteel/
 
