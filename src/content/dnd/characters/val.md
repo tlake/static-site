@@ -63,8 +63,13 @@ Val cajoled [Master Elian Amaadon](/dnd/npcs/elian-amaadon) into teaching her ba
 
 ### Trivia
 
-- Val has a habit of nicknaming character's she likes with a name like `<Letter>-Rock`. Honorary members of Val's "Rock" group include:
+#### Val's Rock Band
+
+- Val has a habit of nicknaming characters she likes with a name like `<Letter>-Rock`. Honorary members of Val's "Rock" group include:
   - [G-Rock](/dnd/npcs/gundren-rockseeker), the OG
   - [D-Rock](/dnd/npcs/denariel)
+  - [W-Rock](/dnd/nps/wallace-the-binder)
+  - [K-Rock](/dnd/npcs/kei-tigersteel)
+  - [KS-Rock](/dnd/npcs/kheril-hammerbind)
 
 ### References
