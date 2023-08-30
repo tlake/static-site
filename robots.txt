@@ -40,11 +40,19 @@ Disallow: /dnd/npcs/the-wolves/
 
 Disallow: /dnd/locations/tresendar-manor/
 
-Disallow: /dnd/npcs/trynna-briegarden/
-
 Disallow: /dnd/posts/2023/08/02/research-obstructing-research/
 
+Disallow: /dnd/npcs/tasha/
+
+Disallow: /dnd/npcs/wallace-the-binder/
+
 Disallow: /dnd/posts/2023/06/21/arrival-in-candlekeep/
+
+Disallow: /dnd/npcs/harriet/
+
+Disallow: /dnd/npcs/jay-the-clerk/
+
+Disallow: /dnd/npcs/kalan-strongbranch/
 
 Disallow: /dnd/posts/2023/06/07/can-i-get-a-receipt/
 
@@ -179,6 +187,8 @@ Disallow: /dnd/posts/2022/09/28/midwinter-in-highsun/
 Disallow: /dnd/notes/abyssal-note/
 
 Disallow: /dnd/posts/2022/08/17/2022-08-17/
+
+Disallow: /dnd/npcs/trynna-briegarden/
 
 Disallow: /dnd/posts/2022/08/03/2022-08-03/
 
@@ -854,6 +864,8 @@ Disallow: /dnd/ref/locations/stygia/
 
 Disallow: /dnd/ref/locations/summer-court/
 
+Disallow: /dnd/ref/characters/tasha/
+
 Disallow: /dnd/ref/characters/tharden-rockseeker/
 
 Disallow: /dnd/npcs/tharden-rockseeker/
@@ -927,6 +939,8 @@ Disallow: /dnd/ref/characters/val/
 Disallow: /dnd/characters/val/
 
 Disallow: /dnd/ref/characters/veshvor/
+
+Disallow: /dnd/ref/characters/wallace/
 
 Disallow: /dnd/ref/locations/waterdeep/
 
