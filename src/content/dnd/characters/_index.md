@@ -9,6 +9,7 @@ The main characters comprise a loosely-formed coalition known as The Menagerie.
 ## Current members
 
 - [Finn](/dnd/characters/finn)
+- [Gimble](/dnd/characters/gimble-the-diviner)
 - [Gorstag](/dnd/characters/gorstag)
 - [Grale](/dnd/characters/grale)
 - [Gray](/dnd/characters/haeltin-var-astora)
@@ -21,7 +22,6 @@ The main characters comprise a loosely-formed coalition known as The Menagerie.
 
 ## Former members
 
-- [Gimble](/dnd/characters/gimble-the-diviner)
 - [Ivor](/dnd/characters/ivor-borst)
 - [JSON](/dnd/characters/json)
 - [Kithri Tealeaf](/dnd/characters/kithri-tealeaf)

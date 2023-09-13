@@ -1,5 +1,5 @@
 ---
-active: false
+
 dnd/ref/characters:
   - Gimble the Diviner
 dnd/ref/locations:
@@ -7,14 +7,13 @@ mortality: alive
 race: Gnome
 tags:
 - my/DND/campaigns/import_campaign/characters/Gimble
-- my/DND/campaigns/import_campaign/characters/main/inactive
 title: Gimble the Diviner
-toc: true
+
 ---
 
 ## Gimble the Diviner
 
-![HeroForgeScreenshot (1).png](/images/dnd/pc-gimble.png)
+![Gimble](/images/dnd/pc-gimble.png)
 gnome wizard
 [(D&D Beyond)](https://ddb.ac/characters/598641/CuTN08)
 
@@ -29,11 +28,13 @@ gnome wizard
 
 Gimble is a rock gnome standing just over three feet tall. He has blue eyes and chestnut hair which tends to be a frazzled mess, spiking upwards. He has a wide mustache and a trimmed goatee.
 
-Gimble usually wears relatively simple clothing, such as the light tan, short robe customary to his duties as a librarian in his hometown.
+Gimble usually wears relatively simple clothing, similar to the short robe customary to his duties as a librarian in his hometown.
 
 #### Personality
 
 Gimble usually tries to do good (as he sees it), but often the realities of adventuring do not leave easy choices. Since Gimble has a very cautious nature and is prone to overthinking options, this can lead to inaction. However, he will do what is necessary to help those in need.
+
+The time in [Avernus](/dnd/locations/avernus) left a mark on Gimble. He has been fighting with paranoia and has a persistent nervous twitch in his left hand.
 
 ### Biography
 
@@ -57,23 +58,23 @@ Gimble seeks to unravel the mystery of a strange, blank book and its connection 
 #### Journeys in the Feywild
 
 - Gimble acquires a favor from [Caerwyn Cadogan](/dnd/npcs/caerwyn-cadogan), valid for a year and a day.
-- On advice from [Caerwyn](/dnd/npcs/caerwyn-cadogan), Gimble learns the faerie verse of pleasant disengagement, "Beneath the sun or falling rain, I yield to thee thy path again."
+- On advice from Caerwyn, Gimble learns the faerie verse of pleasant disengagement, "Beneath the sun or falling rain, I yield to thee thy path again."
   - This never proves useful.
 - Gimble trades spell scrolls with a paper drake for several magic items for the party, including [Val](/dnd/characters/val)'s *Wand of Wonder*.
 - Gimble gives away a secret (one of his daily portents) in exchange for admittance to the Court of Stars
-- When [Caerwyn](/dnd/npcs/caerwyn-cadogan) repays Gimble's favor and sets the party free from the oubliettes, Caerwyn gives him a small box. Opening it later, the party finds a fabric made of shadow, which unfurled to reveal itself as a *Portable Hole*. Inside the hole, the party finds the dagger used to strike Queen Titania.
+- When Caerwyn repays Gimble's favor and sets the party free from the oubliettes, Caerwyn gives him a small box. Opening it later, the party finds a fabric made of shadow, which unfurled to reveal itself as a *Portable Hole*. Inside the hole, the party finds the dagger used to strike [Queen Titania](/dnd/npcs/queen-titania).
 
 #### Downtime at the Manor
 
 - Gimble trains in alchemist supplies.
 - Gimble collaborates with [Oneshoe](/dnd/characters/oneshoe) to build a 7-foot tall clockwork dragon.
 - Gimble studies magic.
-- Gimble gives in to [Val](/dnd/characters/val)'s demands and relinquishes the *Portable Hole*.
+- Gimble gives in to Val's demands and relinquishes the *Portable Hole*.
 
 #### The Great Modron March
 
 - Gimble starts to see strange geometric shapes in his book, which foretell the coming of the Modrons.
-- Gimble foresees a chance for [Gray](/dnd/characters/haeltin-var-astora) to deceive the leader of the Modrons into diverting the course of the march and saving the town of Phandalin.
+- Gimble foresees a chance for Gray to deceive the leader of the Modrons into diverting the course of the march and saving the town of Phandalin.
 
 #### Welcome to Leilon
 
@@ -81,16 +82,29 @@ Gimble seeks to unravel the mystery of a strange, blank book and its connection 
 - Gimble meets The Grammarian.
 - Gimble acquires the *Ring of the Grammarian*.
 - Gimble attempts to end the suffering of the wife of Harold Peters (you know, [The Tinkerer](/dnd/npcs/the-tinkerer)) with a casting of *GentleR Repose* using the power of the Grammarian.
-- Gimble breaks the ancient seal in pursuit of his sister
+- Gimble breaks the ancient seal in pursuit of his sister.
 - Gimble finds his Aunt Lyra and sister [Nyx](/dnd/npcs/nyx) encased in crystal in the depths of the aboleth's lair.
 - Nyx seemingly warps reality to save Gimble from a critical blow from the aboleth.
-- Gimble is faced with the [Dilemma at the Aboleth's Lair](/dnd/characters/gimble/dilemma-at-the-aboleths-lair) and opts to save [Val](/dnd/characters/val) first, counting on [Horns](/dnd/characters/horns) to save his family from drowning.
+- Gimble is faced with the [Dilemma at the Aboleth's Lair](/dnd/characters/gimble/dilemma-at-the-aboleths-lair) and opts to save Val first, counting on [Horns](/dnd/characters/horns) to save his family from drowning.
 
 #### A Hellish Tale
 
 - Gimble uses a *Wall of Force* to dramatically end a chase scene on the planes of Avernus.
-- Eventually, [Gimble Became Lawful Evil in Avernus](/dnd/characters/gimble/gimble-became-lawful-evil-in-avernus). He chooses to leave the party and banish himself back to the Material Plane.
-- Before he leaves, [Gimble prepares special defensive magic for Finn](/dnd/characters/gimble/gimble-prepares-special-defensive-magic-for-finn).
+- Eventually, [Gimble Became Lawful Evil in Avernus](/dnd/characters/gimble/gimble-became-lawful-evil-in-avernus/). He chooses to leave the party and banish himself back to the Material Plane. [^1]
+- Before he leaves, [Gimble prepares special defensive magic for Finn](/dnd/characters/gimble/gimble-prepares-special-defensive-magic-for-finn/).
+
+
+#### Paranoid and Reclusive
+
+A returned, evil Gimble grew paranoid and holed up for a time, building his power and defenses. Later, connecting with his sister Nyx allowed him to find his way back to himself, but he was unable to contact the party directly. Instead, a cryptic divination led Gimble to Gorstag as a means to send help to the party via a messenger. Then, a sudden event forces Gimble to make a hasty exit.
+
+#### On the Run with Nyx
+
+Gimble and Nyx spend some time on the road and have at least one close call evading their pursuers. Along the way, Gimble attempts to get his sister to open up about the mystery of her past and the forces chasing them, but each time she shuts him out.
+
+#### Reunited with the Party
+
+Shortly after the party was attacked by [The Revenant](/dnd/npcs/the-revenant) at Tresendar Manor [^2], Gimble receives a portent that Finn is in danger and seeking his help. After scrying on their location, Gimble teleports to Phandalin to assess the situation, and finds things are not quite as they had seemed. After an awkward reunion, Gimble relates the challenges he has been facing and almost seems to collapse under the stress before he declares that he is "tired of running." He declares his intent to seek out and confront the dangers they face. And he asks if the party wishes to join him.
 
 ### Relationships
 
@@ -103,7 +117,7 @@ banishing himself from the plane.
 
 #### Gray
 
-Gimble respects [Gray](/dnd/characters/haeltin-var-astora). At several points, Gray and Gimble have entrusted each other to do the right thing when they couldn't fully trust themselves to do so. Gray asked Gimble to put him down if he ever lost control and attacked the party. Gimble entrusted Gray with the keeping of the *Plane Shift* scroll when he foresaw the possibility of [being corrupted in Avernus](/dnd/characters/gimble/gimble-became-lawful-evil-in-avernus).
+Gimble respects [Gray](/dnd/characters/haeltin-var-astora/). At several points, Gray and Gimble have entrusted each other to do the right thing when they couldn't fully trust themselves to do so. Gray asked Gimble to put him down if he ever lost control and attacked the party. Gimble entrusted Gray with the keeping of the *Plane Shift* scroll when he foresaw the possibility of [being corrupted in Avernus](/dnd/characters/gimble/gimble-became-lawful-evil-in-avernus/).
 
 Gimble has also felt indebted to Gray for his sacrifices on behalf of Gimble in Leilon.
 
@@ -115,11 +129,11 @@ Gimble is often befuddled by [Horns](/dnd/characters/horns).
 
 Gimble is friends with [Oneshoe](/dnd/characters/oneshoe). He admires her cunning and intelligence.
 
-During the reconstruction of Tresandor Manor, the two gnomes enjoyed collaborating on the construction of a seven-foot-tall clockwork dragon.
+During the reconstruction of [Tresendar Manor](/dnd/locations/tresendar-manor), the two gnomes enjoyed collaborating on the construction of a seven-foot-tall clockwork dragon.
 
 After OneShoe had some difficulty during a fight with a witch, Gimble gave his *Necklace of Fireballs and Force* to OneShoe so that she would have more tools in future fights.
 
-When Gimble sent a letter to the party in Phlegethos, he counted on Oneshoe's intellect to handle future coded messages.
+When Gimble sent a letter to the party in [Phlegethos](/dnd/locations/phlegethos), he counted on Oneshoe's intellect to handle future coded messages.
 
 #### Rinn'thalas
 
@@ -152,7 +166,7 @@ This certainly hasn't been helped by the trip to Avernus, during which Zed gleef
 - [x] Locate his traveling Aunt Lyra
 - [x] Find his missing sister
 - [ ] Solve the riddle of his village's denial of Nyx's existence
-- [ ] Identify and stop the force pursuing Nyx
+- [x] Identify and stop the force pursuing Nyx
 
 #### Notable Items
 
@@ -169,18 +183,22 @@ This certainly hasn't been helped by the trip to Avernus, during which Zed gleef
 - *Necklace of Fireballs and Force*
   - given to [Oneshoe](/dnd/characters/oneshoe) after the battle with the witch.
 - *Portable Hole*
-  - given to [Val](/dnd/characters/val) after she demanded it at Tresandor Manor.
+  - given to [Val](/dnd/characters/val) after she demanded it at Tresendar Manor.
 
 #### Abilities
 
 ### Quotations
 
 - [Gimble](/dnd/characters/gimble-the-diviner): "The sky is gray and tinged with regret." (Gimble reflecting upon the ashen sky after fleeing a wildfire he had caused.)
-- [Gimble](/dnd/characters/gimble-the-diviner): "You did what?!" (Gimble reacting to the party's shenanigans)
-- [Gimble](/dnd/characters/gimble-the-diviner): "I'm sorry, Finn." (Gimble's last words to the party at Avernus)
+- Gimble: "You did what?!" (Gimble reacting to the party's shenanigans)
+- Gimble: "I'm sorry, Finn." (Gimble's last words to the party at Avernus)
 
 ### Trivia
 
 - Someone looking over his shoulder as Gimble reads the book each morning would see nothing on its pages.
 
 ### References
+
+[^1]: See: [2020-09-05 Import Campaign]({{< ref "/dnd/posts/2020-09-05">}})
+[^2]: See: [2023-03-15 Import Campaign]({{< ref "/dnd/posts/2023-03-15#undead-assault-tresendar-manor">}})
+
