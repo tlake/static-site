@@ -1,6 +1,6 @@
 User-agent: *
 
-Disallow: /dnd/posts/2023/08/30/title-pending/
+Disallow: /dnd/posts/2023/08/30/the-walk-without-shame/
 
 Disallow: /dnd/npcs/harion/
 
@@ -576,7 +576,11 @@ Disallow: /dnd/ref/characters/cassandra-belacourt/
 
 Disallow: /dnd/ref/characters/cause-and-effect/
 
+Disallow: /dnd/ref/characters/chad/
+
 Disallow: /dnd/characters/
+
+Disallow: /dnd/ref/locations/chult/
 
 Disallow: /dnd/ref/characters/clear-wind/
 
@@ -716,6 +720,8 @@ Disallow: /dnd/ref/characters/levistus/
 
 Disallow: /dnd/ref/characters/lily-ashewood/
 
+Disallow: /dnd/ref/characters/lloyd/
+
 Disallow: /dnd/locations/
 
 Disallow: /dnd/ref/characters/lulu/
@@ -782,6 +788,8 @@ Disallow: /tags/my/dnd/campaigns/import_campaign/characters/rinn/
 
 Disallow: /tags/my/dnd/campaigns/import_campaign/sessions/
 
+Disallow: /dnd/ref/characters/mystra/
+
 Disallow: /dnd/ref/locations/nesm%C3%A9/
 
 Disallow: /dnd/ref/locations/nessus/
@@ -804,6 +812,8 @@ Disallow: /dnd/ref/characters/nyx/
 
 Disallow: /dnd/ref/characters/oberon/
 
+Disallow: /dnd/ref/characters/oghma/
+
 Disallow: /dnd/ref/locations/old-owl-well/
 
 Disallow: /dnd/ref/characters/oneshoe/
@@ -813,6 +823,8 @@ Disallow: /dnd/characters/oneshoe/
 Disallow: /dnd/ref/characters/orsik-stoneskin/
 
 Disallow: /dnd/characters/orsik-stoneskin/
+
+Disallow: /dnd/ref/characters/peanut/
 
 Disallow: /dnd/ref/locations/phandalin/
 
@@ -845,6 +857,8 @@ Disallow: /dnd/npcs/reidoth/
 Disallow: /dnd/ref/characters/rinnthalas-liadon/
 
 Disallow: /dnd/characters/rinnthalas-liadon/
+
+Disallow: /dnd/ref/locations/rivermoot/
 
 Disallow: /dnd/ref/characters/rubella-blackhand/
 
