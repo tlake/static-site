@@ -1,5 +1,7 @@
 User-agent: *
 
+Disallow: /dnd/posts/2023-09-13/an-immersive-tale/
+
 Disallow: /dnd/posts/2023/08/30/the-walk-without-shame/
 
 Disallow: /dnd/npcs/harion/
