@@ -1,5 +1,7 @@
 User-agent: *
 
+Disallow: /dnd/posts/2023-10-11/the-thoroughbred-of-sin/
+
 Disallow: /dnd/posts/2023-09-27/serving-the-narrative/
 
 Disallow: /dnd/posts/2023-09-13/an-immersive-tale/
@@ -729,6 +731,8 @@ Disallow: /dnd/ref/characters/lloyd/
 Disallow: /dnd/locations/
 
 Disallow: /dnd/ref/characters/lulu/
+
+Disallow: /dnd/ref/characters/lurue/
 
 Disallow: /dnd/ref/locations/luskan/
 
