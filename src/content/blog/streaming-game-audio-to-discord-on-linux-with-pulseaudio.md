@@ -77,16 +77,18 @@ pactl load-module module-null-sink sink_name=vs-broadcast sink_properties=device
 pactl load-module module-null-sink sink_name=vs-splitter sink_properties=device.description=vs-splitter
 
 # connect microphone to vs-broadcast
-pactl load-module module-loopback source_dont_move=1 source=alsa_input.usb-SteelSeries_SteelSeries_Arctis_5_00000000-00.analog-chat sink=vs-broadcast
+pactl load-module module-loopback source_dont_move=1 source=alsa_input.usb-SteelSeries_SteelSeries_Arctis_5_00000000-00.analog-chat sink=vs-broadcast latency_msec=1
 
 # connect vs-splitter to vs-broadcast
 # note that a virtual sink's source address is sinkname.monitor
-pactl load-module module-loopback source_dont_move=1 source=vs-splitter.monitor sink=vs-broadcast
+pactl load-module module-loopback source_dont_move=1 source=vs-splitter.monitor sink=vs-broadcast latency_msec=1
 
 # connect vs-splitter to headphones
 # note that a virtual sink's source address is sinkname.monitor
-pactl load-module module-loopback source_dont_move=1 source=vs-splitter.monitor sink=alsa_output.usb-SteelSeries_SteelSeries_Arctis_5_00000000-00.analog-chat
+pactl load-module module-loopback source_dont_move=1 source=vs-splitter.monitor sink=alsa_output.usb-SteelSeries_SteelSeries_Arctis_5_00000000-00.analog-chat latency_msec=1
 ```
+
+_Edit 2024-01-04: Added `latency_msec` flags to loopback creation commands. This solves a problem when the default command — or the creation executed in the `pagraphcontrol` gui — introduces delay to the audio chain._
 
 ## Complication 1: Discord and noise reduction
 
