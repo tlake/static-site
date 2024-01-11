@@ -1,5 +1,7 @@
 User-agent: *
 
+Disallow: /dnd/posts/2023/11/08/title-placeholder/
+
 Disallow: /dnd/posts/2023/10/25/a-remnant-of-faith/
 
 Disallow: /dnd/posts/2023-10-11/the-thoroughbred-of-sin/
