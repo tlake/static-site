@@ -1,5 +1,8 @@
 ---
 
+cascade:
+  params:
+    family: dnd-character
 title: characters
 
 ---
