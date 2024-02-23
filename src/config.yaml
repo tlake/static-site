@@ -52,9 +52,6 @@ menu:
 
 cascade:
   - _target:
-      path: /dnd/_index.md
-    family: dnd-landing
-  - _target:
       path: /dnd/archive/**
     family: dnd-archive
   - _target:
