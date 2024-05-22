@@ -50,6 +50,29 @@ menu:
       url: /dnd/archive
       weight: 6
 
+cascade:
+  - _target:
+      path: /dnd/_index.md
+    family: dnd-landing
+  - _target:
+      path: /dnd/archive/**
+    family: dnd-archive
+  - _target:
+      path: /dnd/characters/**
+    family: dnd-character
+  - _target:
+      path: /dnd/locations/**
+    family: dnd-location
+  - _target:
+      path: /dnd/notes/**
+    family: dnd-note
+  - _target:
+      path: /dnd/npcs/**
+    family: dnd-npc
+  - _target:
+      path: /dnd/posts/**
+    family: dnd-post
+
 taxonomies:
   character: dnd/ref/characters
   location: dnd/ref/locations
