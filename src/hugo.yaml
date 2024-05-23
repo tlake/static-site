@@ -18,6 +18,10 @@ params:
     url: "https://linkedin.com/in/tannerlake"
   - name: "twitter"
     url: "https://twitter.com/tanotaur"
+taxonomies:
+  character: "dnd/ref/characters"
+  location: "dnd/ref/locations"
+  tag: "tags"
 theme: "ananke"
 timeZone: "America/Los_Angeles"
 title: "tlake.io"
