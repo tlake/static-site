@@ -4,6 +4,18 @@ baseURL: "https://tlake.io"
 copyright: "Tanner Lake"
 enableRobotsTXT: true
 languageCode: "en-us"
+params:
+  ananke_socials:
+  - name: "github"
+    url: "https://github.com/tlake"
+  - name: "gitlab"
+    url: "https://gitlab.com/tannerlake"
+  - name: "mastodon"
+    url: "https://hachyderm.io/@tlake"
+  - name: "linkedin"
+    url: "https://linkedin.com/in/tannerlake"
+  - name: "twitter"
+    url: "https://twitter.com/tanotaur"
 theme: "ananke"
 timeZone: "America/Los_Angeles"
 title: "tlake.io"
