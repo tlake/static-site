@@ -2,6 +2,7 @@ publishDir: "../docs"
 
 baseURL: "https://tlake.io"
 copyright: "Tanner Lake"
+defaultContentLanguage: "en"
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
@@ -38,6 +39,7 @@ menu:
     title: archive
     url: /dnd/archive
     weight: 6
+paginate: 6
 params:
   ananke_socials:
   - name: "github"
@@ -50,6 +52,9 @@ params:
     url: "https://linkedin.com/in/tannerlake"
   - name: "twitter"
     url: "https://twitter.com/tanotaur"
+  mainSections:
+sectionPagesMenu: "main"
+summaryLength: 30
 taxonomies:
   character: "dnd/ref/characters"
   location: "dnd/ref/locations"
