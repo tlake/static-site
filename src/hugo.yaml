@@ -2,6 +2,8 @@ publishDir: "../docs"
 
 baseURL: "https://tlake.io"
 copyright: "Tanner Lake"
+enableEmoji: true
+enableGitInfo: true
 enableRobotsTXT: true
 languageCode: "en-us"
 params:
