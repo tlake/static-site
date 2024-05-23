@@ -1,0 +1,9 @@
+publishDir: "../docs"
+
+baseURL: "https://tlake.io"
+copyright: "Tanner Lake"
+enableRobotsTXT: true
+languageCode: "en-us"
+theme: "ananke"
+timeZone: "America/Los_Angeles"
+title: "tlake.io"
