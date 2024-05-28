@@ -61,14 +61,6 @@
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
-	  {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
-	  <ul>
-	    <li>rendered: _default/baseof.html</li>
-	    <li>params: {{ .Page.Params }}</li>
-	    <li>current section: {{ .Page.CurrentSection }}</li>
-	    <li>kind: {{ .Page.Kind }}</li>
-	  </ul>
-	  {{- end }}
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
