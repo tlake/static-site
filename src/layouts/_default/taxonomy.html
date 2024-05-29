@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{/* TL CUSTOM: Add debug info. */}}
+  {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
+  <ul>
+    <li>rendered: _default/taxonomy.html</li>
+  </ul>
+  {{- end }}
+  {{/* TL CUSTOM: END */}}
+
+  <article class="cf pa3 pa4-m pa4-l">
+    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+      <p>{{ i18n "taxonomyPageList" . }}</p>
+    </div>
+  </article>
+  <div class="mw8 center">
+    <section class="flex-ns flex-wrap justify-around mt5">
+      {{ range  .Pages }}
+        {{/* TL CUSTOM: Add "list_classes" interpolation. END */}}
+        <div class="relative w-100 mb4 {{ $.Param "list_classes" | default "bg-white" }} ">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </section>
+  </div>
+{{ end }}
