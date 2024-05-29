@@ -12,7 +12,7 @@
 {{/* TL CUSTOM: END */}}
 
 {{- if .Params.toc -}}
-  {{/* TLAKE CUSTOM: Add toc_classes. END */}}
+  {{/* TL CUSTOM: Add toc_classes. END */}}
   <div class="{{ $.Param "toc_classes" | default "avenir bg-near-white" }} pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">{{ i18n "whatsInThis" . }}</p>
       {{ .TableOfContents }}
