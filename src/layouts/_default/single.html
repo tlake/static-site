@@ -1,9 +1,17 @@
 {{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{/* We can override any block in the baseof file be defining it in the template */}}
   {{ partial "page-header.html" . }}
 {{ end }}
 
 {{ define "main" }}
+  {{/* TL CUSTOM: Add debug info. */}}
+  {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
+  <ul>
+    <li>rendered: _default/single.html</li>
+  </ul>
+  {{- end }}
+  {{/* TL CUSTOM: END */}}
+
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">
