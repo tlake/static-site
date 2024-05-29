@@ -54,7 +54,7 @@ params:
     url: "https://twitter.com/tanotaur"
   background_color_class: "bg-white-20"
   #body_classes: "bg-dark-red light-red"
-  body_classes: "avenir bg-black light-gray"
+  body_classes: "nested-links avenir bg-black light-gray"
   #custom_css:
   #- "css/custom.css"
   mainSections:
