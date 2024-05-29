@@ -1,3 +1,11 @@
+{{/* TL CUSTOM: Add debug info. */}}
+{{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
+<ul>
+  <li>rendered: _default/summary.html</li>
+</ul>
+{{- end }}
+{{/* TL CUSTOM: END */}}
+
 {{/* TLAKE CUSTOM: Add "list_classes" interpolation. END */}}
 <div class="relative w-100 mb4 {{ $.Param "list_classes" | default "bg-white" }} nested-copy-line-height">
     {{/* TLAKE CUSTOM: Add "list_classes" interpolation. END */}}
