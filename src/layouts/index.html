@@ -1,9 +1,13 @@
 {{ define "main" }}
+
+  {{/* TL CUSTOM: Add debug info. */}}
   {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
   <ul>
-	<li>rendered: index.html</li>
+    <li>layout: index.html</li>
   </ul>
   {{- end }}
+  {{/* TL CUSTOM: END */}}
+
   <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
       {{ .Content }}
     </article>

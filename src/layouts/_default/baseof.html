@@ -61,6 +61,8 @@
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
+
+      {{/* TL CUSTOM: Add debug info. */}}
 	  {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
 	  <ul>
 	    <li>rendered: _default/baseof.html</li>
@@ -69,6 +71,8 @@
 	    <li>kind: {{ .Page.Kind }}</li>
 	  </ul>
 	  {{- end }}
+      {{/* TL CUSTOM: END */}}
+
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
