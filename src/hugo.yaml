@@ -56,6 +56,7 @@ params:
   body_classes: "nested-links avenir bg-black light-gray"
   #custom_css:
   #- "css/custom.css"
+  list_classes: "bg-near-black"
   mainSections:
   post_content_classes: "avenir bg-black light-gray"
   text_color: "avenir bg-black light-gray"
