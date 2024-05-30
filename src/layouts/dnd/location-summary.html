@@ -1,0 +1,26 @@
+{{/* TL CUSTOM: Add debug info. */}}
+{{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
+<ul>
+  <li>rendered: dnd/npc-summary.html</li>
+</ul>
+{{- end }}
+{{/* TL CUSTOM: END */}}
+
+{{/* TL CUSTOM: Add "list_classes" interpolation. END */}}
+<div class="relative w-100 mb4 {{ $.Param "list_classes" | default "bg-white" }} nested-copy-line-height">
+  <div class="mb3 pa4 overflow-hidden">
+    <h1 class="f3 near-black">
+      <a href="{{ .RelPermalink }}" class="link black dim">
+        {{ .Title }}
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>
+        Characters:
+        {{ range $_, $character := .Param "dnd/ref/characters" -}}
+          <a href="/dnd/npcs/{{- urlize $character -}}" class='link {{ $.Param "secondary_font_color_class" | default "blue" }} dim'>[{{- $character -}}]</a>
+        {{ end }}
+      </p>
+    </div>
+  </div>
+</div>
