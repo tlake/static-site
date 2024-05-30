@@ -15,13 +15,14 @@
       {{/* TL CUSTOM: Replace .Paginator.Pages with eq and dnd-post range. */}}
       {{/* range .Paginator.Pages */}}
       {{ if eq .Params.family "dnd-landing" }}
-        {{ range first 3 (where .Site.Pages ".Params.family" "dnd-post") }}
+        {{ range first 6 (where .Site.Pages ".Params.family" "dnd-post") }}
         {{/* TL CUSTOM: END */}}
           {{/* TL CUSTOM: Add "list_classes" interpolation. END */}}
           <div class="relative w-100 w-30-l mb4 {{ $.Param "list_classes" | default "bg-white" }}">
             {{ .Render "summary" }}
           </div>
         {{ end }}
+      {{/* TL CUSTOM: END */}}
       {{ end }}
     </section>
     {{- template "_internal/pagination.html" . -}}
