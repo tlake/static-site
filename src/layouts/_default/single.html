@@ -12,6 +12,11 @@
   {{- end }}
   {{/* TL CUSTOM: END */}}
 
+  {{/* TL CUSTOM: Decide whether to render contextual menu. */}}
+  {{ $related := .Site.RegularPages.Related . | first 15 }}
+  {{ $renderContextualMenu := or (eq .Params.toc true) (gt ($related | len) 0) }}
+  {{/* TL CUSTOM: END */}}
+
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">
@@ -55,7 +60,8 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
+    {{/* TL CUSTOM: Wrap w-two-thirds-l class in conditional. END */}}
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ cond ($renderContextualMenu) "w-two-thirds-l" "w-100-l" }}">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
@@ -68,10 +74,14 @@
       </div>
     </div>
 
+    {{/* TL CUSTOM: Conditionally render menu. */}}
+    {{ if $renderContextualMenu }}
     {{/* TL CUSTOM: Add toc_classes interpolation. END */}}
     <aside class="w-30-l mt6-l {{ $.Param "toc_classes" | default "avenir bg-near-white"}}">
       {{- partial "menu-contextual.html" . -}}
     </aside>
+    {{ end }}
+    {{/* TL CUSTOM: END */}}
 
   </article>
 {{ end }}
