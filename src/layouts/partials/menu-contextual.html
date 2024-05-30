@@ -15,7 +15,7 @@
   {{/* TL CUSTOM: Add toc_classes. END */}}
   <div class="{{ $.Param "toc_classes" | default "avenir bg-near-white" }} pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">{{ i18n "whatsInThis" . }}</p>
-      {{ .TableOfContents }}
+    {{ .TableOfContents }}
   </div>
 {{- end -}}
 
@@ -30,13 +30,13 @@
   <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">{{ i18n "related" }}</p>
     <ul class="pa0 list">
-	   {{ range . }}
-	     <li  class="mb2">
+      {{ range . }}
+        <li  class="mb2">
           <a href="{{ .RelPermalink }}">
             {{- .Title -}}
           </a>
         </li>
-	    {{ end }}
+      {{ end }}
     </ul>
 </div>
 {{ end }}
