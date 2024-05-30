@@ -1,8 +1,7 @@
 ---
-draft: false
-title: "Streaming to Discord on Linux: Managing audio streams via PulseAudio"
+
 date: 2022-10-02T21:00:00-08:00
-toc: true,
+draft: false
 tags: [
     "bash",
     "discord",
@@ -17,6 +16,8 @@ tags: [
     "stream",
     "streaming",
 ]
+title: "Streaming to Discord on Linux: Managing audio streams via PulseAudio"
+
 ---
 
 As it turns out, streaming game audio to Discord isn't trivial when you're on Linux.

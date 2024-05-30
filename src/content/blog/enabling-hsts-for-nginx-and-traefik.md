@@ -1,4 +1,5 @@
 ---
+
 date: 2022-12-09
 tags:
   - docker
@@ -7,7 +8,7 @@ tags:
   - nginx
   - hsts
 title: Enabling HSTS for NginX and Traefik
-toc: true
+
 ---
 
 So, I have a small hodgepodge of a home lab consisting of my primary desktop PC ("artemicion"), an Udoo Bolt ("bolt"), and a Raspberry PI 4 ("mansionsyrup").
