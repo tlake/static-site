@@ -60,7 +60,8 @@
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    <main class="pb7" role="main">
+    {{/* TL CUSTOM: Change "pb7" to "pb4 mb4". END */}}
+    <main class="pb4 mb4" role="main">
 
       {{/* TL CUSTOM: Add debug info. */}}
 	  {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
