@@ -13,7 +13,8 @@
   {{/* Section for displaying list page content.
   Only render if the current page actually has .Content set. */}}
   {{ with .Content }}
-  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+  {{/* TL CUSTOM: Add nested-list-reset cond for dnd-character family. */}}
+  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq ( $.Param "family" ) "dnd-character") "nested-list-reset" "" }}">
     {{- . -}}
   </section>
   {{ end }}
