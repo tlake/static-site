@@ -1,0 +1,55 @@
+{{/* TL CUSTOM: This whole file */}}
+
+{{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
+<ul>
+  <li>rendered: dnd/related.html</li>
+</ul>
+{{- end }}
+
+<div class="pa3 nested-list-reset nested-copy-line-height nested-links">
+  <p class="f5 b mb3">{{ i18n "related" }}</p>
+
+  {{ with $tagged_characters := .Param "dnd/ref/characters" }}
+    <ul class="pa0 list">
+    {{ range $this_tagged_character := $tagged_characters }}
+      {{ $character_pages_with_this_tagged_character := where site.Pages "Title" "eq" $this_tagged_character }}
+  
+      {{ $this_character_page := index ( where $character_pages_with_this_tagged_character "Kind" "eq" "page" ) 0 }}
+      {{ $this_character_terms_page := index ( where $character_pages_with_this_tagged_character "Kind" "eq" "term" ) 0 }}
+  
+      <li class="mb2">
+          {{ if $this_character_page }}
+          <a href="{{ $this_character_page.RelPermalink }}">{{ $this_tagged_character }}</a> |
+          {{ else }}
+          {{ $this_tagged_character }} |
+          {{ end }}
+          <a href="{{ $this_character_terms_page.RelPermalink }}">Related Posts</a>
+      </li>
+  
+    {{ end }}
+    </ul>
+  {{ end }}
+  
+  {{ with $tagged_locations := .Param "dnd/ref/locations" }}
+    <ul class="pa0 list">
+    {{ range $this_tagged_location := $tagged_locations }}
+      {{ $location_pages_with_this_tagged_location := where site.Pages "Title" "eq" $this_tagged_location }}
+  
+      {{ $this_location_page := index ( where $location_pages_with_this_tagged_location "Kind" "eq" "page" ) 0 }}
+      {{ $this_location_terms_page := index ( where $location_pages_with_this_tagged_location "Kind" "eq" "term" ) 0 }}
+
+      <li class="mb2">
+          {{ if $this_location_page }}
+          <a href="{{ $this_location_page.RelPermalink }}">{{ $this_tagged_location }}</a> |
+          {{ else }}
+          {{ $this_tagged_location }} |
+          {{ end }}
+          <a href="{{ $this_location_terms_page.RelPermalink }}">Related Posts</a>
+      </li>
+  
+    {{ end }}
+    </ul>
+  {{ end }}
+
+</div>
+{{/* TL CUSTOM: END */}}
