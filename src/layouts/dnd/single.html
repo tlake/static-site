@@ -10,7 +10,7 @@
 {{/* TL CUSTOM: Add debug info. */}}
 {{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
 <ul>
-  <li>rendered: dnd/single.html</li>
+  <li>rendered: dnd/next-prev-single.html</li>
 </ul>
 {{- end }}
 {{/* TL CUSTOM: END */}}
@@ -23,6 +23,7 @@
 {{ $section := .Site.GetPage "section" .Section }}
 <article class="flex-l flex-wrap justify-between mw8 center ph3">
   <header class="mt4 w-100">
+
     <aside class="instapaper_ignoref b helvetica tracked ttu">
         {{/*
         CurrentSection allows us to use the section title instead of inferring from the folder.
@@ -30,10 +31,25 @@
         */}}
       {{ .CurrentSection.Title }}
     </aside>
+
     {{ partial "social-share.html" . }}
+
+    {{/* TL CUSTOM: Display custom next/previous section. */}}
+    <div class="center f4 nested-copy-line-height lh-copy">
+      {{- .Render "next-prev-single" -}}
+    </div>
+    {{/* TL CUSTOM: END */}}
+
     <h1 class="f1 athelas mt3 mb1">
       {{- .Title -}}
     </h1>
+
+    {{/* TL CUSTOM: Display description. */}}
+    {{ with .Description }}
+    <p>{{ . }}</p>
+    {{ end }}
+    {{/* TL CUSTOM: END */}}
+
     {{ with .Params.author | default .Site.Params.author }}
     <p class="tracked">
       {{ $.Render "by" }} <strong>
@@ -44,7 +60,9 @@
       {{- end -}}
       </strong>
     </p>
+
     {{ end }}
+
     {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
     {{ if not .Date.IsZero }}
     <time class="f6 mv4 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
@@ -66,11 +84,31 @@
 
   {{/* TL CUSTOM: Wrap w-two-thirds-l class in conditional. END */}}
   <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ cond ($renderContextualMenu) "w-two-thirds-l" "w-100-l" }}">
+
+    {{/* TL CUSTOM: Display previous post's summary content. */}}
+    {{- .Render "recap-from-prev-summary" }}
+    {{/* TL CUSTOM: END */}}
+
+    {{/* TL CUSTOM: Display current post's summary content. */}}
+    {{- with .Params.summary }}
+    <h2>Summary</h2>
+    <p>{{ . | markdownify }}</p>
+    {{- end }}
+    {{/* TL CUSTOM: END */}}
+
     {{- .Content -}}
 
     {{- partial "tags.html" . -}}
 
+    {{/* TL CUSTOM: Display custom next/previous section. */}}
+    <div class="center f4 nested-copy-line-height lh-copy">
+      {{- .Render "next-prev-single" -}}
+    </div>
+    {{/* TL CUSTOM: END */}}
+
+    {{/* TL CUSTOM: Display custom related section. */}}
     {{- .Render "related" }}
+    {{/* TL CUSTOM: END */}}
 
     <div class="mt6 instapaper_ignoref">
     {{ if .Site.Config.Services.Disqus.Shortname }}
