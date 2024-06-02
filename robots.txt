@@ -2,9 +2,9 @@ User-agent: *
 
 Disallow: /dnd/ref/characters/
 
-Disallow: /dnd/ref/characters/hayne/
+Disallow: /dnd/ref/characters/haeme/
 
-Disallow: /dnd/ref/characters/lloy/
+Disallow: /dnd/ref/characters/lloi/
 
 Disallow: /dnd/ref/locations/
 

@@ -35,3 +35,8 @@ body > footer {
     position: sticky;
     top: 1000vh;
 }
+
+ul, ol {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
