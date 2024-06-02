@@ -68,7 +68,7 @@ I decided to do a bit of a deeper dive into `pactl load-module` and the modules 
 
 I decided to name my out-to-Discord sink `"vs-broadcast"` and my in-from-application sink `"vs-splitter"`. I then had to do some investigating with `pactl list` in order to figure out the correct names for my microphone and headphones devices, but once I had them, it was time to construct my commands and run 'em!
 
-### - Commands
+### Commands
 
 ```zsh
 # create sink "vs-broadcast"
@@ -103,7 +103,7 @@ Enter PulseEffects - or rather, I guess it's called Easy Effects these days? In 
 
 PulseEffects creates several virtual sinks of its own, and at this point it was starting to become difficult again to keep track of all the devices and their connections, even though I had my diagrams and even though the devices and sinks in `pavucontrol` were named different, recognizable things. I began wishing for a graphical way to configure these settings, and I found one!
 
-### - What luck, a graphical editor!
+### What luck, a graphical editor!
 
 I came across the [pagraphcontrol github repo](https://github.com/futpib/pagraphcontrol), and while there doesn't seem to be a PPA for my distro (I'm running Linux Mint 20.2 at the time of this writing), it was easy to clone down the repo and install/build/run the project with `yarn`.
 

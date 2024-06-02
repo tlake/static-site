@@ -79,7 +79,7 @@ If doing so is helpful to someone else, that's added value, but not the point.
 - [update github](#update-github)
 - [local cleanup](#local-cleanup)
 
-## - take stock
+## take stock
 
 But first, a note on reading the output from listing keys.
 Consider the following labelled example:
@@ -156,7 +156,7 @@ ssb   rsa4096/D6F32208FCD344C8 2018-05-16 [E]
 The first key is the one that I don't remember the reason for its creation, the second key is the one I had created to sign GitHub commits, and the third key is my workplace key.
 None of these are the key that exists on Keybase, so I'll need to grab that next.
 
-## - import the old key from keybase
+## import the old key from keybase
 
 Import the public key:
 
@@ -204,7 +204,7 @@ ssb   rsa2048/6C444A94152F77FC 2016-11-11 [E] [expires: 2024-11-09]
 ssb   rsa2048/6227D98814ACA2F0 2016-11-11 [SA] [expires: 2024-11-09]
 ```
 
-## - generate a new master key
+## generate a new master key
 
 This `--full-gen-key` flag will enter me into an interactive prompt, and `--expert` exposes otherwise-hidden options.
 I want to use the RSA algorithm and set my own capabilities, so that's the option I'll choose.
@@ -436,7 +436,7 @@ ssb  rsa4096/D3C910B1DE464464
 gpg> save
 ```
 
-## - cross-sign the old and new keys
+## cross-sign the old and new keys
 
 As noted by sungo, to maintain the web of trust I need to first sign the new key with the old key, and then sign the old key with the new key.
 Note my key IDs:
@@ -511,7 +511,7 @@ key "keybase.io/tlake <tlake@keybase.io>" (E3D3AB877ED44CED)
 Really sign? (y/N) y
 ```
 
-## - secure the new key
+## secure the new key
 
 I've created an encrypted container on a USB device using VeraCrypt, and that's going to contain a backup of my personal key.
 In addition, that encrypted containter will be the _only_ location of my private master key.
@@ -630,7 +630,7 @@ ssb   rsa4096/D3C910B1DE464464 2019-04-23 [A] [expires: 2024-04-21]
 
 I'll make sure those special files are encrypted in the USB container, then delete them from my machine.
 
-## - obsolete the old key
+## obsolete the old key
 
 I'll note the keyid that the old key has been obsoleted in favor of.
 
@@ -687,7 +687,7 @@ uid                 [ revoked] Tanner Lake <tanner.lake@gmail.com>
 uid                 [ revoked] keybase.io/tlake <tlake@keybase.io>
 ```
 
-## - update keybase
+## update keybase
 
 I'll add the new key to Keybase:
 
@@ -725,7 +725,7 @@ $ keybase pgp drop '0101c1f152a7c66c09ebec1121c4ee088b7422c8688ee875b1273e19dca8
 ▶ INFO   0101c1f152a7c66c09ebec1121c4ee088b7422c8688ee875b1273e19dca8a7d066390a
 ```
 
-## - update github
+## update github
 
 I removed all the GPG keys that were already associated with my account, then used GPG to export the ASCII-armor-formatted master public key to stdout.
 
