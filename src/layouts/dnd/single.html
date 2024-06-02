@@ -16,7 +16,8 @@
 {{/* TL CUSTOM: END */}}
 
 {{ $section := .Site.GetPage "section" .Section }}
-<article class="flex-l flex-wrap justify-between mw8 center ph3">
+{{/* TL CUSTOM: Add post_content_classes interpolation. */}}
+<article class="flex-l flex-wrap justify-between mw8 center ph3 {{ $.Param "post_content_classes" }}">
   <header class="mt4 w-100">
 
     <aside class="instapaper_ignoref b helvetica tracked ttu">
