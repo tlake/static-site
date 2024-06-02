@@ -7,7 +7,7 @@ dnd/ref/locations:
   - Avernus
   - Fort Knucklebone
   - The Nine Hells of Baator
-tags:
+dnd/tags:
 title: Fort Knucklebone
 
 ---

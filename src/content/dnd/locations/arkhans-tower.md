@@ -7,7 +7,7 @@ dnd/ref/locations:
   - Arkhan's Tower
   - Avernus
   - The Nine Hells of Baator
-tags:
+dnd/tags:
 title: Arkhan's Tower
 
 ---

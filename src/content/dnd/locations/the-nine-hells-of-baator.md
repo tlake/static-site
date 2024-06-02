@@ -12,7 +12,7 @@ dnd/ref/locations:
   - Phlegethos
   - Stygia
   - The Nine Hells of Baator
-tags:
+dnd/tags:
 title: The Nine Hells of Baator
 ---
 

@@ -7,7 +7,7 @@ dnd/ref/locations:
   - Avernus
   - The Nine Hells of Baator
   - The Wandering Emporium
-tags:
+dnd/tags:
 title: The Wandering Emporium
 
 ---

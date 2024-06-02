@@ -3,7 +3,7 @@ date: 2022-10-20
 dnd/ref/characters:
 dnd/ref/locations:
   - The Court of Stars
-tags:
+dnd/tags:
 title: The Court of Stars
 ---
 

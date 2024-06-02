@@ -3,7 +3,7 @@ date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
   - Minauros
-tags:
+dnd/tags:
 title: Minauros
 ---
 

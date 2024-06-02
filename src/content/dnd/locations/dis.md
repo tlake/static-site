@@ -3,7 +3,7 @@ date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
   - Dis
-tags:
+dnd/tags:
 title: Dis
 ---
 

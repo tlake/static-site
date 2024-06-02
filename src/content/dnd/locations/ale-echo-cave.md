@@ -4,7 +4,7 @@ date: 2023-08-23
 dnd/ref/characters:
 dnd/ref/locations:
   - Ale Echo Cave
-tags:
+dnd/tags:
 title: Ale Echo Cave
 
 ---

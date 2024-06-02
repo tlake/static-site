@@ -3,7 +3,7 @@ date: 2022-10-20
 dnd/ref/characters:
 dnd/ref/locations:
   - Feywild
-tags:
+dnd/tags:
 title: The Feywild
 ---
 

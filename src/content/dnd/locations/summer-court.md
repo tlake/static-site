@@ -3,7 +3,7 @@ date: 2022-10-20
 dnd/ref/characters:
 dnd/ref/locations:
   - Summer Court
-tags:
+dnd/tags:
 title: Summer Court
 ---
 

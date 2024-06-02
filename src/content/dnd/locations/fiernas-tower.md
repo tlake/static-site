@@ -3,7 +3,7 @@ date: 2022-10-20
 dnd/ref/characters:
 dnd/ref/locations:
   - Fierna's Tower
-tags:
+dnd/tags:
 title: Fierna's Tower
 ---
 
