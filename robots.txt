@@ -2,17 +2,33 @@ User-agent: *
 
 Disallow: /dnd/ref/characters/
 
-Disallow: /dnd/ref/characters/ffywellyn/
+Disallow: /dnd/ref/characters/hayne/
+
+Disallow: /dnd/ref/characters/lloy/
 
 Disallow: /dnd/ref/locations/
+
+Disallow: /tags/my/dnd/campaigns/import_campaign/
+
+Disallow: /tags/my/dnd/campaigns/import_campaign/sessions/
+
+Disallow: /dnd/ref/characters/nyx/
+
+Disallow: /dnd/posts/2024-05-22/seasonal-destinations/
+
+Disallow: /tags/
+
+Disallow: /dnd/ref/locations/the-feywild/
+
+Disallow: /dnd/ref/characters/willoughby-the-whether-gnome/
+
+Disallow: /dnd/ref/characters/ffywellyn/
 
 Disallow: /dnd/ref/characters/soliyandar/
 
 Disallow: /dnd/posts/2024/05/22/soliyandar-more-like-so-long-yandar/
 
 Disallow: /dnd/ref/locations/the-briarheart/
-
-Disallow: /dnd/ref/locations/the-feywild/
 
 Disallow: /dnd/ref/characters/tom/
 
@@ -23,8 +39,6 @@ Disallow: /dnd/posts/2024-04-03/of-fire-water-branch-and-bow/
 Disallow: /dnd/ref/characters/soliandar/
 
 Disallow: /dnd/posts/2024-03-20/go-shawty/
-
-Disallow: /dnd/ref/characters/nyx/
 
 Disallow: /dnd/ref/characters/the-dj/
 
@@ -39,8 +53,6 @@ Disallow: /dnd/ref/characters/lyra-farsong/
 Disallow: /dnd/ref/characters/oberon/
 
 Disallow: /dnd/ref/characters/queen-titania/
-
-Disallow: /dnd/ref/characters/willoughby-the-whether-gnome/
 
 Disallow: /dnd/ref/characters/mountain/
 
@@ -104,11 +116,7 @@ Disallow: /dnd/ref/characters/harion/
 
 Disallow: /dnd/npcs/harion/
 
-Disallow: /tags/my/dnd/campaigns/import_campaign/
-
 Disallow: /tags/my/dnd/campaigns/import_campaign/characters/npc/
-
-Disallow: /tags/
 
 Disallow: /dnd/ref/locations/ale-echo-cave/
 
@@ -479,8 +487,6 @@ Disallow: /dnd/ref/locations/phlegethos/
 Disallow: /dnd/ref/characters/tymphal/
 
 Disallow: /dnd/posts/2022/03/16/2022-03-16/
-
-Disallow: /tags/my/dnd/campaigns/import_campaign/sessions/
 
 Disallow: /dnd/posts/2022/02/16/2022-02-16/
 
