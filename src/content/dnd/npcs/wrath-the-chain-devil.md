@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Wrath
@@ -6,9 +7,10 @@ dnd/ref/locations:
   - The Nine Hells of Baator
   - Jangling Hiter
   - Minauros
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+  - npc
 title: Wrath the Chain Devil
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

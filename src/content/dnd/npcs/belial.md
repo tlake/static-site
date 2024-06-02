@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Belial
@@ -7,9 +8,10 @@ dnd/ref/locations:
   - The Nine Hells of Baator
   - Fierna's Tower
   - Phlegethos
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+  - npc
 title: Belial
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

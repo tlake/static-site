@@ -5,8 +5,9 @@ dnd/ref/characters:
   - Aunt Lyra
   - Gimble the Diviner
 dnd/ref/locations:
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - ally
+  - npc
 title: Aunt Lyra
 
 ---

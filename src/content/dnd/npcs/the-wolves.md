@@ -5,8 +5,8 @@ dnd/ref/characters:
   - The Wolves
 dnd/ref/locations:
   - Marea
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: The Wolves
 
 ---

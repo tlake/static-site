@@ -1,4 +1,5 @@
 ---
+
 date: "2022-02-02"
 dnd/ref/characters:
   - Gelfondi
@@ -7,9 +8,10 @@ dnd/ref/locations:
   - The Nine Hells of Baator
   - Fierna's Tower
   - Phlegethos
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Gelfondi
+
 ---
 
 

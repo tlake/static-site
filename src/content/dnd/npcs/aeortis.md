@@ -1,13 +1,16 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Aeortis
 dnd/ref/locations:
   - The Nine Hells of Baator
   - Phlegethos
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - npc
 title: Aeortis
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

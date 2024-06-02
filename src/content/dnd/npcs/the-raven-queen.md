@@ -4,8 +4,8 @@ date: 2020-08-22
 dnd/ref/characters:
   - The Raven Queen
 dnd/ref/locations:
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: The Raven Queen
 
 ---

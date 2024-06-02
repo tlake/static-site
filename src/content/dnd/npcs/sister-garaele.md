@@ -1,12 +1,15 @@
 ---
+
 dnd/ref/characters:
   - Garaele
 dnd/ref/locations:
   - Phandalin
-mortality: alive
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - mortality:alive
+  - npc
 title: Sister Garaele
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

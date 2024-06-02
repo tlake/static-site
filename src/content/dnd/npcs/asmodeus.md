@@ -6,8 +6,8 @@ dnd/ref/characters:
 dnd/ref/locations:
   - Nessus
   - The Nine Hells of Baator
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Asmodeus
 
 ---

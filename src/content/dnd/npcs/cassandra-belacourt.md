@@ -1,4 +1,5 @@
 ---
+
 date: 2020-08-22
 dnd/ref/characters:
   - Cassandra Belacourt
@@ -7,10 +8,12 @@ dnd/ref/locations:
   - The Nine Hells of Baator
   - Candlekeep
   - Mount Celestia
-mortality: alive
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - mortality:alive
+  - npc
 title: Cassandra Belacourt
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

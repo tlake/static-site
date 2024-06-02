@@ -5,8 +5,8 @@ dnd/ref/characters:
   - Khe'ril Hammerbind
 dnd/ref/locations:
   - Candlekeep
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Khe'ril Hammerbind
 
 ---

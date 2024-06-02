@@ -1,13 +1,16 @@
 ---
-mortality: deceased
+
 dnd/ref/characters:
   - Nundro Rockseeker
 dnd/ref/locations:
   - Phandalin
   - Wave Echo Cave
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - mortality:deceased
+  - npc
 title: Nundro Rockseeker
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

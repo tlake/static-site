@@ -1,12 +1,15 @@
 ---
+
 date: "2022-12-07"
 dnd/ref/characters:
   - Elian
 dnd/ref/locations:
   - Neverwinter
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - ally
+  - npc
 title: Master Elian Amaadon
+
 ---
 
 # Master Elian Amaadon

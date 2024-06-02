@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Magrin
@@ -8,9 +9,10 @@ dnd/ref/locations:
   - Fierna's Tower
   - Phlegethos
   - Tymphalos
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+  - npc
 title: Magrin
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

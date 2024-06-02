@@ -1,15 +1,17 @@
 ---
-mortality: alive
+
 dnd/ref/characters:
   - Mirna Dendrar
 dnd/ref/locations:
   - Thundertree
   - Tresendar Manor
   - Phandalin
-places: Phandalin
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - mortality:alive
+  - npc
 title: Mirna Dendrar
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

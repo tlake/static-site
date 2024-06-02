@@ -1,4 +1,5 @@
 ---
+
 date: "2021-12-27"
 dnd/ref/characters:
   - Magnanimy
@@ -7,9 +8,10 @@ dnd/ref/locations:
   - The Nine Hells of Baator
   - Phlegethos
   - The Brimstone
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+  - npc
 title: Magnanimy
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

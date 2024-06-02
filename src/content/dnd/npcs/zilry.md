@@ -1,12 +1,14 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Zilry
 dnd/ref/locations:
   - Phandalin
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+  - npc
 title: Zilry
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

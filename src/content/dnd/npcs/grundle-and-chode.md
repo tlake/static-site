@@ -8,8 +8,8 @@ dnd/ref/locations:
   - Avernus
   - The Nine Hells of Baator
   - Waterdeep
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Grundle & Chode
 
 ---

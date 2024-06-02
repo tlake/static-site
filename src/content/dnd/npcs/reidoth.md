@@ -1,11 +1,12 @@
 ---
-mortality: alive
 dnd/ref/characters:
   - Reidoth
 dnd/ref/locations:
   - Thundertree
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - mortality:alive
+  - npc
 title: Reidoth
 ---
 

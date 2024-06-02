@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Psithyron
@@ -7,9 +8,11 @@ dnd/ref/locations:
   - Phandalin
   - Thundertree
   - Tresendar Manor
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - npc
 title: Psithyron
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

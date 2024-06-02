@@ -5,8 +5,8 @@ dnd/ref/characters:
   - Rubella Blackhand
 dnd/ref/locations:
   - Baldur's Gate
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Rubella Blackhand
 
 ---

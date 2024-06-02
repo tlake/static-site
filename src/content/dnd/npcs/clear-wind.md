@@ -1,12 +1,15 @@
 ---
+
 date: "2022-01-08"
 dnd/ref/characters:
   - Clear Wind
 dnd/ref/locations:
   - Shadow Leilon
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - npc
 title: Clear Wind
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)
