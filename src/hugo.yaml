@@ -53,14 +53,14 @@ params:
   - name: "twitter"
     url: "https://twitter.com/tanotaur"
   background_color_class: "bg-near-black"
-  body_classes: "nested-links avenir bg-black light-gray"
+  body_classes: "nested-links avenir bg-black moon-gray"
   custom_css:
   - "css/custom.css"
   list_classes: "bg-near-black"
   mainSections:
-  post_content_classes: "avenir bg-black light-gray"
-  text_color: "avenir bg-black light-gray"
-  toc_classes: "bg-black light-gray"
+  post_content_classes: "avenir bg-near-black moon-gray"
+  text_color: "avenir bg-black moon-gray"
+  toc_classes: "bg-near-black moon-gray"
   #primary_bg_color_class: "bg-black-80"
   #primary_font_color_class: "moon-gray"
   #secondary_bg_color_class: "bg-near-black"
