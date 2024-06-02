@@ -8,15 +8,9 @@ Disallow: /dnd/ref/characters/lloy/
 
 Disallow: /dnd/ref/locations/
 
-Disallow: /tags/my/dnd/campaigns/import_campaign/
-
-Disallow: /tags/my/dnd/campaigns/import_campaign/sessions/
-
 Disallow: /dnd/ref/characters/nyx/
 
 Disallow: /dnd/posts/2024-05-22/seasonal-destinations/
-
-Disallow: /tags/
 
 Disallow: /dnd/ref/locations/the-feywild/
 
@@ -116,7 +110,9 @@ Disallow: /dnd/ref/characters/harion/
 
 Disallow: /dnd/npcs/harion/
 
-Disallow: /tags/my/dnd/campaigns/import_campaign/characters/npc/
+Disallow: /dnd/tags/npc/
+
+Disallow: /dnd/tags/
 
 Disallow: /dnd/ref/locations/ale-echo-cave/
 
@@ -228,6 +224,8 @@ Disallow: /dnd/ref/characters/rinnthalas-liadon/
 
 Disallow: /dnd/npcs/brooke/
 
+Disallow: /dnd/tags/mortalityalive/
+
 Disallow: /dnd/posts/2023/05/10/mea-culpa/
 
 Disallow: /dnd/posts/2023/04/26/vengeance-denied/
@@ -292,7 +290,11 @@ Disallow: /tags/hsts/
 
 Disallow: /tags/nginx/
 
+Disallow: /tags/
+
 Disallow: /tags/traefik/
+
+Disallow: /dnd/tags/ally/
 
 Disallow: /dnd/ref/characters/cause-and-effect/
 
@@ -496,6 +498,8 @@ Disallow: /dnd/ref/characters/cracks/
 
 Disallow: /dnd/ref/characters/humphrey/
 
+Disallow: /dnd/tags/my/dnd/campaigns/import_campaign/sessions/
+
 Disallow: /dnd/npcs/gelfondi/
 
 Disallow: /dnd/posts/2022/01/19/2022-01-19/
@@ -512,10 +516,6 @@ Disallow: /dnd/ref/characters/eliriontar/
 
 Disallow: /dnd/npcs/eliriontar/
 
-Disallow: /tags/my/dnd/campaigns/import_campaign/characters/npc/ally/
-
-Disallow: /tags/my/dnd/campaigns/import_campaign/characters/npc/other/
-
 Disallow: /dnd/ref/locations/the-jade-arbor/
 
 Disallow: /dnd/ref/characters/aeortis/
@@ -529,6 +529,8 @@ Disallow: /dnd/npcs/belial/
 Disallow: /dnd/npcs/caerwyn-cadogan/
 
 Disallow: /dnd/npcs/carmen/
+
+Disallow: /dnd/tags/enemy/
 
 Disallow: /dnd/npcs/fierna/
 
@@ -549,8 +551,6 @@ Disallow: /dnd/npcs/magrin/
 Disallow: /dnd/ref/characters/melkor/
 
 Disallow: /dnd/npcs/melkor/
-
-Disallow: /tags/my/dnd/campaigns/import_campaign/characters/npc/enemy/
 
 Disallow: /dnd/npcs/nyx/
 
@@ -922,6 +922,8 @@ Disallow: /dnd/archive/2016-06-03_the-landing-page/
 
 Disallow: /dnd/locations/phandalin/
 
+Disallow: /dnd/tags/active/
+
 Disallow: /dnd/characters/
 
 Disallow: /dnd/characters/gimble/dilemma-at-the-aboleths-lair/
@@ -931,6 +933,8 @@ Disallow: /dnd/ref/characters/finn/
 Disallow: /dnd/characters/finn/
 
 Disallow: /dnd/ref/characters/garaele/
+
+Disallow: /dnd/tags/gimble/
 
 Disallow: /dnd/characters/gimble/gimble-became-lawful-evil-in-avernus/
 
@@ -958,6 +962,8 @@ Disallow: /dnd/ref/characters/horns/
 
 Disallow: /dnd/characters/horns/
 
+Disallow: /dnd/tags/inactive/
+
 Disallow: /dnd/ref/characters/ivor-borst/
 
 Disallow: /dnd/characters/ivor-borst/
@@ -978,13 +984,7 @@ Disallow: /dnd/characters/mindartis/
 
 Disallow: /dnd/npcs/mirna-dendrar/
 
-Disallow: /tags/my/dnd/campaigns/import_campaign/characters/gimble/
-
-Disallow: /tags/my/dnd/campaigns/import_campaign/characters/main/active/
-
-Disallow: /tags/my/dnd/campaigns/import_campaign/characters/main/inactive/
-
-Disallow: /tags/my/dnd/campaigns/import_campaign/characters/rinn/
+Disallow: /dnd/tags/mortalitydeceased/
 
 Disallow: /dnd/ref/characters/nezznar/
 
@@ -1006,6 +1006,8 @@ Disallow: /dnd/ref/characters/orsik-stoneskin/
 
 Disallow: /dnd/characters/orsik-stoneskin/
 
+Disallow: /dnd/tags/player_character/
+
 Disallow: /dnd/posts/
 
 Disallow: /dnd/ref/characters/reidoth/
@@ -1019,6 +1021,8 @@ Disallow: /dnd/ref/characters/sildar-hallwinter/
 Disallow: /dnd/npcs/sildar-hallwinter/
 
 Disallow: /dnd/npcs/sister-garaele/
+
+Disallow: /dnd/tags/speciesgnome/
 
 Disallow: /dnd/ref/characters/tharden-rockseeker/
 
