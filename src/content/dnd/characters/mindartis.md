@@ -1,10 +1,13 @@
 ---
+
 dnd/ref/characters:
   - Mindartis
 dnd/ref/locations:
-tags:
-- my/DND/campaigns/import_campaign/characters/main/inactive
+dnd/tags:
+  - inactive
+  - player_character
 title: Mindartis
+
 ---
 
 ## Mindartis

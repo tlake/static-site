@@ -5,8 +5,8 @@ dnd/ref/characters:
   - {{ default .Name .Site.Params.Name | title }}
 dnd/ref/locations:
 mortality: alive
-tags:
-  - my/DND/campaigns/import_campaign/characters
+dnd/tags:
+  - character
 title: {{ default .Name .Site.Params.Name | title }}
 
 ---

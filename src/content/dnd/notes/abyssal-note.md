@@ -1,7 +1,10 @@
 ---
+
 date: 2022-09-28
+dnd/tags:
 layout: "one-off"
 title: "Val's Abyssal Note"
+
 ---
 
 _I've fought through the haze for what I fear will be the last time. I hope there remain moments enough to draft this warning and to scatter it far enough beyond my reach._

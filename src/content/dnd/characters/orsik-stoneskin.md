@@ -1,10 +1,13 @@
 ---
+
 dnd/ref/characters:
   - Orsik Stoneskin
 dnd/ref/locations:
-tags:
-- my/DND/campaigns/import_campaign/characters/main/inactive
+dnd/tags:
+  - inactive
+  - player_character
 title: Orsik Stoneskin
+
 ---
 
 ## Orsik Stoneskin

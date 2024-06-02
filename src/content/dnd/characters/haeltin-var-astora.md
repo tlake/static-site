@@ -1,11 +1,14 @@
 ---
+
 dnd/ref/characters:
   - Haeltin Var Astora
 dnd/ref/locations:
-mortality: alive
-tags:
-- my/DND/campaigns/import_campaign/characters/main/active
+dnd/tags:
+  - active
+  - mortality:alive
+  - player_character
 title: Haeltin Var Astora
+
 ---
 
 ## Haeltin Var Astora

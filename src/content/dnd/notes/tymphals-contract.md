@@ -1,9 +1,10 @@
 ---
+
 date: 2021-10-27
+dnd/tags:
 source: https://docs.google.com/document/d/1SOft9v4JEnBLHwaAZcMmtuowe0d5fghqJCZ6FuFT9F8/edit#heading=h.upx4bkg33os0
-tags:
-- my/DND/campaigns/import_campaign
 title: Tymphal's Contract
+
 ---
 
 

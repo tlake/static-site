@@ -3,10 +3,12 @@
 dnd/ref/characters:
   - Gimble the Diviner
 dnd/ref/locations:
-mortality: alive
-race: Gnome
-tags:
-- my/DND/campaigns/import_campaign/characters/Gimble
+dnd/tags:
+  - active
+  - gimble
+  - mortality:alive
+  - player_character
+  - species:gnome
 title: Gimble the Diviner
 
 ---

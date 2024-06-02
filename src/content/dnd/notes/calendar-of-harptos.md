@@ -1,6 +1,9 @@
 ---
+
 title: The Calendar of Harptos
 date: 2016-06-03T09:20:09-07:00
+dnd/tags:
+
 ---
 
 _Information in this article is pulled from Sword Coast Adventurer's Guide, pages 14-15._
