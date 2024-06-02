@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Zarinor
@@ -6,9 +7,10 @@ dnd/ref/locations:
   - The Nine Hells of Baator
   - Fierna's Tower
   - Phlegethos
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+  - npc
 title: Zarinor
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

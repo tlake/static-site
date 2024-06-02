@@ -74,6 +74,7 @@ services:
 summaryLength: 30
 taxonomies:
   character: "dnd/ref/characters"
+  dnd_tag: "dnd/tags"
   location: "dnd/ref/locations"
   tag: "tags"
 theme: "ananke"

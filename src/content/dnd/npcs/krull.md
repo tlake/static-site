@@ -8,8 +8,8 @@ dnd/ref/locations:
   - Arkhan's Tower
   - Avernus
   - The Nine Hells of Baator
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Krull
 
 ---

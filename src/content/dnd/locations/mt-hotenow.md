@@ -3,7 +3,7 @@ date: 2022-10-20
 dnd/ref/characters:
 dnd/ref/locations:
   - Mount Hotenow
-tags:
+dnd/tags:
 title: Mount Hotenow
 ---
 

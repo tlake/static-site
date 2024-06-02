@@ -1,12 +1,14 @@
 ---
+
 date: 2023-01-04
 dnd/ref/characters:
   - Innocence
 dnd/ref/locations:
   - Neverwinter
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Innocence
+
 ---
 
 ## Description

@@ -1,11 +1,14 @@
 ---
-mortality: alive
+
 dnd/ref/characters:
   - Finn
 dnd/ref/locations:
-tags:
-  - my/DND/campaigns/import_campaign/characters/main/active
+dnd/tags:
+  - active
+  - mortality:alive
+  - player_character
 title: Finn
+
 ---
 
 ![Pasted image 20211106142218.png](/images/dnd/pc-finn.png)

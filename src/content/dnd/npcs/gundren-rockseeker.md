@@ -1,14 +1,17 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Gundren Rockseeker
 dnd/ref/locations:
   - Phandalin
   - Wave Echo Cave
-mortality: alive
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - mortality:alive
+  - npc
 title: Gundren Rockseeker
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

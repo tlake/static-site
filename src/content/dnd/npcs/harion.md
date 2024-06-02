@@ -4,8 +4,8 @@ date: 2023-08-25
 dnd/ref/characters:
   - Harion
 dnd/ref/locations:
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Harion
 
 ---

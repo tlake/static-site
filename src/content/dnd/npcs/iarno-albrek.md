@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Iarno Albrek
@@ -6,9 +7,11 @@ dnd/ref/locations:
   - Phandalin
   - Wave Echo Cave
 mortality: deceased
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/enemy
+dnd/tags:
+  - enemy
+  - npc
 title: Iarno Albrek
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

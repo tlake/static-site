@@ -5,7 +5,7 @@ dnd/ref/characters:
 dnd/ref/locations:
   - Phandalin
   - Tresendar Manor
-tags:
+dnd/tags:
 title: Tresendar Manor
 
 ---

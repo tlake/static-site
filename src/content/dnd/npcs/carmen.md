@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Carmen
@@ -6,9 +7,11 @@ dnd/ref/locations:
   - Abriymoch
   - The Nine Hells of Baator
   - Phlegethos
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - npc
 title: Carmen
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

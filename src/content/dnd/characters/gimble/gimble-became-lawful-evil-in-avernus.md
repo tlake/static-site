@@ -1,7 +1,8 @@
 ---
 
-tags:
-- my/DND/campaigns/import_campaign/characters/Gimble
+dnd/tags:
+  - gimble
+  - player_character
 title: Gimble Became Lawful Evil in Avernus
 
 ---

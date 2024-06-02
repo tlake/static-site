@@ -1,12 +1,15 @@
 ---
-mortality: alive
+
 dnd/ref/characters:
   - Sildar Hallwinter
 dnd/ref/locations:
   - Phandalin
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - mortality:alive
+  - npc
 title: Sildar Hallwinter
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

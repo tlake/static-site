@@ -5,8 +5,8 @@ dnd/ref/characters:
   - Jay the Clerk
 dnd/ref/locations:
   - Candlekeep
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Jay the Clerk
 
 ---

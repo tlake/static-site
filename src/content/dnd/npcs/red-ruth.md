@@ -7,8 +7,8 @@ dnd/ref/locations:
   - Avernus
   - The Nine Hells of Baator
   - The Bone Brambles
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Red Ruth
 
 ---

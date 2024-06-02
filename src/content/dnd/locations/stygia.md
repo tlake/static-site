@@ -4,7 +4,7 @@ date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
   - Stygia
-tags:
+dnd/tags:
 title: Stygia
 
 ---

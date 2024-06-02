@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Ignaroz
@@ -7,9 +8,11 @@ dnd/ref/locations:
   - The Nine Hells of Baator
   - Phlegethos
   - Tymphalos
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - npc
 title: Ignaroz
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

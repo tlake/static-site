@@ -6,8 +6,8 @@ dnd/ref/characters:
   - Tasha
 dnd/ref/locations:
   - The Feywild
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Tasha
 
 ---

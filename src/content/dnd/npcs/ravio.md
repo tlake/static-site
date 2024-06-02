@@ -4,8 +4,8 @@ date: 2023-02-18
 dnd/ref/characters:
   - Ravio
 dnd/ref/locations:
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Ravio
 
 ---

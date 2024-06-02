@@ -4,8 +4,8 @@ date: 2023-06-21
 dnd/ref/characters:
   - Harriet
 dnd/ref/locations:
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Harriet
 
 ---

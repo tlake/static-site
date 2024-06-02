@@ -3,7 +3,7 @@ date: 2022-10-20
 dnd/ref/characters:
 dnd/ref/locations:
   - Old Owl Well
-tags:
+dnd/tags:
 title: Old Owl Well
 ---
 

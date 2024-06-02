@@ -5,7 +5,7 @@ dnd/ref/characters:
   - Primus
 dnd/ref/locations:
   - Mechanus
-tags:
+dnd/tags:
 title: Mechanus
 
 ---

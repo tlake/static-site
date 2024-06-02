@@ -4,7 +4,7 @@ date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
   - Cania
-tags:
+dnd/tags:
 title: Cania
 
 ---

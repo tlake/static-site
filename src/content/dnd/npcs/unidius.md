@@ -1,13 +1,15 @@
 ---
+
 date: 2022-10-06
 dnd/ref/characters:
   - Unidius
 dnd/ref/locations:
   - Neverwinter
   - The Cloak Tower
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Unidius
+
 ---
 
 ## Description

@@ -1,13 +1,15 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Melkor
 dnd/ref/locations:
   - The Nine Hells of Baator
   - Phlegethos
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+- npc
 title: Melkor
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

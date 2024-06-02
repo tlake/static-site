@@ -4,7 +4,7 @@ date: 2023-08-23
 dnd/ref/characters:
 dnd/ref/locations:
   - Marea
-tags:
+dnd/tags:
 title: Marea
 
 ---

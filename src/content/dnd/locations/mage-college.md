@@ -1,6 +1,6 @@
 ---
 date: 2023-01-04
-tags:
+dnd/tags:
 title: Mage-College
 ---
 

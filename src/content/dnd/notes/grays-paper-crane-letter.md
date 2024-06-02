@@ -3,7 +3,7 @@
 date: 2023-02-18
 dnd/ref/characters:
 dnd/ref/locations:
-tags:
+dnd/tags:
 title: Paper Crane Letter to Gray
 
 ---

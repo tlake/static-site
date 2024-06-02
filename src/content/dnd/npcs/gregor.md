@@ -1,13 +1,15 @@
 ---
+
 date: 2022-10-06
 dnd/ref/characters:
   - Gregor
   - The Vigil
 dnd/ref/locations:
   - Sigil
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Gregor
+
 ---
 
 ## Description

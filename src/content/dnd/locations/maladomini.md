@@ -4,7 +4,7 @@ date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
   - Maladomini
-tags:
+dnd/tags:
 title: Maladomini
 
 ---

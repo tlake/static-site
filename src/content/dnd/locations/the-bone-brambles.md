@@ -5,6 +5,7 @@ dnd/ref/characters:
   - Red Ruth
 dnd/ref/locations:
   - The Bone Brambles
+dnd/tags:
 title: The Bone Brambles
 
 ---

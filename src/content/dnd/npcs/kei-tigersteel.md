@@ -5,8 +5,8 @@ dnd/ref/characters:
   - Kei Tigersteel
 dnd/ref/locations:
   - Candlekeep
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Kei Tigersteel
 
 ---

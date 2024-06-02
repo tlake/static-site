@@ -1,13 +1,15 @@
 ---
+
 date: "2022-01-08"
 dnd/ref/characters:
   - Elirion'tar
 dnd/ref/locations:
   - Neverwinter
   - The Jade Arbor
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+  - npc
 title: Elirion'tar
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

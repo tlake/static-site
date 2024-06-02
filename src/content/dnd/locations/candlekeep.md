@@ -4,7 +4,7 @@ date: 2020-08-22
 dnd/ref/characters:
 dnd/ref/locations:
   - Candlekeep
-tags:
+dnd/tags:
 title: Candlekeep
 
 ---

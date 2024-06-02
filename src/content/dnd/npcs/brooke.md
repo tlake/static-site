@@ -1,13 +1,15 @@
 ---
+
 date: "2023-05-12"
 dnd/ref/characters:
   - Brooke
 dnd/ref/locations:
   - Phandalin
-mortality: alive
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - mortality:alive
+  - npc
 title: Brooke
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

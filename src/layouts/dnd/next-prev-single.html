@@ -29,14 +29,14 @@
 <div class="next-prev-post-nav">
   <div class="next-post">
     {{- with $next }}
-    <a class='link {{ $.Param "secondary_font_color_class" | default "black" }} dim' href="{{ $next.RelPermalink }}">
+    <a class='link {{ $.Param "post_content_classes" | default "black" }} dim' href="{{ $next.RelPermalink }}">
       « {{ $next.Title | truncate 50 "..." }}</a>
     {{ end }}
   </div>
 
   <div class="prev-post">
     {{- with $prev }}
-    <a class='link {{ $.Param "secondary_font_color_class" | default "black" }} dim' href="{{ $prev.RelPermalink }}">
+    <a class='link {{ $.Param "post_content_classes" | default "black" }} dim' href="{{ $prev.RelPermalink }}">
       {{ $prev.Title | truncate 50 "..."}} »</a>
     {{ end }}
   </div>

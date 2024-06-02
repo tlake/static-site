@@ -4,8 +4,8 @@ date: 2022-08-17
 dnd/ref/characters:
   - Trynna Briegarden
 dnd/ref/locations:
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
+dnd/tags:
+  - npc
 title: Trynna Briegarden
 
 ---

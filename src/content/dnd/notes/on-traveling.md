@@ -3,7 +3,7 @@
 date: 2023-05-24
 dnd/ref/characters:
 dnd/ref/locations:
-tags:
+dnd/tags:
 title: On Traveling
 
 ---

@@ -1,8 +1,10 @@
 ---
+
 date: 2023-01-04
-tags:
-  - my/DND/campaigns/import_campaign/characters/NPC
-title: Oneshoes-Detective-Agency
+dnd/tags:
+  - npc
+title: Oneshoe's Detective Agency
+
 ---
 
 ## Description

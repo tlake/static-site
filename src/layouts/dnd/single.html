@@ -77,8 +77,11 @@
     {{ end }}
   </header>
 
-  {{/* TL CUSTOM: Wrap w-two-thirds-l class in conditional. END */}}
-  <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-100-l">
+  {{/* TL CUSTOM:
+    - Wrap w-two-thirds-l class in conditional.
+    - Add "mt4" to provide extra offset between header and div.
+  END */}}
+  <div class="mt4 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-100-l">
 
     {{/* TL CUSTOM: Display previous post's summary content. */}}
     {{- if eq .CurrentSection.Path "/dnd/posts" }}
@@ -97,7 +100,13 @@
 
     {{- .Content -}}
 
-    {{- partial "tags.html" . -}}
+  {{/* TL CUSTOM: Put nav, related, tags, comments in footer element
+    and end the div earlier (it used to end where the new footer
+    now ends). */}}
+  </div>
+
+  <footer class="mt4 w-100">
+  {{/* TL CUSTOM: END */}}
 
     {{/* TL CUSTOM: Display custom next/previous section. */}}
     <div class="center f4 nested-copy-line-height lh-copy">
@@ -106,8 +115,14 @@
     {{/* TL CUSTOM: END */}}
 
     {{/* TL CUSTOM: Display custom related section. */}}
+    <div class="center f4 nested-copy-line-height lh-copy">
     {{- .Render "related" }}
+    </div>
     {{/* TL CUSTOM: END */}}
+
+    <div class="center f4 nested-copy-line-height lh-copy">
+    {{- .Render "tags" -}}
+    </div>
 
     <div class="mt6 instapaper_ignoref">
     {{ if .Site.Config.Services.Disqus.Shortname }}
@@ -118,7 +133,7 @@
     {{ end }}
     </div>
 
-  </div>
+  </footer>
 
 </article>
 

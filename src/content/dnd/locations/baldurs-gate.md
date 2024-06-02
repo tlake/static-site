@@ -4,7 +4,7 @@ date: 2023-08-23
 dnd/ref/characters:
 dnd/ref/locations:
   - Baldur's Gate
-tags:
+dnd/tags:
 title: Baldur's Gate
 
 ---

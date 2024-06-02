@@ -3,7 +3,7 @@ date: 2020-07-10
 dnd/ref/characters:
 dnd/ref/locations:
   - Avernus
-tags:
+dnd/tags:
 title: Avernus
 ---
 

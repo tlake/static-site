@@ -1,12 +1,15 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Nyx
 dnd/ref/locations:
   - The Sword Coast
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/ally
+dnd/tags:
+  - ally
+  - npc
 title: Nyx
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

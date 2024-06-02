@@ -4,7 +4,7 @@ date: 2023-08-23
 dnd/ref/characters:
 dnd/ref/locations:
   - Mount Celestia
-tags:
+dnd/tags:
 title: Mount Celestia
 
 ---

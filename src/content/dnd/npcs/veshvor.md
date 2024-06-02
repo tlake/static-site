@@ -1,4 +1,5 @@
 ---
+
 date: "2022-01-07"
 dnd/ref/characters:
   - Veshvor
@@ -7,9 +8,10 @@ dnd/ref/locations:
   - The Nine Hells of Baator
   - Phlegethos
   - The Brimstone
-tags:
-- my/DND/campaigns/import_campaign/characters/NPC/other
+dnd/tags:
+  - npc
 title: Veshvor
+
 ---
 
 [Import Campaign Characters](/dnd/characters/)

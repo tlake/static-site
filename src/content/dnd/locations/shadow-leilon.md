@@ -4,7 +4,7 @@ dnd/ref/characters:
   - Hawthorne MacDarmott
 dnd/ref/locations:
   - Shadow Leilon
-tags:
+dnd/tags:
 title: shadow-Leilon
 ---
 
