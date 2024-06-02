@@ -1,0 +1,31 @@
+{{/* TL CUSTOM: Add debug info. */}}
+{{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
+<ul>
+  <li>rendered: _default/summary.html</li>
+</ul>
+{{- end }}
+{{/* TL CUSTOM: END */}}
+
+{{/* TL CUSTOM: Add "list_classes" interpolation. END */}}
+<div class="relative w-100 mb4 {{ $.Param "list_classes" | default "bg-white" }} nested-copy-line-height">
+  {{/* TL CUSTOM: Add "list_classes" interpolation. END */}}
+  <div class="mb3 pa4 {{ $.Param "list_classes" | default "bg-white gray" }} overflow-hidden">
+
+    {{/* TL CUSTOM: Display date instead of section.
+    ORIGINAL CONTENT:
+    <span class="f6 db">{{ humanize .Section }}</span>
+    END ORIGINAL CONTENT. */}}
+
+    <span class="f6 db">{{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}</span>
+    {{/* TL CUSTOM: END */}}
+
+    <h1 class="f3 near-black">
+      <a href="{{ .RelPermalink }}" class="link black dim">
+        {{ .Title }}
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      {{ .Summary  }}
+    </div>
+  </div>
+</div>

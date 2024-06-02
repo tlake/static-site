@@ -1,8 +1,7 @@
 ---
-draft: true
-title: "Raspberry Pi: Backup and NAS"
+
 date: 2019-12-07T10:07:06-08:00
-toc: true,
+draft: true
 tags: [
     "raspberry pi",
     "nas",
@@ -11,6 +10,8 @@ tags: [
     "private cloud",
     "privacy",
 ]
+title: "Raspberry Pi: Backup and NAS"
+
 ---
 
 As part of an effort to take back some amount of control of my own data from the cloud giants (unfortunately I'm talking more about the Googles of the world and less about the gigantic humanoids situated near the top of the [Ordning](https://forgottenrealms.fandom.com/wiki/Ordning_(social_structure))), one of the first tasks I wanted to tackle was just a simple, redundant storage solution for my data.

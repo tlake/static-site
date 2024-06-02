@@ -1,5 +1,5 @@
 ---
-title: 'spring cleaning my digital identity'
+
 date: 2019-04-23T09:19:09-07:00
 tags: [
     'crypto',
@@ -8,7 +8,8 @@ tags: [
     'gpg',
     'github',
 ]
-toc: true
+title: 'spring cleaning my digital identity'
+
 ---
 
 I'd been reading up about [`git-secret`](https://git-secret.io/) and realized that I didn't really grasp what a PGP key is or how to use one (or more).

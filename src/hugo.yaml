@@ -52,8 +52,25 @@ params:
     url: "https://linkedin.com/in/tannerlake"
   - name: "twitter"
     url: "https://twitter.com/tanotaur"
+  background_color_class: "bg-near-black"
+  body_classes: "nested-links avenir bg-black light-gray"
+  custom_css:
+  - "css/custom.css"
+  list_classes: "bg-near-black"
   mainSections:
+  post_content_classes: "avenir bg-black light-gray"
+  text_color: "avenir bg-black light-gray"
+  toc_classes: "bg-black light-gray"
+  #primary_bg_color_class: "bg-black-80"
+  #primary_font_color_class: "moon-gray"
+  #secondary_bg_color_class: "bg-near-black"
+  #secondary_font_color_class: "moon-gray"
+  #tertiary_bg_color_class: "bg-black"
+  #tertiary_font_color_class: "white"
 sectionPagesMenu: "main"
+services:
+  disqus:
+    shortname: "tlake-io"
 summaryLength: 30
 taxonomies:
   character: "dnd/ref/characters"

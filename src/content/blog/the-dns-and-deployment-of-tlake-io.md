@@ -1,11 +1,13 @@
 ---
-title: 'the dns and deployment of tlake.io'
+
 date: 2019-04-18T09:19:09-07:00
 tags: [
     'dns',
     'github',
     'github pages',
 ]
+title: 'the dns and deployment of tlake.io'
+
 ---
 
 ![parked on the bun](/images/parked-on-the-bun.png)

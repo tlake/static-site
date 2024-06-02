@@ -1,3 +1,11 @@
+{{/* TL CUSTOM: This whole file. */}}
+
+{{- if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug") }}
+<ul>
+  <li>rendered: dnd/recap-from-prev-summary.html</li>
+</ul>
+{{- end }}
+
 {{- $dirPages := where .Site.RegularPages "Params.family" .Page.Params.family }}
 
 {{- $curPos := 0 }}
@@ -17,3 +25,5 @@
 <h2>Previously</h2>
 <p>{{ . | markdownify }}</p>
 {{- end }}
+
+{{/* TL CUSTOM: END */}}
