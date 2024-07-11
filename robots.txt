@@ -4,15 +4,23 @@ Disallow: /dnd/ref/characters/
 
 Disallow: /dnd/ref/characters/haeme/
 
+Disallow: /dnd/ref/characters/lady-tiandra/
+
 Disallow: /dnd/ref/characters/lloi/
 
 Disallow: /dnd/ref/locations/
 
 Disallow: /dnd/ref/characters/nyx/
 
-Disallow: /dnd/posts/2024-05-22/seasonal-destinations/
+Disallow: /dnd/ref/characters/queen-titania/
+
+Disallow: /dnd/posts/2024-06-26/spring-break/
 
 Disallow: /dnd/ref/locations/the-feywild/
+
+Disallow: /dnd/ref/characters/the-mad-king/
+
+Disallow: /dnd/posts/2024-05-22/seasonal-destinations/
 
 Disallow: /dnd/ref/characters/willoughby-the-whether-gnome/
 
@@ -45,8 +53,6 @@ Disallow: /dnd/posts/2024-02-07/frozen/
 Disallow: /dnd/ref/characters/lyra-farsong/
 
 Disallow: /dnd/ref/characters/oberon/
-
-Disallow: /dnd/ref/characters/queen-titania/
 
 Disallow: /dnd/ref/characters/mountain/
 
