@@ -2,11 +2,7 @@ User-agent: *
 
 Disallow: /dnd/ref/characters/
 
-Disallow: /dnd/ref/characters/haeme/
-
 Disallow: /dnd/ref/characters/lady-tiandra/
-
-Disallow: /dnd/ref/characters/lloi/
 
 Disallow: /dnd/ref/locations/
 
@@ -14,9 +10,15 @@ Disallow: /dnd/ref/characters/nyx/
 
 Disallow: /dnd/ref/characters/queen-titania/
 
-Disallow: /dnd/posts/2024-06-26/spring-break/
-
 Disallow: /dnd/ref/locations/the-feywild/
+
+Disallow: /dnd/posts/2024-07-10/vision-quest/
+
+Disallow: /dnd/ref/characters/haeme/
+
+Disallow: /dnd/ref/characters/lloi/
+
+Disallow: /dnd/posts/2024-06-26/spring-break/
 
 Disallow: /dnd/ref/characters/the-mad-king/
 
