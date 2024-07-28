@@ -2,45 +2,71 @@ User-agent: *
 
 Disallow: /dnd/ref/characters/
 
-Disallow: /dnd/ref/characters/lady-tiandra/
+Disallow: /dnd/ref/characters/dwynwen/
+
+Disallow: /dnd/npcs/dwynwen/
+
+Disallow: /dnd/ref/characters/eiddwyn/
+
+Disallow: /dnd/npcs/eiddwyn/
+
+Disallow: /dnd/ref/characters/ffywellyn/
+
+Disallow: /dnd/npcs/ffywellyn/
 
 Disallow: /dnd/ref/locations/
+
+Disallow: /dnd/tags/npc/
+
+Disallow: /dnd/ref/characters/soliyandar/
+
+Disallow: /dnd/npcs/soliyandar/
+
+Disallow: /dnd/tags/
+
+Disallow: /dnd/ref/locations/the-briarheart/
+
+Disallow: /dnd/ref/locations/the-feywild/
+
+Disallow: /dnd/ref/characters/the-prince-of-frost/
+
+Disallow: /dnd/npcs/the-prince-of-frost/
+
+Disallow: /dnd/ref/characters/tom/
+
+Disallow: /dnd/ref/characters/lady-tiandra/
 
 Disallow: /dnd/ref/characters/nyx/
 
 Disallow: /dnd/ref/characters/queen-titania/
 
-Disallow: /dnd/ref/locations/the-feywild/
-
 Disallow: /dnd/posts/2024-07-10/vision-quest/
 
 Disallow: /dnd/ref/characters/haeme/
 
+Disallow: /dnd/ref/characters/lady-mayweather/
+
 Disallow: /dnd/ref/characters/lloi/
+
+Disallow: /dnd/notes/song-of-hy-brasil/
 
 Disallow: /dnd/posts/2024-06-26/spring-break/
 
 Disallow: /dnd/ref/characters/the-mad-king/
 
+Disallow: /dnd/ref/locations/the-spring-court/
+
 Disallow: /dnd/posts/2024-05-22/seasonal-destinations/
 
 Disallow: /dnd/ref/characters/willoughby-the-whether-gnome/
 
-Disallow: /dnd/ref/characters/ffywellyn/
-
-Disallow: /dnd/ref/characters/soliyandar/
-
 Disallow: /dnd/posts/2024/05/22/soliyandar-more-like-so-long-yandar/
-
-Disallow: /dnd/ref/locations/the-briarheart/
-
-Disallow: /dnd/ref/characters/tom/
 
 Disallow: /dnd/ref/characters/willoughby/
 
 Disallow: /dnd/posts/2024-04-03/of-fire-water-branch-and-bow/
 
-Disallow: /dnd/ref/characters/soliandar/
+Disallow: /dnd/npcs/tom/
 
 Disallow: /dnd/posts/2024-03-20/go-shawty/
 
@@ -117,10 +143,6 @@ Disallow: /dnd/ref/characters/the-wolves/
 Disallow: /dnd/ref/characters/harion/
 
 Disallow: /dnd/npcs/harion/
-
-Disallow: /dnd/tags/npc/
-
-Disallow: /dnd/tags/
 
 Disallow: /dnd/ref/locations/ale-echo-cave/
 
