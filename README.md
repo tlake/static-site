@@ -26,7 +26,7 @@ To that end, when creating new files, it's recommended to let Hugo create the fi
 This can be done through use of the `-k` flag:
 
 ```bash
-hugo -k [archetype] [filepath]/[filename]
+hugo new -k [archetype] [filepath]/[filename]
 ```
 
 Additionally, depending on the archetype, some configuration can be passed as environment variables (like `HUGO_PARAMS_parameter_name_here` to `hugo new` in order to automatically populate the new file.
