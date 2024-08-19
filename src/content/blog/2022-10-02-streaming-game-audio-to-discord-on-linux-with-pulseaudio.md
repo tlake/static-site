@@ -17,6 +17,7 @@ tags: [
     "streaming",
 ]
 title: "Streaming to Discord on Linux: Managing audio streams via PulseAudio"
+url: /blog/streaming-to-discord-on-linux-managing-audio-streams-via-pulseaudio
 
 ---
 

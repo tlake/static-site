@@ -7,6 +7,7 @@ tags: [
     'github pages',
 ]
 title: 'the dns and deployment of tlake.io'
+url: /blog/the-dns-and-deployment-of-tlake-io
 
 ---
 

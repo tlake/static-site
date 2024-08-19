@@ -8,6 +8,7 @@ tags:
   - nginx
   - hsts
 title: Enabling HSTS for NginX and Traefik
+url: /blog/enabling-hsts-for-nginx-and-traefik
 
 ---
 

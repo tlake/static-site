@@ -11,6 +11,7 @@ tags: [
     "privacy",
 ]
 title: "Raspberry Pi: Backup and NAS"
+url: /blog/raspberry-pi-backup-and-nas
 
 ---
 

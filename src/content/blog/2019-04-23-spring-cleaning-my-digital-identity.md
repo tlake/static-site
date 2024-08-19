@@ -9,6 +9,7 @@ tags: [
     'github',
 ]
 title: 'spring cleaning my digital identity'
+url: /blog/spring-cleaning-my-digital-identity
 
 ---
 
