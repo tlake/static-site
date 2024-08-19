@@ -37,7 +37,7 @@ url: /blog/microk8s-cluster-forwarding-from-one-traefik-instance-to-another
 - Testing/troubleshooting a single migrated application without interrupting other applications
 - Maintaining availability for applications not yet migrated
 
-## The solution: a TCP route and service in the dynamic config file
+## The solution: a TCP router and service in the dynamic config file
 
 Make sure the static config has the file provider enabled:
 
