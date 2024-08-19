@@ -10,8 +10,7 @@ tags:
   - sqlite
   - traefik
   - traefik v3
-
-title: Microk8s Cluster: Databases and NFS Storage
+title: "Microk8s Cluster: Databases and NFS Storage"
 toc: true
 url: /blog/microk8s-cluster-databases-and-nfs-storage
 
