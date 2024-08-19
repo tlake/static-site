@@ -458,7 +458,7 @@ Disallow: /tags/stream/
 
 Disallow: /tags/streaming/
 
-Disallow: /blog/streaming-game-audio-to-discord-on-linux-with-pulseaudio/
+Disallow: /blog/streaming-to-discord-on-linux-managing-audio-streams-via-pulseaudio/
 
 Disallow: /dnd/ref/characters/elian-amaadon/
 
