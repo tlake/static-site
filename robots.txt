@@ -1,5 +1,25 @@
 User-agent: *
 
+Disallow: /tags/mariadb/
+
+Disallow: /tags/microk8s/
+
+Disallow: /blog/microk8s-cluster-databases-and-nfs-storage/
+
+Disallow: /tags/nfs/
+
+Disallow: /tags/postgres/
+
+Disallow: /tags/raspberry-pi/
+
+Disallow: /tags/sqlite/
+
+Disallow: /tags/
+
+Disallow: /tags/traefik/
+
+Disallow: /tags/traefik-v3/
+
 Disallow: /dnd/ref/characters/
 
 Disallow: /dnd/ref/characters/dwynwen/
@@ -319,10 +339,6 @@ Disallow: /blog/enabling-hsts-for-nginx-and-traefik/
 Disallow: /tags/hsts/
 
 Disallow: /tags/nginx/
-
-Disallow: /tags/
-
-Disallow: /tags/traefik/
 
 Disallow: /dnd/tags/ally/
 
