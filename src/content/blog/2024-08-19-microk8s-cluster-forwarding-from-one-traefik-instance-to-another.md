@@ -55,7 +55,7 @@ providers:
 
 Restart the traefik container after editing the static config for it to take effect.
 
-Add the necessary configuration in a dynamic config file.
+Add the necessary configuration in a dynamic config file (solution originally found [on reddit](https://www.reddit.com/r/Traefik/comments/k79hjt/how_to_proxy_from_one_traefik_instance_to_another/).
 This file can be named whatever, as long as it's yaml and as long as it's available in that dynamic directory defined just above.
 
 ```yaml
