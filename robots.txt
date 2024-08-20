@@ -2,13 +2,25 @@ User-agent: *
 
 Disallow: /tags/microk8s/
 
-Disallow: /blog/microk8s-cluster-forwarding-from-one-traefik-instance-to-another/
+Disallow: /blog/microk8s-cluster-sqlite-backups-using-rsync/
+
+Disallow: /tags/nfs/
 
 Disallow: /tags/raspberry-pi/
+
+Disallow: /tags/raspberry-thicket/
+
+Disallow: /tags/rsync/
+
+Disallow: /tags/sqlite/
+
+Disallow: /tags/sqlite3/
 
 Disallow: /tags/
 
 Disallow: /tags/traefik/
+
+Disallow: /blog/microk8s-cluster-forwarding-from-one-traefik-instance-to-another/
 
 Disallow: /tags/traefik-v3/
 
@@ -16,11 +28,7 @@ Disallow: /tags/mariadb/
 
 Disallow: /blog/microk8s-cluster-databases-and-nfs-storage/
 
-Disallow: /tags/nfs/
-
 Disallow: /tags/postgres/
-
-Disallow: /tags/sqlite/
 
 Disallow: /dnd/ref/characters/
 
