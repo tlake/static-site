@@ -1,5 +1,27 @@
 User-agent: *
 
+Disallow: /dnd/ref/characters/
+
+Disallow: /dnd/ref/locations/
+
+Disallow: /dnd/posts/2024/09/18/somebody-order-a-blizzard/
+
+Disallow: /dnd/ref/locations/the-feywild/
+
+Disallow: /dnd/ref/characters/the-prince-of-frost/
+
+Disallow: /dnd/posts/2024/08/23/an-ice-cold-drink/
+
+Disallow: /dnd/ref/characters/brandan/
+
+Disallow: /dnd/ref/characters/brenden/
+
+Disallow: /dnd/ref/characters/kessil/
+
+Disallow: /dnd/ref/characters/lloi/
+
+Disallow: /dnd/ref/characters/maeve/
+
 Disallow: /tags/microk8s/
 
 Disallow: /blog/microk8s-cluster-sqlite-backups-using-rsync/
@@ -30,8 +52,6 @@ Disallow: /blog/microk8s-cluster-databases-and-nfs-storage/
 
 Disallow: /tags/postgres/
 
-Disallow: /dnd/ref/characters/
-
 Disallow: /dnd/ref/characters/dwynwen/
 
 Disallow: /dnd/npcs/dwynwen/
@@ -44,8 +64,6 @@ Disallow: /dnd/ref/characters/ffywellyn/
 
 Disallow: /dnd/npcs/ffywellyn/
 
-Disallow: /dnd/ref/locations/
-
 Disallow: /dnd/tags/npc/
 
 Disallow: /dnd/ref/characters/soliyandar/
@@ -55,10 +73,6 @@ Disallow: /dnd/npcs/soliyandar/
 Disallow: /dnd/tags/
 
 Disallow: /dnd/ref/locations/the-briarheart/
-
-Disallow: /dnd/ref/locations/the-feywild/
-
-Disallow: /dnd/ref/characters/the-prince-of-frost/
 
 Disallow: /dnd/npcs/the-prince-of-frost/
 
@@ -75,8 +89,6 @@ Disallow: /dnd/posts/2024-07-10/vision-quest/
 Disallow: /dnd/ref/characters/haeme/
 
 Disallow: /dnd/ref/characters/lady-mayweather/
-
-Disallow: /dnd/ref/characters/lloi/
 
 Disallow: /dnd/notes/song-of-hy-brasil/
 
