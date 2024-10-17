@@ -2,7 +2,15 @@ User-agent: *
 
 Disallow: /dnd/ref/characters/
 
+Disallow: /dnd/ref/characters/kellis-maccleod/
+
+Disallow: /dnd/ref/characters/kessil-maccleod/
+
+Disallow: /dnd/ref/characters/lloi/
+
 Disallow: /dnd/ref/locations/
+
+Disallow: /dnd/ref/characters/ringtail/
 
 Disallow: /dnd/posts/2024/09/18/somebody-order-a-blizzard/
 
@@ -17,8 +25,6 @@ Disallow: /dnd/ref/characters/brandan/
 Disallow: /dnd/ref/characters/brenden/
 
 Disallow: /dnd/ref/characters/kessil/
-
-Disallow: /dnd/ref/characters/lloi/
 
 Disallow: /dnd/ref/characters/maeve/
 
