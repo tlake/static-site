@@ -2,21 +2,31 @@ User-agent: *
 
 Disallow: /dnd/ref/characters/
 
-Disallow: /dnd/ref/characters/kellis-maccleod/
-
-Disallow: /dnd/ref/characters/kessil-maccleod/
-
-Disallow: /dnd/ref/characters/lloi/
+Disallow: /dnd/ref/characters/ffywellyn/
 
 Disallow: /dnd/ref/locations/
 
-Disallow: /dnd/ref/characters/ringtail/
+Disallow: /dnd/posts/2025/01/08/the-blizzard-redux-part-two/
 
-Disallow: /dnd/posts/2024/09/18/somebody-order-a-blizzard/
+Disallow: /dnd/ref/locations/the-briarheart/
 
 Disallow: /dnd/ref/locations/the-feywild/
 
 Disallow: /dnd/ref/characters/the-prince-of-frost/
+
+Disallow: /dnd/ref/characters/tom/
+
+Disallow: /dnd/ref/characters/lloi/
+
+Disallow: /dnd/posts/2024/10/16/the-blizzard-redux-part-one/
+
+Disallow: /dnd/ref/characters/kellis-maccleod/
+
+Disallow: /dnd/ref/characters/kessil-maccleod/
+
+Disallow: /dnd/ref/characters/ringtail/
+
+Disallow: /dnd/posts/2024/09/18/somebody-order-a-blizzard/
 
 Disallow: /dnd/posts/2024/08/23/an-ice-cold-drink/
 
@@ -66,8 +76,6 @@ Disallow: /dnd/ref/characters/eiddwyn/
 
 Disallow: /dnd/npcs/eiddwyn/
 
-Disallow: /dnd/ref/characters/ffywellyn/
-
 Disallow: /dnd/npcs/ffywellyn/
 
 Disallow: /dnd/tags/npc/
@@ -78,11 +86,7 @@ Disallow: /dnd/npcs/soliyandar/
 
 Disallow: /dnd/tags/
 
-Disallow: /dnd/ref/locations/the-briarheart/
-
 Disallow: /dnd/npcs/the-prince-of-frost/
-
-Disallow: /dnd/ref/characters/tom/
 
 Disallow: /dnd/ref/characters/lady-tiandra/
 
