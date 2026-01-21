@@ -1,26 +1,58 @@
 User-agent: *
 
+Disallow: /dnd/ref/locations/
+
+Disallow: /dnd/ref/locations/lunar-winter/
+
+Disallow: /dnd/ref/locations/queen-mab/
+
+Disallow: /dnd/posts/2025/11/19/suddenly-nautiloids/
+
+Disallow: /dnd/ref/locations/the-feywild/
+
 Disallow: /dnd/ref/characters/
 
-Disallow: /dnd/ref/characters/ffywellyn/
+Disallow: /dnd/ref/characters/kellis-maccleod/
 
-Disallow: /dnd/ref/locations/
+Disallow: /dnd/posts/2025/05/28/playing-chicken-with-a-dragon/
+
+Disallow: /dnd/ref/characters/brigadier-taggart/
+
+Disallow: /dnd/npcs/taggart/
+
+Disallow: /dnd/ref/locations/feywild/
+
+Disallow: /dnd/posts/2025/04/02/in-search-of-moonshine/
+
+Disallow: /dnd/ref/characters/lloi/
+
+Disallow: /dnd/ref/characters/lyra/
+
+Disallow: /dnd/tags/npc/
+
+Disallow: /dnd/ref/locations/senaliesse/
+
+Disallow: /dnd/locations/senaliesse/
+
+Disallow: /dnd/ref/locations/summer-court/
+
+Disallow: /dnd/tags/
+
+Disallow: /dnd/posts/2025/02/19/taking-stock/
+
+Disallow: /dnd/posts/2025/02/05/aftermath/
+
+Disallow: /dnd/ref/characters/ffywellyn/
 
 Disallow: /dnd/posts/2025/01/08/the-blizzard-redux-part-two/
 
 Disallow: /dnd/ref/locations/the-briarheart/
 
-Disallow: /dnd/ref/locations/the-feywild/
-
 Disallow: /dnd/ref/characters/the-prince-of-frost/
 
 Disallow: /dnd/ref/characters/tom/
 
-Disallow: /dnd/ref/characters/lloi/
-
 Disallow: /dnd/posts/2024/10/16/the-blizzard-redux-part-one/
-
-Disallow: /dnd/ref/characters/kellis-maccleod/
 
 Disallow: /dnd/ref/characters/kessil-maccleod/
 
@@ -34,9 +66,13 @@ Disallow: /dnd/ref/characters/brandan/
 
 Disallow: /dnd/ref/characters/brenden/
 
-Disallow: /dnd/ref/characters/kessil/
+Disallow: /dnd/npcs/kellis-maccleod/
+
+Disallow: /dnd/npcs/kessil-maccleod/
 
 Disallow: /dnd/ref/characters/maeve/
+
+Disallow: /dnd/ref/locations/spring-court/
 
 Disallow: /tags/microk8s/
 
@@ -78,13 +114,9 @@ Disallow: /dnd/npcs/eiddwyn/
 
 Disallow: /dnd/npcs/ffywellyn/
 
-Disallow: /dnd/tags/npc/
-
 Disallow: /dnd/ref/characters/soliyandar/
 
 Disallow: /dnd/npcs/soliyandar/
-
-Disallow: /dnd/tags/
 
 Disallow: /dnd/npcs/the-prince-of-frost/
 
@@ -398,8 +430,6 @@ Disallow: /dnd/ref/locations/conyberry/
 
 Disallow: /dnd/locations/conyberry/
 
-Disallow: /dnd/ref/locations/feywild/
-
 Disallow: /dnd/ref/locations/fiernas-tower/
 
 Disallow: /dnd/locations/fiernas-tower/
@@ -431,8 +461,6 @@ Disallow: /dnd/locations/old-owl-well/
 Disallow: /dnd/ref/locations/shadow-leilon/
 
 Disallow: /dnd/locations/shadow-leilon/
-
-Disallow: /dnd/ref/locations/summer-court/
 
 Disallow: /dnd/locations/summer-court/
 
@@ -636,6 +664,10 @@ Disallow: /dnd/npcs/oberon/
 
 Disallow: /dnd/npcs/psithyron/
 
+Disallow: /dnd/ref/characters/queen-mab/
+
+Disallow: /dnd/npcs/queen-mab/
+
 Disallow: /dnd/npcs/queen-titania/
 
 Disallow: /dnd/ref/characters/quilnorae/
@@ -655,6 +687,8 @@ Disallow: /dnd/npcs/veshvor/
 Disallow: /dnd/ref/characters/waybert-spinzig/
 
 Disallow: /dnd/npcs/waybert-spinzig/
+
+Disallow: /dnd/ref/locations/winter-court/
 
 Disallow: /dnd/ref/characters/wrath/
 
